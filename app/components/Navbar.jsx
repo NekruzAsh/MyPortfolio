@@ -14,7 +14,10 @@ export default function Navbar() {
 
     <Link href = "/">Dashboard</Link>
     <Link href = "/projects">Projects</Link>
-
+<div className="banner">
+      <h1>Nekruz Ashrapov</h1>
+      <p>Full Stack Web Developer</p>
+</div>
     </nav>
   )
 }
