@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import Logo from './NekruzAshrapov.png'
+import Logo from './nwanyzch.png'
 export default function Navbar() {
   return (
     <nav>
