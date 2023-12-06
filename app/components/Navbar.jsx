@@ -1,23 +1,23 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import Logo from './NekruzAshrapov.png'
+import Link from "next/link";
+import Image from "next/image";
+import Logo from "./nwanyzch.png";
 export default function Navbar() {
   return (
     <nav>
-    <Image 
-        src = {Logo}
-        alt = 'Nekruz Ashrapov Logo'
+      <Image
+        src={Logo}
+        alt="Nekruz Ashrapov Logo"
         width={70}
-        quality = {100}
-        placeholder='blur'
-    />
+        quality={100}
+        placeholder="blur"
+      />
 
-    <Link href = "/">Dashboard</Link>
-    <Link href = "/projects">Projects</Link>
-<div className="banner">
-      <h1>Nekruz Ashrapov</h1>
-      <p>Full Stack Web Developer</p>
-</div>
+      <Link href="/">Dashboard</Link>
+      <Link href="/projects">Projects</Link>
+      <div className="banner">
+        <h1>Nekruz Ashrapov</h1>
+        <p>Full Stack Web Developer</p>
+      </div>
     </nav>
-  )
+  );
 }
