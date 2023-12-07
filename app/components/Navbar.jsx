@@ -1,20 +1,15 @@
-import Link from "next/link";
-import Image from "next/image";
-import Logo from "./nwanyzch.png";
-export default function Navbar() {
-  return (
-    <nav>
-      <Image
-        src={Logo}
-        alt="Nekruz Ashrapov Logo"
-        width={70}
-        quality={100}
-        placeholder="blur"
-      />
+import React from "react";
 
-      <Link href="/">Dashboard</Link>
-      <Link href="/projects">Projects</Link>
-      
-    </nav>
+const Navbar = () => {
+  return (
+    <section>
+      <h1 className="text-white mb-4 text-4xl lg:text-6xl font-extrabold">Hello I'm Nekruz</h1>
+      <p className="text-[#ADB7BE] text-lg lg:text-xl">
+        
+
+      </p>
+    </section>
   );
-}
+};
+
+export default Navbar;
