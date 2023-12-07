@@ -9,7 +9,7 @@ import Navbar from './components/Navbar'
 const rubik = Rubik({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'My Portfolio',
+  title: 'Nekruz | Student/Developer',
   description: 'This is the portfolio website',
 }
 
