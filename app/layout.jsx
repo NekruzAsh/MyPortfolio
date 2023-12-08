@@ -7,6 +7,7 @@ import './globals.css'
 //components
 import Navbar from './components/Navbar'
 import Main from './components/main'
+import About from './components/About'
 
 const rubik = Rubik({ subsets: ['latin'] })
 
@@ -21,7 +22,7 @@ export default function RootLayout({ children }) {
       <body className={rubik.className}>
         <Navbar />
         <Main />
-        
+        <About />
         
         {children}</body>
     </html>
