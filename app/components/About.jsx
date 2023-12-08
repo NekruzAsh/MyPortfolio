@@ -6,7 +6,7 @@ const About = () => {
     <div className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2 ">
-          <h2 className="py-4 text-orange-500">Where it all started</h2>
+          <h2 className="py-4 text-orange-500 uppercase">Where it all started</h2>
           <p className="py-2 text-gray-300">
             My coding journey began when I wrote my first line of HTML5 code in
             8th grade during my middle school's after-school program in New
