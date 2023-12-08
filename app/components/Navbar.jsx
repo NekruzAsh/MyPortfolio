@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { LuNewspaper } from "react-icons/lu";
 
 const navbar = () => {
   const [nav, setNav] = useState(false);
@@ -16,7 +16,7 @@ const navbar = () => {
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image src="/images/nwanyzch.png" alt="logo" width={68} height={68} />
+        <Image src="/images/nwanyzch.png" alt="logo" width={68} height={68} quality={100}  />
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
@@ -62,6 +62,8 @@ const navbar = () => {
                 alt="logo"
                 width={68}
                 height={68}
+                quality={100}
+                
               />
               <div
                 onClick={handleNav}
@@ -99,17 +101,17 @@ const navbar = () => {
                 Let's Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
                   <FaLinkedinIn size={25} className="text-[#f55600]" />
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
                   <FaGithub size={25} className="text-[#f55600]" />
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
                   <AiOutlineMail size={25} className="text-[#f55600]" />
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <BsFillPersonLinesFill size={25} className="text-[#f55600]" />
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <LuNewspaper size={25} className="text-[#f55600]" />
                 </div>
               </div>
             </div>
