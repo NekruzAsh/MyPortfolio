@@ -13,7 +13,7 @@ const main = () => {
           </h1>
           <h1 className="py-2">A Front-End Web Developer</h1>
           <p className="py-4 text-gray-100 max-w-[70%] m-auto font-sans">
-            I'm a front-end developer, and my expertise lies in constructing and
+            I'm a front-end web developer, and my expertise lies in constructing and
             designing beautiful digital applications. Currently, I'm honing my skills in
             crafting highly responsive webpages while also learning more about
             back-end technologies to expand my toolkit. I'm also a student at
