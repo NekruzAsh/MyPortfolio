@@ -31,7 +31,7 @@ const About = () => {
         </div>
         <div className="w-64 h-64 shadow-xl shadow-gray-400 items-center relative overflow-hidden rounded-full justify-center hover:scale-105 ease-in duration-300 ml-16 mt-16">
             <Image
-                src="/images/authorimg.jpg"
+                src="/images/picture.jpg"
                 width={280}
                 height={280}
                 quality={100}

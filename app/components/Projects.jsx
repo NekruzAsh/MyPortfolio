@@ -66,7 +66,7 @@ const Projects = () => {
             </h3>
           </div>
 
-          {/* Project 2 */}
+          {/* Forum Website */}
           <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-gradient-to-r from-orange-500 to-[#a04800]">
             <Image
               className="rounded-xl"
@@ -77,7 +77,7 @@ const Projects = () => {
             />
           </div>
           <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
-            <h2 className="py-4">QuizGen - MakeUC Hackathon 2023</h2>
+            <h2 className="py-4">Forum Website</h2>
             <p>
               This website enables users to input their own text and the amount
               of questions they want to generate. The Cohere AI LLM model's API
@@ -98,7 +98,7 @@ const Projects = () => {
                 Demo
               </Link>
             </button>
-            <Link target="_blank" rel="noopener noreferrer" href="https://github.com/NekruzAsh/QuizGen.git">
+            <Link target="_blank" rel="noopener noreferrer" href="https://github.com/NekruzAsh/forumwebsite.git">
             <Image
               src="/images/github.png"
               width={50}
@@ -124,7 +124,7 @@ const Projects = () => {
           </div>
             
             {/* Amazon Affiliate */}
-
+            
             <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-gradient-to-r from-orange-500 to-[#a04800]">
             <Image
               className="rounded-xl"
@@ -167,8 +167,7 @@ const Projects = () => {
               HTML, CSS, JavaScript, GitHub
             </p>
           </div>
-
-        </div>
+          </div>
       </div>
     </div>
   );
