@@ -16,17 +16,29 @@ const navbar = () => {
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100] bg-[#222222]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image src="/images/nwanyzch.png" alt="logo" width={68} height={68} quality={100}  />
+        <Image
+          src="/images/nwanyzch.png"
+          alt="logo"
+          width={68}
+          height={68}
+          quality={100}
+        />
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b hover:border-orange-500">Home</li>
+              <li className="ml-10 text-sm uppercase hover:border-b hover:border-orange-500">
+                Home
+              </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b hover:border-orange-500">About</li>
+              <li className="ml-10 text-sm uppercase hover:border-b hover:border-orange-500">
+                About
+              </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b hover:border-orange-500">Skills</li>
+              <li className="ml-10 text-sm uppercase hover:border-b hover:border-orange-500">
+                Skills
+              </li>
             </Link>
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b hover:border-orange-500">
@@ -46,7 +58,9 @@ const navbar = () => {
       </div>
 
       <div
-        className={nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""}
+        className={
+          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
+        }
       >
         <div
           className={
@@ -63,7 +77,6 @@ const navbar = () => {
                 width={68}
                 height={68}
                 quality={100}
-                
               />
               <div
                 onClick={handleNav}
@@ -102,10 +115,18 @@ const navbar = () => {
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
-                  <FaLinkedinIn size={25} className="text-[#f55600]" />
+                  <Link
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.linkedin.com/in/nekruzash/"
+                  >
+                    <FaLinkedinIn size={25} className="text-[#f55600]" />
+                  </Link>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
-                  <FaGithub size={25} className="text-[#f55600]" />
+                  <Link target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/NekruzAsh"><FaGithub size={25} className="text-[#f55600]" /></Link>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
                   <AiOutlineMail size={25} className="text-[#f55600]" />

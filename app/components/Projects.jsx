@@ -34,7 +34,7 @@ const Projects = () => {
               <button className="px-4 py-2 rounded-md hover:scale-105 ease-in duration-300 mr-9">
                 <Link
                   target="_blank"
-                  href="https://nekruzash.github.io/QuizGen/"
+                  href="http://forumsite.me/QuizGen/"
                   rel="noopener noreferrer"
                 >
                   Demo
@@ -92,7 +92,8 @@ const Projects = () => {
                 Reddit.com
               </Link> where users can create an account and make a forum post (coming soon). This website 
               is designed to be a social media platform where users can share their thoughts and ideas about upcoming new
-              games in the gaming industry. The signup and login features are all working and the data is saved in a MongoDB cloud database.
+              games in the gaming industry. The signup and login features are all working, the user passwords are 
+              hashed with bcrypt function and the data is saved in a MongoDB cloud database.
               <br />
               <span className="text-orange-500">Try it out!</span>
               <br />
@@ -154,7 +155,7 @@ const Projects = () => {
               <button className="px-4 py-2 rounded-md hover:scale-105 ease-in duration-300 mr-9">
                 <Link
                   target="_blank"
-                  href="https://nekruzash.github.io/amazonaffiliate/"
+                  href="http://forumsite.me/amazonaffiliate/"
                   rel="noopener noreferrer"
                 >
                   Demo
