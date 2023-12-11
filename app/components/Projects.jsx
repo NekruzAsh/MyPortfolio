@@ -106,7 +106,7 @@ const Projects = () => {
               <button className="px-4 py-2 rounded-md hover:scale-105 ease-in duration-300 mr-9">
                 <Link
                   target="_blank"
-                  href="https://nekruzash.github.io/QuizGen/"
+                  href="https://forumwebsite.onrender.com/"
                   rel="noopener noreferrer"
                 >
                   Demo

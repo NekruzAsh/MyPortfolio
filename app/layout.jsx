@@ -10,6 +10,7 @@ import Main from './components/main'
 import About from './components/About'
 import Skills from './components/skills'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
 
 const rubik = Rubik({ subsets: ['latin'] })
 
@@ -27,6 +28,8 @@ export default function RootLayout({ children }) {
         <About />
         <Skills />
         <Projects />
+        <Contact />
+
         
         {children}</body>
     </html>
