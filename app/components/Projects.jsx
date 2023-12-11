@@ -34,7 +34,7 @@ const Projects = () => {
               <button className="px-4 py-2 rounded-md hover:scale-105 ease-in duration-300 mr-9">
                 <Link
                   target="_blank"
-                  href="http://forumsite.me/QuizGen/"
+                  href="https://nekruzash.github.io/QuizGen/"
                   rel="noopener noreferrer"
                 >
                   Demo
@@ -106,7 +106,7 @@ const Projects = () => {
               <button className="px-4 py-2 rounded-md hover:scale-105 ease-in duration-300 mr-9">
                 <Link
                   target="_blank"
-                  href="https://forumwebsite.onrender.com/"
+                  href="https://forumwebsite.onrender.com"
                   rel="noopener noreferrer"
                 >
                   Demo
@@ -155,7 +155,7 @@ const Projects = () => {
               <button className="px-4 py-2 rounded-md hover:scale-105 ease-in duration-300 mr-9">
                 <Link
                   target="_blank"
-                  href="http://forumsite.me/amazonaffiliate/"
+                  href="https://nekruzash.github.io/amazonaffiliate/"
                   rel="noopener noreferrer"
                 >
                   Demo
