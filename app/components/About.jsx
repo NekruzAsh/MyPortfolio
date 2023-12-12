@@ -1,3 +1,4 @@
+/* eslint react/no-unescaped-entities */
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -41,6 +42,7 @@ const About = () => {
                 height={280}
                 quality={100}
                 objectPosition="center top"
+                alt="picture of author"
             />
         </div>
       </div>

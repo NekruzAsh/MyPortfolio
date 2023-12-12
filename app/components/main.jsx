@@ -1,5 +1,5 @@
+/* eslint react/no-unescaped-entities */
 import React from "react";
-import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { LuNewspaper } from "react-icons/lu";
 import Link from "next/link";
