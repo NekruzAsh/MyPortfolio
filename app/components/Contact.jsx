@@ -73,7 +73,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex justify-center py-12">
-            <Link href="/">
+            <Link href="/#home">
                 <div className=" bg-gray-200 rounded-full p-4 cursor-pointer hover:scale-110 ease-in duration-200">
                 <HiChevronDoubleUp className="m-auto text-orange-500" size={25} />
                 </div>

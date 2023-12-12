@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -8,7 +9,7 @@ const About = () => {
         <div className="col-span-2 ">
           <h2 className="py-4 text-orange-500 uppercase">Where it all started</h2>
           <p className="py-2 text-gray-300">
-            My coding journey began when I wrote my first line of HTML5 code in
+            My coding journey began when I wrote my first line of HTML code in
             8th grade during my middle school's after-school program in New
             York. I was fascinated by the idea that I could create such
             beautiful software using various programming languages. I was
@@ -23,11 +24,15 @@ const About = () => {
             experimenting with HTML5 and CSS3 and started building and designing
             these beautiful websites. Later on, I started learning about complex
             animations with JavaScript in order to provide my websites with
-            animations they needed. This led me to learn about ReactJS and
+            animations they needed. This led me to learn ReactJS and
             MongoDB, now I'm practing with a different Tech Stack that includes
             Next.js and TailwindCSS to build innovative websites.
           </p>
-          <p className="py-2 text-gray-300 underline cursor-pointer border-b-orange-500">Check out my latest projects</p>
+          
+          
+          <p className="py-2 text-gray-300 underline cursor-pointer border-b-orange-500"><Link href="/#projects">Check out my latest projects</Link></p>
+          
+          
         </div>
         <div className="w-64 h-64 shadow-xl shadow-gray-400 items-center relative overflow-hidden rounded-full justify-center hover:scale-105 ease-in duration-300 ml-16 mt-16">
             <Image

@@ -23,10 +23,10 @@ const Projects = () => {
             <p>
               This website enables users to input their own text and the amount
               of questions they want to generate. The Cohere AI LLM model's API
-              is used to generate questions based on the text inputted by the
+              is used to generate quiz questions based on the text inputted by the
               user. This tool can be used by teachers to generate quiz questions
               for their students <span className="text-orange-500">or</span>{" "}
-              students can use this tool to study for their exams.
+              students can use this tool to study for their exams. This website is built with HTML, CSS, and JavaScript.
               <br />
               <span className="text-orange-500">Try it out!</span>
             </p>
@@ -53,9 +53,9 @@ const Projects = () => {
                 />
               </Link>
             </div>
-            <h3 className="text-orange-500 py-2">Tech Stack:</h3>
+            <h3 className="text-orange-500 py-2">Technologies</h3>
             <p className="text-gray-300">
-              HTML, CSS, JavaScript, Cohere AI LLM, GitHub
+              HTML, CSS, JavaScript, Cohere AI API, GitHub
             </p>
             <h3 className="py-6 px-auto">
               <span className="text-orange-500">Team:</span>{" "}
@@ -82,7 +82,7 @@ const Projects = () => {
           <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
             <h2 className="py-4">Forum Website</h2>
             <p>
-              This is a forum website similar to{" "}
+              This is a forum website clone similar to{" "}
               <Link
                 className="text-orange-500 underline"
                 target="_blank"
@@ -92,8 +92,9 @@ const Projects = () => {
                 Reddit.com
               </Link> where users can create an account and make a forum post (coming soon). This website 
               is designed to be a social media platform where users can share their thoughts and ideas about upcoming new
-              games in the gaming industry. The signup and login features are all working, the user passwords are 
-              hashed with bcrypt function and the data is saved in a MongoDB cloud database.
+              games in the gaming industry. The user passwords are 
+              hashed with bcrypt function and the data is saved in a MongoDB cloud database. The website is built with Express.js
+              for server side rendering with Node.js, and JavaScript. 
               <br />
               <span className="text-orange-500">Try it out!</span>
               <br />
@@ -125,7 +126,7 @@ const Projects = () => {
                 />
               </Link>
             </div>
-            <h3 className="text-orange-500 py-2">Tech Stack:</h3>
+            <h3 className="text-orange-500 py-2">Technologies</h3>
             <p className="text-gray-300">
               Express.js, CSS, JavaScript, MongoDB, Node.js, GitHub
             </p>
@@ -147,7 +148,7 @@ const Projects = () => {
             <p>
               This is an article website that promotes the technology category
               of Amazon Affiliate partnership marketing. Specifically, the
-              website promotes the best laptops of a given year.
+              website promotes the best laptops of a given year. This website is built with HTML, CSS, and JavaScript.
               <br />
               <span className="text-orange-500">Try it out!</span>
             </p>
@@ -174,7 +175,7 @@ const Projects = () => {
                 />
               </Link>
             </div>
-            <h3 className="text-orange-500 py-2">Tech Stack:</h3>
+            <h3 className="text-orange-500 py-2">Technologies</h3>
             <p className="text-gray-300">HTML, CSS, JavaScript, GitHub</p>
           </div>
         </div>
