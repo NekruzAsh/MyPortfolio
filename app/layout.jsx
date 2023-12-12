@@ -1,6 +1,8 @@
-
+import React from 'react'
 import { Rubik } from 'next/font/google'
 import './globals.css'
+
+
  
 
 
@@ -21,17 +23,16 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={rubik.className}>
+       <html lang="en">
+        <body className={rubik.className}>
         <Navbar />
         <Main />
         <About />
         <Skills />
         <Projects />
         <Contact />
-
-        
+       
         {children}</body>
-    </html>
+        </html>
   )
 }
