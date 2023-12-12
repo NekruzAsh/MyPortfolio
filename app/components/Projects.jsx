@@ -9,7 +9,7 @@ const Projects = () => {
         <h2 className="text-orange-500 uppercase py-8">Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
           {/* Project QuizGen */}
-          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-gradient-to-r from-orange-500 to-[#a04800]">
+          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-gradient-to-r from-black to-[#222222]">
             <Image
               className="rounded-xl"
               src="/images/quizgenn.png"
@@ -70,7 +70,7 @@ const Projects = () => {
           </div>
 
           {/* Forum Website */}
-          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-gradient-to-r from-orange-500 to-[#a04800]">
+          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-gradient-to-r from-black to-[#222222]">
             <Image
               className="rounded-xl"
               src="/images/forum.png"
@@ -133,7 +133,7 @@ const Projects = () => {
 
           {/* Amazon Affiliate */}
 
-          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-gradient-to-r from-orange-500 to-[#a04800]">
+          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-gradient-to-r from-black to-[#222222]">
             <Image
               className="rounded-xl"
               src="/images/amazon.png"
