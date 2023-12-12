@@ -20,12 +20,12 @@ const About = () => {
 
           <p className="py-2 text-gray-300">
             For the past 4-5 years I spent time learning more and more about
-            different programming languages and how they worked. I started
+            different programming languages and how they were used in different applications. I started
             experimenting with HTML5 and CSS3 and started building and designing
             these beautiful websites. Later on, I started learning about complex
             animations with JavaScript in order to provide my websites with
-            animations they needed. This led me to learn ReactJS and
-            MongoDB, now I'm practing with a different Tech Stack that includes
+            animations they needed. This led me to learn React and
+            backend databases like MongoDB, now I'm practing with a different tech stack that includes
             Next.js and TailwindCSS to build innovative websites.
           </p>
           

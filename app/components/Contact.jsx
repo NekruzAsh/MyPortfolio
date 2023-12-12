@@ -23,7 +23,8 @@ const Contact = () => {
                   <p className="pt-12">
                     <span className="text-orange-500">Email:</span>{" "}
                     ashrapnz@mail.uc.edu <br />
-                    <span className="text-orange-500">Phone:</span> +1 (929) 554-0055
+                    <span className="text-orange-500">Phone:</span> +1 (929)
+                    554-0055
                   </p>
                 </div>
               </div>
@@ -32,35 +33,43 @@ const Contact = () => {
 
           <div className="col-span-3 w-full h-auto shadow-md shadow-gray-300 rounded-xl lg:p-4">
             <div className="p-4">
-              <form>
+              <form method="POST" action="https://getform.io/f/6d5bba2d-1ebe-4f38-80a4-03e0c4dbd955">
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col ">
                     <label className="uppercase text-sm py-2">Name</label>
                     <input
-                      className="border-2 rounded-lg p-3 flex border-gray-300"
+                      className="text-black border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
+                      placeholder="Jane Doe"
+                      name="name"
                     />
                   </div>
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Email</label>
                     <input
-                      className="border-2 rounded-lg p-3 flex border-gray-300"
+                      className="text-black border-2 rounded-lg p-3 flex border-gray-300"
                       type="email"
+                      placeholder="janedoe@gmail.com"
+                      name="email"
                     />
                   </div>
                 </div>
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Subject</label>
                   <input
-                    className="border-2 rounded-lg p-3 flex border-gray-300"
+                    className="text-black border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
+                    placeholder="Subject"
+                    name="subject"
                   />
                 </div>
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Message</label>
                   <textarea
-                    className="border-2 rounded-lg p-3 border-gray-300"
+                    className="text-black border-2 rounded-lg p-3 border-gray-300"
                     rows="10"
+                    placeholder="Message"
+                    name="message"
                   ></textarea>
                 </div>
                 <div className="flex justify-center">
@@ -73,11 +82,11 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex justify-center py-12">
-            <Link href="/#home">
-                <div className=" bg-gray-200 rounded-full p-4 cursor-pointer hover:scale-110 ease-in duration-200">
-                <HiChevronDoubleUp className="m-auto text-orange-500" size={25} />
-                </div>
-            </Link>
+          <Link href="/#home">
+            <div className=" bg-gray-200 rounded-full p-4 cursor-pointer hover:scale-110 ease-in duration-200">
+              <HiChevronDoubleUp className="m-auto text-orange-500" size={25} />
+            </div>
+          </Link>
         </div>
       </div>
     </div>
