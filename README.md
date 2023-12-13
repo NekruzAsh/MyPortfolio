@@ -26,4 +26,4 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 * working with server side components using React.
 * implementing different responsive designs with TailwindCSS.
 * using Lighthouse to make sure the website achieves the best score for UX design and performance.
-* setting up form backend platform to recieve emails directly from the portfolio website.
+* setting up form backend platform to receive emails directly from the portfolio website.
