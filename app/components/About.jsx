@@ -21,7 +21,7 @@ const About = () => {
           </p>
 
           <p className="py-2 text-gray-300">
-            For the past 4-5 years I spent time learning more and more about
+            For the past 3-4 years I spent time learning more and more about
             different programming languages and how they were used in different
             applications. I started experimenting with HTML and CSS and started
             building and designing these beautiful websites. Later on, I started
