@@ -25,7 +25,7 @@ const main = () => {
             <span className="text-orange-500">Computer Science</span>.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="rounded-lg shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-200">
+            <div className="rounded-lg shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-200">
               <Link
                 target="_blank"
                 rel="noopener noreferrer"
@@ -34,7 +34,12 @@ const main = () => {
                 <FaLinkedinIn size={25} className="text-[#f55600]" />
               </Link>
             </div>
-            <div className="rounded-md shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-200">
+            <button className="text-black font-bold rounded border-b-2 border-gray-400 hover:border-black hover:text-white shadow-md py-3 px-6 inline-flex items-center">
+              <Link target="_blank" href="/images/NekruzAshrapovResume.pdf">
+                Get Resume
+              </Link>
+            </button>   
+            <div className="rounded-md shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-200">
               <Link
                 target="_blank"
                 rel="noopener noreferrer"
@@ -43,9 +48,7 @@ const main = () => {
                 <FaGithub size={25} className="text-[#f55600]" />
               </Link>
             </div>
-            <div className=" rounded-md shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-200 ">
-              <LuNewspaper size={25} className="text-[#f55600]" />
-            </div>
+            
           </div>
         </div>
       </div>
