@@ -34,7 +34,7 @@ const main = () => {
                 <FaLinkedinIn size={25} className="text-[#f55600]" />
               </Link>
             </div>
-            <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-200">
+            <div className="rounded-md shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-200">
               <Link
                 target="_blank"
                 rel="noopener noreferrer"
