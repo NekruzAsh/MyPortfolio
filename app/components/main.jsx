@@ -34,11 +34,14 @@ const main = () => {
                 <FaLinkedinIn size={25} className="text-[#f55600]" />
               </Link>
             </div>
-            <button className="text-black font-bold rounded border-b-2 border-gray-400 hover:border-black hover:text-white shadow-md py-3 px-6 inline-flex items-center">
-              <Link target="_blank" href="/images/NekruzAshrapovResume.pdf">
+            
+              <button className='group relative h-12 w-48 overflow-hidden rounded-lg bg-[#222222] text-gray-200 text-lg shadow-sm shadow-gray-400'>
+                <div className='absolute inset-0 w-3 bg-[#222222] transition-all duration-[250ms] ease-out group-hover:w-full'></div>
+              <Link className='relative text-xl text-white group-hover:text-white' target="_blank" href="/images/NekruzAshrapovResume.pdf">
                 Get Resume
               </Link>
-            </button>   
+            </button>  
+            
             <div className="rounded-md shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-200">
               <Link
                 target="_blank"
