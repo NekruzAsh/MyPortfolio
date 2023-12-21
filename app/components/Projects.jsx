@@ -32,7 +32,7 @@ const Projects = () => {
               <span className="text-orange-500">Try it out!</span>
             </p>
             <div className="flex justify-center py-8">
-              <button className="px-4 py-2 rounded-md hover:scale-105 ease-in duration-300 mr-9">
+              <button className="mr-10 px-4 py-2 border-2 border-orange-500 rounded-lg text-orange-500 cursor-pointer hover:bg-orange-500 hover:text-white">
                 <Link
                   target="_blank"
                   href="https://nekruzash.github.io/QuizGen/"
@@ -107,7 +107,7 @@ const Projects = () => {
               
             </p>
             <div className="flex justify-center py-8">
-              <button className="px-4 py-2 rounded-md hover:scale-105 ease-in duration-300 mr-9">
+              <button className="mr-10 px-4 py-2 border-2 border-orange-500 rounded-lg text-orange-500 cursor-pointer hover:bg-orange-500 hover:text-white">
                 <Link
                   target="_blank"
                   href="https://forumwebsite.onrender.com"
@@ -157,7 +157,7 @@ const Projects = () => {
               <span className="text-orange-500">Try it out!</span>
             </p>
             <div className="flex justify-center py-8">
-              <button className="px-4 py-2 rounded-md hover:scale-105 ease-in duration-300 mr-9">
+              <button className="mr-10 px-4 py-2 border-2 border-orange-500 rounded-lg text-orange-500 cursor-pointer hover:bg-orange-500 hover:text-white">
                 <Link
                   target="_blank"
                   href="https://nekruzash.github.io/amazonaffiliate/"

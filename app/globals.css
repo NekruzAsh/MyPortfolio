@@ -38,11 +38,6 @@ html {
 
   }
 
-  button{
-    
-    @apply shadow-md shadow-orange-700 rounded-xl uppercase bg-gradient-to-r from-[#D65F00] to-[#ad5502] text-white
-
-  }
 
 }
 
