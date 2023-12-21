@@ -1,7 +1,6 @@
 
 import React from "react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { LuNewspaper } from "react-icons/lu";
 import Link from "next/link";
 
 const main = () => {

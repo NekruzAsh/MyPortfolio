@@ -2,6 +2,10 @@ import React from "react";
 import Link from "next/link";
 
 import { HiChevronDoubleUp } from "react-icons/hi";
+import { IoIosMail } from "react-icons/io";
+import { IoLogoLinkedin } from "react-icons/io5";
+
+
 
 const Contact = () => {
   return (
@@ -19,14 +23,15 @@ const Contact = () => {
                   have any opportunities, insights, or questions please reach
                   out to me at:
                 </p>
-                <div>
-                  <p className="pt-12">
-                    <span className="text-orange-500">Email:</span>{" "}
-                    ashrapnz@mail.uc.edu <br />
-                    <span className="text-orange-500">Phone:</span> +1 (929)
-                    554-0055
-                  </p>
+                <div className="flex items-center">
+                  <span className="text-orange-500"><IoIosMail size={25} /></span>{" "}
+                  <span className="ml-2">ashrapnz@mail.uc.edu</span>
                 </div>
+                <div className="flex items-center">
+                  <span className="text-orange-500"><IoLogoLinkedin size={25} /></span>{" "}
+                  <a className="ml-2" href="https://www.linkedin.com/in/nekruzash/" target="_blank">Nekruz | LinkedIn</a>
+                </div>
+                
               </div>
             </div>
           </div>
