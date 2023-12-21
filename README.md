@@ -1,3 +1,14 @@
+# What I learned 
+* working with a new tech stack.
+* utilizing Next.js libraries and updated app routing system.
+* working with server side components using React.
+* implementing different responsive designs with TailwindCSS.
+* using Lighthouse to make sure the website achieves the best score for UX design and performance.
+* setting up form backend platform to receive emails directly from the portfolio website.
+
+
+***
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -20,10 +31,3 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-# What I learned 
-* working with a new tech stack.
-* utilizing Next.js libraries and updated app routing system.
-* working with server side components using React.
-* implementing different responsive designs with TailwindCSS.
-* using Lighthouse to make sure the website achieves the best score for UX design and performance.
-* setting up form backend platform to receive emails directly from the portfolio website.
