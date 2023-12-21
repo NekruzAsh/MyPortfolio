@@ -1,4 +1,3 @@
-
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -24,10 +23,12 @@ const Projects = () => {
             <p>
               This website enables users to input their own text and the amount
               of questions they want to generate. The Cohere AI LLM model's API
-              is used to generate quiz questions based on the text inputted by the
-              user. This tool can be used by teachers to generate quiz questions
-              for their students <span className="text-orange-500">or</span>{" "}
-              students can use this tool to study for their exams. This website is built with HTML, CSS, and JavaScript.
+              is used to generate quiz questions based on the text inputted by
+              the user. This tool can be used by teachers to generate quiz
+              questions for their students{" "}
+              <span className="text-orange-500">or</span> students can use this
+              tool to study for their exams. This website is built with HTML,
+              CSS, and JavaScript.
               <br />
               <span className="text-orange-500">Try it out!</span>
             </p>
@@ -42,7 +43,6 @@ const Projects = () => {
                 </Link>
               </button>
               <Link
-
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/NekruzAsh/QuizGen.git"
@@ -79,7 +79,7 @@ const Projects = () => {
               src="/images/forum.png"
               width={600}
               height={600}
-              alt="quizgen"
+              alt="forum website"
             />
           </div>
           <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
@@ -93,18 +93,20 @@ const Projects = () => {
                 rel="noopener noreferrer"
               >
                 Reddit.com
-              </Link> where users can create an account and make a forum post (coming soon). This website 
-              is designed to be a social media platform where users can share their thoughts and ideas about upcoming new
-              games in the gaming industry. The user passwords are 
-              hashed with bcrypt function and the data is saved in a MongoDB cloud database. The website is built with Express.js
-              for server side rendering with Node.js, and JavaScript. 
+              </Link>{" "}
+              where users can create an account and make a forum post (coming
+              soon). This website is designed to be a social media platform
+              where users can share their thoughts and ideas about upcoming new
+              games in the gaming industry. The user passwords are hashed with
+              bcrypt function and the data is saved in a MongoDB cloud database.
+              The website is built with Express.js for server side rendering
+              with Node.js, and JavaScript.
               <br />
               <span className="text-orange-500">Try it out!</span>
               <br />
-                Username: username
-                <br />
-                Password: 1234
-              
+              Username: username
+              <br />
+              Password: 1234
             </p>
             <div className="flex justify-center py-8">
               <button className="mr-10 px-4 py-2 border-2 border-orange-500 rounded-lg text-orange-500 cursor-pointer hover:bg-orange-500 hover:text-white">
@@ -144,7 +146,7 @@ const Projects = () => {
               src="/images/amazon.png"
               width={600}
               height={600}
-              alt="quizgen"
+              alt="Amazon Affiliate"
             />
           </div>
           <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
@@ -152,7 +154,8 @@ const Projects = () => {
             <p>
               This is an article website that promotes the technology category
               of Amazon Affiliate partnership marketing. Specifically, the
-              website promotes the best laptops of a given year. This website is built with HTML, CSS, and JavaScript.
+              website promotes the laptop category of technology. This website is
+              built with HTML, CSS, and JavaScript.
               <br />
               <span className="text-orange-500">Try it out!</span>
             </p>
@@ -182,6 +185,47 @@ const Projects = () => {
             </div>
             <h3 className="text-orange-500 py-2">Technologies</h3>
             <p className="text-gray-300">HTML, CSS, JavaScript, GitHub</p>
+          </div>
+          {/* Amazon Affiliate */}
+
+          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-gradient-to-r from-black to-[#222222]">
+            <Image
+              className="rounded-xl"
+              src="/images/atrrobot.png"
+              width={600}
+              height={600}
+              alt="Atr Robot"
+            />
+          </div>
+          <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
+            <h2 className="py-4">Autonomous Robot</h2>
+            <p>
+              This is a robot similar to Amazon's Proteus warehouse robots that
+              scan barcodes and move objects around. Worked in a team of 4
+              different engineering discipline students to build, program, and
+              document the robot for an Engineering Design course at the
+              University of Cincinnati. The robot is programmed to be fully
+              autonomous and was able to navigate through a maze, detect objects
+              in its path, and scan different barcodes. The robot is built with
+              an EV3 Brick and programmed with Python.
+              <br />
+              <span className="text-orange-500">
+                Check out the docs for more information.
+              </span>
+            </p>
+            <div className="flex justify-center py-8">
+              <button className="px-5 py-3 border-2 border-orange-500 rounded-lg text-orange-500 cursor-pointer hover:bg-orange-500 hover:text-white">
+                <Link
+                  target="_blank"
+                  href="/images/P4_DN_Team297.pdf"
+                  rel="noopener noreferrer"
+                >
+                  Docs
+                </Link>
+              </button>
+            </div>
+            <h3 className="text-orange-500 py-2">Technologies</h3>
+            <p className="text-gray-300">Python, EV3 Brick, Microsoft Excel</p>
           </div>
         </div>
       </div>
