@@ -29,7 +29,7 @@ const Contact = () => {
                 </div>
                 <div className="flex items-center">
                   <span className="text-orange-500"><IoLogoLinkedin size={25} /></span>{" "}
-                  <a className="ml-2" href="https://www.linkedin.com/in/nekruzash/" target="_blank">Nekruz | LinkedIn</a>
+                  <a className="ml-2 hover:text-orange-500" href="https://www.linkedin.com/in/nekruzash/" target="_blank">Nekruz | LinkedIn</a>
                 </div>
                 
               </div>
