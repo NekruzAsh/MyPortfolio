@@ -42,11 +42,13 @@ const Projects = () => {
                 </Link>
               </button>
               <Link
+
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/NekruzAsh/QuizGen.git"
               >
                 <Image
+                  className="hover:scale-105 duration-300 ease-in"
                   src="/images/github.png"
                   width={50}
                   height={50}
@@ -120,6 +122,7 @@ const Projects = () => {
                 href="https://github.com/NekruzAsh/forumwebsite.git"
               >
                 <Image
+                  className="hover:scale-105 duration-300 ease-in"
                   src="/images/github.png"
                   width={50}
                   height={50}
@@ -169,6 +172,7 @@ const Projects = () => {
                 href="https://github.com/NekruzAsh/amazonaffiliate.git"
               >
                 <Image
+                  className="hover:scale-105 duration-300 ease-in"
                   src="/images/github.png"
                   width={50}
                   height={50}

@@ -17,7 +17,7 @@ const About = () => {
             beautiful software using various programming languages. I was
             hooked. Those initial lines of code evolved into a love for
             programming, driving me to explore the intricate aspects of this
-            craft.
+            craft and to pursue a degree in Computer Science.
           </p>
 
           <p className="py-2 text-gray-300">
@@ -32,7 +32,7 @@ const About = () => {
             build innovative websites.
           </p>
 
-          <p className="py-2 text-gray-300 underline cursor-pointer border-b-orange-500">
+          <p className="py-2 text-gray-300 underline cursor-pointer hover:text-orange-500">
             <Link href="/#projects">Check out my latest projects</Link>
           </p>
         </div>

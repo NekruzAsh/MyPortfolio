@@ -9,18 +9,18 @@ const main = () => {
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <h1 className="py-4">
+          <h1 className="py-4 text-[50px]">
             Hi, I'm{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ee8700] to-orange-700">
               Nekruz
             </span>
           </h1>
-          <h1 className="py-2">A Front-End Web Developer</h1>
+          <h1 className="py-2 text-[50px]">A Front-End Web Developer</h1>
           <p className="py-4 text-gray-100 max-w-[70%] m-auto font-sans">
             I'm a front-end web developer, and my expertise lies in building and
             designing beautiful digital applications. Currently, I'm honing my
             skills in crafting highly responsive webpages while also learning
-            more about back-end technologies to expand my toolkit. Also, I'm a
+            more about back-end technologies to expand my toolkit. Also, I'm a second-year
             student at the University of Cincinnati, pursuing a degree in {" "}
             <span className="text-orange-500">Computer Science</span>.
           </p>
