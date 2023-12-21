@@ -122,6 +122,66 @@ const Skills = () => {
               </div>
             </div>
           </div>
+          <div className="p-6 bg-gray-200 shadow-xl shadow-gray-600 rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  src="/images/python.png"
+                  width={64}
+                  height={64}
+                  alt="Python"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3 className="text-[#222222]">Python</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 bg-gray-200 shadow-xl shadow-gray-600 rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  src="/images/expressjs.png"
+                  width={64}
+                  height={64}
+                  alt="Expressjs"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3 className="text-[#222222]">ExpressJS</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 bg-gray-200 shadow-xl shadow-gray-600 rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  src="/images/nextjs.png"
+                  width={64}
+                  height={64}
+                  alt="NextJS"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3 className="text-[#222222]">NextJS</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 bg-gray-200 shadow-xl shadow-gray-600 rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  src="/images/clanguage.png"
+                  width={64}
+                  height={64}
+                  alt="C programming language"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3 className="text-[#222222]">C programming language</h3>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
