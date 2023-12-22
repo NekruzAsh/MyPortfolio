@@ -99,8 +99,7 @@ const Projects = () => {
               where users can share their thoughts and ideas about upcoming new
               games in the gaming industry. The user passwords are hashed with
               bcrypt function and the data is saved in a MongoDB cloud database.
-              The website is built with Express.js for server side rendering
-              with Node.js, and JavaScript.
+              The website is built with Express.js and Node.js for server side rendering and JavaScript.
               <br />
               <span className="text-orange-500">Try it out!</span>
               <br />
@@ -186,7 +185,7 @@ const Projects = () => {
             <h3 className="text-orange-500 py-2">Technologies</h3>
             <p className="text-gray-300">HTML, CSS, JavaScript, GitHub</p>
           </div>
-          {/* Amazon Affiliate */}
+          {/* Autonomous Robot */}
 
           <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-gradient-to-r from-black to-[#222222]">
             <Image
