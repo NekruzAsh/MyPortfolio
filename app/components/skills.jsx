@@ -127,13 +127,13 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   src="/images/python.png"
-                  width={64}
-                  height={64}
+                  width={60}
+                  height={60}
                   alt="Python"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3 className="text-[#222222]">Python</h3>
+                <h3 className="text-[#222222] uppercase">Python</h3>
               </div>
             </div>
           </div>
@@ -148,7 +148,7 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3 className="text-[#222222]">ExpressJS</h3>
+                <h3 className="text-[#222222] uppercase">ExpressJS</h3>
               </div>
             </div>
           </div>
@@ -163,7 +163,7 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3 className="text-[#222222]">NextJS</h3>
+                <h3 className="text-[#222222] uppercase">NextJS</h3>
               </div>
             </div>
           </div>
@@ -178,7 +178,7 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3 className="text-[#222222]">C programming language</h3>
+                <h3 className="text-[#222222]">C</h3>
               </div>
             </div>
           </div>
