@@ -24,7 +24,7 @@ const Projects = () => {
             <p className="text-[15px]">
               
               
-              · This is a simple to-do notes application that allows users to create, edit, delete and mark complete tasks.
+              · This is a simple to-do notes application that allows users to create, edit, delete and mark completed tasks.
               <br />
               · The data is saved in the local storage of the browser.
               <br />
@@ -149,7 +149,7 @@ const Projects = () => {
           <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
             <h2 className="py-4">Forum Website</h2>
             <p className="text-[15px]">
-              · This is a forum website clone to <a className="text-orange-500" target="_blank" href="https://www.reddit.com/">Reddit.com</a> where users can signup and 
+              · This is a forum website clone similar to <a className="text-orange-500" target="_blank" href="https://www.reddit.com/">Reddit.com</a> where users can signup and 
               login using existing accounts. Posting and commenting on posts (coming soon).
               <br />
               · Researched database management systems like MongoDB and PostgreSQL to store user data in a cloud database.
