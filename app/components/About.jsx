@@ -27,7 +27,7 @@ const About = () => {
             building and designing these beautiful websites. Later on, I learned about complex animations with JavaScript in order to
             provide my websites with animations they needed. This led me to
             learn React and backend databases like MongoDB, now I'm practing
-            with a different tech stack that includes Next.js and TailwindCSS to
+            with a different tech stack that includes NextJS and TailwindCSS to
             build innovative websites.
           </p>
 
