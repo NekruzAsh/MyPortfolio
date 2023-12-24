@@ -28,12 +28,11 @@ const Projects = () => {
               <br />
               · The data is saved in the local storage of the browser.
               <br />
-              · Developed with NextJS and JavaScript using ternary operators, event handlers, and props 
-              to pass data between components.
+              · Developed with NextJS and JavaScript using ternary operators and event handlers.
               <br />
               · Utilized 'useState' React hook to manage the state of the application.
               <br />
-              · Improved managing tasks, reduced mental load, helped allocate time effectively and meet deadlines. 
+              · Improved managing tasks, reduced mental load, and helped allocate time effectively and meet deadlines. 
               <br />
               <span className="text-orange-500 text-[15px]">Try it out!</span>
             
