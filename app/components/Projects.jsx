@@ -24,7 +24,7 @@ const Projects = () => {
             <p className="text-[15px]">
               
               
-              · This is a simple to-do notes application that allows users to create, edit, delete and mark completed tasks.
+              · This is a simple to-do notes application that allows users to create, delete and mark completed tasks.
               <br />
               · The data is saved in the local storage of the browser.
               <br />
@@ -64,7 +64,7 @@ const Projects = () => {
             </div>
             <h3 className="text-orange-500 py-2">Technologies</h3>
             <p className="text-gray-300">
-              JavaScript · ReactJS · NextJS · TailwindCSS · GitHub
+              JavaScript · ReactJS · NextJS · TailwindCSS · DaisyUI · GitHub
             </p>
           </div>
 
