@@ -6,11 +6,11 @@ const Projects = () => {
   return (
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <h2 className="text-orange-500 uppercase py-8">Projects</h2>
+        <h2 className="text-[#f44336] uppercase py-8">Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
 
         {/* To-Do App */}
-        <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-gradient-to-r from-black to-[#222222]">
+        <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-[#222222]">
             <Image
               className="rounded-xl"
               src="/images/todoapp.png"
@@ -34,11 +34,11 @@ const Projects = () => {
               <br />
               · Improved managing tasks, reduced mental load, and helped allocate time effectively and meet deadlines. 
               <br />
-              <span className="text-orange-500 text-[15px]">Try it out!</span>
+              <span className="text-[#f44336] text-[15px]">Try it out!</span>
             
             </p>
             <div className="flex justify-center py-8">
-              <button className="mr-10 px-4 py-2 border-2 border-orange-500 rounded-lg text-orange-500 cursor-pointer hover:bg-orange-500 hover:text-white">
+              <button className="mr-10 px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] hover:text-white">
                 <Link
                   target="_blank"
                   href="https://to-do-app-weld-seven.vercel.app/"
@@ -61,15 +61,15 @@ const Projects = () => {
                 />
               </Link>
             </div>
-            <h3 className="text-orange-500 py-2">Technologies</h3>
-            <p className="text-gray-300">
+            <h3 className="text-[#f44336] py-2">Technologies</h3>
+            <p className="text-[#222222]">
               JavaScript · ReactJS · NextJS · TailwindCSS · DaisyUI · GitHub
             </p>
           </div>
 
 
           {/* Project QuizGen */}
-          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-gradient-to-r from-black to-[#222222]">
+          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-[#222222]">
             <Image
               className="rounded-xl"
               src="/images/quizgenn.png"
@@ -92,11 +92,11 @@ const Projects = () => {
               <br />
               · Increased productivity and efficiency by 45% during studying and test preparation for final exam week.
               <br />
-              <span className="text-orange-500 text-[15px]">Try it out!</span>
+              <span className="text-[#f44336] text-[15px]">Try it out!</span>
               
             </p>
             <div className="flex justify-center py-8">
-              <button className="mr-10 px-4 py-2 border-2 border-orange-500 rounded-lg text-orange-500 cursor-pointer hover:bg-orange-500 hover:text-white">
+              <button className="mr-10 px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] hover:text-white">
                 <Link
                   target="_blank"
                   href="https://nekruzash.github.io/QuizGen/"
@@ -119,12 +119,12 @@ const Projects = () => {
                 />
               </Link>
             </div>
-            <h3 className="text-orange-500 py-2">Technologies</h3>
-            <p className="text-gray-300">
+            <h3 className="text-[#f44336] py-2">Technologies</h3>
+            <p className="text-[#222222]">
               HTML · CSS · JavaScript · Cohere AI · GitHub
             </p>
             <h3 className="py-6 px-auto">
-              <span className="text-orange-500">Team:</span>{" "}
+              <span className="text-[#f44336]">Team:</span>{" "}
               <Link
                 target="_blank"
                 rel="noopener noreferrer"
@@ -136,7 +136,7 @@ const Projects = () => {
           </div>
 
           {/* Forum Website */}
-          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-gradient-to-r from-black to-[#222222]">
+          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-[#222222]">
             <Image
               className="rounded-xl"
               src="/images/forum.png"
@@ -148,7 +148,7 @@ const Projects = () => {
           <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
             <h2 className="py-4">Forum Website</h2>
             <p className="text-[15px]">
-              · This is a forum website clone similar to <a className="text-orange-500" target="_blank" href="https://www.reddit.com/">Reddit.com</a> where users can signup and 
+              · This is a forum website clone similar to <a className="text-[#f44336]" target="_blank" href="https://www.reddit.com/">Reddit.com</a> where users can signup and 
               login using existing accounts. Posting and commenting on posts (coming soon).
               <br />
               · Researched database management systems like MongoDB and PostgreSQL to store user data in a cloud database.
@@ -157,14 +157,14 @@ const Projects = () => {
               <br />
               · Implemented Bcrypt algorithm to hash and encrypt user passwords to ensure security against brute force attacks.
               <br />
-              <span className="text-orange-500 text-[15px]">Try it out!</span>
+              <span className="text-[#f44336] text-[15px]">Try it out!</span>
               <br />
               Username: username
               <br />
               Password: 1234
             </p>
             <div className="flex justify-center py-8">
-              <button className="mr-10 px-4 py-2 border-2 border-orange-500 rounded-lg text-orange-500 cursor-pointer hover:bg-orange-500 hover:text-white">
+              <button className="mr-10 px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] hover:text-white">
                 <Link
                   target="_blank"
                   href="https://forumwebsite.onrender.com"
@@ -187,15 +187,15 @@ const Projects = () => {
                 />
               </Link>
             </div>
-            <h3 className="text-orange-500 py-2">Technologies</h3>
-            <p className="text-gray-300">
+            <h3 className="text-[#f44336] py-2">Technologies</h3>
+            <p className="text-[#222222]">
               ExpressJS · CSS · JavaScript · MongoDB · NodeJS · GitHub
             </p>
           </div>
 
           {/* Amazon Affiliate */}
 
-          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-gradient-to-r from-black to-[#222222]">
+          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-[#222222]">
             <Image
               className="rounded-xl"
               src="/images/amazon.png"
@@ -216,10 +216,10 @@ const Projects = () => {
               <br />
               · Integrated different SEO techniques to rank higher in search results.
               <br />
-              <span className="text-orange-500 text-[15px]">Try it out!</span>
+              <span className="text-[#f44336] text-[15px]">Try it out!</span>
             </p>
             <div className="flex justify-center py-8">
-              <button className="mr-10 px-4 py-2 border-2 border-orange-500 rounded-lg text-orange-500 cursor-pointer hover:bg-orange-500 hover:text-white">
+              <button className="mr-10 px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] hover:text-white">
                 <Link
                   target="_blank"
                   href="https://nekruzash.github.io/amazonaffiliate/"
@@ -242,12 +242,12 @@ const Projects = () => {
                 />
               </Link>
             </div>
-            <h3 className="text-orange-500 py-2">Technologies</h3>
-            <p className="text-gray-300">HTML · CSS · JavaScript · GitHub</p>
+            <h3 className="text-[#f44336] py-2">Technologies</h3>
+            <p className="text-[#222222]">HTML · CSS · JavaScript · GitHub</p>
           </div>
 
           {/* Autonomous Robot */}
-          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-gradient-to-r from-black to-[#222222]">
+          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-[#222222]">
             <Image
               className="rounded-xl"
               src="/images/atrrobot.png"
@@ -269,12 +269,12 @@ const Projects = () => {
               · Reached the final demo where the robot was able to autonomously scan barcodes and deliver packages to the designated locations in the maze.
               <br />
               
-              <span className="text-orange-500 text-[15px]">
+              <span className="text-[#f44336] text-[15px]">
                 Check out the docs for more information.
               </span>
             </p>
             <div className="flex justify-center py-8">
-              <button className="px-5 py-3 border-2 border-orange-500 rounded-lg text-orange-500 cursor-pointer hover:bg-orange-500 hover:text-white">
+              <button className="px-5 py-3 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] hover:text-white">
                 <Link
                   target="_blank"
                   href="/images/P4_DN_Team297.pdf"
@@ -284,8 +284,8 @@ const Projects = () => {
                 </Link>
               </button>
             </div>
-            <h3 className="text-orange-500 py-2">Technologies</h3>
-            <p className="text-gray-300">Python · EV3 Brick · Microsoft Excel</p>
+            <h3 className="text-[#f44336] py-2">Technologies</h3>
+            <p className="text-[#222222]">Python · EV3 Brick · Microsoft Excel</p>
           </div>
         </div>
       </div>

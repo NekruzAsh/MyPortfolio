@@ -10,10 +10,10 @@ html {
   
 
   body {
-    @apply bg-[#222222] text-[#f9f9f9] tracking-wide
+    @apply bg-[#e4e0e0] text-[#222222] tracking-wide
   }
 
-  h1,
+  
   h2,
   h3,
   h4,
