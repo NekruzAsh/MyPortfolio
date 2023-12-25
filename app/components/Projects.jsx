@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+
 const Projects = () => {
   return (
     <div id="projects" className="w-full">
@@ -299,9 +300,9 @@ const Projects = () => {
             </p>
             <div className="flex justify-center py-8">
               <button className="px-5 py-3 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] hover:text-white">
-                <Link target="_blank" href="/images/P4_DN_Team297.pdf"> 
+                <a target="_blank" href="https://drive.google.com/file/d/1yZuABIqW8cpnE0LzjnIuGm_Hjy1wAHO0/view?usp=sharing"> 
                   Docs
-                  </Link>
+                  </a>
               </button>
             </div>
             <h3 className="text-[#f44336] py-2">Technologies</h3>

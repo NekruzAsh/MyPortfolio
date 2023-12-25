@@ -2,6 +2,8 @@ import React from "react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import Link from "next/link";
 
+const myResume = "/images/NekruzAshrapovResume.pdf";
+
 const main = () => {
   return (
     <div id="home" className="w-full h-screen text-center">
@@ -36,7 +38,7 @@ const main = () => {
               <div className="absolute inset-0 w-3 bg-[#f44336] transition-all duration-[250ms] ease-out group-hover:w-full"></div>
               <Link
                 className="relative text-xl text-white group-hover:text-white"
-                href="/images/NekruzAshrapovResume.pdf"
+                href={myResume}
                 target="_blank"
               >
                 Get Resume
