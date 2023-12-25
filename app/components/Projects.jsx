@@ -299,9 +299,9 @@ const Projects = () => {
             </p>
             <div className="flex justify-center py-8">
               <button className="px-5 py-3 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] hover:text-white">
-                <a target="_blank" href="/images/P4_DN_Team297.pdf">
+                <Link target="_blank" href="/images/P4_DN_Team297.pdf"> 
                   Docs
-                </a>
+                  </Link>
               </button>
             </div>
             <h3 className="text-[#f44336] py-2">Technologies</h3>

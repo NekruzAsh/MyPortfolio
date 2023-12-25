@@ -34,13 +34,13 @@ const main = () => {
 
             <button className="group relative h-12 w-48 overflow-hidden rounded-lg bg-[#222222] text-gray-200 text-lg shadow-md shadow-gray-800">
               <div className="absolute inset-0 w-3 bg-[#f44336] transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-              <a
+              <Link
                 className="relative text-xl text-white group-hover:text-white"
                 href="/images/NekruzAshrapovResume.pdf"
                 target="_blank"
               >
                 Get Resume
-              </a>
+              </Link>
             </button>
 
             <div className="rounded-md shadow-md shadow-gray-800 p-3 cursor-pointer bg-[#222222] hover:scale-110 ease-in duration-200">
