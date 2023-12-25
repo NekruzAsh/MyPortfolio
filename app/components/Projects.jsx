@@ -8,9 +8,8 @@ const Projects = () => {
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <h2 className="text-[#f44336] uppercase py-8">Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
-
-        {/* To-Do App */}
-        <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-[#222222]">
+          {/* To-Do App */}
+          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-[#222222]">
             <Image
               className="rounded-xl"
               src="/images/todoapp.png"
@@ -22,20 +21,21 @@ const Projects = () => {
           <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
             <h2 className="py-4">To-Do Notes App</h2>
             <p className="text-[15px]">
-              
-              
-              · This is a simple to-do notes application that allows users to create, delete and mark completed tasks.
+              · This is a simple to-do notes application that allows users to
+              create, delete and mark completed tasks.
               <br />
               · The data is saved in the local storage of the browser.
               <br />
-              · Developed with NextJS and JavaScript using ternary operators and event handlers.
+              · Developed with NextJS and JavaScript using ternary operators and
+              event handlers.
               <br />
-              · Utilized 'useState' React hook to manage the state of the application.
+              · Utilized 'useState' React hook to manage the state of the
+              application.
               <br />
-              · Improved managing tasks, reduced mental load, and helped allocate time effectively and meet deadlines. 
+              · Improved managing tasks, reduced mental load, and helped
+              allocate time effectively and meet deadlines.
               <br />
               <span className="text-[#f44336] text-[15px]">Try it out!</span>
-            
             </p>
             <div className="flex justify-center py-8">
               <button className="mr-10 px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] hover:text-white">
@@ -67,7 +67,6 @@ const Projects = () => {
             </p>
           </div>
 
-
           {/* Project QuizGen */}
           <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-[#222222]">
             <Image
@@ -81,19 +80,24 @@ const Projects = () => {
           <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
             <h2 className="py-4">QuizGen - MakeUC Hackathon 2023</h2>
             <p className="text-[15px]">
-            
-              · This is a tool built for teachers and students to generate quiz questions using AI and user text input. 
+              · This is a tool built for teachers and students to generate quiz
+              questions using AI and user text input.
               <br />
-              · Developed with Cohere AI API and JavaScript to fetch data from the API, read user input and generate questions based on the content.
+              · Developed with Cohere AI API and JavaScript to fetch data from
+              the API, read user input and generate questions based on the
+              content.
               <br />
-              · Researched 3 different AI companies to test and implement their product in our project.
+              · Researched 3 different AI companies to test and implement their
+              product in our project.
               <br />
-              · Leveraged AI parameters like temperature, context length, and max tokens to fine-tune the behavior of the AI model to best fit our project.
+              · Leveraged AI parameters like temperature, context length, and
+              max tokens to fine-tune the behavior of the AI model to best fit
+              our project.
               <br />
-              · Increased productivity and efficiency by 45% during studying and test preparation for final exam week.
+              · Increased productivity and efficiency by 45% during studying and
+              test preparation for final exam week.
               <br />
               <span className="text-[#f44336] text-[15px]">Try it out!</span>
-              
             </p>
             <div className="flex justify-center py-8">
               <button className="mr-10 px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] hover:text-white">
@@ -148,14 +152,25 @@ const Projects = () => {
           <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
             <h2 className="py-4">Forum Website</h2>
             <p className="text-[15px]">
-              · This is a forum website clone similar to <a className="text-[#f44336]" target="_blank" href="https://www.reddit.com/">Reddit.com</a> where users can signup and 
-              login using existing accounts. Posting and commenting on posts (coming soon).
+              · This is a forum website clone similar to{" "}
+              <a
+                className="text-[#f44336]"
+                target="_blank"
+                href="https://www.reddit.com/"
+              >
+                Reddit.com
+              </a>{" "}
+              where users can signup and login using existing accounts. Posting
+              and commenting on posts (coming soon).
               <br />
-              · Researched database management systems like MongoDB and PostgreSQL to store user data in a cloud database.
+              · Researched database management systems like MongoDB and
+              PostgreSQL to store user data in a cloud database.
               <br />
-              · Built a backend server with ExpressJS web framework and JavaScript to maintain scalability and performance.
+              · Built a backend server with ExpressJS web framework and
+              JavaScript to maintain scalability and performance.
               <br />
-              · Implemented Bcrypt algorithm to hash and encrypt user passwords to ensure security against brute force attacks.
+              · Implemented Bcrypt algorithm to hash and encrypt user passwords
+              to ensure security against brute force attacks.
               <br />
               <span className="text-[#f44336] text-[15px]">Try it out!</span>
               <br />
@@ -207,14 +222,18 @@ const Projects = () => {
           <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
             <h2 className="py-4">Amazon Affiliate</h2>
             <p className="text-[15px]">
-            
-              · This is an article website used to promote Amazon products specifically technology category and earn commission from Amazon Affiliate marketing program.
+              · This is an article website used to promote Amazon products
+              specifically technology category and earn commission from Amazon
+              Affiliate marketing program.
               <br />
-              · Developed and designed with HTML, CSS and JavaScript to enhance user experience.
+              · Developed and designed with HTML, CSS and JavaScript to enhance
+              user experience.
               <br />
-              · Researched different articles and products to promote based on the market demand and competition.
+              · Researched different articles and products to promote based on
+              the market demand and competition.
               <br />
-              · Integrated different SEO techniques to rank higher in search results.
+              · Integrated different SEO techniques to rank higher in search
+              results.
               <br />
               <span className="text-[#f44336] text-[15px]">Try it out!</span>
             </p>
@@ -259,33 +278,36 @@ const Projects = () => {
           <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
             <h2 className="py-4">Autonomous Robot</h2>
             <p className="text-[15px]">
-              · Built and designed an autonomous robot similar to Amazon's Proteus warehouse robot that can scan barcodes and deliver packages to the designated location. 
+              · Built and designed an autonomous robot similar to Amazon's
+              Proteus warehouse robot that can scan barcodes and deliver
+              packages to the designated location.
               <br />
-              · Developed with Python and LEGO Mindstorms to control the robot's movement and behavior.
+              · Developed with Python and LEGO Mindstorms to control the robot's
+              movement and behavior.
               <br />
-              · Collaborated with a team of 4 different engineering discipline students to design and build the robot for an Engineering Design course at the University 
-              of Cincinnati.
+              · Collaborated with a team of 4 different engineering discipline
+              students to design and build the robot for an Engineering Design
+              course at the University of Cincinnati.
               <br />
-              · Reached the final demo where the robot was able to autonomously scan barcodes and deliver packages to the designated locations in the maze.
+              · Reached the final demo where the robot was able to autonomously
+              scan barcodes and deliver packages to the designated locations in
+              the maze.
               <br />
-              
               <span className="text-[#f44336] text-[15px]">
                 Check out the docs for more information.
               </span>
             </p>
             <div className="flex justify-center py-8">
               <button className="px-5 py-3 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] hover:text-white">
-                <Link
-                  target="_blank"
-                  href="/images/P4_DN_Team297.pdf"
-                  rel="noopener noreferrer"
-                >
+                <a target="_blank" href="/images/P4_DN_Team297.pdf">
                   Docs
-                </Link>
+                </a>
               </button>
             </div>
             <h3 className="text-[#f44336] py-2">Technologies</h3>
-            <p className="text-[#222222]">Python · EV3 Brick · Microsoft Excel</p>
+            <p className="text-[#222222]">
+              Python · EV3 Brick · Microsoft Excel
+            </p>
           </div>
         </div>
       </div>
