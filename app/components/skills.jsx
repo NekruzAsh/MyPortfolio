@@ -142,14 +142,14 @@ const Skills = () => {
               <div className="m-auto">
                 
                 <Image
-                  src="/images/expressjs.png"
+                  src="/images/node.png"
                   width={64}
                   height={64}
-                  alt="Expressjs"
+                  alt="nodejs"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3 className="text-white uppercase">ExpressJS</h3>
+                <h3 className="text-white uppercase">nodejs</h3>
               </div>
             </div>
           </div>
@@ -157,14 +157,14 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/images/nextjs.png"
+                  src="/images/git.png"
                   width={64}
                   height={64}
-                  alt="NextJS"
+                  alt="GIT"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3 className="text-white uppercase">NextJS</h3>
+                <h3 className="text-white uppercase">Git</h3>
               </div>
             </div>
           </div>
