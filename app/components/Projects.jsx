@@ -9,6 +9,49 @@ const Projects = () => {
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <h2 className="text-[#f44336] uppercase py-8">Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
+          {/* TicTacToeAI */}
+          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-[#222222]">
+            <Image
+              className="rounded-xl"
+              src="/images/tictactoe.png"
+              width={600}
+              height={600}
+              alt="TicTacToeAI"
+            />
+          </div>
+          <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
+            <h2 className="py-4">TicTacToe AI</h2>
+            <p className="text-[15px]">
+              · This is a TicTacToe game with two different game modes: Player Vs. Player and Player Vs. AI.
+              <br />
+              · The game is built with Python's Tkinter GUI library and Minimax algorithm to make an unbeatable AI opponent.
+              <br />
+              · Researched the Minimax algorithm and implemented the algorithm for AI decision-making, considering different possible outcomes.
+              <br />
+              · Utilized event handlers for buttons, managed the state of the game using Python's data structures like lists, updating the UI accordingly.
+              <br />
+              · Implemented randomization to determine which player goes first and added an option menu to choose the game mode.
+            </p>
+            <div className="flex justify-center py-8">
+              <Link
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/NekruzAsh/TicTacToeAI.git"
+              >
+                <Image
+                  className="hover:scale-105 duration-300 ease-in"
+                  src="/images/github.png"
+                  width={50}
+                  height={50}
+                  alt="github"
+                />
+              </Link>
+            </div>
+            <h3 className="text-[#f44336] py-2">Technologies</h3>
+            <p className="text-[#222222]">
+              Python · Minimax · GitHub
+            </p>
+          </div>
           {/* To-Do App */}
           <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-[#222222]">
             <Image
