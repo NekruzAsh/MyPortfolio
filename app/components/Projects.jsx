@@ -24,7 +24,7 @@ const Projects = () => {
             <p className="text-[15px]">
               · This is a TicTacToe game with two different game modes: Player Vs. Player and Player Vs. AI.
               <br />
-              · The game is built with Python's Tkinter GUI library and Minimax algorithm to make an unbeatable AI opponent.
+              · Developed with Python's Tkinter GUI library and Minimax algorithm to make an unbeatable AI opponent.
               <br />
               · Researched the Minimax algorithm and implemented the algorithm for AI decision-making, considering different possible outcomes.
               <br />
@@ -65,7 +65,7 @@ const Projects = () => {
           <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
             <h2 className="py-4">To-Do Notes App</h2>
             <p className="text-[15px]">
-              · This is a simple to-do notes application that allows users to
+              · This is a simple to-do notes application that includes CRUD operations that allow users to
               create, delete and mark completed tasks.
               <br />
               · The data is saved in the local storage of the browser.
