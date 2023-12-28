@@ -17,7 +17,8 @@ const About = () => {
             beautiful software using various programming languages. I was
             hooked. Those initial lines of code evolved into a love for
             programming, driving me to explore the intricate aspects of this
-            craft and to pursue a degree in Computer Science.
+            craft and to pursue a degree in Computer Science. I'm currently a second-year Computer Science student at the
+            University of Cincinnati.
           </p>
 
           <p className="py-2 text-[#222222]">

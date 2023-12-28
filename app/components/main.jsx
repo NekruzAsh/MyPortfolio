@@ -12,18 +12,11 @@ const main = () => {
           <h1 className="py-4 text-[50px] text-[#f44336]">
             Hello,<span className="text-[#f44336] font-bold"> I'm Nekruz.</span>
           </h1>
-          <h1 className="py-0.5 text-[50px] text-[#f44336]">
+          <h1 className="text-[50px] text-[#f44336]">
             I'm a <span className="text-[#222222]">Software Developer</span>{" "}
             from New York.
           </h1>
-          <p className="py-4 text-black max-w-[70%] m-auto font-sans">
-            I'm currently a second-year Computer Science student at the
-            University of Cincinnati. I'm passionate about building and
-            designing beautiful digital applications. My expertise lies in
-            crafting highly responsive webpages while also implementing and
-            learning more about back-end technologies to expand my toolkit.
-          </p>
-          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+          <div className="flex items-center justify-between max-w-[330px] m-auto py-12">
             <div className="rounded-lg shadow-md shadow-gray-800 bg-[#222222] p-3 cursor-pointer hover:scale-110 ease-in duration-200">
               <Link
                 target="_blank"
