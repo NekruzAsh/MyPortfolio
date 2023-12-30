@@ -8,7 +8,7 @@ const About = () => {
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2 ">
           <h2 className="py-4 text-[#f44336] uppercase">
-            Where it all started
+            Where it all started.
           </h2>
           <p className="py-2 text-[#f0f8ff]">
             My coding journey began when I wrote my first line of HTML code in

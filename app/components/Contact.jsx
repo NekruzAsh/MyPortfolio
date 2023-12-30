@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <div id="contact" className="w-full lg:h-screen ">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
-        <h2 className=" uppercase text-[#f44336] py-4">Contact</h2>
+        <h2 className=" uppercase text-[#f44336] py-4">Contact.</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-md shadow-blue-900 rounded-xl p-4 bg-[#101720]">
             <div className="lg:p-4 h-full">
@@ -41,44 +41,44 @@ const Contact = () => {
               <form method="POST" action="https://getform.io/f/6d5bba2d-1ebe-4f38-80a4-03e0c4dbd955">
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col ">
-                    <label className="uppercase text-sm py-2 text-[#f0f8ff]">Name</label>
+                    <label className=" text-md py-2 text-[#f0f8ff]">Your Name</label>
                     <input
-                      className="text-[#f0f8ff] border-2 rounded-lg p-3 flex border-gray-300"
+                      className="text-[#f0f8ff] bg-[#0e2a44] rounded-lg p-3 flex"
                       type="text"
-                      placeholder="Jane Doe"
+                      placeholder="What's your name?"
                       name="name"
                     />
                   </div>
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2 text-[#f0f8ff]">Email</label>
+                    <label className=" text-md py-2 text-[#f0f8ff]">Your Email</label>
                     <input
-                      className="text-[#f0f8ff] border-2 rounded-lg p-3 flex border-gray-300"
+                      className="text-[#f0f8ff] bg-[#0e2a44] rounded-lg p-3 flex"
                       type="email"
-                      placeholder="janedoe@gmail.com"
+                      placeholder="What's your email?"
                       name="email"
                     />
                   </div>
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2 text-[#f0f8ff]">Subject</label>
+                  <label className=" text-md py-2 text-[#f0f8ff]">Your Subject</label>
                   <input
-                    className="text-[#f0f8ff] border-2 rounded-lg p-3 flex border-gray-300"
+                    className="text-[#f0f8ff] bg-[#0e2a44] rounded-lg p-3 flex"
                     type="text"
-                    placeholder="Subject"
+                    placeholder="What's your subject?"
                     name="subject"
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2 text-[#f0f8ff]">Message</label>
+                  <label className=" text-md py-2 text-[#f0f8ff]">Your Message</label>
                   <textarea
-                    className="text-[#f0f8ff] border-2 rounded-lg p-3 border-gray-300"
+                    className="text-[#f0f8ff] bg-[#0e2a44] rounded-lg p-3"
                     rows="10"
-                    placeholder="Message"
+                    placeholder="What's your message?"
                     name="message"
                   ></textarea>
                 </div>
                 <div className="flex justify-center">
-                  <button className="text-[#f0f8ff] bg-[#f44336] font-bold rounded border-b-2 border-gray-600 hover:border-gray-800 hover:text-gray-800 shadow-md py-2 px-6 inline-flex items-center">
+                  <button className="text-[#f0f8ff] bg-[#f44336] hover:bg-blue-900 hover:shadow-sm hover:shadow-[#0e2a44] font-bold rounded shadow-md shadow-black py-2 px-6 inline-flex items-center">
                     Send
                   </button>
                 </div>

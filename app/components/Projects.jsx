@@ -2,14 +2,21 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-
 const Projects = () => {
   return (
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <h2 className="text-[#f44336] uppercase py-8">Projects</h2>
+        <h2 className="text-[#f44336] uppercase py-8">Projects.</h2>
+        
+        <p className="mb-16 text-gray-400 text-[17px] max-w-3xl leading-[30px]">
+          Following projects showcases my skills and experience through
+          real-world examples of my work. Each project is briefly described with
+          links to code repositories and live demos. It reflects my
+          ability to solve complex problems, work with different technologies,
+          and manage projects effectively.
+        </p>
+      
         <div className="grid md:grid-cols-2 gap-8">
-
           {/* Chat App */}
           <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-blue-900 rounded-xl p-4 bg-[#101720]">
             <Image
@@ -23,20 +30,22 @@ const Projects = () => {
           <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
             <h2 className="py-4">Chat App</h2>
             <p className="text-[15px]">
-              · This is a simple chat application that allows users to signin with their Google account and send messages.
+              · This is a simple chat application that allows users to signin
+              with their Google account and send messages.
               <br />
-              · Developed a Firebase backend server to store user data, messages, and to retrieve chat messages in real-time, leveraging a NoSQL database.
+              · Developed a Firebase backend server to store user data,
+              messages, and to retrieve chat messages in real-time, leveraging a
+              NoSQL database.
               <br />
-              · Implemented Firebase Authentication to authenticate users through Google accounts.
-              <br />
-              · Researched different Firebase services like Firestore database to automatically sync data across devices in a new collection document.
+              · Implemented Firebase Authentication to authenticate users
+              through Google accounts.
+              <br />· Researched different Firebase services like Firestore
+              database to automatically sync data across devices in a new
+              collection document.
             </p>
             <div className="flex justify-center py-8">
-            <button className="mr-10 px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] hover:text-white">
-                <a
-                  target="_blank"
-                  href="https://chatapp-3a0e9.web.app/"
-                >
+              <button className="mr-10 px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] hover:text-white">
+                <a target="_blank" href="https://chatapp-3a0e9.web.app/">
                   Demo
                 </a>
               </button>
@@ -55,7 +64,8 @@ const Projects = () => {
             </div>
             <h3 className="text-[#f44336] py-2">Technologies</h3>
             <p className="text-[#f0f8ff]">
-              NextJS · ReactJS · JavaScript · TailwindCSS · Firebase · DaisyUI · GitHub
+              NextJS · ReactJS · JavaScript · TailwindCSS · Firebase · DaisyUI ·
+              GitHub
             </p>
           </div>
           {/* To-Do App */}
@@ -71,8 +81,8 @@ const Projects = () => {
           <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
             <h2 className="py-4">To-Do Notes App</h2>
             <p className="text-[15px]">
-              · This is a simple to-do notes application with CRUD operations that allow users to
-              create, delete and mark completed tasks.
+              · This is a simple to-do notes application with CRUD operations
+              that allow users to create, delete and mark completed tasks.
               <br />
               · The data is saved in the local storage of the browser.
               <br />
@@ -178,10 +188,7 @@ const Projects = () => {
             </p>
             <h3 className="py-6 px-auto">
               <span className="text-[#f44336]">Team:</span>{" "}
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/in/konareic/"
-              >
+              <a target="_blank" href="https://www.linkedin.com/in/konareic/">
                 <span className="underline">Ibrahim Konare</span>
               </a>
             </h3>
@@ -326,15 +333,20 @@ const Projects = () => {
           <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
             <h2 className="py-4">TicTacToe AI</h2>
             <p className="text-[15px]">
-              · This is a TicTacToe game with two different game modes: Player Vs. Player and Player Vs. AI.
+              · This is a TicTacToe game with two different game modes: Player
+              Vs. Player and Player Vs. AI.
               <br />
-              · Developed with Python's Tkinter GUI library and Minimax algorithm to make an unbeatable AI opponent.
+              · Developed with Python's Tkinter GUI library and Minimax
+              algorithm to make an unbeatable AI opponent.
               <br />
-              · Researched the Minimax algorithm and implemented the algorithm for AI decision-making, considering different possible outcomes.
+              · Researched the Minimax algorithm and implemented the algorithm
+              for AI decision-making, considering different possible outcomes.
               <br />
-              · Utilized event handlers for buttons, managed the state of the game using Python's data structures like lists, updating the UI accordingly.
-              <br />
-              · Implemented randomization to determine which player goes first and added an option menu to choose the game mode.
+              · Utilized event handlers for buttons, managed the state of the
+              game using Python's data structures like lists, updating the UI
+              accordingly.
+              <br />· Implemented randomization to determine which player goes
+              first and added an option menu to choose the game mode.
             </p>
             <div className="flex justify-center py-8">
               <a
@@ -352,9 +364,7 @@ const Projects = () => {
               </a>
             </div>
             <h3 className="text-[#f44336] py-2">Technologies</h3>
-            <p className="text-[#f0f8ff]">
-              Python · Minimax · GitHub
-            </p>
+            <p className="text-[#f0f8ff]">Python · Minimax · GitHub</p>
           </div>
 
           {/* Autonomous Robot */}
@@ -391,9 +401,12 @@ const Projects = () => {
             </p>
             <div className="flex justify-center py-8">
               <button className="px-5 py-3 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] hover:text-white">
-                <a target="_blank" href="https://drive.google.com/file/d/1yZuABIqW8cpnE0LzjnIuGm_Hjy1wAHO0/view?usp=sharing"> 
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1yZuABIqW8cpnE0LzjnIuGm_Hjy1wAHO0/view?usp=sharing"
+                >
                   Docs
-                  </a>
+                </a>
               </button>
             </div>
             <h3 className="text-[#f44336] py-2">Technologies</h3>
