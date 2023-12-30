@@ -13,11 +13,11 @@ const main = () => {
             Hello,<span className="text-[#f44336] font-bold"> I'm Nekruz.</span>
           </h1>
           <h1 className="text-[50px] text-[#f44336]">
-            I'm a <span className="text-[#222222]">Software Developer</span>{" "}
+            I'm a <span className="text-[#f0f8ff]">Software Developer</span>{" "}
             from New York.
           </h1>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-12">
-            <div className="rounded-lg shadow-md shadow-gray-800 bg-[#222222] p-3 cursor-pointer hover:scale-110 ease-in duration-200">
+            <div className="rounded-lg shadow-sm shadow-[#476a97] bg-[#101720] p-3 cursor-pointer hover:scale-110 ease-in duration-200">
               <Link
                 target="_blank"
                 rel="noopener noreferrer"
@@ -27,10 +27,10 @@ const main = () => {
               </Link>
             </div>
 
-            <button className="group relative h-12 w-48 overflow-hidden rounded-lg bg-[#222222] text-gray-200 text-lg shadow-md shadow-gray-800">
+            <button className="group relative h-12 w-48 overflow-hidden rounded-lg bg-[#101720] text-[#f0f8ff] text-lg shadow-sm shadow-[#476a97]">
               <div className="absolute inset-0 w-3 bg-[#f44336] transition-all duration-[250ms] ease-out group-hover:w-full"></div>
               <Link
-                className="relative text-xl text-white group-hover:text-white"
+                className="relative text-xl text-[#f0f8ff] group-hover:text-[#f0f8ff]"
                 href={myResume}
                 target="_blank"
               >
@@ -38,7 +38,7 @@ const main = () => {
               </Link>
             </button>
 
-            <div className="rounded-md shadow-md shadow-gray-800 p-3 cursor-pointer bg-[#222222] hover:scale-110 ease-in duration-200">
+            <div className="rounded-md shadow-sm shadow-[#476a97] p-3 cursor-pointer bg-[#101720] hover:scale-110 ease-in duration-200">
               <Link
                 target="_blank"
                 rel="noopener noreferrer"

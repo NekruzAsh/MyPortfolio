@@ -26,7 +26,7 @@ const navbar = () => {
   }, []);
 
   return (
-    <div className={shadow ? "fixed w-full h-20 shadow-xl z-[100] bg-[#e4e0e0]" : "fixed w-full h-20 z-[100] bg-[#e4e0e0]"}>
+    <div className={shadow ? "fixed w-full h-20 shadow-xl z-[100] bg-[#011222]" : "fixed w-full h-20 z-[100] bg-[#011222]"}>
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/#home">
         <Image
@@ -79,14 +79,14 @@ const navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#e4e0e0] p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#011222] p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
           <div>
             <div className="flex w-full items-center justify-between">
               <Image
-                src="/images/nwanyzch.png"
+                src="/images/jolly.png"
                 alt="logo"
                 width={68}
                 height={68}
@@ -100,7 +100,7 @@ const navbar = () => {
               </div>
             </div>
             <div className="border-b border-[#f44336] my-4">
-              <p className="text-[#222222] w-[85%] md:w-[90%] py-4">
+              <p className="text-[#f0f8ff] w-[85%] md:w-[90%] py-4">
                 Let's Build the Future Together
               </p>
             </div>
@@ -108,19 +108,19 @@ const navbar = () => {
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
               <Link href="/#home">
-                <li className="py-4 text-sm text-[#222222]">Home</li>
+                <li className="py-4 text-sm text-[#f0f8ff]">Home</li>
               </Link>
               <Link href="/#about">
-                <li className="py-4 text-sm text-[#222222]">About</li>
+                <li className="py-4 text-sm text-[#f0f8ff]">About</li>
               </Link>
               <Link href="/#skills">
-                <li className="py-4 text-sm text-[#222222]">Skills</li>
+                <li className="py-4 text-sm text-[#f0f8ff]">Skills</li>
               </Link>
               <Link href="/#projects">
-                <li className="py-4 text-sm text-[#222222]">Projects</li>
+                <li className="py-4 text-sm text-[#f0f8ff]">Projects</li>
               </Link>
               <Link href="/#contact">
-                <li className="py-4 text-sm text-[#222222]">Contact</li>
+                <li className="py-4 text-sm text-[#f0f8ff]">Contact</li>
               </Link>
             </ul>
           </div>

@@ -7,7 +7,7 @@ const Skills = () => {
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <h2 className="text-[#f44336] uppercase py-4">Languages & Tools</h2>
         <div className="grid  md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="p-6 bg-[#222222] shadow-xl shadow-gray-600 rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#101720] shadow-md shadow-[#476a97] rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -18,21 +18,21 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3 className="text-white">HTML</h3>
+                <h3 className="text-[#f0f8ff]">HTML</h3>
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#222222] shadow-xl shadow-gray-600 rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#101720] shadow-md shadow-[#476a97] rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src="/images/css.png" width={64} height={64} alt="css" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3 className="text-white">CSS</h3>
+                <h3 className="text-[#f0f8ff]">CSS</h3>
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#222222] shadow-xl shadow-gray-600 rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#101720] shadow-md shadow-[#476a97] rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -43,11 +43,11 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3 className="uppercase text-white">tailwindcss</h3>
+                <h3 className="uppercase text-[#f0f8ff]">tailwindcss</h3>
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#222222] shadow-xl shadow-gray-600 rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#101720] shadow-md shadow-[#476a97] rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -58,11 +58,11 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3 className="uppercase text-white">javascript</h3>
+                <h3 className="uppercase text-[#f0f8ff]">javascript</h3>
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#222222] shadow-xl shadow-gray-600 rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#101720] shadow-md shadow-[#476a97] rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -73,11 +73,11 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3 className="text-white">REACT</h3>
+                <h3 className="text-[#f0f8ff]">REACT</h3>
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#222222] shadow-xl shadow-gray-600 rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#101720] shadow-md shadow-[#476a97] rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -88,26 +88,26 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3 className="text-white">GITHUB</h3>
+                <h3 className="text-[#f0f8ff]">GITHUB</h3>
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#222222] shadow-xl shadow-gray-600 rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#101720] shadow-md shadow-[#476a97] rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
                   src="/images/mongodb.png"
-                  width={36}
-                  height={36}
+                  width={32}
+                  height={32}
                   alt="mongodb"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3 className="text-white">MONGODB</h3>
+                <h3 className="text-[#f0f8ff]">MONGODB</h3>
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#222222] shadow-xl shadow-gray-600 rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#101720] shadow-md shadow-[#476a97] rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -118,11 +118,11 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3 className="text-white">C++</h3>
+                <h3 className="text-[#f0f8ff]">C++</h3>
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#222222] shadow-xl shadow-gray-600 rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#101720] shadow-md shadow-[#476a97] rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -133,11 +133,11 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3 className="text-white uppercase">Python</h3>
+                <h3 className="text-[#f0f8ff] uppercase">Python</h3>
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#222222] shadow-xl shadow-gray-600 rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#101720] shadow-md shadow-[#476a97] rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 
@@ -149,11 +149,11 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3 className="text-white uppercase">nodejs</h3>
+                <h3 className="text-[#f0f8ff] uppercase">nodejs</h3>
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#222222] shadow-xl shadow-gray-600 rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#101720] shadow-md shadow-[#476a97] rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -164,11 +164,11 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3 className="text-white uppercase">Git</h3>
+                <h3 className="text-[#f0f8ff] uppercase">Git</h3>
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#222222] shadow-xl shadow-gray-600 rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#101720] shadow-md shadow-[#476a97] rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -179,7 +179,7 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3 className="text-white">C Programming Language</h3>
+                <h3 className="text-[#f0f8ff]">C Programming Language</h3>
               </div>
             </div>
           </div>

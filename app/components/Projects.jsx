@@ -9,34 +9,40 @@ const Projects = () => {
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <h2 className="text-[#f44336] uppercase py-8">Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          {/* TicTacToeAI */}
-          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-[#222222]">
+
+          {/* Chat App */}
+          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-blue-900 rounded-xl p-4 bg-[#101720]">
             <Image
               className="rounded-xl"
-              src="/images/tictactoe.png"
+              src="/images/chat.png"
               width={600}
               height={600}
-              alt="TicTacToeAI"
+              alt="Chat Application"
             />
           </div>
           <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
-            <h2 className="py-4">TicTacToe AI</h2>
+            <h2 className="py-4">Chat App</h2>
             <p className="text-[15px]">
-              · This is a TicTacToe game with two different game modes: Player Vs. Player and Player Vs. AI.
+              · This is a simple chat application that allows users to signin with their Google account and send messages.
               <br />
-              · Developed with Python's Tkinter GUI library and Minimax algorithm to make an unbeatable AI opponent.
+              · Developed a Firebase backend server to store user data, messages, and to retrieve chat messages in real-time, leveraging a NoSQL database.
               <br />
-              · Researched the Minimax algorithm and implemented the algorithm for AI decision-making, considering different possible outcomes.
+              · Implemented Firebase Authentication to authenticate users through Google accounts.
               <br />
-              · Utilized event handlers for buttons, managed the state of the game using Python's data structures like lists, updating the UI accordingly.
-              <br />
-              · Implemented randomization to determine which player goes first and added an option menu to choose the game mode.
+              · Researched different Firebase services like Firestore database to automatically sync data across devices in a new collection document.
             </p>
             <div className="flex justify-center py-8">
-              <Link
+            <button className="mr-10 px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] hover:text-white">
+                <a
+                  target="_blank"
+                  href="https://chatapp-3a0e9.web.app/"
+                >
+                  Demo
+                </a>
+              </button>
+              <a
                 target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/NekruzAsh/TicTacToeAI.git"
+                href="https://github.com/NekruzAsh/Chat-app.git"
               >
                 <Image
                   className="hover:scale-105 duration-300 ease-in"
@@ -45,15 +51,15 @@ const Projects = () => {
                   height={50}
                   alt="github"
                 />
-              </Link>
+              </a>
             </div>
             <h3 className="text-[#f44336] py-2">Technologies</h3>
-            <p className="text-[#222222]">
-              Python · Minimax · GitHub
+            <p className="text-[#f0f8ff]">
+              NextJS · ReactJS · JavaScript · TailwindCSS · Firebase · DaisyUI · GitHub
             </p>
           </div>
           {/* To-Do App */}
-          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-[#222222]">
+          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-blue-900 rounded-xl p-4 bg-[#101720]">
             <Image
               className="rounded-xl"
               src="/images/todoapp.png"
@@ -65,7 +71,7 @@ const Projects = () => {
           <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
             <h2 className="py-4">To-Do Notes App</h2>
             <p className="text-[15px]">
-              · This is a simple to-do notes application that includes CRUD operations that allow users to
+              · This is a simple to-do notes application with CRUD operations that allow users to
               create, delete and mark completed tasks.
               <br />
               · The data is saved in the local storage of the browser.
@@ -83,15 +89,14 @@ const Projects = () => {
             </p>
             <div className="flex justify-center py-8">
               <button className="mr-10 px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] hover:text-white">
-                <Link
+                <a
                   target="_blank"
                   href="https://to-do-app-weld-seven.vercel.app/"
-                  rel="noopener noreferrer"
                 >
                   Demo
-                </Link>
+                </a>
               </button>
-              <Link
+              <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/NekruzAsh/To-do-App.git"
@@ -103,16 +108,16 @@ const Projects = () => {
                   height={50}
                   alt="github"
                 />
-              </Link>
+              </a>
             </div>
             <h3 className="text-[#f44336] py-2">Technologies</h3>
-            <p className="text-[#222222]">
+            <p className="text-[#f0f8ff]">
               JavaScript · ReactJS · NextJS · TailwindCSS · DaisyUI · GitHub
             </p>
           </div>
 
           {/* Project QuizGen */}
-          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-[#222222]">
+          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-blue-900 rounded-xl p-4 bg-[#101720]">
             <Image
               className="rounded-xl"
               src="/images/quizgenn.png"
@@ -145,15 +150,15 @@ const Projects = () => {
             </p>
             <div className="flex justify-center py-8">
               <button className="mr-10 px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] hover:text-white">
-                <Link
+                <a
                   target="_blank"
                   href="https://nekruzash.github.io/QuizGen/"
                   rel="noopener noreferrer"
                 >
                   Demo
-                </Link>
+                </a>
               </button>
-              <Link
+              <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/NekruzAsh/QuizGen.git"
@@ -165,26 +170,25 @@ const Projects = () => {
                   height={50}
                   alt="github"
                 />
-              </Link>
+              </a>
             </div>
             <h3 className="text-[#f44336] py-2">Technologies</h3>
-            <p className="text-[#222222]">
+            <p className="text-[#f0f8ff]">
               HTML · CSS · JavaScript · Cohere AI · GitHub
             </p>
             <h3 className="py-6 px-auto">
               <span className="text-[#f44336]">Team:</span>{" "}
-              <Link
+              <a
                 target="_blank"
-                rel="noopener noreferrer"
                 href="https://www.linkedin.com/in/konareic/"
               >
                 <span className="underline">Ibrahim Konare</span>
-              </Link>
+              </a>
             </h3>
           </div>
 
           {/* Forum Website */}
-          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-[#222222]">
+          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-blue-900 rounded-xl p-4 bg-[#101720]">
             <Image
               className="rounded-xl"
               src="/images/forum.png"
@@ -224,15 +228,15 @@ const Projects = () => {
             </p>
             <div className="flex justify-center py-8">
               <button className="mr-10 px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] hover:text-white">
-                <Link
+                <a
                   target="_blank"
                   href="https://forumwebsite.onrender.com"
                   rel="noopener noreferrer"
                 >
                   Demo
-                </Link>
+                </a>
               </button>
-              <Link
+              <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/NekruzAsh/forumwebsite.git"
@@ -244,17 +248,17 @@ const Projects = () => {
                   height={50}
                   alt="github"
                 />
-              </Link>
+              </a>
             </div>
             <h3 className="text-[#f44336] py-2">Technologies</h3>
-            <p className="text-[#222222]">
+            <p className="text-[#f0f8ff]">
               ExpressJS · CSS · JavaScript · MongoDB · NodeJS · GitHub
             </p>
           </div>
 
           {/* Amazon Affiliate */}
 
-          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-[#222222]">
+          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-blue-900 rounded-xl p-4 bg-[#101720]">
             <Image
               className="rounded-xl"
               src="/images/amazon.png"
@@ -283,15 +287,15 @@ const Projects = () => {
             </p>
             <div className="flex justify-center py-8">
               <button className="mr-10 px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] hover:text-white">
-                <Link
+                <a
                   target="_blank"
                   href="https://nekruzash.github.io/amazonaffiliate/"
                   rel="noopener noreferrer"
                 >
                   Demo
-                </Link>
+                </a>
               </button>
-              <Link
+              <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/NekruzAsh/amazonaffiliate.git"
@@ -303,14 +307,58 @@ const Projects = () => {
                   height={50}
                   alt="github"
                 />
-              </Link>
+              </a>
             </div>
             <h3 className="text-[#f44336] py-2">Technologies</h3>
-            <p className="text-[#222222]">HTML · CSS · JavaScript · GitHub</p>
+            <p className="text-[#f0f8ff]">HTML · CSS · JavaScript · GitHub</p>
+          </div>
+
+          {/* TicTacToeAI */}
+          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-blue-900 rounded-xl p-4 bg-[#101720]">
+            <Image
+              className="rounded-xl"
+              src="/images/tictactoe.png"
+              width={600}
+              height={600}
+              alt="TicTacToeAI"
+            />
+          </div>
+          <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
+            <h2 className="py-4">TicTacToe AI</h2>
+            <p className="text-[15px]">
+              · This is a TicTacToe game with two different game modes: Player Vs. Player and Player Vs. AI.
+              <br />
+              · Developed with Python's Tkinter GUI library and Minimax algorithm to make an unbeatable AI opponent.
+              <br />
+              · Researched the Minimax algorithm and implemented the algorithm for AI decision-making, considering different possible outcomes.
+              <br />
+              · Utilized event handlers for buttons, managed the state of the game using Python's data structures like lists, updating the UI accordingly.
+              <br />
+              · Implemented randomization to determine which player goes first and added an option menu to choose the game mode.
+            </p>
+            <div className="flex justify-center py-8">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/NekruzAsh/TicTacToeAI.git"
+              >
+                <Image
+                  className="hover:scale-105 duration-300 ease-in"
+                  src="/images/github.png"
+                  width={50}
+                  height={50}
+                  alt="github"
+                />
+              </a>
+            </div>
+            <h3 className="text-[#f44336] py-2">Technologies</h3>
+            <p className="text-[#f0f8ff]">
+              Python · Minimax · GitHub
+            </p>
           </div>
 
           {/* Autonomous Robot */}
-          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-gray-600 rounded-xl p-4 bg-[#222222]">
+          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-blue-900 rounded-xl p-4 bg-[#101720]">
             <Image
               className="rounded-xl"
               src="/images/atrrobot.png"
@@ -349,7 +397,7 @@ const Projects = () => {
               </button>
             </div>
             <h3 className="text-[#f44336] py-2">Technologies</h3>
-            <p className="text-[#222222]">
+            <p className="text-[#f0f8ff]">
               Python · EV3 Brick · Microsoft Excel
             </p>
           </div>

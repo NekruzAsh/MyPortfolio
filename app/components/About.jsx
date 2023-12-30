@@ -10,7 +10,7 @@ const About = () => {
           <h2 className="py-4 text-[#f44336] uppercase">
             Where it all started
           </h2>
-          <p className="py-2 text-[#222222]">
+          <p className="py-2 text-[#f0f8ff]">
             My coding journey began when I wrote my first line of HTML code in
             8th grade during my middle school's after-school program in New
             York. I was fascinated by the idea that I could create such
@@ -21,7 +21,7 @@ const About = () => {
             University of Cincinnati.
           </p>
 
-          <p className="py-2 text-[#222222]">
+          <p className="py-2 text-[#f0f8ff]">
             For the past years I spent time learning more about
             different programming languages and how they are used in different
             applications. I started experimenting with HTML and CSS and started
@@ -32,12 +32,12 @@ const About = () => {
             build innovative websites.
           </p>
 
-          <button className="py-2 text-white cursor-pointer hover:text-[#f44336] bg-[#222222] btn btn-sm">
+          <button className="py-2 text-[#f0f8ff] cursor-pointer hover:text-[#f44336] bg-[#101720] shadow-sm shadow-[#476a97] btn btn-sm">
             <Link href="/#projects">Check out my latest projects</Link>
             </button> 
         </div>
 
-        <div className="w-64 h-64 shadow-lg shadow-gray-400 items-center relative overflow-hidden rounded-full justify-center hover:scale-105 ease-in duration-300 ml-16 mt-16">
+        <div className="w-64 h-64 shadow-lg shadow-[#476a97] items-center relative overflow-hidden rounded-full justify-center hover:scale-105 ease-in duration-300 ml-16 mt-16">
           <Image
             src="/images/picture.jpg"
             width={280}
