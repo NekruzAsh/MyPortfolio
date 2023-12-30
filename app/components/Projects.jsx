@@ -64,8 +64,7 @@ const Projects = () => {
             </div>
             <h3 className="text-[#f44336] py-2">Technologies</h3>
             <p className="text-[#f0f8ff]">
-              NextJS · ReactJS · JavaScript · TailwindCSS · Firebase · DaisyUI ·
-              GitHub
+              NextJS · ReactJS · JavaScript · TailwindCSS · Firebase · DaisyUI
             </p>
           </div>
           {/* To-Do App */}
@@ -122,7 +121,7 @@ const Projects = () => {
             </div>
             <h3 className="text-[#f44336] py-2">Technologies</h3>
             <p className="text-[#f0f8ff]">
-              JavaScript · ReactJS · NextJS · TailwindCSS · DaisyUI · GitHub
+              JavaScript · ReactJS · NextJS · TailwindCSS · DaisyUI
             </p>
           </div>
 
@@ -184,7 +183,7 @@ const Projects = () => {
             </div>
             <h3 className="text-[#f44336] py-2">Technologies</h3>
             <p className="text-[#f0f8ff]">
-              HTML · CSS · JavaScript · Cohere AI · GitHub
+              HTML · CSS · JavaScript · Cohere AI
             </p>
             <h3 className="py-6 px-auto">
               <span className="text-[#f44336]">Team:</span>{" "}
@@ -259,7 +258,7 @@ const Projects = () => {
             </div>
             <h3 className="text-[#f44336] py-2">Technologies</h3>
             <p className="text-[#f0f8ff]">
-              ExpressJS · CSS · JavaScript · MongoDB · NodeJS · GitHub
+              ExpressJS · CSS · JavaScript · MongoDB · NodeJS
             </p>
           </div>
 
@@ -317,7 +316,7 @@ const Projects = () => {
               </a>
             </div>
             <h3 className="text-[#f44336] py-2">Technologies</h3>
-            <p className="text-[#f0f8ff]">HTML · CSS · JavaScript · GitHub</p>
+            <p className="text-[#f0f8ff]">HTML · CSS · JavaScript</p>
           </div>
 
           {/* TicTacToeAI */}
@@ -364,7 +363,7 @@ const Projects = () => {
               </a>
             </div>
             <h3 className="text-[#f44336] py-2">Technologies</h3>
-            <p className="text-[#f0f8ff]">Python · Minimax · GitHub</p>
+            <p className="text-[#f0f8ff]">Python · Minimax</p>
           </div>
 
           {/* Autonomous Robot */}
