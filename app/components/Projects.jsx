@@ -185,12 +185,6 @@ const Projects = () => {
             <p className="text-[#f0f8ff]">
               HTML · CSS · JavaScript · Cohere AI
             </p>
-            <h3 className="py-6 px-auto">
-              <span className="text-[#f44336]">Team:</span>{" "}
-              <a target="_blank" href="https://www.linkedin.com/in/konareic/">
-                <span className="underline">Ibrahim Konare</span>
-              </a>
-            </h3>
           </div>
 
           {/* Forum Website */}
