@@ -88,7 +88,7 @@ const Contact = () => {
         </div>
         <div className="flex justify-center py-12">
           <Link href="/#home">
-            <div className=" bg-[#101720] shadow-md shadow-blue-900 rounded-full p-4 cursor-pointer hover:scale-110 ease-in duration-200">
+            <div className=" bg-[#101720] shadow-sm animate-bounce shadow-blue-900 rounded-full p-4 cursor-pointer hover:scale-110 ease-in duration-200">
               <HiChevronDoubleUp className="m-auto text-[#f44336]" size={25} />
             </div>
           </Link>
