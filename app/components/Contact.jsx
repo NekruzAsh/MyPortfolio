@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import { HiChevronDoubleUp } from "react-icons/hi";
 import { IoIosMail } from "react-icons/io";
-import { IoLogoLinkedin } from "react-icons/io5";
+import { FaPhoneSquare } from "react-icons/fa";
 
 
 
@@ -19,18 +19,18 @@ const Contact = () => {
               <div className="text-[#f0f8ff]">
                 <h2 className="py-2">Nekruz Ashrapov</h2>
                 <p className="text-gray-400 uppercase">Student/Developer</p>
-                <p className="py-4">
+                <p className="py-4 text-[#f0f8ff]">
                   I am available for Summer 2024 Co-op/Internship. <br /> If you
                   have any opportunities, insights, or questions please reach
                   out to me at:
                 </p>
                 <div className="flex items-center">
                   <span className="text-[#f44336]"><IoIosMail size={25} /></span>{" "}
-                  <span className="ml-2">ashrapnz@mail.uc.edu</span>
+                  <span className="ml-2 text-[#f0f8ff]">ashrapnz@mail.uc.edu</span>
                 </div>
                 <div className="flex items-center">
-                  <span className="text-[#f44336]"><IoLogoLinkedin size={25} /></span>{" "}
-                  <a className="ml-2 hover:text-[#f44336]" href="https://www.linkedin.com/in/nekruzash/" target="_blank">Nekruz | LinkedIn</a>
+                  <span className="text-[#f44336]"><FaPhoneSquare size={25} /></span>{" "}
+                  <span className="ml-2 text-[#f0f8ff]">+1 (929) 554-0055</span>
                 </div>
                 
               </div>
