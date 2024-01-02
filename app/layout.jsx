@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Rubik } from "next/font/google";
 import "./globals.css";
@@ -47,7 +48,7 @@ export default function RootLayout({ children }) {
         <About />
         <Skills />
         <Projects />
-        <Contact />
+        <Contact /> 
 
         {children}
       </body>

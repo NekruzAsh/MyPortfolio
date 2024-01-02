@@ -77,7 +77,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#101720] shadow-md shadow-black rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#101720] shadow-md shadow-white rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image

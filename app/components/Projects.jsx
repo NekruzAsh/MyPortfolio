@@ -1,411 +1,382 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 const Projects = () => {
+  const [isFlipped, setIsFlipped] = useState(false);
+
   return (
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <h2 className="text-[#f44336] uppercase py-8">Projects.</h2>
-        
+
         <p className="mb-16 text-gray-400 text-[17px] max-w-3xl leading-[30px]">
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          links to code repositories and live demos. It reflects my ability to
+          solve complex problems, work with different technologies, and manage
+          projects effectively.
         </p>
-      
-        <div className="grid md:grid-cols-2 gap-8">
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Chat App */}
-          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-blue-900 rounded-xl p-4 bg-[#101720]">
-            <Image
-              className="rounded-xl"
-              src="/images/chat.png"
-              width={600}
-              height={600}
-              alt="Chat Application"
-            />
-          </div>
-          <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
-            <h2 className="py-4">Chat App</h2>
-            <p className="text-[15px]">
-              · This is a simple chat application that allows users to signin
-              with their Google account and send messages.
-              <br />
-              · Developed a Firebase backend server to store user data,
-              messages, and to retrieve chat messages in real-time, leveraging a
-              NoSQL database.
-              <br />
-              · Implemented Firebase Authentication to authenticate users
-              through Google accounts.
-              <br />· Researched different Firebase services like Firestore
-              database to automatically sync data across devices in a new
-              collection document.
-            </p>
-            <div className="flex justify-center py-8">
-              <button className="mr-10 px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] hover:text-white">
-                <a target="_blank" href="https://chatapp-3a0e9.web.app/">
-                  Demo
-                </a>
-              </button>
-              <a
-                target="_blank"
-                href="https://github.com/NekruzAsh/Chat-app.git"
-              >
-                <Image
-                  className="hover:scale-105 duration-300 ease-in"
-                  src="/images/github.png"
-                  width={50}
-                  height={50}
-                  alt="github"
-                />
-              </a>
+          <div className="card w-84 bg-[#101720] shadow-lg shadow-blue-900">
+            <figure className="px-10 pt-10">
+              <img
+                className="rounded-xl"
+                src="/images/chat.png"
+                alt="Chat Application"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="uppercase card-title text-[#f44336]">
+                Chat Application
+              </h2>
+              <p className="mb-10 text-[16px] text-[#f0f8ff]">
+                · Simple chat application that allows users to signin with their
+                Google account and send messages.
+                <br />
+                · Developed a Firebase backend server to store user data,
+                messages, and to retrieve chat messages in real-time, leveraging
+                a NoSQL database.
+                <br />
+                · Implemented Firebase Authentication to authenticate users
+                through Google accounts.
+                <br />· Researched different Firebase services like Firestore
+                database to automatically sync data across devices in a new
+                collection document.
+              </p>
+              <div className="card-actions justify-end">
+                <div className="badge badge-outline text-[#f0f8ff]">NextJS</div>
+                <div className="badge badge-outline text-[#f0f8ff]">
+                  ReactJS
+                </div>
+                <div className="badge badge-outline text-[#f0f8ff]">
+                  JavaScript
+                </div>
+                <div className="badge badge-outline text-[#f0f8ff]">
+                  Tailwind CSS
+                </div>
+                <div className="badge badge-outline text-[#f0f8ff]">
+                  Firebase
+                </div>
+                <div className="badge badge-outline text-[#f0f8ff]">
+                  DaisyUI
+                </div>
+              </div>
+              <div className="card-actions justify-end mt-6">
+                <button className="px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] text-sm hover:text-white">
+                  <a target="_blank" href="https://chatapp-3a0e9.web.app/">
+                    DEMO
+                  </a>
+                </button>
+                <button className="px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] text-sm hover:text-white">
+                  <a
+                    target="_blank"
+                    href="https://github.com/NekruzAsh/Chat-app.git"
+                  >
+                    CODE
+                  </a>
+                </button>
+              </div>
             </div>
-            <h3 className="text-[#f44336] py-2">Technologies</h3>
-            <p className="text-[#f0f8ff]">
-              NextJS · ReactJS · JavaScript · TailwindCSS · Firebase · DaisyUI
-            </p>
-          </div>
-          {/* To-Do App */}
-          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-blue-900 rounded-xl p-4 bg-[#101720]">
-            <Image
-              className="rounded-xl"
-              src="/images/todoapp.png"
-              width={600}
-              height={600}
-              alt="to-do application"
-            />
-          </div>
-          <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
-            <h2 className="py-4">To-Do Notes App</h2>
-            <p className="text-[15px]">
-              · This is a simple to-do notes application with CRUD operations
-              that allow users to create, delete and mark completed tasks.
-              <br />
-              · The data is saved in the local storage of the browser.
-              <br />
-              · Developed with NextJS and JavaScript using ternary operators and
-              event handlers.
-              <br />
-              · Utilized 'useState' React hook to manage the state of the
-              application.
-              <br />
-              · Improved managing tasks, reduced mental load, and helped
-              allocate time effectively and meet deadlines.
-              <br />
-              <span className="text-[#f44336] text-[15px]">Try it out!</span>
-            </p>
-            <div className="flex justify-center py-8">
-              <button className="mr-10 px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] hover:text-white">
-                <a
-                  target="_blank"
-                  href="https://to-do-app-weld-seven.vercel.app/"
-                >
-                  Demo
-                </a>
-              </button>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/NekruzAsh/To-do-App.git"
-              >
-                <Image
-                  className="hover:scale-105 duration-300 ease-in"
-                  src="/images/github.png"
-                  width={50}
-                  height={50}
-                  alt="github"
-                />
-              </a>
-            </div>
-            <h3 className="text-[#f44336] py-2">Technologies</h3>
-            <p className="text-[#f0f8ff]">
-              JavaScript · ReactJS · NextJS · TailwindCSS · DaisyUI
-            </p>
           </div>
 
-          {/* Project QuizGen */}
-          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-blue-900 rounded-xl p-4 bg-[#101720]">
-            <Image
-              className="rounded-xl"
-              src="/images/quizgenn.png"
-              width={600}
-              height={600}
-              alt="quizgen"
-            />
-          </div>
-          <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
-            <h2 className="py-4">QuizGen - MakeUC Hackathon 2023</h2>
-            <p className="text-[15px]">
-              · This is a tool built for teachers and students to generate quiz
-              questions using AI and user text input.
-              <br />
-              · Developed with Cohere AI API and JavaScript to fetch data from
-              the API, read user input and generate questions based on the
-              content.
-              <br />
-              · Researched 3 different AI companies to test and implement their
-              product in our project.
-              <br />
-              · Leveraged AI parameters like temperature, context length, and
-              max tokens to fine-tune the behavior of the AI model to best fit
-              our project.
-              <br />
-              · Increased productivity and efficiency by 45% during studying and
-              test preparation for final exam week.
-              <br />
-              <span className="text-[#f44336] text-[15px]">Try it out!</span>
-            </p>
-            <div className="flex justify-center py-8">
-              <button className="mr-10 px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] hover:text-white">
-                <a
-                  target="_blank"
-                  href="https://nekruzash.github.io/QuizGen/"
-                  rel="noopener noreferrer"
-                >
-                  Demo
-                </a>
-              </button>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/NekruzAsh/QuizGen.git"
-              >
-                <Image
-                  className="hover:scale-105 duration-300 ease-in"
-                  src="/images/github.png"
-                  width={50}
-                  height={50}
-                  alt="github"
-                />
-              </a>
-            </div>
-            <h3 className="text-[#f44336] py-2">Technologies</h3>
-            <p className="text-[#f0f8ff]">
-              HTML · CSS · JavaScript · Cohere AI
-            </p>
-          </div>
+          {/* Quiz Gen */}
 
-          {/* Forum Website */}
-          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-blue-900 rounded-xl p-4 bg-[#101720]">
-            <Image
-              className="rounded-xl"
-              src="/images/forum.png"
-              width={600}
-              height={600}
-              alt="forum website"
-            />
-          </div>
-          <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
-            <h2 className="py-4">Forum Website</h2>
-            <p className="text-[15px]">
-              · This is a forum website clone similar to{" "}
-              <a
-                className="text-[#f44336]"
-                target="_blank"
-                href="https://www.reddit.com/"
-              >
-                Reddit.com
-              </a>{" "}
-              where users can signup and login using existing accounts. Posting
-              and commenting on posts (coming soon).
-              <br />
-              · Researched database management systems like MongoDB and
-              PostgreSQL to store user data in a cloud database.
-              <br />
-              · Built a backend server with ExpressJS web framework and
-              JavaScript to maintain scalability and performance.
-              <br />
-              · Implemented Bcrypt algorithm to hash and encrypt user passwords
-              to ensure security against brute force attacks.
-              <br />
-              <span className="text-[#f44336] text-[15px]">Try it out!</span>
-              <br />
-              Username: username
-              <br />
-              Password: 1234
-            </p>
-            <div className="flex justify-center py-8">
-              <button className="mr-10 px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] hover:text-white">
-                <a
-                  target="_blank"
-                  href="https://forumwebsite.onrender.com"
-                  rel="noopener noreferrer"
-                >
-                  Demo
-                </a>
-              </button>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/NekruzAsh/forumwebsite.git"
-              >
-                <Image
-                  className="hover:scale-105 duration-300 ease-in"
-                  src="/images/github.png"
-                  width={50}
-                  height={50}
-                  alt="github"
-                />
-              </a>
+          <div className="card w-84 bg-[#101720] shadow-lg shadow-blue-900">
+            <figure className="px-10 pt-10">
+              <img
+                className="rounded-xl"
+                src="/images/quizgenn.png"
+                alt="QuizGen Website"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="uppercase card-title text-[#f44336]">
+                QuizGen Hackathon
+              </h2>
+              <p className="mb-10 text-[#f0f8ff]">
+                · Tool built for teachers and students to generate quiz
+                questions using AI and user text input.
+                <br />
+                · Developed with Cohere AI API and JavaScript to fetch data from
+                the API, read user input and generate questions based on the
+                content.
+                <br />
+                · Researched 3 different AI companies to test and implement
+                their product in our project.
+                <br />
+                · Leveraged AI parameters like temperature, context length, and
+                max tokens to fine-tune the behavior of the AI model to best fit
+                our project.
+                <br />· Increased productivity and efficiency by 45% during
+                studying and test preparation for final exam week.
+              </p>
+              <div className="card-actions justify-end">
+                <div className="badge badge-outline text-[#f0f8ff]">HTML</div>
+                <div className="badge badge-outline text-[#f0f8ff]">CSS</div>
+                <div className="badge badge-outline text-[#f0f8ff]">
+                  JavaScript
+                </div>
+                <div className="badge badge-outline text-[#f0f8ff]">
+                  Cohere AI
+                </div>
+              </div>
+              <div className="card-actions justify-end mt-6">
+                <button className="px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] text-sm hover:text-white">
+                  <a
+                    target="_blank"
+                    href="https://nekruzash.github.io/QuizGen/"
+                  >
+                    DEMO
+                  </a>
+                </button>
+                <button className="px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] text-sm hover:text-white">
+                  <a
+                    target="_blank"
+                    href="https://github.com/NekruzAsh/QuizGen.git"
+                  >
+                    CODE
+                  </a>
+                </button>
+              </div>
             </div>
-            <h3 className="text-[#f44336] py-2">Technologies</h3>
-            <p className="text-[#f0f8ff]">
-              ExpressJS · CSS · JavaScript · MongoDB · NodeJS
-            </p>
           </div>
 
           {/* Amazon Affiliate */}
 
-          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-blue-900 rounded-xl p-4 bg-[#101720]">
-            <Image
-              className="rounded-xl"
-              src="/images/amazon.png"
-              width={600}
-              height={600}
-              alt="Amazon Affiliate"
-            />
-          </div>
-          <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
-            <h2 className="py-4">Amazon Affiliate</h2>
-            <p className="text-[15px]">
-              · This is an article website used to promote Amazon products
-              specifically technology category and earn commission from Amazon
-              Affiliate marketing program.
-              <br />
-              · Developed and designed with HTML, CSS and JavaScript to enhance
-              user experience.
-              <br />
-              · Researched different articles and products to promote based on
-              the market demand and competition.
-              <br />
-              · Integrated different SEO techniques to rank higher in search
-              results.
-              <br />
-              <span className="text-[#f44336] text-[15px]">Try it out!</span>
-            </p>
-            <div className="flex justify-center py-8">
-              <button className="mr-10 px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] hover:text-white">
-                <a
-                  target="_blank"
-                  href="https://nekruzash.github.io/amazonaffiliate/"
-                  rel="noopener noreferrer"
-                >
-                  Demo
-                </a>
-              </button>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/NekruzAsh/amazonaffiliate.git"
-              >
-                <Image
-                  className="hover:scale-105 duration-300 ease-in"
-                  src="/images/github.png"
-                  width={50}
-                  height={50}
-                  alt="github"
-                />
-              </a>
+          <div className="card w-84 bg-[#101720] shadow-lg shadow-blue-900">
+            <figure className="px-10 pt-10">
+              <img
+                className="rounded-xl"
+                src="/images/todoapp.png"
+                alt="To-do"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="uppercase card-title text-[#f44336]">
+                To-Do Notes App
+              </h2>
+              <p className="mb-10 text-[#f0f8ff]">
+                · Single page to-do notes web application with CRUD operations
+                that allow users to create, delete and mark completed tasks.
+                <br />
+                · Developed with NextJS and JavaScript using ternary operators
+                and event handlers.
+                <br />
+                · Utilized 'useState' React hook to manage the state of the
+                application.
+                <br />· Improved managing tasks, reduced mental load, and helped
+                allocate time effectively and meet deadlines.
+              </p>
+              <div className="card-actions justify-end">
+                <div className="badge badge-outline text-[#f0f8ff]">NextJS</div>
+                <div className="badge badge-outline text-[#f0f8ff]">
+                  ReactJS
+                </div>
+                <div className="badge badge-outline text-[#f0f8ff]">
+                  JavaScript
+                </div>
+                <div className="badge badge-outline text-[#f0f8ff]">
+                  Tailwind CSS
+                </div>
+                <div className="badge badge-outline text-[#f0f8ff]">
+                  DaisyUI
+                </div>
+              </div>
+              <div className="card-actions justify-end mt-6">
+                <button className="px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] text-sm hover:text-white">
+                  <a
+                    target="_blank"
+                    href="https://to-do-app-weld-seven.vercel.app/"
+                  >
+                    DEMO
+                  </a>
+                </button>
+                <button className="px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] text-sm hover:text-white">
+                  <a
+                    target="_blank"
+                    href="https://github.com/NekruzAsh/To-Do-App.git"
+                  >
+                    CODE
+                  </a>
+                </button>
+              </div>
             </div>
-            <h3 className="text-[#f44336] py-2">Technologies</h3>
-            <p className="text-[#f0f8ff]">HTML · CSS · JavaScript</p>
           </div>
 
-          {/* TicTacToeAI */}
-          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-blue-900 rounded-xl p-4 bg-[#101720]">
-            <Image
-              className="rounded-xl"
-              src="/images/tictactoe.png"
-              width={600}
-              height={600}
-              alt="TicTacToeAI"
-            />
-          </div>
-          <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
-            <h2 className="py-4">TicTacToe AI</h2>
-            <p className="text-[15px]">
-              · This is a TicTacToe game with two different game modes: Player
-              Vs. Player and Player Vs. AI.
-              <br />
-              · Developed with Python's Tkinter GUI library and Minimax
-              algorithm to make an unbeatable AI opponent.
-              <br />
-              · Researched the Minimax algorithm and implemented the algorithm
-              for AI decision-making, considering different possible outcomes.
-              <br />
-              · Utilized event handlers for buttons, managed the state of the
-              game using Python's data structures like lists, updating the UI
-              accordingly.
-              <br />· Implemented randomization to determine which player goes
-              first and added an option menu to choose the game mode.
-            </p>
-            <div className="flex justify-center py-8">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/NekruzAsh/TicTacToeAI.git"
-              >
-                <Image
-                  className="hover:scale-105 duration-300 ease-in"
-                  src="/images/github.png"
-                  width={50}
-                  height={50}
-                  alt="github"
-                />
-              </a>
+          {/* Amazon Affiliate */}
+
+          <div className="card w-84 bg-[#101720] shadow-lg shadow-blue-900">
+            <figure className="px-10 pt-10">
+              <img
+                className="rounded-xl"
+                src="/images/forum.png"
+                alt="forum website"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="uppercase card-title text-[#f44336]">
+                Forum Website
+              </h2>
+              <p className="mb-10 text-[#f0f8ff]">
+                · Forum website clone similar to{" "}
+                <a
+                  className="text-[#f44336]"
+                  target="_blank"
+                  href="https://www.reddit.com/"
+                >
+                  Reddit.com
+                </a>{" "}
+                where users can signup and login using existing accounts.
+                <br />
+                · Researched database management systems like MongoDB and
+                PostgreSQL to store user data in a cloud database.
+                <br />
+                · Built a backend server with ExpressJS web framework,
+                JavaScript, and MongoDB to maintain scalability and performance.
+                <br />· Implemented Bcrypt algorithm to hash and encrypt user
+                passwords to ensure security against brute force attacks.
+                <br />
+                <span className="text-[#f44336]">Try it out!</span>
+                <br />
+                Username: username
+                <br />
+                Password: 1234
+              </p>
+              <div className="card-actions justify-end">
+                <div className="badge badge-outline text-[#f0f8ff]">
+                  ExpressJS
+                </div>
+                <div className="badge badge-outline text-[#f0f8ff]">CSS</div>
+                <div className="badge badge-outline text-[#f0f8ff]">
+                  JavaScript
+                </div>
+                <div className="badge badge-outline text-[#f0f8ff]">
+                  MongoDB
+                </div>
+                <div className="badge badge-outline text-[#f0f8ff]">NodeJS</div>
+              </div>
+              <div className="card-actions justify-end mt-6">
+                <button className="px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] text-sm hover:text-white">
+                  <a target="_blank" href="https://forumwebsite.onrender.com">
+                    DEMO
+                  </a>
+                </button>
+                <button className="px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] text-sm hover:text-white">
+                  <a
+                    target="_blank"
+                    href="https://github.com/NekruzAsh/forumwebsite.git"
+                  >
+                    CODE
+                  </a>
+                </button>
+              </div>
             </div>
-            <h3 className="text-[#f44336] py-2">Technologies</h3>
-            <p className="text-[#f0f8ff]">Python · Minimax</p>
           </div>
 
-          {/* Autonomous Robot */}
-          <div className="relative flex items-center md:m-auto justify-center h-auto w-full shadow-lg shadow-blue-900 rounded-xl p-4 bg-[#101720]">
-            <Image
-              className="rounded-xl"
-              src="/images/atrrobot.png"
-              width={600}
-              height={600}
-              alt="Atr Robot"
-            />
-          </div>
-          <div className="m-auto px-4 sm:px-8 md:px-20 lg:px-28">
-            <h2 className="py-4">Autonomous Robot</h2>
-            <p className="text-[15px]">
-              · Built and designed an autonomous robot similar to Amazon's
-              Proteus warehouse robot that can scan barcodes and deliver
-              packages to the designated location.
-              <br />
-              · Developed with Python and LEGO Mindstorms to control the robot's
-              movement and behavior.
-              <br />
-              · Collaborated with a team of 4 different engineering discipline
-              students to design and build the robot for an Engineering Design
-              course at the University of Cincinnati.
-              <br />
-              · Reached the final demo where the robot was able to autonomously
-              scan barcodes and deliver packages to the designated locations in
-              the maze.
-              <br />
-              <span className="text-[#f44336] text-[15px]">
-                Check out the docs for more information.
-              </span>
-            </p>
-            <div className="flex justify-center py-8">
-              <button className="px-5 py-3 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] hover:text-white">
-                <a
-                  target="_blank"
-                  href="https://drive.google.com/file/d/1yZuABIqW8cpnE0LzjnIuGm_Hjy1wAHO0/view?usp=sharing"
-                >
-                  Docs
-                </a>
-              </button>
+          {/* Amazon Affiliate */}
+
+          <div className="card w-84 bg-[#101720] shadow-lg shadow-blue-900">
+            <figure className="px-10 pt-10">
+              <img
+                className="rounded-xl"
+                src="/images/amazon.png"
+                alt="Amazon Affiliate"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="uppercase card-title text-[#f44336]">
+                Amazon Affiliate
+              </h2>
+              <p className="mb-10 text-[#f0f8ff]">
+                · Article website used to promote Amazon products specifically
+                technology category and earn commission from Amazon Affiliate
+                marketing program.
+                <br />
+                · Developed and designed with HTML, CSS and JavaScript to
+                enhance user experience.
+                <br />
+                · Researched different articles and products to promote based on
+                the market demand and competition.
+                <br />· Integrated different SEO techniques to rank higher in
+                search results.
+              </p>
+              <div className="card-actions justify-end">
+                <div className="badge badge-outline text-[#f0f8ff]">HTML</div>
+                <div className="badge badge-outline text-[#f0f8ff]">CSS</div>
+                <div className="badge badge-outline text-[#f0f8ff]">
+                  JavaScript
+                </div>
+              </div>
+              <div className="card-actions justify-end mt-6">
+                <button className="px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] text-sm hover:text-white">
+                  <a
+                    target="_blank"
+                    href="https://nekruzash.github.io/amazonaffiliate/"
+                  >
+                    DEMO
+                  </a>
+                </button>
+                <button className="px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] text-sm hover:text-white">
+                  <a
+                    target="_blank"
+                    href="https://github.com/NekruzAsh/amazonaffiliate.git"
+                  >
+                    CODE
+                  </a>
+                </button>
+              </div>
             </div>
-            <h3 className="text-[#f44336] py-2">Technologies</h3>
-            <p className="text-[#f0f8ff]">
-              Python · EV3 Brick · Microsoft Excel
-            </p>
+          </div>
+
+          {/* TicTacToe AI */}
+
+          <div className="card w-84 bg-[#101720] shadow-lg shadow-blue-900">
+            <figure className="px-10 pt-10">
+              <img
+                className="rounded-xl"
+                src="/images/tictactoe.png"
+                alt="TicTacToeAI"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="uppercase card-title text-[#f44336]">
+                Tic-Tac-Toe AI
+              </h2>
+              <p className="mb-10 text-[#f0f8ff]">
+                · Tic-Tac-Toe game with two different game modes: Player Vs.
+                Player and Player Vs. AI.
+                <br />
+                · Developed with Python's Tkinter GUI library and Minimax
+                algorithm to make an unbeatable AI opponent.
+                <br />
+                · Researched the Minimax algorithm and implemented the algorithm
+                for AI decision-making, considering different possible outcomes.
+                <br />· Utilized event handlers for buttons and managed the
+                state of the game using Python's data structures with lists,
+                updating the UI accordingly.
+              </p>
+              <div className="card-actions justify-end">
+                <div className="badge badge-outline text-[#f0f8ff]">Python</div>
+                <div className="badge badge-outline text-[#f0f8ff]">
+                  Minimax
+                </div>
+              </div>
+              <div className="card-actions justify-end mt-6">
+                <button className="px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] text-sm hover:text-white">
+                  <a
+                    target="_blank"
+                    href="https://github.com/NekruzAsh/TicTacToeAI.git"
+                  >
+                    CODE
+                  </a>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

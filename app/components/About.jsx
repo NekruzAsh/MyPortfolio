@@ -17,24 +17,23 @@ const About = () => {
             beautiful software using various programming languages. I was
             hooked. Those initial lines of code evolved into a love for
             programming, driving me to explore the intricate aspects of this
-            craft and to pursue a degree in Computer Science. I'm currently a second-year Computer Science student at the
-            University of Cincinnati.
+            craft.
           </p>
 
           <p className="py-2 text-[#f0f8ff]">
-            For the past years I spent time learning more about
-            different programming languages and how they are used in different
-            applications. I started experimenting with HTML and CSS and started
-            building and designing these beautiful websites. Later on, I learned about complex animations with JavaScript in order to
-            provide my websites with interactivity they needed. This led me to
-            learn React and backend databases like MongoDB, now I'm practing
-            with a different tech stack that includes NextJS and TailwindCSS to
-            build innovative websites.
+            I am currently an undergraduate student at the University at
+            Cincinnati pursuing a degree in Computer Science. Also, I'm a
+            self-taught Software Developer with a passion for building dynamic
+            and responsive web applications. I love to learn new technologies
+            and apply them to my projects. My tech stack includes React and
+            Tailwind CSS for front-end development, and I use NodeJS, Express,
+            and MongoDB for back-end development. I also have experience with
+            Python, C++, and C.
           </p>
 
           <button className="py-2 text-[#f0f8ff] cursor-pointer hover:text-[#f44336] bg-[#101720] shadow-sm shadow-[#476a97] btn btn-sm">
             <Link href="/#projects">Check out my latest projects</Link>
-            </button> 
+          </button>
         </div>
 
         <div className="w-64 h-64 shadow-lg shadow-[#476a97] items-center relative overflow-hidden rounded-full justify-center hover:scale-105 ease-in duration-300 ml-16 mt-16">

@@ -1,3 +1,4 @@
+
 import React from "react";
 import Link from "next/link";
 
@@ -17,7 +18,7 @@ const Contact = () => {
             <div className="lg:p-4 h-full">
               <div className="text-[#f0f8ff]">
                 <h2 className="py-2">Nekruz Ashrapov</h2>
-                <p>Front-End Developer</p>
+                <p className="text-gray-400 uppercase">Student/Developer</p>
                 <p className="py-4">
                   I am available for Summer 2024 Co-op/Internship. <br /> If you
                   have any opportunities, insights, or questions please reach
@@ -78,7 +79,7 @@ const Contact = () => {
                   ></textarea>
                 </div>
                 <div className="flex justify-center">
-                  <button className="text-[#f0f8ff] bg-[#f44336] hover:bg-blue-900 hover:shadow-sm hover:shadow-[#0e2a44] font-bold rounded shadow-md shadow-black py-2 px-6 inline-flex items-center">
+                  <button className="text-black bg-[#f44336] hover:bg-blue-900 hover:shadow-sm hover:shadow-[#0e2a44] hover:text-[#f0f8ff] font-bold rounded shadow-md shadow-black py-2 px-6 inline-flex items-center">
                     Send
                   </button>
                 </div>
@@ -99,3 +100,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
