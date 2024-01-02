@@ -60,21 +60,13 @@ const Contact = () => {
                     />
                   </div>
                 </div>
-                <div className="flex flex-col py-2">
-                  <label className=" text-md py-2 text-[#f0f8ff]">Your Subject</label>
-                  <input
-                    className="text-[#f0f8ff] bg-[#0e2a44] rounded-lg p-3 flex"
-                    type="text"
-                    placeholder="What's your subject?"
-                    name="subject"
-                  />
-                </div>
+                
                 <div className="flex flex-col py-2">
                   <label className=" text-md py-2 text-[#f0f8ff]">Your Message</label>
                   <textarea
                     className="text-[#f0f8ff] bg-[#0e2a44] rounded-lg p-3"
                     rows="10"
-                    placeholder="What's your message?"
+                    placeholder="Message"
                     name="message"
                   ></textarea>
                 </div>
