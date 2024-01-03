@@ -20,7 +20,7 @@ const Contact = () => {
                 <h2 className="py-2">Nekruz Ashrapov</h2>
                 <p className="text-gray-400 uppercase">Student/Developer</p>
                 <p className="py-4 text-[#f0f8ff]">
-                  I am available for Summer 2024 Co-op/Internship. <br /> If you
+                  Available for Summer 2024 Co-op/Internship. <br /> If you
                   have any opportunities, insights, or questions please reach
                   out to me at:
                 </p>
