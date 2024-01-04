@@ -66,13 +66,13 @@ const Contact = () => {
                   <textarea
                     className="text-[#f0f8ff] bg-[#0e2a44] rounded-lg p-3"
                     rows="10"
-                    placeholder="Message"
+                    placeholder="What do you want to say?"
                     name="message"
                   ></textarea>
                 </div>
                 <div className="flex justify-center">
                   <button className="btn7 btn5">
-                    Send
+                    SEND
                   </button>
                 </div>
               </form>

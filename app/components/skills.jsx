@@ -5,6 +5,7 @@ const Skills = () => {
   return (
     <div id="skills" className="w-full lg:h-screen p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
+        <p className="uppercase text-gray-400 text-[17px]">Skills</p>
         <h2 className="text-[#f44336] uppercase py-4">Languages & Tools.</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="p-6 bg-[#101720] shadow-md shadow-orange-500 rounded-xl hover:scale-105 ease-in duration-300">

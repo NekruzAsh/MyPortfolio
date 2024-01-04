@@ -36,7 +36,7 @@ const About = () => {
           </button>
         </div>
 
-        <div className="w-64 h-64 shadow-lg shadow-[#476a97] items-center relative overflow-hidden rounded-full justify-center hover:scale-105 ease-in duration-300 ml-16 mt-16">
+        <div className="w-64 h-64 shadow-md shadow-[#476a97] items-center relative overflow-hidden rounded-full justify-center hover:scale-105 ease-in duration-300 ml-16 mt-16">
           <Image
             src="/images/picture.jpg"
             width={280}

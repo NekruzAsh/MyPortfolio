@@ -17,7 +17,7 @@ const main = () => {
             from New York.
           </h1>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-12">
-            <div className="rounded-lg shadow-sm shadow-[#476a97] bg-[#101720] p-3 cursor-pointer hover:scale-110 ease-in duration-200">
+            <div className="rounded shadow-sm shadow-[#476a97] bg-[#101720] p-3 cursor-pointer hover:scale-110 ease-in duration-200">
               <Link
                 target="_blank"
                 rel="noopener noreferrer"
@@ -27,7 +27,7 @@ const main = () => {
               </Link>
             </div>
 
-            <button className="group relative h-12 w-48 overflow-hidden rounded-lg bg-[#101720] text-[#f0f8ff] text-lg shadow-sm shadow-[#476a97]">
+            <button className="group relative h-12 w-48 overflow-hidden rounded bg-[#101720] text-[#f0f8ff] text-lg shadow-sm shadow-[#476a97]">
               <div className="absolute inset-0 w-3 bg-[#f44336] transition-all duration-[250ms] ease-out group-hover:w-full"></div>
               <Link
                 className="relative text-xl text-[#f0f8ff] group-hover:text-[#f0f8ff]"
@@ -38,7 +38,7 @@ const main = () => {
               </Link>
             </button>
 
-            <div className="rounded-md shadow-sm shadow-[#476a97] p-3 cursor-pointer bg-[#101720] hover:scale-110 ease-in duration-200">
+            <div className="rounded shadow-sm shadow-[#476a97] p-3 cursor-pointer bg-[#101720] hover:scale-110 ease-in duration-200">
               <Link
                 target="_blank"
                 rel="noopener noreferrer"
