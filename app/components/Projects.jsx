@@ -67,12 +67,12 @@ const Projects = () => {
                 </div>
               </div>
               <div className="card-actions justify-end mt-6">
-                <button className="px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] text-sm hover:text-white">
+                <button className="btn1 btn2">
                   <a target="_blank" href="https://chatapp-3a0e9.web.app/">
                     DEMO
                   </a>
                 </button>
-                <button className="px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] text-sm hover:text-white">
+                <button className="btn1 btn2">
                   <a
                     target="_blank"
                     href="https://github.com/NekruzAsh/Chat-app.git"
@@ -126,7 +126,7 @@ const Projects = () => {
                 </div>
               </div>
               <div className="card-actions justify-end mt-6">
-                <button className="px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] text-sm hover:text-white">
+                <button className="btn1 btn2">
                   <a
                     target="_blank"
                     href="https://nekruzash.github.io/QuizGen/"
@@ -134,7 +134,7 @@ const Projects = () => {
                     DEMO
                   </a>
                 </button>
-                <button className="px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] text-sm hover:text-white">
+                <button className="btn1 btn2">
                   <a
                     target="_blank"
                     href="https://github.com/NekruzAsh/QuizGen.git"
@@ -188,7 +188,7 @@ const Projects = () => {
                 </div>
               </div>
               <div className="card-actions justify-end mt-6">
-                <button className="px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] text-sm hover:text-white">
+                <button className="btn1 btn2">
                   <a
                     target="_blank"
                     href="https://to-do-app-weld-seven.vercel.app/"
@@ -196,7 +196,7 @@ const Projects = () => {
                     DEMO
                   </a>
                 </button>
-                <button className="px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] text-sm hover:text-white">
+                <button className="btn1 btn2">
                   <a
                     target="_blank"
                     href="https://github.com/NekruzAsh/To-Do-App.git"
@@ -261,12 +261,12 @@ const Projects = () => {
                 <div className="badge badge-outline text-[#f0f8ff]">NodeJS</div>
               </div>
               <div className="card-actions justify-end mt-6">
-                <button className="px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] text-sm hover:text-white">
+                <button className="btn1 btn2">
                   <a target="_blank" href="https://forumwebsite.onrender.com">
                     DEMO
                   </a>
                 </button>
-                <button className="px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] text-sm hover:text-white">
+                <button className="btn1 btn2">
                   <a
                     target="_blank"
                     href="https://github.com/NekruzAsh/forumwebsite.git"
@@ -313,7 +313,7 @@ const Projects = () => {
                 </div>
               </div>
               <div className="card-actions justify-end mt-6">
-                <button className="px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] text-sm hover:text-white">
+                <button className="btn1 btn2">
                   <a
                     target="_blank"
                     href="https://nekruzash.github.io/amazonaffiliate/"
@@ -321,7 +321,7 @@ const Projects = () => {
                     DEMO
                   </a>
                 </button>
-                <button className="px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] text-sm hover:text-white">
+                <button className="btn1 btn2">
                   <a
                     target="_blank"
                     href="https://github.com/NekruzAsh/amazonaffiliate.git"
@@ -367,7 +367,7 @@ const Projects = () => {
                 </div>
               </div>
               <div className="card-actions justify-end mt-6">
-                <button className="px-4 py-2 border-2 border-[#f44336] rounded-lg shadow-sm shadow-[#f44336] text-[#f44336] cursor-pointer hover:bg-[#f44336] text-sm hover:text-white">
+                <button className="btn1 btn2">
                   <a
                     target="_blank"
                     href="https://github.com/NekruzAsh/TicTacToeAI.git"
