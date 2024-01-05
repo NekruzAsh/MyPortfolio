@@ -10,8 +10,8 @@ const Projects = () => {
   return (
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <p className="text-gray-400 text-[17px] uppercase">My Work</p>
-        <h2 className="text-[#f44336] uppercase py-4">Projects.</h2>
+        <p className="text-[#f44336] text-[17px] uppercase">My Work</p>
+        <h2 className="text-[#f0f8ff] py-4">Projects.</h2>
 
         <p className="mb-16 text-gray-400 text-[17px] max-w-3xl leading-[30px]">
           Following projects showcases my skills and experience through

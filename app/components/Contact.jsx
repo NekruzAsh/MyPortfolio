@@ -12,7 +12,8 @@ const Contact = () => {
   return (
     <div id="contact" className="w-full lg:h-screen ">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
-        <h2 className=" uppercase text-[#f44336] py-4">Contact.</h2>
+        <p className="text-[#f44336] uppercase text-[17px]">What's next?</p>
+        <h2 className=" text-[#f0f8ff] py-4">Contact.</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-md shadow-blue-900 rounded-xl p-4 bg-[#101720]">
             <div className="lg:p-4 h-full">
@@ -71,8 +72,8 @@ const Contact = () => {
                   ></textarea>
                 </div>
                 <div className="flex justify-center">
-                  <button className="btn7 btn5">
-                    SEND
+                  <button className="btn7 btn5 uppercase">
+                    Send
                   </button>
                 </div>
               </form>

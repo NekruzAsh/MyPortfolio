@@ -56,7 +56,7 @@ html {
 .btn2 {
   border: 2px solid #f44336;
   z-index: 1;
-  color: #f0f8ff;
+  color: #f44336;
 }
 
 .btn2:after {
@@ -99,7 +99,7 @@ html {
 .btn5 {
   border: 2px solid #f44336;
   z-index: 1;
-  color: #f0f8ff;
+  color: #f44336;
 }
 
 .btn5:after {
