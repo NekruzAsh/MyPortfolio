@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="w-full lg:h-screen flex justify-center items-center"
+      className="w-full lg:h-[150%] flex justify-center items-center"
     >
       <div className="max-w-[760px] m-auto px-2 py-16 w-full">
         <p className="text-lg text-[#f44336] py-2 text-center">
@@ -18,7 +18,7 @@ const Contact = () => {
         <h2 className=" text-[#BFD0E3] py-4 text-center md:text-[60px] mx-auto">
           Get In Touch
         </h2>
-        <p className="text-[#7899BD] text-[17px] py-4 text-center mx-8">
+        <p className="text-[#7899BD] text-[17px] py-4 text-center mx-10 mb-10">
           I am actively looking for a <span className="text-[#f44336]"> Summer 2024 Internship/Co-op</span>. If you have any
           opportunities, insights, or just want to say hi, please message me. I will get back to you as soon as possible!
         </p>
@@ -72,6 +72,11 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        <div className="text-sm text-center mt-36 text-[#7899BD] cursor-pointer hover:text-[#f44336] transition-colors duration-500">
+          <a href="https://github.com/NekruzAsh/MyPortfolio.git" target="_blank">Designed and Built by Nekruz Ashrapov</a>
+        </div>
+          <p className="text-sm text-center text-[#7899BD]">ashrapnz@mail.uc.edu</p>
+          <p className="text-sm text-center text-[#7899BD]">+1 (929) 554-0055</p>
       </div>
     </div>
   );
