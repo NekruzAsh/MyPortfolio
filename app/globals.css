@@ -6,6 +6,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 @layer base {
   
 
@@ -43,8 +44,8 @@ html {
 
 .btn1 {
   padding: 10px 25px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
   background: transparent;
   outline: none !important;
   cursor: pointer;
@@ -67,7 +68,7 @@ html {
   bottom: 0;
   left: 0;
   z-index: -1;
-  background: #f0f8ff;
+  background: #BFD0E3;
   transition: all 0.3s ease;
 }
 
@@ -86,8 +87,8 @@ html {
 
 .btn7 {
   padding: 10px 25px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
   background: transparent;
   outline: none !important;
   cursor: pointer;
@@ -111,7 +112,7 @@ html {
   left: 0;
   direction: rtl;
   z-index: -1;
-  background: #f0f8ff;
+  background: #BFD0E3;
   transition: all 0.3s ease;
 }
 

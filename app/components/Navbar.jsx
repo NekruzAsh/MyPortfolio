@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import "../globals.css";
 
 const myResume = "/images/NekruzAshrapovResume.pdf";
@@ -49,35 +48,35 @@ const navbar = () => {
         <div>
           <ul className="hidden items-center md:flex">
             <Link href="/#about">
-              <li className="ml-10 text-sm uppercase hover:text-[#f44336] transition-colors duration-400">
-                About
+              <li className="ml-10 text-md text-[#7899BD] hover:text-[#f44336] transition-colors duration-500">
+              <span className=" text-[#f44336]">01.</span> About
               </li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-sm uppercase hover:text-[#f44336] transition-colors duration-400">
-                Skills
+              <li className="ml-10 text-md text-[#7899BD] hover:text-[#f44336] transition-colors duration-500">
+              <span className=" text-[#f44336]">02.</span> Skills
               </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-sm uppercase hover:text-[#f44336] transition-colors duration-400">
-                Projects
+              <li className="ml-10 text-md text-[#7899BD] hover:text-[#f44336] transition-colors duration-500">
+              <span className="text-[#f44336]">03.</span> Projects
               </li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 text-sm uppercase hover:text-[#f44336] transition-colors duration-400">
-                Contact
+              <li className="ml-10 text-md text-[#7899BD] hover:text-[#f44336] transition-colors duration-500">
+              <span className=" text-[#f44336]">04.</span> Contact
               </li>
             </Link>
             <Link
-              className="btn1 btn2 mx-4 text-sm ml-10"
+              className="btn1 btn2 mx-4 text-md ml-10"
               href={myResume}
               target="_blank"
             >
-              <span className="font-bold uppercase">Resume</span>
+                  Resume
             </Link>
           </ul>
-          <div onClick={handleNav} className="md:hidden">
-            <AiOutlineMenu size={25} />
+          <div onClick={handleNav} className="md:hidden text-[#f44336]">
+            <AiOutlineMenu size={30} />
           </div>
         </div>
       </div>
@@ -104,67 +103,34 @@ const navbar = () => {
                 quality={100}
               />
               <div onClick={handleNav} className="p-3 cursor-pointer">
-                <AiOutlineClose size={25} className="text-[#f44336]" />
+                <AiOutlineClose size={30} className="text-[#f44336]" />
               </div>
-            </div>
-            <div className="border-b border-[#f44336] my-4">
-              <p className="text-[#f0f8ff] w-[85%] md:w-[90%] py-4">
-                Let's Build the Future Together
-              </p>
             </div>
           </div>
-          <div className="py-4 flex flex-col">
-            <ul className="uppercase">
-              <Link href="/#home">
-                <li className="py-4 text-sm text-[#f0f8ff]">Home</li>
-              </Link>
+          <div className="items-center text-center py-16 flex flex-col">
+            <ul className=" hover:text-[#f44336] transition-colors duration-500">
               <Link href="/#about">
-                <li className="py-4 text-sm text-[#f0f8ff]">About</li>
+               
+                <li className="py-4 text-md text-[#7899BD]"><span className="text-[#f44336]">01.</span><br />About</li>
               </Link>
               <Link href="/#skills">
-                <li className="py-4 text-sm text-[#f0f8ff]">Skills</li>
+                <li className="py-4 text-md text-[#7899BD]"><span className="text-[#f44336]">02.</span><br />Skills</li>
               </Link>
               <Link href="/#projects">
-                <li className="py-4 text-sm text-[#f0f8ff]">Projects</li>
+                <li className="py-4 text-md text-[#7899BD]"><span className="text-[#f44336]">03.</span><br />Work</li>
               </Link>
               <Link href="/#contact">
-                <li className="py-4 text-sm text-[#f0f8ff]">Contact</li>
+                <li className="py-4 text-md text-[#7899BD]"><span className="text-[#f44336]">04.</span><br />Contact</li>
               </Link>
             </ul>
-            <div className="flex items-center justify-between m-auto py-12">
-              <div className="cursor-pointer">
-                <Link
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.linkedin.com/in/nekruzash/"
-                >
-                  <FaLinkedinIn
-                    size={25}
-                    className="text-[#f44336] hover:text-[#f0f8ff] transition-colors duration-400"
-                  />
-                </Link>
-              </div>
-
+            <div className="py-4">
               <Link
                 className="btn1 btn2 mx-4 text-sm"
                 href={myResume}
                 target="_blank"
               >
-                <span className="font-bold uppercase">Resume</span>
+                    Resume
               </Link>
-
-              <div className="cursor-pointer">
-                <Link
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/NekruzAsh"
-                >
-                  <FaGithub
-                    size={25}
-                    className="text-[#f44336] hover:text-[#f0f8ff] transition-colors duration-400"
-                  />
-                </Link>
-              </div>
             </div>
           </div>
         </div>
