@@ -25,7 +25,7 @@ const About = () => {
 
           <p className="py-2 text-gray-400">
             Also, I'm a self-taught Software Developer with a passion for
-            building dynamic and responsive web applications. I I love to learn
+            building dynamic and responsive web applications. I love to learn
             new technologies and apply them to my projects. My tech stack
             includes React and Tailwind CSS for front-end development, and I use
             NodeJS, Express, and MongoDB for back-end development. I also have
