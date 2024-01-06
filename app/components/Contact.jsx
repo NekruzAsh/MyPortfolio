@@ -19,7 +19,7 @@ const Contact = () => {
           Get In Touch
         </h2>
         <p className="text-[#7899BD] text-[17px] py-4 text-center mx-10 mb-10">
-          I am actively looking for a <span className="text-[#f44336]"> Summer 2024 Internship/Co-op</span>. If you have any
+          I am actively seeking a <span className="text-[#f44336]"> Summer 2024 Internship/Co-op</span>. If you have any
           opportunities, insights, or just want to say hi, please message me. I will get back to you as soon as possible!
         </p>
         <div className="grid lg:grid-cols-5 gap-8">

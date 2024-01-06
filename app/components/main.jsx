@@ -30,7 +30,7 @@ const main = () => {
               strong focus on Software Engineering and Artificial Intelligence.
             </p>
           </div>
-          <div className="flex items-center md:py-12 py-14 sm:py-2">
+          <div className="flex items-center md:py-12 py-6 sm:py-2">
             <div className="flex space-x-4 cursor-pointer">
               <Link
                 target="_blank"
