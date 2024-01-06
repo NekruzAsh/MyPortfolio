@@ -27,7 +27,7 @@ const main = () => {
               <span className="text-[#f44336]">University of Cincinnati</span>{" "}
               pursuing a degree in{" "}
               <span className="text-[#f44336]">Computer Science</span> with a
-              strong focus in Software Engineering and Artificial Intelligence.
+              strong focus on Software Engineering and Artificial Intelligence.
             </p>
           </div>
           <div className="flex items-center md:py-12 py-14 sm:py-2">
