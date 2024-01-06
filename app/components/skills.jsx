@@ -7,7 +7,7 @@ const Skills = () => {
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <h2 className="text-[#BFD0E3] py-4 flex items-center">
           <span className=" text-[#f44336]">02.&nbsp;</span> Languages & Tools
-          <hr className="border-[#2f3b49] border-t-1 ml-4 flex-grow" />
+          
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-xl hover:scale-105 ease-in duration-300">

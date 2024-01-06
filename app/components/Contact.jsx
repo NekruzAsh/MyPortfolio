@@ -31,35 +31,43 @@ const Contact = () => {
               >
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col ">
-                    <label className=" text-md py-2 text-[#f0f8ff]">
+                    <label className=" text-md py-2 text-[#7899BD]">
                       Your Name
                     </label>
                     <input
-                      className="text-[#f0f8ff] bg-[#0e2a44] rounded-lg p-3 flex"
+                      className="text-[#f3f7fc] bg-[#2e3846] rounded-lg p-3 flex"
                       type="text"
                       placeholder="What's your name?"
                       name="name"
                     />
                   </div>
                   <div className="flex flex-col">
-                    <label className=" text-md py-2 text-[#f0f8ff]">
+                    <label className=" text-md py-2 text-[#7899BD]">
                       Your Email
                     </label>
                     <input
-                      className="text-[#f0f8ff] bg-[#0e2a44] rounded-lg p-3 flex"
+                      className="text-[#f3f7fc] bg-[#2e3846] rounded-lg p-3 flex"
                       type="email"
                       placeholder="What's your email?"
                       name="email"
                     />
                   </div>
                 </div>
-
                 <div className="flex flex-col py-2">
-                  <label className=" text-md py-2 text-[#f0f8ff]">
+                  <label className=" text-md py-2 text-[#7899BD]">Your Subject</label>
+                  <input
+                    className="text-[#f3f7fc] bg-[#2e3846] rounded-lg p-3 flex"
+                    type="text"
+                    placeholder="What's your subject?"
+                    name="subject"
+                  />
+                </div>
+                <div className="flex flex-col py-2">
+                  <label className=" text-md py-2 text-[#7899BD]">
                     Your Message
                   </label>
                   <textarea
-                    className="text-[#f0f8ff] bg-[#0e2a44] rounded-lg p-3"
+                    className="text-[#f3f7fc] bg-[#2e3846] rounded-lg p-3"
                     rows="10"
                     placeholder="What do you want to say?"
                     name="message"
