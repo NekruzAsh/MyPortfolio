@@ -48,8 +48,9 @@ const About = () => {
           </button>
         </div>
 
-        <div className="w-64 h-64 shadow-md shadow-[#476a97] items-center relative overflow-hidden rounded-full justify-center hover:scale-105 ease-in duration-300 ml-16 mt-16">
+        <div className="w-64 h-64 shadow-md shadow-[#476a97] items-center relative overflow-hidden rounded-full justify-center hover:bg-gradient-to-r from-[#f44336] to-[#f44336] hover:scale-105 ease-in duration-300 ml-16 mt-16">
           <Image
+          className="hover:opacity-70"
             src="/images/authorimg.jpg"
             width={280}
             height={280}
