@@ -74,7 +74,7 @@ const Contact = () => {
                   ></textarea>
                 </div>
                 <div className="flex justify-center">
-                  <button className="btn7 btn5 uppercase">send</button>
+                  <button className="btn1 btn2 uppercase">send</button>
                 </div>
               </form>
             </div>
