@@ -43,7 +43,7 @@ const About = () => {
             development. I also have experience with <span className="text-[#f44336]">Python</span>, <span className="text-[#f44336]">C++</span>, and <span className="text-[#f44336]">C</span>.
           </p>
 
-          <button className="py-2 text-[#BFD0E3] cursor-pointer hover:text-[#f44336] transition-colors duration-500 bg-[#101922] shadow-sm shadow-[#476a97] btn btn-sm">
+          <button className="btn1 btn2 text-sm" style={{ padding: "0.5rem" }}>
             <Link href="/#projects">Check out my latest projects</Link>
           </button>
         </div>
