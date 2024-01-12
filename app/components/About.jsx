@@ -43,9 +43,14 @@ const About = () => {
             <span className="text-[#f44336]">C++</span>, and{" "}
             <span className="text-[#f44336]">C</span>.
           </p>
-          <button className="btn1 btn2 text-sm" style={{ padding: "0.5rem" }}>
-            <Link href="/#projects">Check out my latest projects</Link>
-          </button>
+
+          <Link
+            href="/#projects"
+            className="btn1 btn2 text-sm"
+            style={{ padding: "0.5rem" }}
+          >
+            Check out my latest projects
+          </Link>
         </div>
 
         <div className="w-64 h-64 shadow-md shadow-[#476a97] items-center relative overflow-hidden rounded-full justify-center hover:bg-gradient-to-r from-[#f44336] to-[#f44336] hover:scale-105 ease-in duration-300 ml-16 mt-16">

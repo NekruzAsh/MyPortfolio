@@ -11,18 +11,18 @@ const Projects = () => {
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <div className="max-w-3xl">
-        <h2 className="text-[#BFD0E3] py-4 flex items-center">
-          <span className=" text-[#f44336]">03.&nbsp;</span> My Work
-          <hr className="border-[#2f3b49] border-t-1 ml-4 flex-grow" />
-        </h2>
+          <h2 className="text-[#BFD0E3] py-4 flex items-center">
+            <span className=" text-[#f44336]">03.&nbsp;</span> My Work
+            <hr className="border-[#2f3b49] border-t-1 ml-4 flex-grow" />
+          </h2>
 
-        <p className="mb-16 text-[#7899BD] text-[17px] max-w-3xl leading-[30px]">
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos. It reflects my ability to
-          solve complex problems, work with different technologies, and manage
-          projects effectively.
-        </p>
+          <p className="mb-16 text-[#7899BD] text-[17px] max-w-3xl leading-[30px]">
+            Following projects showcases my skills and experience through
+            real-world examples of my work. Each project is briefly described
+            with links to code repositories and live demos. It reflects my
+            ability to solve complex problems, work with different technologies,
+            and manage projects effectively.
+          </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Chat App */}
@@ -49,36 +49,28 @@ const Projects = () => {
               </p>
               <div className="card-actions justify-end mx-[-14px] md:px-2 md:mt-[-100px] text-[#BFD0E3]">
                 <div className="badge badge-outline">NextJS</div>
-                <div className="badge badge-outline">
-                  ReactJS
-                </div>
-                <div className="badge badge-outline">
-                  JavaScript
-                </div>
-                <div className="badge badge-outline">
-                  Tailwind CSS
-                </div>
-                <div className="badge badge-outline">
-                  Firebase
-                </div>
-                <div className="badge badge-outline">
-                  DaisyUI
-                </div>
+                <div className="badge badge-outline">ReactJS</div>
+                <div className="badge badge-outline">JavaScript</div>
+                <div className="badge badge-outline">Tailwind CSS</div>
+                <div className="badge badge-outline">Firebase</div>
+                <div className="badge badge-outline">DaisyUI</div>
               </div>
               <div className="card-actions justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
-                <button className="btn1 btn2">
-                  <a target="_blank" href="https://chatapp-3a0e9.web.app/">
-                    DEMO
-                  </a>
-                </button>
-                <button className="btn1 btn2">
-                  <a
-                    target="_blank"
-                    href="https://github.com/NekruzAsh/Chat-app.git"
-                  >
-                    CODE
-                  </a>
-                </button>
+                <Link
+                  className="btn1 btn2"
+                  target="_blank"
+                  href="https://chatapp-3a0e9.web.app/"
+                >
+                  DEMO
+                </Link>
+
+                <Link
+                  className="btn1 btn2"
+                  target="_blank"
+                  href="https://github.com/NekruzAsh/Chat-app.git"
+                >
+                  CODE
+                </Link>
               </div>
             </div>
           </div>
@@ -111,30 +103,25 @@ const Projects = () => {
               <div className="card-actions justify-end mx-[-14px] md:px-2 md:mt-[-100px] text-[#BFD0E3]">
                 <div className="badge badge-outline">HTML</div>
                 <div className="badge badge-outline">CSS</div>
-                <div className="badge badge-outline">
-                  JavaScript
-                </div>
-                <div className="badge badge-outline">
-                  Cohere AI
-                </div>
+                <div className="badge badge-outline">JavaScript</div>
+                <div className="badge badge-outline">Cohere AI</div>
               </div>
               <div className="card-actions justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
-                <button className="btn1 btn2">
-                  <a
-                    target="_blank"
-                    href="https://nekruzash.github.io/QuizGen/"
-                  >
-                    DEMO
-                  </a>
-                </button>
-                <button className="btn1 btn2">
-                  <a
-                    target="_blank"
-                    href="https://github.com/NekruzAsh/QuizGen.git"
-                  >
-                    CODE
-                  </a>
-                </button>
+                <Link
+                  className="btn1 btn2"
+                  target="_blank"
+                  href="https://nekruzash.github.io/QuizGen/"
+                >
+                  DEMO
+                </Link>
+
+                <Link
+                  className="btn1 btn2"
+                  target="_blank"
+                  href="https://github.com/NekruzAsh/QuizGen.git"
+                >
+                  CODE
+                </Link>
               </div>
             </div>
           </div>
@@ -164,36 +151,27 @@ const Projects = () => {
               </p>
               <div className="card-actions justify-end mx-[-14px] md:px-2 md:mt-[-100px] text-[#BFD0E3]">
                 <div className="badge badge-outline">NextJS</div>
-                <div className="badge badge-outline">
-                  ReactJS
-                </div>
-                <div className="badge badge-outline">
-                  JavaScript
-                </div>
-                <div className="badge badge-outline">
-                  Tailwind CSS
-                </div>
-                <div className="badge badge-outline">
-                  DaisyUI
-                </div>
+                <div className="badge badge-outline">ReactJS</div>
+                <div className="badge badge-outline">JavaScript</div>
+                <div className="badge badge-outline">Tailwind CSS</div>
+                <div className="badge badge-outline">DaisyUI</div>
               </div>
               <div className="card-actions justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
-                <button className="btn1 btn2">
-                  <a
-                    target="_blank"
-                    href="https://to-do-app-weld-seven.vercel.app/"
-                  >
-                    DEMO
-                  </a>
-                </button>
-                <button className="btn1 btn2">
-                  <a
-                    target="_blank"
-                    href="https://github.com/NekruzAsh/To-Do-App.git"
-                  >
-                    CODE
-                  </a>
-                </button>
+                <Link
+                  className="btn1 btn2"
+                  target="_blank"
+                  href="https://to-do-app-weld-seven.vercel.app/"
+                >
+                  DEMO
+                </Link>
+
+                <Link
+                  className="btn1 btn2"
+                  target="_blank"
+                  href="https://github.com/NekruzAsh/To-Do-App.git"
+                >
+                  CODE
+                </Link>
               </div>
             </div>
           </div>
@@ -234,32 +212,28 @@ const Projects = () => {
                 Password: 1234
               </p>
               <div className="card-actions justify-end mx-[-14px] md:px-2 md:mt-[-100px] text-[#BFD0E3]">
-                <div className="badge badge-outline ">
-                  ExpressJS
-                </div>
+                <div className="badge badge-outline ">ExpressJS</div>
                 <div className="badge badge-outline ">CSS</div>
-                <div className="badge badge-outline ">
-                  JavaScript
-                </div>
-                <div className="badge badge-outline ">
-                  MongoDB
-                </div>
+                <div className="badge badge-outline ">JavaScript</div>
+                <div className="badge badge-outline ">MongoDB</div>
                 <div className="badge badge-outline ">NodeJS</div>
               </div>
               <div className="card-actions justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
-                <button className="btn1 btn2">
-                  <a target="_blank" href="https://forumwebsite.onrender.com">
-                    DEMO
-                  </a>
-                </button>
-                <button className="btn1 btn2">
-                  <a
-                    target="_blank"
-                    href="https://github.com/NekruzAsh/forumwebsite.git"
-                  >
-                    CODE
-                  </a>
-                </button>
+                <Link
+                  className="btn1 btn2"
+                  target="_blank"
+                  href="https://forumwebsite.onrender.com"
+                >
+                  DEMO
+                </Link>
+
+                <Link
+                  className="btn1 btn2"
+                  target="_blank"
+                  href="https://github.com/NekruzAsh/forumwebsite.git"
+                >
+                  CODE
+                </Link>
               </div>
             </div>
           </div>
@@ -290,27 +264,27 @@ const Projects = () => {
               <div className="card-actions justify-end mx-[-14px] md:px-2 md:mt-[-100px] text-[#BFD0E3]">
                 <div className="badge badge-outline ">HTML</div>
                 <div className="badge badge-outline ">CSS</div>
-                <div className="badge badge-outline ">
-                  JavaScript
-                </div>
+                <div className="badge badge-outline ">JavaScript</div>
               </div>
               <div className="card-actions justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
-                <button className="btn1 btn2">
-                  <a
+                
+                  <Link
+                    className="btn1 btn2"
                     target="_blank"
                     href="https://nekruzash.github.io/amazonaffiliate/"
                   >
                     DEMO
-                  </a>
-                </button>
-                <button className="btn1 btn2">
-                  <a
+                  </Link>
+                
+              
+                  <Link
+                    className="btn1 btn2"
                     target="_blank"
                     href="https://github.com/NekruzAsh/amazonaffiliate.git"
                   >
                     CODE
-                  </a>
-                </button>
+                  </Link>
+               
               </div>
             </div>
           </div>
@@ -341,19 +315,18 @@ const Projects = () => {
               </p>
               <div className="card-actions justify-end mx-[-14px] md:px-2 md:mt-[-100px] text-[#BFD0E3]">
                 <div className="badge badge-outline">Python</div>
-                <div className="badge badge-outline">
-                  Minimax
-                </div>
+                <div className="badge badge-outline">Minimax</div>
               </div>
               <div className="card-actions justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
-                <button className="btn1 btn2">
-                  <a
+                
+                  <Link
+                    className="btn1 btn2"
                     target="_blank"
                     href="https://github.com/NekruzAsh/TicTacToeAI.git"
                   >
                     CODE
-                  </a>
-                </button>
+                  </Link>
+               
               </div>
             </div>
           </div>
