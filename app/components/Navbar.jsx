@@ -5,7 +5,7 @@ import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import "../globals.css";
 
-const myResume = "/images/NekruzAshrapovResume.pdf";
+const myResume = "/images/NekruzAshrapov_Resume_Summer2024.pdf";
 
 const navbar = () => {
   const [nav, setNav] = useState(false);
