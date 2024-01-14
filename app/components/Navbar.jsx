@@ -95,6 +95,7 @@ const navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
+              <Link href="/#home">
               <Image
                 src="/images/jolly.png"
                 alt="logo"
@@ -102,6 +103,7 @@ const navbar = () => {
                 height={68}
                 quality={100}
               />
+              </Link>
               <div onClick={handleNav} className="p-3 cursor-pointer">
                 <AiOutlineClose size={30} className="text-[#f44336]" />
               </div>
