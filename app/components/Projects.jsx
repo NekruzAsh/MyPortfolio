@@ -56,21 +56,24 @@ const Projects = () => {
                 <div className="badge badge-outline">DaisyUI</div>
               </div>
               <div className="card-actions justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
-                <Link
-                  className="btn1 btn2"
-                  target="_blank"
+                <a
                   href="https://chatapp-3a0e9.web.app/"
-                >
-                  DEMO
-                </Link>
-
-                <Link
-                  className="btn1 btn2"
                   target="_blank"
-                  href="https://github.com/NekruzAsh/Chat-app.git"
+                  className="relative flex w-[6rem] h-[50px] text-md px-6 py-3 mr-2 cursor-pointer text-[#f44336] hover:text-[#011222] group"
                 >
-                  CODE
-                </Link>
+                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
+                  <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
+                  <span className="relative">DEMO</span>
+                </a>
+                <a
+                  href="https://github.com/NekruzAsh/Chat-app.git"
+                  target="_blank"
+                  className="relative flex w-[6rem] h-[50px] text-md px-6 py-3 cursor-pointer text-[#f44336] hover:text-[#011222] group"
+                >
+                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
+                  <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
+                  <span className="relative">CODE</span>
+                </a>
               </div>
             </div>
           </div>
@@ -107,21 +110,24 @@ const Projects = () => {
                 <div className="badge badge-outline">Cohere AI</div>
               </div>
               <div className="card-actions justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
-                <Link
-                  className="btn1 btn2"
-                  target="_blank"
+                <a
                   href="https://nekruzash.github.io/QuizGen/"
-                >
-                  DEMO
-                </Link>
-
-                <Link
-                  className="btn1 btn2"
                   target="_blank"
-                  href="https://github.com/NekruzAsh/QuizGen.git"
+                  className="relative flex w-[6rem] h-[50px] text-md px-6 py-3 mr-2 cursor-pointer text-[#f44336] hover:text-[#011222] group"
                 >
-                  CODE
-                </Link>
+                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
+                  <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
+                  <span className="relative">DEMO</span>
+                </a>
+                <a
+                  href="https://github.com/NekruzAsh/QuizGen.git"
+                  target="_blank"
+                  className="relative flex w-[6rem] h-[50px] text-md px-6 py-3 cursor-pointer text-[#f44336] hover:text-[#011222] group"
+                >
+                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
+                  <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
+                  <span className="relative">CODE</span>
+                </a>
               </div>
             </div>
           </div>
@@ -157,21 +163,24 @@ const Projects = () => {
                 <div className="badge badge-outline">DaisyUI</div>
               </div>
               <div className="card-actions justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
-                <Link
-                  className="btn1 btn2"
-                  target="_blank"
+                <a
                   href="https://to-do-app-weld-seven.vercel.app/"
-                >
-                  DEMO
-                </Link>
-
-                <Link
-                  className="btn1 btn2"
                   target="_blank"
-                  href="https://github.com/NekruzAsh/To-Do-App.git"
+                  className="relative flex w-[6rem] h-[50px] text-md px-6 py-3 mr-2 cursor-pointer text-[#f44336] hover:text-[#011222] group"
                 >
-                  CODE
-                </Link>
+                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
+                  <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
+                  <span className="relative">DEMO</span>
+                </a>
+                <a
+                  href="https://github.com/NekruzAsh/To-Do-App.git"
+                  target="_blank"
+                  className="relative flex w-[6rem] h-[50px] text-md px-6 py-3 cursor-pointer text-[#f44336] hover:text-[#011222] group"
+                >
+                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
+                  <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
+                  <span className="relative">CODE</span>
+                </a>
               </div>
             </div>
           </div>
@@ -219,21 +228,24 @@ const Projects = () => {
                 <div className="badge badge-outline ">NodeJS</div>
               </div>
               <div className="card-actions justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
-                <Link
-                  className="btn1 btn2"
-                  target="_blank"
+                <a
                   href="https://forumwebsite.onrender.com"
-                >
-                  DEMO
-                </Link>
-
-                <Link
-                  className="btn1 btn2"
                   target="_blank"
-                  href="https://github.com/NekruzAsh/forumwebsite.git"
+                  className="relative flex w-[6rem] h-[50px] text-md px-6 py-3 mr-2 cursor-pointer text-[#f44336] hover:text-[#011222] group"
                 >
-                  CODE
-                </Link>
+                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
+                  <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
+                  <span className="relative">DEMO</span>
+                </a>
+                <a
+                  href="https://github.com/NekruzAsh/forumwebsite.git"
+                  target="_blank"
+                  className="relative flex w-[6rem] h-[50px] text-md px-6 py-3 cursor-pointer text-[#f44336] hover:text-[#011222] group"
+                >
+                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
+                  <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
+                  <span className="relative">CODE</span>
+                </a>
               </div>
             </div>
           </div>
@@ -267,24 +279,24 @@ const Projects = () => {
                 <div className="badge badge-outline ">JavaScript</div>
               </div>
               <div className="card-actions justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
-                
-                  <Link
-                    className="btn1 btn2"
-                    target="_blank"
-                    href="https://nekruzash.github.io/amazonaffiliate/"
-                  >
-                    DEMO
-                  </Link>
-                
-              
-                  <Link
-                    className="btn1 btn2"
-                    target="_blank"
-                    href="https://github.com/NekruzAsh/amazonaffiliate.git"
-                  >
-                    CODE
-                  </Link>
-               
+                <a
+                  href="https://nekruzash.github.io/amazonaffiliate/"
+                  target="_blank"
+                  className="relative flex w-[6rem] h-[50px] text-md px-6 py-3 mr-2 cursor-pointer text-[#f44336] hover:text-[#011222] group"
+                >
+                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
+                  <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
+                  <span className="relative">DEMO</span>
+                </a>
+                <a
+                  href="https://github.com/NekruzAsh/amazonaffiliate.git"
+                  target="_blank"
+                  className="relative flex w-[6rem] h-[50px] text-md px-6 py-3 cursor-pointer text-[#f44336] hover:text-[#011222] group"
+                >
+                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
+                  <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
+                  <span className="relative">CODE</span>
+                </a>
               </div>
             </div>
           </div>
@@ -318,15 +330,15 @@ const Projects = () => {
                 <div className="badge badge-outline">Minimax</div>
               </div>
               <div className="card-actions justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
-                
-                  <Link
-                    className="btn1 btn2"
-                    target="_blank"
-                    href="https://github.com/NekruzAsh/TicTacToeAI.git"
-                  >
-                    CODE
-                  </Link>
-               
+                <a
+                  href="https://github.com/NekruzAsh/TicTacToeAI.git"
+                  target="_blank"
+                  className="relative flex w-[6rem] h-[50px] text-md px-6 py-3 cursor-pointer text-[#f44336] hover:text-[#011222] group"
+                >
+                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
+                  <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
+                  <span className="relative">CODE</span>
+                </a>
               </div>
             </div>
           </div>

@@ -74,7 +74,15 @@ const Contact = () => {
                   ></textarea>
                 </div>
                 <div className="flex justify-center">
-                  <button className="btn1 btn2 uppercase">send</button>
+                  <button>
+                <a
+                  className="relative flex w-[6rem] h-[50px] text-md mt-2 uppercase px-6 py-3 cursor-pointer text-[#f44336] hover:text-[#011222] group"
+                >
+                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
+                  <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
+                  <span className="relative">send</span>
+                </a>
+                </button>
                 </div>
               </form>
             </div>

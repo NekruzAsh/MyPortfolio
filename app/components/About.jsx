@@ -44,13 +44,11 @@ const About = () => {
             <span className="text-[#f44336]">C</span>.
           </p>
 
-          <Link
-            href="/#projects"
-            className="btn1 btn2 text-sm"
-            style={{ padding: "0.5rem" }}
-          >
-            Check out my latest projects
-          </Link>
+          <a href="/#projects" className="relative flex w-[270px] h-[50px] px-6 py-4 font-medium text-[14px] cursor-pointer text-[#f44336] hover:text-[#011222] group">
+            <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0"/>
+            <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]"/>
+            <span className="relative">Check out my recent projects</span>
+        </a>
         </div>
 
         <div className="w-64 h-64 shadow-md shadow-[#476a97] items-center relative overflow-hidden rounded-full justify-center hover:bg-gradient-to-r from-[#f44336] to-[#f44336] hover:scale-105 ease-in duration-300 ml-16 mt-16">
