@@ -9,7 +9,7 @@ const Projects = () => {
 
   return (
     <div id="projects" className="w-full">
-      <div className="max-w-[1240px] mx-auto lg:px-2 px-24 py-36 lg:py-16">
+      <div className="max-w-[1240px] mx-auto px-4 py-20 lg:px-2 md:px-24 md:py-36 lg:py-16">
         <div className="max-w-3xl">
           <h2 className="text-[#BFD0E3] py-4 flex items-center">
             <span className=" text-[#f44336]">03.&nbsp;</span> My Work

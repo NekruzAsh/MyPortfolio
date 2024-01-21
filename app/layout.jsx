@@ -10,6 +10,7 @@ import About from "./components/About";
 import Skills from "./components/skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Links from "./components/SocialLinks";
 
 const rubik = Rubik({ subsets: ["latin"] });
 
@@ -44,6 +45,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={rubik.className}>
         <Navbar />
+        <Links />
         <Main />
         <About />
         <Skills />

@@ -11,7 +11,7 @@ const Contact = () => {
       id="contact"
       className="w-full lg:h-[150%] flex justify-center items-center"
     >
-      <div className="max-w-[760px] m-auto md:px-2 px-20 py-16 w-full">
+      <div className="max-w-[760px] m-auto lg:px-2 md:px-20 md:py-16 px-2 py-2 w-full">
         <p className="text-lg text-[#f44336] py-2 text-center">
           04. What's Next?
         </p>
