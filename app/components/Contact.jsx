@@ -91,7 +91,6 @@ const Contact = () => {
         <div className="text-sm text-center mt-36 text-[#7899BD] cursor-pointer hover:text-[#f44336] transition-colors duration-500">
           <a href="https://github.com/NekruzAsh/MyPortfolio.git" target="_blank">Designed and Built by Nekruz Ashrapov</a>
         </div>
-          <p className="text-sm text-center text-[#7899BD]">ashrapnz@mail.uc.edu</p>
           <p className="text-sm text-center text-[#7899BD]">+1 (929) 554-0055</p>
       </div>
     </div>
