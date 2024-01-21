@@ -10,7 +10,7 @@ const SocialLinks = () => {
       <a href="https://www.linkedin.com/in/nekruzash/" target="_blank" className='text-[#7899BD] hover:text-[#f44336] transition-colors duration-500'>
         <FaLinkedinIn size={24} />
       </a>
-      <div className="border-l-2 border-[#7899BD] h-20"></div>
+      <div className="border-l-2 border-[#7899BD] h-36"></div>
     </div>
   )
 }

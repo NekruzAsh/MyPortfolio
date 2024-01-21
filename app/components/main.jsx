@@ -32,27 +32,14 @@ const main = () => {
           </div>
           <div className="flex items-center md:py-12 py-6 sm:py-2">
             <div className="flex space-x-4 cursor-pointer">
-              <Link
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/nekruzash/"
-              >
-                <FaLinkedinIn
-                  size={30}
-                  className="text-[#f44336] hover:text-[#BFD0E3] transition-colors duration-500"
-                />
-              </Link>
-
-              <Link
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/NekruzAsh"
-              >
-                <FaGithub
-                  size={30}
-                  className="text-[#f44336] hover:text-[#BFD0E3] transition-colors duration-500"
-                />
-              </Link>
+            <a
+                  href="https://github.com/NekruzAsh" target="_blank"
+                  className="relative flex w-[15rem] h-[50px] text-md mt-2 uppercase px-6 py-3 cursor-pointer text-[#f44336] hover:text-[#011222] group"
+                >
+                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
+                  <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
+                  <span className="relative">Check Out My Github</span>
+                </a>
             </div>
           </div>
         </div>
