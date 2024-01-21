@@ -9,7 +9,7 @@ const Projects = () => {
 
   return (
     <div id="projects" className="w-full">
-      <div className="max-w-[1240px] mx-auto px-2 py-16">
+      <div className="max-w-[1240px] mx-auto lg:px-2 px-24 py-36 lg:py-16">
         <div className="max-w-3xl">
           <h2 className="text-[#BFD0E3] py-4 flex items-center">
             <span className=" text-[#f44336]">03.&nbsp;</span> My Work
@@ -24,7 +24,7 @@ const Projects = () => {
             and manage projects effectively.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Chat App */}
           <div className="card w-84 md:h-[720px] h-[600px] bg-[#101922] shadow-lg shadow-blue-900">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">

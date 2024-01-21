@@ -4,13 +4,13 @@ import Image from "next/image";
 const Skills = () => {
   return (
     <div id="skills" className="w-full lg:h-screen p-2">
-      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-        <h2 className="text-[#BFD0E3] py-4 flex items-center">
+      <div className="max-w-[1065px] mx-auto flex flex-col justify-center h-full">
+        <h2 className="text-[#BFD0E3] py-4 sm:px-24 md:py-10 md:px-24 flex">
           <span className=" text-[#f44336]">02.&nbsp;</span> Languages & Tools
           
         </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-xl hover:scale-105 ease-in duration-300">
+        <div className="grid md:grid-cols-2 sm:px-[100px] md:px-[100px] lg:grid-cols-3 gap-8">
+          <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-sm hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -25,7 +25,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-sm hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src="/images/css.png" width={64} height={64} alt="css" />
@@ -35,7 +35,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-sm hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -50,7 +50,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-sm hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -65,7 +65,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-sm hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -80,7 +80,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-sm hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -95,7 +95,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-sm hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -110,7 +110,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-sm hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -125,7 +125,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-sm hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -140,7 +140,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-sm hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -155,7 +155,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-sm hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src="/images/git.png" width={64} height={64} alt="GIT" />
@@ -165,7 +165,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#101922] shadow-md shadow-blue-900 rounded-sm hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
