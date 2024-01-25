@@ -202,7 +202,7 @@ const Projects = () => {
               <p className="mb-2 mx-[-14px] md:mb-10 md:mt-[-5px] md:px-2 text-[14px] md:text-[16px] text-[#7899BD]">
                 Forum website clone similar to{" "}
                 <a
-                  className="text-[#f44336]"
+                  className="text-[#f44336] hover:text-[#BFD0E3] duration-500 transition"
                   target="_blank"
                   href="https://www.reddit.com/"
                 >
