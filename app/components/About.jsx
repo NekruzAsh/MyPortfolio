@@ -45,8 +45,8 @@ const About = () => {
           </p>
 
           <a href="/#projects" className="relative flex w-[300px] h-[50px] px-6 py-4 font-medium text-[14px] cursor-pointer text-[#f44336] hover:text-[#011222] group">
-            <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0"/>
-            <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]"/>
+            <span className="absolute inset-0 w-full h-[51px] transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0"/>
+            <span className="absolute inset-0 w-full h-[51px] border-2 border-[#f44336]"/>
             <span className="relative uppercase">Check out my recent projects</span>
         </a>
         </div>
