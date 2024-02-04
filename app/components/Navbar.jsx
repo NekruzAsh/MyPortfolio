@@ -41,8 +41,8 @@ const navbar = () => {
           <Image
             src="/images/logoo.png"
             alt="logo"
-            width={80}
-            height={80}
+            width={70}
+            height={70}
             quality={100}
           />
         </Link>
