@@ -39,8 +39,7 @@ const navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/#home">
           <Image
-            className="pt-5"
-            src="/images/logoo.svg"
+            src="/images/logoo.png"
             alt="logo"
             width={80}
             height={80}
@@ -97,8 +96,7 @@ const navbar = () => {
             <div className="flex w-full items-center justify-between">
               <Link href="/#home">
               <Image
-                className="pt-5"
-                src="/images/logoo.svg"
+                src="/images/logoo.png"
                 alt="logo"
                 width={68}
                 height={68}
