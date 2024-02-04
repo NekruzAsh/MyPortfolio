@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import "../globals.css";
+import { ReactSVG } from "react";
 
 const myResume = "/images/NekruzAshrapov_Resume_Summer2024.pdf";
 
@@ -31,14 +32,15 @@ const navbar = () => {
     <div
       className={
         shadow
-          ? "fixed w-full h-20 shadow-lg shadow-black z-[100] bg-[#011222]"
+          ? "fixed w-full h-20 z-[100] bg-[#011222] backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-900 shadow-md transition-shadow duration-500"
           : "fixed w-full h-20 z-[100] bg-[#011222]"
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/#home">
           <Image
-            src="/images/jolly.png"
+            className="pt-5"
+            src="/images/logoo.svg"
             alt="logo"
             width={80}
             height={80}
@@ -95,7 +97,8 @@ const navbar = () => {
             <div className="flex w-full items-center justify-between">
               <Link href="/#home">
               <Image
-                src="/images/jolly.png"
+                className="pt-5"
+                src="/images/logoo.svg"
                 alt="logo"
                 width={68}
                 height={68}
