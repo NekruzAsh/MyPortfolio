@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import "../globals.css";
-import { ReactSVG } from "react";
+
 
 const myResume = "/images/NekruzAshrapov_Resume_Summer2024.pdf";
 
