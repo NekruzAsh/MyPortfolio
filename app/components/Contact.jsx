@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FiGithub, FiLinkedin} from "react-icons/fi";
 
 const Contact = () => {
   return (
@@ -94,14 +94,14 @@ const Contact = () => {
             target="_blank"
             className="text-[#7899BD] hover:text-[#f44336] transition-colors duration-500"
           >
-            <FaGithub size={30} />
+            <FiGithub size={24} />
           </a>
           <a
             href="https://www.linkedin.com/in/nekruzash/"
             target="_blank"
             className="text-[#7899BD] hover:text-[#f44336] transition-colors duration-500"
           >
-            <FaLinkedinIn size={30} />
+            <FiLinkedin size={24} />
           </a>
         </div>
         <div className="text-sm text-center md:mt-16 mt-4 text-[#7899BD] cursor-pointer hover:text-[#f44336] transition-colors duration-500">
