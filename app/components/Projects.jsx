@@ -31,7 +31,7 @@ const Projects = () => {
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <a href="https://chatapp-3a0e9.web.app/" target="_blank">
                 <img
-                  className="rounded-sm w-[360px] h-[180px] md:h-[250px] md:w-[450px]"
+                  className="rounded-sm w-[374px] h-[180px] md:h-[250px] md:w-[450px]"
                   src="/images/chat.png"
                   alt="Chat Application"
                 />
@@ -225,7 +225,7 @@ const Projects = () => {
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <a href="https://forumwebsite.onrender.com" target="_blank">
                 <img
-                  className="rounded-sm w-[362px] h-[160px] md:h-[250px] md:w-[450px]"
+                  className="rounded-sm w-[375px] h-[160px] md:h-[250px] md:w-[450px]"
                   src="/images/forum.png"
                   alt="forum website"
                 />
@@ -307,7 +307,7 @@ const Projects = () => {
                 target="_blank"
               >
                 <img
-                  className="rounded-sm w-[360px] h-[160px] md:h-[250px] md:w-[450px]"
+                  className="rounded-sm w-[371px] h-[160px] md:h-[250px] md:w-[450px]"
                   src="/images/amazon.png"
                   alt="Amazon Affiliate"
                 />
@@ -369,7 +369,7 @@ const Projects = () => {
               <a href="https://github.com/NekruzAsh/TicTacToeAI.git"
                   target="_blank">
               <img
-                className="rounded-sm w-[360px] h-[160px] md:h-[250px] md:w-[450px]"
+                className="rounded-sm w-[375px] h-[160px] md:h-[250px] md:w-[450px]"
                 src="/images/tictactoe.png"
                 alt="TicTacToeAI"
               />
