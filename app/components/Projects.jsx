@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { FiGithub, FiExternalLink } from "react-icons/fi";
 
 const Projects = () => {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -26,53 +27,62 @@ const Projects = () => {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Chat App */}
-          <div className="card w-84 md:h-[720px] h-[600px] bg-[#101922] shadow-lg shadow-blue-900">
+          <div className="card md:w-[500px] w-[375px] md:h-[620px] h-[520px] bg-[#101922] rounded-sm shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <img
-                className="rounded-xl"
+                className="rounded-sm w-[350px] h-[180px] md:h-[250px] md:w-[450px]"
                 src="/images/chat.png"
                 alt="Chat Application"
               />
             </figure>
             <div className="card-body">
               <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#f44336]">
-                Chat Application
+                <a
+                  href="https://chatapp-3a0e9.web.app/"
+                  target="_blank"
+                  className="hover:text-[#BFD0E3] transform duration-500"
+                >
+                  Chat Application
+                </a>
               </h2>
               <p className="mb-2 mx-[-14px] md:mb-10 md:mt-[-5px] md:px-2 text-[14px] md:text-[16px] text-[#7899BD]">
                 Simple chat application that allows users to signin with their
                 Google account and send messages. Developed a Firebase backend
                 server to store user data, messages, and to retrieve chat
                 messages in real-time. Implemented Firebase Authentication to
-                authenticate users through Google accounts. Researched different
-                Firebase services like Firestore database to automatically sync
-                data across devices in a new collection document.
+                authenticate users through Google accounts.
               </p>
-              <div className="card-actions justify-end mx-[-14px] md:px-2 md:mt-[-100px] text-[#BFD0E3]">
-                <div className="badge badge-outline">NextJS</div>
-                <div className="badge badge-outline">ReactJS</div>
-                <div className="badge badge-outline">JavaScript</div>
-                <div className="badge badge-outline">Tailwind CSS</div>
-                <div className="badge badge-outline">Firebase</div>
-                <div className="badge badge-outline">DaisyUI</div>
+              <div className="card-actions justify-start mx-[-14px] md:px-2 md:mt-[-100px] text-[#7899BD]">
+                <div className="badge badge-outline text-xs md:text-md">
+                  NEXT
+                </div>
+                <div className="badge badge-outline text-xs md:text-md">
+                  React
+                </div>
+                <div className="badge badge-outline text-xs md:text-md">
+                  JavaScript
+                </div>
+                <div className="badge badge-outline text-xs md:text-md">
+                  Tailwind CSS
+                </div>
+                <div className="badge badge-outline text-xs md:text-md">
+                  Firebase
+                </div>
               </div>
-              <div className="card-actions justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
-                <a
-                  href="https://chatapp-3a0e9.web.app/"
-                  target="_blank"
-                  className="relative flex w-[6rem] h-[50px] text-md px-6 py-3 mr-2 cursor-pointer text-[#f44336] hover:text-[#011222] group"
-                >
-                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
-                  <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
-                  <span className="relative">DEMO</span>
-                </a>
+              <div className="card-actions space-x-2 justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2 items-center">
                 <a
                   href="https://github.com/NekruzAsh/Chat-app.git"
                   target="_blank"
-                  className="relative flex w-[6rem] h-[50px] text-md px-6 py-3 cursor-pointer text-[#f44336] hover:text-[#011222] group"
+                  className="text-[#7899BD] hover:text-[#f44336] transform duration-500"
                 >
-                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
-                  <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
-                  <span className="relative">CODE</span>
+                  <FiGithub size={23} />
+                </a>
+                <a
+                  href="https://chatapp-3a0e9.web.app/"
+                  target="_blank"
+                  className="text-[#7899BD] hover:text-[#f44336] transform duration-500"
+                >
+                  <FiExternalLink size={25} />
                 </a>
               </div>
             </div>
@@ -80,53 +90,58 @@ const Projects = () => {
 
           {/* Quiz Gen */}
 
-          <div className="card w-84 md:h-[720px] h-[650px] bg-[#101922] shadow-lg shadow-blue-900">
+          <div className="card md:w-[500px] w-[375px] md:h-[620px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <img
-                className="rounded-xl"
+                className="rounded-sm"
                 src="/images/quizgenn.png"
                 alt="QuizGen Website"
               />
             </figure>
             <div className="card-body">
               <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#f44336]">
-                QuizGen Hackathon
+                <a
+                  href="https://nekruzash.github.io/QuizGen/"
+                  target="_blank"
+                  className="hover:text-[#BFD0E3] transform duration-500"
+                >
+                  QuizGen Hackathon
+                </a>
               </h2>
               <p className="mb-2 mx-[-14px] md:mb-10 md:mt-[-5px] md:px-2 text-[14px] md:text-[16px] text-[#7899BD]">
                 Tool built for teachers and students to generate quiz questions
                 using AI and user text input. Developed with Cohere AI API and
                 JavaScript to fetch data from the API, read user input and
-                generate questions based on the content. Researched 3 different
-                AI companies to test and implement their product in our project.
-                Leveraged AI parameters like temperature, context length, and
-                max tokens to fine-tune the behavior of the AI model to best fit
-                our project. Increased productivity and efficiency by 45% during
-                studying and test preparation for final exam week.
+                generate questions based on the content.
               </p>
-              <div className="card-actions justify-end mx-[-14px] md:px-2 md:mt-[-100px] text-[#BFD0E3]">
-                <div className="badge badge-outline">HTML</div>
-                <div className="badge badge-outline">CSS</div>
-                <div className="badge badge-outline">JavaScript</div>
-                <div className="badge badge-outline">Cohere AI</div>
+              <div className="card-actions text-[14px] md:text-md justify-start mx-[-14px] md:px-2 md:mt-[-100px] text-[#7899BD]">
+                <div className="badge badge-outline text-xs md:text-md">
+                  HTML
+                </div>
+                <div className="badge badge-outline text-xs md:text-md">
+                  CSS
+                </div>
+                <div className="badge badge-outline text-xs md:text-md">
+                  JavaScript
+                </div>
+                <div className="badge badge-outline text-xs md:text-md">
+                  Cohere AI
+                </div>
               </div>
-              <div className="card-actions justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
-                <a
-                  href="https://nekruzash.github.io/QuizGen/"
-                  target="_blank"
-                  className="relative flex w-[6rem] h-[50px] text-md px-6 py-3 mr-2 cursor-pointer text-[#f44336] hover:text-[#011222] group"
-                >
-                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
-                  <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
-                  <span className="relative">DEMO</span>
-                </a>
+              <div className="card-actions space-x-2 items-center justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
                 <a
                   href="https://github.com/NekruzAsh/QuizGen.git"
                   target="_blank"
-                  className="relative flex w-[6rem] h-[50px] text-md px-6 py-3 cursor-pointer text-[#f44336] hover:text-[#011222] group"
+                  className="text-[#7899BD] hover:text-[#f44336] transform duration-500"
                 >
-                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
-                  <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
-                  <span className="relative">CODE</span>
+                  <FiGithub size={23} />
+                </a>
+                <a
+                  href="https://nekruzash.github.io/QuizGen/"
+                  target="_blank"
+                  className="text-[#7899BD] hover:text-[#f44336] transform duration-500"
+                >
+                  <FiExternalLink size={25} />
                 </a>
               </div>
             </div>
@@ -134,52 +149,58 @@ const Projects = () => {
 
           {/* Todo app */}
 
-          <div className="card w-84 md:h-[720px] h-[600px] bg-[#101922] shadow-lg shadow-blue-900">
+          <div className="card md:w-[500px] w-[375px] md:h-[620px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <img
-                className="rounded-xl"
+                className="rounded-sm"
                 src="/images/todoapp.png"
                 alt="To-do"
               />
             </figure>
             <div className="card-body">
               <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#f44336]">
-                To-Do Notes App
+                <a
+                  href="https://to-do-app-weld-seven.vercel.app/"
+                  target="_blank"
+                  className="hover:text-[#BFD0E3] transform duration-500"
+                >
+                  To-Do Notes App
+                </a>
               </h2>
               <p className="mb-2 mx-[-14px] md:mb-10 md:mt-[-5px] md:px-2 text-[14px] md:text-[16px] text-[#7899BD]">
                 Single page to-do notes web application with CRUD operations
                 that allow users to create, delete and mark completed tasks.
                 Developed with NextJS and JavaScript using ternary operators and
-                event handlers. Utilized 'useState' React hook to manage the
-                state of the application. Improved managing tasks, reduced
-                mental load, and helped allocate time effectively and meet
-                deadlines.
+                event handlers.
               </p>
-              <div className="card-actions justify-end mx-[-14px] md:px-2 md:mt-[-100px] text-[#BFD0E3]">
-                <div className="badge badge-outline">NextJS</div>
-                <div className="badge badge-outline">ReactJS</div>
-                <div className="badge badge-outline">JavaScript</div>
-                <div className="badge badge-outline">Tailwind CSS</div>
-                <div className="badge badge-outline">DaisyUI</div>
+              <div className="card-actions justify-start mx-[-14px] md:px-2 md:mt-[-100px] text-[#7899BD]">
+                <div className="badge badge-outline text-xs md:text-md">
+                  NEXT
+                </div>
+                <div className="badge badge-outline text-xs md:text-md">
+                  React
+                </div>
+                <div className="badge badge-outline text-xs md:text-md">
+                  JavaScript
+                </div>
+                <div className="badge badge-outline text-xs md:text-md">
+                  Tailwind CSS
+                </div>
               </div>
-              <div className="card-actions justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
-                <a
-                  href="https://to-do-app-weld-seven.vercel.app/"
-                  target="_blank"
-                  className="relative flex w-[6rem] h-[50px] text-md px-6 py-3 mr-2 cursor-pointer text-[#f44336] hover:text-[#011222] group"
-                >
-                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
-                  <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
-                  <span className="relative">DEMO</span>
-                </a>
+              <div className="card-actions space-x-2 items-center justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
                 <a
                   href="https://github.com/NekruzAsh/To-Do-App.git"
                   target="_blank"
-                  className="relative flex w-[6rem] h-[50px] text-md px-6 py-3 cursor-pointer text-[#f44336] hover:text-[#011222] group"
+                  className="text-[#7899BD] hover:text-[#f44336] transform duration-500"
                 >
-                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
-                  <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
-                  <span className="relative">CODE</span>
+                  <FiGithub size={23} />
+                </a>
+                <a
+                  href="https://to-do-app-weld-seven.vercel.app/"
+                  target="_blank"
+                  className="text-[#7899BD] hover:text-[#f44336] transform duration-500"
+                >
+                  <FiExternalLink size={25} />
                 </a>
               </div>
             </div>
@@ -187,19 +208,25 @@ const Projects = () => {
 
           {/* Forum Website */}
 
-          <div className="card w-84 md:h-[720px] h-[600px] bg-[#101922] shadow-lg shadow-blue-900">
+          <div className="card md:w-[500px] w-[375px] md:h-[620px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <img
-                className="rounded-xl"
+                className="rounded-sm w-[350px] h-[160px] md:h-[250px] md:w-[450px]"
                 src="/images/forum.png"
                 alt="forum website"
               />
             </figure>
             <div className="card-body">
               <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#f44336]">
-                Forum Website
+                <a
+                  href="https://forumwebsite.onrender.com"
+                  target="_blank"
+                  className="hover:text-[#BFD0E3] transform duration-500"
+                >
+                  Forum Website
+                </a>
               </h2>
-              <p className="mb-2 mx-[-14px] md:mb-10 md:mt-[-5px] md:px-2 text-[14px] md:text-[16px] text-[#7899BD]">
+              <p className="mb-2 mx-[-14px] md:mb-10 md:mt-[-5px] md:px-2 text-[13px] md:text-[16px] text-[#7899BD]">
                 Forum website clone similar to{" "}
                 <a
                   className="text-[#f44336] hover:text-[#BFD0E3] duration-500 transition"
@@ -208,43 +235,47 @@ const Projects = () => {
                 >
                   Reddit.com
                 </a>{" "}
-                where users can signup and login using existing accounts. Built
-                a backend server with ExpressJS web framework, JavaScript, and
-                MongoDB to maintain scalability and performance. Implemented
-                Bcrypt algorithm to hash and encrypt user passwords to ensure
-                security against brute force attacks.
+                where users can signup and login using existing accounts.
+                Implemented Bcrypt algorithm to hash passwords and store them in
+                the MongoDB.
                 <br />
-                <span className="text-[#f44336]">Try it out!</span>
+                <span className="text-[#f44336]"> Try it out:</span>
                 <br />
                 Username: username
                 <br />
                 Password: 1234
               </p>
-              <div className="card-actions justify-end mx-[-14px] md:px-2 md:mt-[-100px] text-[#BFD0E3]">
-                <div className="badge badge-outline ">ExpressJS</div>
-                <div className="badge badge-outline ">CSS</div>
-                <div className="badge badge-outline ">JavaScript</div>
-                <div className="badge badge-outline ">MongoDB</div>
-                <div className="badge badge-outline ">NodeJS</div>
+              <div className="card-actions justify-start mx-[-14px] md:px-2 md:mt-[-100px] text-[#7899BD]">
+                <div className="badge badge-outline text-xs md:text-md">
+                  EXPRESS
+                </div>
+                <div className="badge badge-outline text-xs md:text-md">
+                  CSS
+                </div>
+                <div className="badge badge-outline text-xs md:text-md">
+                  JavaScript
+                </div>
+                <div className="badge badge-outline text-xs md:text-md">
+                  MongoDB
+                </div>
+                <div className="badge badge-outline text-xs md:text-md">
+                  NODE
+                </div>
               </div>
-              <div className="card-actions justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
-                <a
-                  href="https://forumwebsite.onrender.com"
-                  target="_blank"
-                  className="relative flex w-[6rem] h-[50px] text-md px-6 py-3 mr-2 cursor-pointer text-[#f44336] hover:text-[#011222] group"
-                >
-                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
-                  <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
-                  <span className="relative">DEMO</span>
-                </a>
+              <div className="card-actions space-x-2 items-center justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
                 <a
                   href="https://github.com/NekruzAsh/forumwebsite.git"
                   target="_blank"
-                  className="relative flex w-[6rem] h-[50px] text-md px-6 py-3 cursor-pointer text-[#f44336] hover:text-[#011222] group"
+                  className="text-[#7899BD] hover:text-[#f44336] transform duration-500"
                 >
-                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
-                  <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
-                  <span className="relative">CODE</span>
+                  <FiGithub size={23} />
+                </a>
+                <a
+                  href="https://forumwebsite.onrender.com"
+                  target="_blank"
+                  className="text-[#7899BD] hover:text-[#f44336] transform duration-500"
+                >
+                  <FiExternalLink size={25} />
                 </a>
               </div>
             </div>
@@ -252,50 +283,56 @@ const Projects = () => {
 
           {/* Amazon Affiliate */}
 
-          <div className="card w-84 md:h-[720px] h-[580px] bg-[#101922] shadow-lg shadow-blue-900">
+          <div className="card md:w-[500px] w-[375px] md:h-[620px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <img
-                className="rounded-xl"
+                className="rounded-sm w-[340px] h-[160px] md:h-[250px] md:w-[450px]"
                 src="/images/amazon.png"
                 alt="Amazon Affiliate"
               />
             </figure>
             <div className="card-body">
               <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#f44336]">
+              <a
+                  href="https://nekruzash.github.io/amazonaffiliate/"
+                  target="_blank"
+                  className="hover:text-[#BFD0E3] transform duration-500"
+                >
                 Amazon Affiliate
+                </a>
               </h2>
               <p className="mb-2 mx-[-14px] md:mb-10 md:mt-[-5px] md:px-2 text-[14px] md:text-[16px] text-[#7899BD]">
                 Article website used to promote Amazon products specifically
                 technology category and earn commission from Amazon Affiliate
-                marketing program. Developed and designed with HTML, CSS and
-                JavaScript to enhance user experience. Researched different
-                articles and products to promote based on the market demand and
-                competition. Integrated different SEO techniques to rank higher
-                in search results.
+                marketing program. Researched different articles and products to
+                promote based on the market demand and competition. Integrated
+                different SEO techniques to rank higher in search results.
               </p>
-              <div className="card-actions justify-end mx-[-14px] md:px-2 md:mt-[-100px] text-[#BFD0E3]">
-                <div className="badge badge-outline ">HTML</div>
-                <div className="badge badge-outline ">CSS</div>
-                <div className="badge badge-outline ">JavaScript</div>
+              <div className="card-actions justify-start mx-[-14px] md:px-2 md:mt-[-100px] text-[#7899BD]">
+                <div className="badge badge-outline text-xs md:text-md">
+                  HTML
+                </div>
+                <div className="badge badge-outline text-xs md:text-md">
+                  CSS
+                </div>
+                <div className="badge badge-outline text-xs md:text-md">
+                  JavaScript
+                </div>
               </div>
-              <div className="card-actions justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
+              <div className="card-actions space-x-2 items-center justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
+              <a
+                  href="https://github.com/NekruzAsh/amazonaffiliate.git"
+                  target="_blank"
+                  className="text-[#7899BD] hover:text-[#f44336] transform duration-500"
+                >
+                <FiGithub size={23} />
+                </a>
                 <a
                   href="https://nekruzash.github.io/amazonaffiliate/"
                   target="_blank"
-                  className="relative flex w-[6rem] h-[50px] text-md px-6 py-3 mr-2 cursor-pointer text-[#f44336] hover:text-[#011222] group"
+                  className="text-[#7899BD] hover:text-[#f44336] transform duration-500"
                 >
-                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
-                  <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
-                  <span className="relative">DEMO</span>
-                </a>
-                <a
-                  href="https://github.com/NekruzAsh/amazonaffiliate.git"
-                  target="_blank"
-                  className="relative flex w-[6rem] h-[50px] text-md px-6 py-3 cursor-pointer text-[#f44336] hover:text-[#011222] group"
-                >
-                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
-                  <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
-                  <span className="relative">CODE</span>
+                  <FiExternalLink size={25} />
                 </a>
               </div>
             </div>
@@ -303,10 +340,10 @@ const Projects = () => {
 
           {/* TicTacToe AI */}
 
-          <div className="card w-84 md:h-[720px] h-[580px] bg-[#101922] shadow-lg shadow-blue-900">
+          <div className="card md:w-[500px] w-[375px] md:h-[620px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
             <figure className=" px-4 pt-4 md:px-6 md:pt-6">
               <img
-                className="rounded-xl"
+                className="rounded-sm w-[340px] h-[160px] md:h-[250px] md:w-[450px]"
                 src="/images/tictactoe.png"
                 alt="TicTacToeAI"
               />
@@ -321,23 +358,18 @@ const Projects = () => {
                 library and Minimax algorithm to make an unbeatable AI opponent.
                 Researched the Minimax algorithm and implemented the algorithm
                 for AI decision-making, considering different possible outcomes.
-                Utilized event handlers for buttons and managed the state of the
-                game using Python's data structures with lists, updating the UI
-                accordingly.
               </p>
-              <div className="card-actions justify-end mx-[-14px] md:px-2 md:mt-[-100px] text-[#BFD0E3]">
-                <div className="badge badge-outline">Python</div>
-                <div className="badge badge-outline">Minimax</div>
+              <div className="card-actions justify-start mx-[-14px] md:px-2 md:mt-[-100px] text-[#7899BD]">
+                <div className="badge badge-outline text-xs md:text-md">Python</div>
+                <div className="badge badge-outline text-xs md:text-md">Minimax</div>
               </div>
-              <div className="card-actions justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
+              <div className="card-actions space-x-2 items-center justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
                 <a
                   href="https://github.com/NekruzAsh/TicTacToeAI.git"
                   target="_blank"
-                  className="relative flex w-[6rem] h-[50px] text-md px-6 py-3 cursor-pointer text-[#f44336] hover:text-[#011222] group"
+                  className="text-[#7899BD] hover:text-[#f44336] transform duration-500"
                 >
-                  <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
-                  <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
-                  <span className="relative">CODE</span>
+                  <FiGithub size={23} />
                 </a>
               </div>
             </div>
