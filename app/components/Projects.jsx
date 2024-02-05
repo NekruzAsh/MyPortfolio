@@ -350,7 +350,13 @@ const Projects = () => {
             </figure>
             <div className="card-body">
               <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#f44336]">
+              <a
+                  href="https://github.com/NekruzAsh/TicTacToeAI.git"
+                  target="_blank"
+                  className="hover:text-[#BFD0E3] transform duration-500"
+                >
                 Tic-Tac-Toe AI
+                </a>
               </h2>
               <p className="mb-2 mx-[-14px] md:mb-10 md:mt-[-5px] md:px-2 text-[14px] md:text-[16px] text-[#7899BD]">
                 Tic-Tac-Toe game with two different game modes: Player Vs.
