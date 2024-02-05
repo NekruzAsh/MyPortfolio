@@ -29,11 +29,13 @@ const Projects = () => {
           {/* Chat App */}
           <div className="card md:w-[500px] w-[375px] md:h-[620px] h-[520px] bg-[#101922] rounded-sm shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
-              <img
-                className="rounded-sm w-[350px] h-[180px] md:h-[250px] md:w-[450px]"
-                src="/images/chat.png"
-                alt="Chat Application"
-              />
+              <a href="https://chatapp-3a0e9.web.app/" target="_blank">
+                <img
+                  className="rounded-sm w-[350px] h-[180px] md:h-[250px] md:w-[450px]"
+                  src="/images/chat.png"
+                  alt="Chat Application"
+                />
+              </a>
             </figure>
             <div className="card-body">
               <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#f44336]">
@@ -47,10 +49,12 @@ const Projects = () => {
               </h2>
               <p className="mb-2 mx-[-14px] md:mb-10 md:mt-[-5px] md:px-2 text-[14px] md:text-[16px] text-[#7899BD]">
                 Simple chat application that allows users to signin with their
-                Google account and send messages. Developed a Firebase backend
-                server to store user data, messages, and to retrieve chat
-                messages in real-time. Implemented Firebase Authentication to
-                authenticate users through Google accounts.
+                Google account and send messages. Developed a{" "}
+                <span className="text-[#f44336]">Firebase server</span> to store
+                user data, messages, and to retrieve chat messages in real-time.
+                Implemented{" "}
+                <span className="text-[#f44336]">Firebase Authentication</span>{" "}
+                to authenticate users through Google accounts.
               </p>
               <div className="card-actions justify-start mx-[-14px] md:px-2 md:mt-[-100px] text-[#7899BD]">
                 <div className="badge badge-outline text-xs md:text-md">
@@ -92,11 +96,13 @@ const Projects = () => {
 
           <div className="card md:w-[500px] w-[375px] md:h-[580px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
-              <img
-                className="rounded-sm"
-                src="/images/quizgenn.png"
-                alt="QuizGen Website"
-              />
+              <a href="https://nekruzash.github.io/QuizGen/" target="_blank">
+                <img
+                  className="rounded-sm"
+                  src="/images/quizgenn.png"
+                  alt="QuizGen Website"
+                />
+              </a>
             </figure>
             <div className="card-body">
               <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#f44336]">
@@ -110,7 +116,8 @@ const Projects = () => {
               </h2>
               <p className="mb-2 mx-[-14px] md:mb-10 md:mt-[-5px] md:px-2 text-[14px] md:text-[16px] text-[#7899BD]">
                 Tool built for teachers and students to generate quiz questions
-                using AI and user text input. Developed with Cohere AI API and
+                using AI and user text input. Developed with{" "}
+                <span className="text-[#f44336]">Cohere AI API</span> and
                 JavaScript to fetch data from the API, read user input and
                 generate questions based on the content.
               </p>
@@ -151,11 +158,16 @@ const Projects = () => {
 
           <div className="card md:w-[500px] w-[375px] md:h-[580px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
-              <img
-                className="rounded-sm"
-                src="/images/todoapp.png"
-                alt="To-do"
-              />
+              <a
+                href="https://to-do-app-weld-seven.vercel.app/"
+                target="_blank"
+              >
+                <img
+                  className="rounded-sm"
+                  src="/images/todoapp.png"
+                  alt="To-do"
+                />
+              </a>
             </figure>
             <div className="card-body">
               <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#f44336]">
@@ -170,8 +182,9 @@ const Projects = () => {
               <p className="mb-2 mx-[-14px] md:mb-10 md:mt-[-5px] md:px-2 text-[14px] md:text-[16px] text-[#7899BD]">
                 Single page to-do notes web application with CRUD operations
                 that allow users to create, delete and mark completed tasks.
-                Developed with NextJS and JavaScript using ternary operators and
-                event handlers.
+                Developed with{" "}
+                <span className="text-[#f44336]">Next and JavaScript</span>{" "}
+                using ternary operators and event handlers.
               </p>
               <div className="card-actions justify-start mx-[-14px] md:px-2 md:mt-[-100px] text-[#7899BD]">
                 <div className="badge badge-outline text-xs md:text-md">
@@ -210,11 +223,13 @@ const Projects = () => {
 
           <div className="card md:w-[500px] w-[375px] md:h-[620px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
-              <img
-                className="rounded-sm w-[350px] h-[160px] md:h-[250px] md:w-[450px]"
-                src="/images/forum.png"
-                alt="forum website"
-              />
+              <a href="https://forumwebsite.onrender.com" target="_blank">
+                <img
+                  className="rounded-sm w-[350px] h-[160px] md:h-[250px] md:w-[450px]"
+                  src="/images/forum.png"
+                  alt="forum website"
+                />
+              </a>
             </figure>
             <div className="card-body">
               <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#f44336]">
@@ -236,8 +251,10 @@ const Projects = () => {
                   Reddit.com
                 </a>{" "}
                 where users can signup and login using existing accounts.
-                Implemented Bcrypt algorithm to hash passwords and store them in
-                the MongoDB.
+                Implemented{" "}
+                <span className="text-[#f44336]">Bcrypt algorithm</span> to hash
+                passwords and store them in the{" "}
+                <span className="text-[#f44336]">MongoDB</span>.
                 <br />
                 <span className="text-[#f44336]"> Try it out:</span>
                 <br />
@@ -285,28 +302,35 @@ const Projects = () => {
 
           <div className="card md:w-[500px] w-[375px] md:h-[620px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
-              <img
-                className="rounded-sm w-[340px] h-[160px] md:h-[250px] md:w-[450px]"
-                src="/images/amazon.png"
-                alt="Amazon Affiliate"
-              />
+              <a
+                href="https://nekruzash.github.io/amazonaffiliate/"
+                target="_blank"
+              >
+                <img
+                  className="rounded-sm w-[340px] h-[160px] md:h-[250px] md:w-[450px]"
+                  src="/images/amazon.png"
+                  alt="Amazon Affiliate"
+                />
+              </a>
             </figure>
             <div className="card-body">
               <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#f44336]">
-              <a
+                <a
                   href="https://nekruzash.github.io/amazonaffiliate/"
                   target="_blank"
                   className="hover:text-[#BFD0E3] transform duration-500"
                 >
-                Amazon Affiliate
+                  Amazon Affiliate
                 </a>
               </h2>
               <p className="mb-2 mx-[-14px] md:mb-10 md:mt-[-5px] md:px-2 text-[14px] md:text-[16px] text-[#7899BD]">
                 Article website used to promote Amazon products specifically
-                technology category and earn commission from Amazon Affiliate
+                technology category and earn commission from{" "}
+                <span className="text-[#f44336]">Amazon Affiliate</span>{" "}
                 marketing program. Researched different articles and products to
                 promote based on the market demand and competition. Integrated
-                different SEO techniques to rank higher in search results.
+                different <span className="text-[#f44336]">SEO techniques</span>{" "}
+                to rank higher in search results.
               </p>
               <div className="card-actions justify-start mx-[-14px] md:px-2 md:mt-[-100px] text-[#7899BD]">
                 <div className="badge badge-outline text-xs md:text-md">
@@ -320,12 +344,12 @@ const Projects = () => {
                 </div>
               </div>
               <div className="card-actions space-x-2 items-center justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
-              <a
+                <a
                   href="https://github.com/NekruzAsh/amazonaffiliate.git"
                   target="_blank"
                   className="text-[#7899BD] hover:text-[#f44336] transform duration-500"
                 >
-                <FiGithub size={23} />
+                  <FiGithub size={23} />
                 </a>
                 <a
                   href="https://nekruzash.github.io/amazonaffiliate/"
@@ -342,32 +366,42 @@ const Projects = () => {
 
           <div className="card md:w-[500px] w-[375px] md:h-[620px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
             <figure className=" px-4 pt-4 md:px-6 md:pt-6">
+              <a href="https://github.com/NekruzAsh/TicTacToeAI.git"
+                  target="_blank">
               <img
                 className="rounded-sm w-[340px] h-[160px] md:h-[250px] md:w-[450px]"
                 src="/images/tictactoe.png"
                 alt="TicTacToeAI"
               />
+              </a>
             </figure>
             <div className="card-body">
               <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#f44336]">
-              <a
+                <a
                   href="https://github.com/NekruzAsh/TicTacToeAI.git"
                   target="_blank"
                   className="hover:text-[#BFD0E3] transform duration-500"
                 >
-                Tic-Tac-Toe AI
+                  Tic-Tac-Toe AI
                 </a>
               </h2>
               <p className="mb-2 mx-[-14px] md:mb-10 md:mt-[-5px] md:px-2 text-[14px] md:text-[16px] text-[#7899BD]">
                 Tic-Tac-Toe game with two different game modes: Player Vs.
-                Player and Player Vs. AI. Developed with Python's Tkinter GUI
-                library and Minimax algorithm to make an unbeatable AI opponent.
-                Researched the Minimax algorithm and implemented the algorithm
-                for AI decision-making, considering different possible outcomes.
+                Player and Player Vs. AI. Developed with Python's{" "}
+                <span className="text-[#f44336]">Tkinter GUI</span>{" "}
+                library and{" "}
+                <span className="text-[#f44336]">Minimax algorithm</span> to
+                make an unbeatable AI opponent. Researched the Minimax algorithm
+                and implemented the algorithm for AI decision-making,
+                considering different possible outcomes.
               </p>
               <div className="card-actions justify-start mx-[-14px] md:px-2 md:mt-[-100px] text-[#7899BD]">
-                <div className="badge badge-outline text-xs md:text-md">Python</div>
-                <div className="badge badge-outline text-xs md:text-md">Minimax</div>
+                <div className="badge badge-outline text-xs md:text-md">
+                  Python
+                </div>
+                <div className="badge badge-outline text-xs md:text-md">
+                  Minimax
+                </div>
               </div>
               <div className="card-actions space-x-2 items-center justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
                 <a
