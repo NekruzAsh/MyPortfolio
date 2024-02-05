@@ -9,7 +9,7 @@ const Projects = () => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   return (
-    <div id="projects" className="w-full">
+    <div id="projects" className="w-full flex justify-center">
       <div className="max-w-[1240px] mx-auto px-2 py-20 lg:px-2 md:px-24 md:py-36 lg:py-16">
         <div className="max-w-3xl">
           <h2 className="text-[#BFD0E3] py-4 flex items-center">
@@ -90,7 +90,7 @@ const Projects = () => {
 
           {/* Quiz Gen */}
 
-          <div className="card md:w-[500px] w-[375px] md:h-[620px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
+          <div className="card md:w-[500px] w-[375px] md:h-[580px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <img
                 className="rounded-sm"
@@ -149,7 +149,7 @@ const Projects = () => {
 
           {/* Todo app */}
 
-          <div className="card md:w-[500px] w-[375px] md:h-[620px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
+          <div className="card md:w-[500px] w-[375px] md:h-[580px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <img
                 className="rounded-sm"
