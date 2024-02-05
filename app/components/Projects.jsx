@@ -9,7 +9,7 @@ const Projects = () => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   return (
-    <div id="projects" className="w-full flex justify-center">
+    <div id="projects" className="w-full flex justify-center items-center">
       <div className="max-w-[1240px] mx-auto px-2 py-20 lg:px-2 md:px-24 md:py-36 lg:py-16">
         <div className="max-w-3xl">
           <h2 className="text-[#BFD0E3] py-4 flex items-center">
@@ -27,11 +27,11 @@ const Projects = () => {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Chat App */}
-          <div className="card md:w-[500px] w-[375px] md:h-[620px] h-[520px] bg-[#101922] rounded-sm shadow-lg">
+          <div className="card md:w-[500px] w-84 md:h-[620px] h-[520px] bg-[#101922] rounded-sm shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <a href="https://chatapp-3a0e9.web.app/" target="_blank">
                 <img
-                  className="rounded-sm w-[350px] h-[180px] md:h-[250px] md:w-[450px]"
+                  className="rounded-sm w-[360px] h-[180px] md:h-[250px] md:w-[450px]"
                   src="/images/chat.png"
                   alt="Chat Application"
                 />
@@ -94,7 +94,7 @@ const Projects = () => {
 
           {/* Quiz Gen */}
 
-          <div className="card md:w-[500px] w-[375px] md:h-[580px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
+          <div className="card md:w-[500px] w-84 md:h-[580px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <a href="https://nekruzash.github.io/QuizGen/" target="_blank">
                 <img
@@ -156,7 +156,7 @@ const Projects = () => {
 
           {/* Todo app */}
 
-          <div className="card md:w-[500px] w-[375px] md:h-[580px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
+          <div className="card md:w-[500px] w-84 md:h-[580px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <a
                 href="https://to-do-app-weld-seven.vercel.app/"
@@ -221,11 +221,11 @@ const Projects = () => {
 
           {/* Forum Website */}
 
-          <div className="card md:w-[500px] w-[375px] md:h-[620px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
+          <div className="card md:w-[500px] w-84 md:h-[620px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <a href="https://forumwebsite.onrender.com" target="_blank">
                 <img
-                  className="rounded-sm w-[350px] h-[160px] md:h-[250px] md:w-[450px]"
+                  className="rounded-sm w-[362px] h-[160px] md:h-[250px] md:w-[450px]"
                   src="/images/forum.png"
                   alt="forum website"
                 />
@@ -300,14 +300,14 @@ const Projects = () => {
 
           {/* Amazon Affiliate */}
 
-          <div className="card md:w-[500px] w-[375px] md:h-[620px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
+          <div className="card md:w-[500px] w-84 md:h-[620px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <a
                 href="https://nekruzash.github.io/amazonaffiliate/"
                 target="_blank"
               >
                 <img
-                  className="rounded-sm w-[340px] h-[160px] md:h-[250px] md:w-[450px]"
+                  className="rounded-sm w-[360px] h-[160px] md:h-[250px] md:w-[450px]"
                   src="/images/amazon.png"
                   alt="Amazon Affiliate"
                 />
@@ -364,12 +364,12 @@ const Projects = () => {
 
           {/* TicTacToe AI */}
 
-          <div className="card md:w-[500px] w-[375px] md:h-[620px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
+          <div className="card md:w-[500px] w-84 md:h-[620px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
             <figure className=" px-4 pt-4 md:px-6 md:pt-6">
               <a href="https://github.com/NekruzAsh/TicTacToeAI.git"
                   target="_blank">
               <img
-                className="rounded-sm w-[340px] h-[160px] md:h-[250px] md:w-[450px]"
+                className="rounded-sm w-[360px] h-[160px] md:h-[250px] md:w-[450px]"
                 src="/images/tictactoe.png"
                 alt="TicTacToeAI"
               />
