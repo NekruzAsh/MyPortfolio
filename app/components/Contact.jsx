@@ -23,7 +23,7 @@ const Contact = () => {
           please message me. I will get back to you as soon as possible!
         </p>
         <div className="grid lg:grid-cols-5 gap-8">
-          <div className="col-span-full w-full h-auto bg-[#101922] shadow-md shadow-blue-900 rounded-xl lg:p-4">
+          <div className="col-span-full w-full h-auto bg-[#101922] shadow-lg rounded-sm lg:p-4">
             <div className="p-4">
               <form
                 method="POST"
