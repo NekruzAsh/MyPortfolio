@@ -104,7 +104,7 @@ const Contact = () => {
             <FiLinkedin size={24} />
           </a>
         </div>
-        <div className="text-sm text-center md:mt-16 mt-4 text-[#7899BD] cursor-pointer hover:text-[#f44336] transition-colors duration-500">
+        <div className="text-sm text-center md:mt-36 mt-4 text-[#7899BD] cursor-pointer hover:text-[#f44336] transition-colors duration-500">
           <a
             href="https://github.com/NekruzAsh/MyPortfolio.git"
             target="_blank"
@@ -112,7 +112,7 @@ const Contact = () => {
             Designed and Built by Nekruz Ashrapov
           </a>
         </div>
-        <p className="text-sm text-center text-[#7899BD] pb-10">
+        <p className="text-sm text-center text-[#7899BD]">
           +1 (929) 554-0055
         </p>
       </div>
