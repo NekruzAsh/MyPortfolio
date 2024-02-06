@@ -57,19 +57,19 @@ const Projects = () => {
                 to authenticate users through Google accounts.
               </p>
               <div className="card-actions justify-start mx-[-14px] md:px-2 md:mt-[-100px] text-[#7899BD]">
-                <div className="badge badge-outline text-xs md:text-md">
+                <div className="badge badge-outline text-xs md:text-[15px]">
                   NEXT
                 </div>
-                <div className="badge badge-outline text-xs md:text-md">
+                <div className="badge badge-outline text-xs md:text-[15px]">
                   React
                 </div>
-                <div className="badge badge-outline text-xs md:text-md">
+                <div className="badge badge-outline text-xs md:text-[15px]">
                   JavaScript
                 </div>
-                <div className="badge badge-outline text-xs md:text-md">
-                  Tailwind CSS
+                <div className="badge badge-outline text-xs md:text-[15px]">
+                  TailwindCSS
                 </div>
-                <div className="badge badge-outline text-xs md:text-md">
+                <div className="badge badge-outline text-xs md:text-[15px]">
                   Firebase
                 </div>
               </div>
@@ -122,16 +122,16 @@ const Projects = () => {
                 generate questions based on the content.
               </p>
               <div className="card-actions text-[14px] md:text-md justify-start mx-[-14px] md:px-2 md:mt-[-100px] text-[#7899BD]">
-                <div className="badge badge-outline text-xs md:text-md">
+                <div className="badge badge-outline text-xs md:text-[15px]">
                   HTML
                 </div>
-                <div className="badge badge-outline text-xs md:text-md">
+                <div className="badge badge-outline text-xs md:text-[15px]">
                   CSS
                 </div>
-                <div className="badge badge-outline text-xs md:text-md">
+                <div className="badge badge-outline text-xs md:text-[15px]">
                   JavaScript
                 </div>
-                <div className="badge badge-outline text-xs md:text-md">
+                <div className="badge badge-outline text-xs md:text-[15px]">
                   Cohere AI
                 </div>
               </div>
@@ -187,17 +187,17 @@ const Projects = () => {
                 using ternary operators and event handlers.
               </p>
               <div className="card-actions justify-start mx-[-14px] md:px-2 md:mt-[-100px] text-[#7899BD]">
-                <div className="badge badge-outline text-xs md:text-md">
+                <div className="badge badge-outline text-xs md:text-[15px]">
                   NEXT
                 </div>
-                <div className="badge badge-outline text-xs md:text-md">
+                <div className="badge badge-outline text-xs md:text-[15px]">
                   React
                 </div>
-                <div className="badge badge-outline text-xs md:text-md">
+                <div className="badge badge-outline text-xs md:text-[15px]">
                   JavaScript
                 </div>
-                <div className="badge badge-outline text-xs md:text-md">
-                  Tailwind CSS
+                <div className="badge badge-outline text-xs md:text-[15px]">
+                  TailwindCSS
                 </div>
               </div>
               <div className="card-actions space-x-2 items-center justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
@@ -263,19 +263,19 @@ const Projects = () => {
                 Password: 1234
               </p>
               <div className="card-actions justify-start mx-[-14px] md:px-2 md:mt-[-100px] text-[#7899BD]">
-                <div className="badge badge-outline text-xs md:text-md">
+                <div className="badge badge-outline text-xs md:text-[15px]">
                   EXPRESS
                 </div>
-                <div className="badge badge-outline text-xs md:text-md">
+                <div className="badge badge-outline text-xs md:text-[15px]">
                   CSS
                 </div>
-                <div className="badge badge-outline text-xs md:text-md">
+                <div className="badge badge-outline text-xs md:text-[15px]">
                   JavaScript
                 </div>
-                <div className="badge badge-outline text-xs md:text-md">
+                <div className="badge badge-outline text-xs md:text-[15px]">
                   MongoDB
                 </div>
-                <div className="badge badge-outline text-xs md:text-md">
+                <div className="badge badge-outline text-xs md:text-[15px]">
                   NODE
                 </div>
               </div>
@@ -333,13 +333,13 @@ const Projects = () => {
                 to rank higher in search results.
               </p>
               <div className="card-actions justify-start mx-[-14px] md:px-2 md:mt-[-100px] text-[#7899BD]">
-                <div className="badge badge-outline text-xs md:text-md">
+                <div className="badge badge-outline text-xs md:text-[15px]">
                   HTML
                 </div>
-                <div className="badge badge-outline text-xs md:text-md">
+                <div className="badge badge-outline text-xs md:text-[15px]">
                   CSS
                 </div>
-                <div className="badge badge-outline text-xs md:text-md">
+                <div className="badge badge-outline text-xs md:text-[15px]">
                   JavaScript
                 </div>
               </div>
@@ -396,10 +396,10 @@ const Projects = () => {
                 considering different possible outcomes.
               </p>
               <div className="card-actions justify-start mx-[-14px] md:px-2 md:mt-[-100px] text-[#7899BD]">
-                <div className="badge badge-outline text-xs md:text-md">
+                <div className="badge badge-outline text-xs md:text-[15px]">
                   Python
                 </div>
-                <div className="badge badge-outline text-xs md:text-md">
+                <div className="badge badge-outline text-xs md:text-[15px]">
                   Minimax
                 </div>
               </div>

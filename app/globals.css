@@ -57,7 +57,7 @@ html {
   object-fit: cover;
   position: relative;
   transition: filter 0.3s;
-  filter: brightness(0.5) sepia(1) hue-rotate(-47deg) saturate(4);
+  filter: brightness(0.5) sepia(1) hue-rotate(-45deg) saturate(4);
   z-index: 1;
 }
 
