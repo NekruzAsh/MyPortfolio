@@ -94,7 +94,7 @@ const Projects = () => {
 
           {/* Quiz Gen */}
 
-          <div className="card md:w-[500px] w-84 md:h-[580px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
+          <div className="card md:w-[500px] w-84 md:h-[620px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <a href="https://nekruzash.github.io/QuizGen/" target="_blank">
                 <img
@@ -156,7 +156,7 @@ const Projects = () => {
 
           {/* Todo app */}
 
-          <div className="card md:w-[500px] w-84 md:h-[580px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
+          <div className="card md:w-[500px] w-84 md:h-[620px] h-[480px] rounded-sm bg-[#101922] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <a
                 href="https://to-do-app-weld-seven.vercel.app/"

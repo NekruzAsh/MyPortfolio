@@ -43,4 +43,51 @@ html {
 }
 
 
+.image-style {
+  display: block;
+  position: relative;
+  width: 70%;
+  height: 80%;
+  transition: transform 0.5s;
+}
+
+.image-style img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  transition: filter 0.3s;
+  filter: brightness(0.5) sepia(1) hue-rotate(-47deg) saturate(4);
+  z-index: 1;
+}
+
+.image-style:hover,
+.image-style:focus {
+  transform: translate(-4px, -4px);
+}
+
+.image-style:hover img,
+.image-style:focus img {
+  filter: none;
+}
+
+.image-style::before {
+  content: '';
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  width: calc(100% - 8px);
+  height: calc(100% - 8px);
+  border: 2px solid #f44336;
+  transform: translate(4px, 4px); /* Position the border offset from the image */
+  transition: border 0.5s, transform 0.5s;
+  z-index: 0;
+}
+
+.image-style:hover::before,
+.image-style:focus::before {
+  transform: translate(10px, 10px);
+}
+
+
 

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import "../globals.css";
 
 const About = () => {
   return (
@@ -51,9 +52,8 @@ const About = () => {
         </a>
         </div>
 
-        <div className="w-64 h-64 shadow-md shadow-[#476a97] items-center relative overflow-hidden rounded-full justify-center hover:bg-gradient-to-r from-[#011222] to-[#011222] hover:scale-105 ease-in duration-300 ml-16 mt-16">
-          <Image
-            className="hover:opacity-70"
+        <div className="image-style shadow-lg items-center rounded-sm relative justify-center ml-16 mt-16">
+          <img
             src="/images/authorimage.jpg"
             width={280}
             height={280}
