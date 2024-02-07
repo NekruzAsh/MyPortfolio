@@ -57,7 +57,7 @@ html {
   object-fit: cover;
   position: relative;
   transition: filter 0.3s;
-  filter: brightness(0.5) sepia(1) hue-rotate(-45deg) saturate(4);
+  filter: none;
   z-index: 1;
 }
 
@@ -68,7 +68,7 @@ html {
 
 .image-style:hover img,
 .image-style:focus img {
-  filter: none;
+  filter: brightness(0.5) sepia(1) hue-rotate(-45deg) saturate(4);
 }
 
 .image-style::before {
@@ -87,6 +87,27 @@ html {
 .image-style:hover::before,
 .image-style:focus::before {
   transform: translate(10px, 10px);
+}
+
+.project-card {
+  transition: transform 0.5s;
+}
+
+.project-card img {
+  object-fit: cover;
+  transition: filter 0.3s;
+  filter: none; /* No filter on small screens */
+}
+
+@media screen and (min-width: 768px) {
+  .project-card img {
+    filter: brightness(0.5) sepia(1) hue-rotate(-45deg) saturate(5); /* Filter on medium and larger screens */
+  }
+
+  .project-card:hover img,
+  .project-card:focus img {
+    filter: none; /* Remove filter on hover or focus */
+  }
 }
 
 
