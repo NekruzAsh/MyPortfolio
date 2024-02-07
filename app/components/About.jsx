@@ -55,8 +55,6 @@ const About = () => {
         <div className="image-style shadow-lg items-center rounded-sm relative justify-center ml-16 mt-16">
           <img
             src="/images/authorimage.jpg"
-            width={280}
-            height={280}
             quality={100}
             objectPosition="center top"
             alt="picture of author"
