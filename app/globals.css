@@ -58,7 +58,7 @@ html {
   object-position: 50% 5%; /* Center the object in the picture */
   position: relative;
   transition: filter 0.3s;
-  filter: none;
+  filter: brightness(0.46) sepia(1) hue-rotate(-43deg) saturate(5);
   z-index: 1;
   border-radius: 3px;
 }
@@ -70,7 +70,7 @@ html {
 
 .image-style:hover img,
 .image-style:focus img {
-  filter: brightness(0.8) sepia(1) hue-rotate(160deg) saturate(1.5);
+  filter: none;
 }
 
 .image-style::before {
@@ -80,7 +80,7 @@ html {
   left: 14px;
   width: calc(100% - 8px);
   height: calc(100% - 8px);
-  border: 2px solid #7899BD;
+  border: 2px solid #f44336;
   border-radius: 3px;
   transform: translate(4px, 4px); /* Position the border offset from the image */
   transition: border 0.5s, transform 0.5s;
