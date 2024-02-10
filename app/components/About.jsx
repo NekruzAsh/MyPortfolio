@@ -8,10 +8,10 @@ const About = () => {
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
-        <div className="col-span-2 md:pl-48 pl-6 pr-6">
+        <div className="col-span-2 md:pl-40 md:pr-40 pl-6 pr-6">
           <h2 className="py-4 text-[#BFD0E3] flex items-center">
             <span className="text-[#f44336]">01.&nbsp;</span> About Me
-            <hr className="border-[#2f3b49] border-t-1 ml-4 flex-grow" />
+            <hr className="border-[#1E3B5A] border-t-1 ml-4 flex-grow" />
           </h2>
           <p className="py-2 text-[#7899BD]">
             I'm a self-taught Software Developer with a passion for building
@@ -49,7 +49,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="image-style shadow-lg items-center rounded-sm relative justify-center ml-16 mt-16">
+        <div className="image-style shadow-lg items-center rounded-sm relative justify-center ml-20 md:ml-[-50px] mt-16">
           <img
             src="/images/authorimage.jpg"
             quality={100}
