@@ -15,7 +15,7 @@ const Projects = () => {
         <div className="max-w-3xl">
           <h2 className="text-[#BFD0E3] py-4 flex items-center">
             <span className=" text-[#f44336]">03.&nbsp;</span> My Work
-            <hr className="border-[#2f3b49] border-t-1 ml-4 flex-grow" />
+            <hr className="border-[#1E3B5A] border-t-1 ml-4 flex-grow" />
           </h2>
 
           <p className="mb-16 text-[#7899BD] text-[17px] max-w-3xl leading-[30px]">
