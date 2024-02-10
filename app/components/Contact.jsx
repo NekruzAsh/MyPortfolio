@@ -23,7 +23,7 @@ const Contact = () => {
           please message me. I will get back to you as soon as possible!
         </p>
         <div className="grid lg:grid-cols-5 gap-8">
-          <div className="col-span-full w-full h-auto bg-[#101922] shadow-lg rounded-sm lg:p-4">
+          <div className="col-span-full w-full h-auto bg-[#0F1D2D] shadow-lg rounded-sm lg:p-4">
             <div className="p-4">
               <form
                 method="POST"
@@ -78,8 +78,8 @@ const Contact = () => {
                 <div className="flex justify-center">
                   <button>
                     <a className="relative flex w-[6rem] h-[50px] text-md mt-2 uppercase px-6 py-3 cursor-pointer text-[#f44336] hover:text-[#011222] group">
-                      <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
-                      <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
+                      <span className="absolute inset-0 w-[88px] h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
+                      <span className="absolute inset-0 w-[88px] h-full border-2 border-[#f44336]" />
                       <span className="relative">send</span>
                     </a>
                   </button>
