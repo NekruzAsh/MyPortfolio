@@ -34,11 +34,11 @@ const main = () => {
             <div className="flex space-x-4 cursor-pointer">
             <a
                   href="https://github.com/NekruzAsh" target="_blank"
-                  className="relative flex w-[15rem] h-[50px] text-md mt-2 uppercase px-6 py-3 cursor-pointer text-[#f44336] hover:text-[#011222] group"
+                  className="relative flex w-[15rem] h-[50px] text-md mt-2 px-6 py-3 cursor-pointer text-[#f44336] hover:text-[#011222] group"
                 >
-                  <span className="absolute inset-0 w-full h-[47px] transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
-                  <span className="absolute inset-0 w-full h-[47px] border-2 border-[#f44336]" />
-                  <span className="relative">Check Out My Github</span>
+                  <span className="absolute inset-0 w-[218px] h-[47px] transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
+                  <span className="absolute inset-0 w-[218px] h-[47px] border-2 border-[#f44336]" />
+                  <span className="relative">Check out my GitHub!</span>
                 </a>
             </div>
           </div>
