@@ -11,7 +11,7 @@ const Contact = () => {
     >
       <div className="max-w-[760px] m-auto lg:px-2 md:px-20 md:py-16 px-2 py-2 w-full">
         <p className="text-lg text-[#f44336] py-2 text-center">
-          04. What's Next?
+          03. What's Next?
         </p>
         <h2 className=" text-[#BFD0E3] py-4 text-center md:text-[60px] mx-auto">
           Get In Touch
