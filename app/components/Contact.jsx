@@ -35,7 +35,7 @@ const Contact = () => {
                       Your Name
                     </label>
                     <input
-                      className="text-[#f3f7fc] bg-[#2e3846] rounded-lg p-3 flex"
+                      className="text-[#f3f7fc] bg-[#2e3846] rounded-sm p-3 flex"
                       type="text"
                       placeholder="What's your name?"
                       name="name"
@@ -46,7 +46,7 @@ const Contact = () => {
                       Your Email
                     </label>
                     <input
-                      className="text-[#f3f7fc] bg-[#2e3846] rounded-lg p-3 flex"
+                      className="text-[#f3f7fc] bg-[#2e3846] rounded-sm p-3 flex"
                       type="email"
                       placeholder="What's your email?"
                       name="email"
@@ -58,7 +58,7 @@ const Contact = () => {
                     Your Subject
                   </label>
                   <input
-                    className="text-[#f3f7fc] bg-[#2e3846] rounded-lg p-3 flex"
+                    className="text-[#f3f7fc] bg-[#2e3846] rounded-sm p-3 flex"
                     type="text"
                     placeholder="What's your subject?"
                     name="subject"
@@ -69,7 +69,7 @@ const Contact = () => {
                     Your Message
                   </label>
                   <textarea
-                    className="text-[#f3f7fc] bg-[#2e3846] rounded-lg p-3"
+                    className="text-[#f3f7fc] bg-[#2e3846] rounded-sm p-3"
                     rows="10"
                     placeholder="What do you want to say?"
                     name="message"
@@ -77,9 +77,9 @@ const Contact = () => {
                 </div>
                 <div className="flex justify-center">
                   <button>
-                    <a className="relative flex w-[6rem] h-[50px] text-md mt-2 uppercase px-6 py-3 cursor-pointer text-[#f44336] hover:text-[#011222] group">
-                      <span className="absolute inset-0 w-[88px] h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
-                      <span className="absolute inset-0 w-[88px] h-full border-2 border-[#f44336]" />
+                    <a className="relative flex w-[6rem] h-[50px] text-md mt-2 uppercase px-8 py-3 cursor-pointer text-[#f44336] hover:text-[#011222] group">
+                      <span className="absolute inset-0 w-[107px] h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
+                      <span className="absolute inset-0 w-[107px] h-full border-2 border-[#f44336]" />
                       <span className="relative">send</span>
                     </a>
                   </button>
