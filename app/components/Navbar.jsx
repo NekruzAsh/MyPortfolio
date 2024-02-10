@@ -53,19 +53,14 @@ const navbar = () => {
               <span className=" text-[#f44336]">01.</span> About
               </li>
             </Link>
-            <Link href="/#skills">
-              <li className="ml-10 text-md text-[#7899BD] hover:text-[#f44336] transition-colors duration-500">
-              <span className=" text-[#f44336]">02.</span> Skills
-              </li>
-            </Link>
             <Link href="/#projects">
               <li className="ml-10 text-md text-[#7899BD] hover:text-[#f44336] transition-colors duration-500">
-              <span className="text-[#f44336]">03.</span> Projects
+              <span className="text-[#f44336]">02.</span> Projects
               </li>
             </Link>
             <Link href="/#contact">
               <li className="ml-10 text-md text-[#7899BD] hover:text-[#f44336] transition-colors duration-500">
-              <span className=" text-[#f44336]">04.</span> Contact
+              <span className=" text-[#f44336]">03.</span> Contact
               </li>
             </Link>
             <a href={myResume} target="_blank" className="relative flex w-[7rem] h-[50px] mx-4 ml-10 text-md px-6 py-3 cursor-pointer text-[#f44336] hover:text-[#011222] group">
@@ -114,14 +109,12 @@ const navbar = () => {
                
                 <li className="py-4 text-md text-[#7899BD]"><span className="text-[#f44336]">01.</span><br />About</li>
               </Link>
-              <Link href="/#skills">
-                <li className="py-4 text-md text-[#7899BD]"><span className="text-[#f44336]">02.</span><br />Skills</li>
-              </Link>
+              
               <Link href="/#projects">
-                <li className="py-4 text-md text-[#7899BD]"><span className="text-[#f44336]">03.</span><br />Work</li>
+                <li className="py-4 text-md text-[#7899BD]"><span className="text-[#f44336]">02.</span><br />Work</li>
               </Link>
               <Link href="/#contact">
-                <li className="py-4 text-md text-[#7899BD]"><span className="text-[#f44336]">04.</span><br />Contact</li>
+                <li className="py-4 text-md text-[#7899BD]"><span className="text-[#f44336]">03.</span><br />Contact</li>
               </Link>
             </ul>
             <a href={myResume} target="_blank" className="relative flex w-[7rem] h-[50px] mt-4 text-md px-6 py-3 cursor-pointer text-[#f44336] hover:text-[#011222] group">
