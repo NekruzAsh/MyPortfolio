@@ -55,7 +55,7 @@ html {
   width: 230px;
   height: 230px;
   object-fit: cover;
-  object-position: 50% 5%; /* Center the object in the picture */
+  object-position: 50% 5%; 
   position: relative;
   transition: filter 0.3s;
   filter: brightness(0.46) sepia(1) hue-rotate(-43deg) saturate(5);
@@ -82,7 +82,7 @@ html {
   height: calc(100% - 8px);
   border: 2px solid #f44336;
   border-radius: 3px;
-  transform: translate(4px, 4px); /* Position the border offset from the image */
+  transform: translate(4px, 4px); 
   transition: border 0.5s, transform 0.5s;
   z-index: 0;
   
@@ -100,19 +100,20 @@ html {
 .project-card img {
   object-fit: cover;
   transition: filter 0.3s;
-  filter: none; /* No filter on small screens */
+  filter: none; 
 }
 
 @media screen and (min-width: 768px) {
   .project-card img {
-    filter: brightness(0.5) sepia(1) hue-rotate(-45deg) saturate(5); /* Filter on medium and larger screens */
+    filter: brightness(0.5) sepia(1) hue-rotate(-45deg) saturate(5); 
   }
 
   .project-card:hover img,
   .project-card:focus img {
-    filter: none; /* Remove filter on hover or focus */
+    filter: none; 
   }
 }
+
 
 
 

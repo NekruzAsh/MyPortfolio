@@ -2,12 +2,13 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import "../globals.css";
+import { RiStarFill } from "react-icons/ri";
 
 const About = () => {
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
-        <div className="col-span-2 md:pl-24 pl-10 pr-10">
+        <div className="col-span-2 md:pl-48 pl-6 pr-6">
           <h2 className="py-4 text-[#BFD0E3] flex items-center">
             <span className="text-[#f44336]">01.&nbsp;</span> About Me
             <hr className="border-[#2f3b49] border-t-1 ml-4 flex-grow" />
@@ -32,31 +33,27 @@ const About = () => {
             lines of code evolved into a love for programming, driving me to
             explore the intricate aspects of this craft.
           </p>
-          <p className="py-2 text-[#7899BD]">
-            My tech stack includes <span className="text-[#f44336]">React</span>{" "}
-            and <span className="text-[#f44336]">Tailwind CSS</span> for
-            front-end development, and I use{" "}
-            <span className="text-[#f44336]">NodeJS</span>,{" "}
-            <span className="text-[#f44336]">Express</span>, and{" "}
-            <span className="text-[#f44336]">MongoDB</span> for back-end
-            development. I also have experience with{" "}
-            <span className="text-[#f44336]">Python</span>,{" "}
-            <span className="text-[#f44336]">C++</span>, and{" "}
-            <span className="text-[#f44336]">C</span>.
-          </p>
-
-          <a href="/#projects" className="relative flex w-[300px] h-[50px] px-6 py-4 font-medium text-[14px] cursor-pointer text-[#f44336] hover:text-[#011222] group">
-            <span className="absolute inset-0 w-full h-[51px] transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0"/>
-            <span className="absolute inset-0 w-full h-[51px] border-2 border-[#f44336]"/>
-            <span className="relative uppercase">Check out my recent projects</span>
-        </a>
+          <div className="py-2 text-[#7899BD]">
+            <p>
+            Here are a few technologies I've been working with recently:
+            </p>
+            <br />
+              <ul className="grid grid-cols-2 gap-y-1 gap-1 text-sm">
+                <li className="flex items-center"><RiStarFill className="text-[#f44336]" size={10}/>&nbsp;&nbsp;JavaScript (ES6+)</li>
+                <li className="flex items-center"><RiStarFill className="text-[#f44336]" size={10}/>&nbsp;&nbsp;Python</li>
+                <li className="flex items-center"><RiStarFill className="text-[#f44336]" size={10}/>&nbsp;&nbsp;React</li>
+                <li className="flex items-center"><RiStarFill className="text-[#f44336]" size={10}/>&nbsp;&nbsp;C++</li>
+                <li className="flex items-center"><RiStarFill className="text-[#f44336]" size={10}/>&nbsp;&nbsp;Node.js</li>
+                <li className="flex items-center"><RiStarFill className="text-[#f44336]" size={10}/>&nbsp;&nbsp;MongoDB</li>
+              </ul>
+          </div>
         </div>
 
         <div className="image-style shadow-lg items-center rounded-sm relative justify-center ml-16 mt-16">
           <img
             src="/images/authorimage.jpg"
             quality={100}
-            objectPosition="center top"
+
             alt="picture of author"
           />
         </div>
