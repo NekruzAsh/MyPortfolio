@@ -16,7 +16,7 @@ const main = () => {
           <h1 className="md:text-[50px] text-[34px] text-[#7899BD]">
             I'm a Software Developer from New York.
           </h1>
-          <div className="box-border md:h-[141px] md:w-[550px] sm:w-[500px] h-[141px] p-0 border-0">
+          <div className="box-border md:h-[141px] md:w-[560px] sm:w-[500px] h-[141px] p-0 border-0">
             <p
               className="text-[#7899BD] md:text-[18px] sm:text-md text-sm md:py-10 py-6"
               style={{ lineHeight: "1.5" }}
