@@ -66,15 +66,17 @@ const navbar = () => {
                 <span className=" text-[#f44336]">03.</span> Contact
               </li>
             </Link>
+            <button class="button">
             <a
               href={myResume}
               target="_blank"
-              className="relative flex w-[7rem] h-[50px] mx-4 ml-10 text-md px-6 py-3 cursor-pointer text-[#f44336] hover:text-[#011222] group"
-            >
-              <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 translate-y-2 border-2 border-[#f44336] group-hover:bg-[#BFD0E3] group-hover:translate-x-0 group-hover:translate-y-0" />
-              <span className="absolute inset-0 w-full h-full border-2 border-[#f44336]" />
-              <span className="relative">Resume</span>
+              className="an mx-4 ml-10  px-6 py-1"
+            ><span className="span">
+              
+                Resume  
+                </span>
             </a>
+            </button>
           </ul>
           <div className="md:hidden">
             <label className="hamburger">
