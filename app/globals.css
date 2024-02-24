@@ -286,7 +286,7 @@ html {
   height: 50%;
   left: -0.3em;
   top: -0.3em;
-  border: 1px solid #7899BD;
+  border: 1px solid #f44336;
   border-bottom: 0px;
      /* opacity: 0.3; */
  }
@@ -298,7 +298,7 @@ html {
   height: 50%;
   left: -0.3em;
   bottom: -0.3em;
-  border: 1px solid #7899BD;
+  border: 1px solid #f44336;
   border-top: 0px;
      /* opacity: 0.3; */
   z-index: 0;
