@@ -30,16 +30,10 @@ const main = () => {
               strong focus on Software Engineering and Artificial Intelligence.
             </p>
           </div>
-          <div className=" md:py-12 py-6 sm:py-2">
-            <button class="button">
-              <a
-                href="https://github.com/NekruzAsh"
-                target="_blank"
-                className="an mt-2 px-6 py-3 "
-              >
-                <span className="span">Check out my Github!</span>
-              </a>
-            </button>
+          <div className="button-borders mt-4 ml-2 md:ml-1 md:mt-16">
+            <a href="https://github.com/NekruzAsh" target="_blank">
+              <button class="primary-button">Check out my Github!</button>
+            </a>
           </div>
         </div>
       </div>
