@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 import { FiGithub, FiLinkedin} from "react-icons/fi";
+import { SiDevpost } from "react-icons/si";
 
 const Contact = () => {
   return (
@@ -98,6 +99,13 @@ const Contact = () => {
             className="text-[#7899BD] hover:text-[#f44336] transition-colors duration-500"
           >
             <FiLinkedin size={24} />
+          </a>
+          <a
+            href="https://devpost.com/NekruzAsh?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav"
+            target="_blank"
+            className="text-[#7899BD] hover:text-[#f44336] transition-colors duration-500"
+          >
+            <SiDevpost size={24} />
           </a>
         </div>
         <div className="text-sm text-center md:mt-36 mt-4 text-[#7899BD] cursor-pointer">
