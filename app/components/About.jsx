@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import "../globals.css";
-import { TbCircleTriangle } from "react-icons/tb";
+import { FaGooglePlay } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -39,12 +39,12 @@ const About = () => {
             </p>
             <br />
               <ul className="grid grid-cols-2 gap-y-1 gap-1 text-sm">
-                <li className="flex items-center"><TbCircleTriangle className="text-[#f44336]" size={11}/>&nbsp;&nbsp;JavaScript (ES6+)</li>
-                <li className="flex items-center"><TbCircleTriangle className="text-[#f44336]" size={11}/>&nbsp;&nbsp;Python</li>
-                <li className="flex items-center"><TbCircleTriangle className="text-[#f44336]" size={11}/>&nbsp;&nbsp;React</li>
-                <li className="flex items-center"><TbCircleTriangle className="text-[#f44336]" size={11}/>&nbsp;&nbsp;C++</li>
-                <li className="flex items-center"><TbCircleTriangle className="text-[#f44336]" size={11}/>&nbsp;&nbsp;Node.js</li>
-                <li className="flex items-center"><TbCircleTriangle className="text-[#f44336]" size={11}/>&nbsp;&nbsp;MongoDB</li>
+                <li className="flex items-center"><FaGooglePlay className="text-[#f44336]" size={7}/>&nbsp;&nbsp;JavaScript (ES6+)</li>
+                <li className="flex items-center"><FaGooglePlay className="text-[#f44336]" size={7}/>&nbsp;&nbsp;Python</li>
+                <li className="flex items-center"><FaGooglePlay className="text-[#f44336]" size={7}/>&nbsp;&nbsp;React</li>
+                <li className="flex items-center"><FaGooglePlay className="text-[#f44336]" size={7}/>&nbsp;&nbsp;C++</li>
+                <li className="flex items-center"><FaGooglePlay className="text-[#f44336]" size={7}/>&nbsp;&nbsp;Node.js</li>
+                <li className="flex items-center"><FaGooglePlay className="text-[#f44336]" size={7}/>&nbsp;&nbsp;MongoDB</li>
               </ul>
           </div>
         </div>
