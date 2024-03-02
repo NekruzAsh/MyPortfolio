@@ -65,7 +65,7 @@ const navbar = () => {
                 <span className=" text-[#f44336]">03.</span> Contact
               </li>
             </Link>
-            <div className="button-borders ml-10 mr-2">
+            <div className="button-borders ml-12 mr-8">
               <a href={myResume} target="_blank">
                 <button
                   className="primary-button"
