@@ -34,7 +34,7 @@ const navbar = () => {
     <div
       className={
         shadow
-          ? "fixed w-full h-20 z-[100] bg-[#011222] backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-[#0A131E] shadow-md transition-shadow duration-500"
+          ? "fixed w-full h-20 z-[100] bg-[#011222] backdrop-filter backdrop-blur-lg bg-opacity-30 shadow-lg transition-shadow duration-500"
           : "fixed w-full h-20 z-[100] bg-[#011222]"
       }
     >
