@@ -97,7 +97,7 @@ const Projects = () => {
 
           <div className="card project-card md:w-[500px] w-84 md:h-[620px] h-[480px] rounded-sm bg-[#0F1D2D] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
-              <a href="https://nekruzash.github.io/QuizGen/" target="_blank">
+              <a href="https://nekruzash.github.io/QuizGenAI/" target="_blank">
                 <img
                   className="rounded-sm"
                   src="/images/quizgenn.png"
@@ -108,7 +108,7 @@ const Projects = () => {
             <div className="card-body">
               <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#f44336]">
                 <a
-                  href="https://nekruzash.github.io/QuizGen/"
+                  href="https://nekruzash.github.io/QuizGenAI/"
                   target="_blank"
                   className="hover:text-[#BFD0E3] transform duration-500"
                 >
@@ -145,7 +145,7 @@ const Projects = () => {
                   <FiGithub size={23} />
                 </a>
                 <a
-                  href="https://nekruzash.github.io/QuizGen/"
+                  href="https://nekruzash.github.io/QuizGenAI/"
                   target="_blank"
                   className="text-[#7899BD] hover:text-[#f44336] transform duration-500"
                 >
