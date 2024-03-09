@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import "../globals.css";
 
-const myResume = "/images/NekruzAshrapov_Resume_Summer2024.pdf";
+const myResume = "https://www.linkedin.com/in/nekruzash/";
 
 const navbar = () => {
   const [nav, setNav] = useState(false);
