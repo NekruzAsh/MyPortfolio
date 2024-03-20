@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "next/link";
+import "../globals.css";
 
-import { FiGithub, FiLinkedin} from "react-icons/fi";
+import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { SiDevpost } from "react-icons/si";
 
 const Contact = () => {
@@ -44,13 +45,14 @@ const Contact = () => {
             <SiDevpost size={24} />
           </a>
         </div>
-        <div className="text-sm text-center md:mt-36 mt-4 text-[#7899BD] cursor-pointer">
+
+        <div className="text-sm md:mt-0 mt-5 text-[#7899BD] styledFooter">
           <a
             className="hover:text-[#f44336] transition-colors duration-500"
             href="https://github.com/NekruzAsh/MyPortfolio.git"
             target="_blank"
           >
-            Designed and Built by Nekruz Ashrapov
+            <p>Designed &amp; Built by Nekruz Ashrapov</p>
           </a>
         </div>
       </div>

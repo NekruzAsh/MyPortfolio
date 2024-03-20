@@ -296,5 +296,18 @@ html {
  
 
 
+.styledFooter {
 
+  flex-direction: column;
+  height: auto;
+  min-height: 1px;
+  padding: 1px;
+  text-align: center;
+  align-items: flex-start; /* Add this line */
+  line-height: 1; /* Add this line */
 
+}
+
+.styledFooter a {
+  margin-bottom: 0; /* Add this line */
+}
