@@ -30,7 +30,7 @@ const main = () => {
           </h1>
           <div className="button-borders mt-8 ml-2 md:ml-1 md:mt-16">
             <a href="https://github.com/NekruzAsh" target="_blank">
-              <button class="primary-button uppercase">Check out my Github</button>
+              <button class="primary-button">Check out my Github!</button>
             </a>
           </div>
         </div>
