@@ -39,7 +39,7 @@ const Projects = () => {
               </a>
             </figure>
             <div className="card-body">
-              <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#915fff]">
+              <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#e8ddff]">
                 <a
                   href="https://chatapp-3a0e9.web.app/"
                   target="_blank"
@@ -106,7 +106,7 @@ const Projects = () => {
               </a>
             </figure>
             <div className="card-body">
-              <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#915fff]">
+              <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#e8ddff]">
                 <a
                   href="https://nekruzash.github.io/QuizGenAI/"
                   target="_blank"
@@ -171,7 +171,7 @@ const Projects = () => {
               </a>
             </figure>
             <div className="card-body">
-              <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#915fff]">
+              <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#e8ddff]">
                 <a
                   href="https://to-do-app-weld-seven.vercel.app/"
                   target="_blank"
@@ -233,7 +233,7 @@ const Projects = () => {
               </a>
             </figure>
             <div className="card-body">
-              <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#915fff]">
+              <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#e8ddff]">
                 <a
                   href="https://forumwebsite.onrender.com"
                   target="_blank"
@@ -315,7 +315,7 @@ const Projects = () => {
               </a>
             </figure>
             <div className="card-body">
-              <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#915fff]">
+              <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#e8ddff]">
                 <a
                   href="https://nekruzash.github.io/amazonaffiliate/"
                   target="_blank"
@@ -377,7 +377,7 @@ const Projects = () => {
               </a>
             </figure>
             <div className="card-body">
-              <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#915fff]">
+              <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 uppercase card-title text-[#e8ddff]">
                 <a
                   href="https://github.com/NekruzAsh/TicTacToeAI.git"
                   target="_blank"
