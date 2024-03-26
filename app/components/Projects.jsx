@@ -28,7 +28,7 @@ const Projects = () => {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Chat App */}
-          <div className="project-card card md:w-[500px] w-84 md:h-[620px] h-[520px] bg-[#131735] rounded-sm shadow-lg">
+          <div className="project-card card md:w-[500px] w-84 md:h-[620px] h-[520px] bg-[#151030] rounded-sm shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <a href="https://chatapp-3a0e9.web.app/" target="_blank">
                 <img
@@ -95,7 +95,7 @@ const Projects = () => {
 
           {/* Quiz Gen */}
 
-          <div className="card project-card md:w-[500px] w-84 md:h-[620px] h-[480px] rounded-sm bg-[#131735] shadow-lg">
+          <div className="card project-card md:w-[500px] w-84 md:h-[620px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <a href="https://nekruzash.github.io/QuizGenAI/" target="_blank">
                 <img
@@ -157,7 +157,7 @@ const Projects = () => {
 
           {/* Todo app */}
 
-          <div className="card project-card md:w-[500px] w-84 md:h-[620px] h-[480px] rounded-sm bg-[#131735] shadow-lg">
+          <div className="card project-card md:w-[500px] w-84 md:h-[620px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <a
                 href="https://to-do-app-weld-seven.vercel.app/"
@@ -222,7 +222,7 @@ const Projects = () => {
 
           {/* Forum Website */}
 
-          <div className="card project-card md:w-[500px] w-84 md:h-[620px] h-[480px] rounded-sm bg-[#131735] shadow-lg">
+          <div className="card project-card md:w-[500px] w-84 md:h-[620px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <a href="https://forumwebsite.onrender.com" target="_blank">
                 <img
@@ -301,7 +301,7 @@ const Projects = () => {
 
           {/* Amazon Affiliate */}
 
-          <div className="card project-card md:w-[500px] w-84 md:h-[620px] h-[480px] rounded-sm bg-[#131735] shadow-lg">
+          <div className="card project-card md:w-[500px] w-84 md:h-[620px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <a
                 href="https://nekruzash.github.io/amazonaffiliate/"
@@ -365,7 +365,7 @@ const Projects = () => {
 
           {/* TicTacToe AI */}
 
-          <div className="card project-card md:w-[500px] w-84 md:h-[620px] h-[480px] rounded-sm bg-[#131735] shadow-lg">
+          <div className="card project-card md:w-[500px] w-84 md:h-[620px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
             <figure className=" px-4 pt-4 md:px-6 md:pt-6">
               <a href="https://github.com/NekruzAsh/TicTacToeAI.git"
                   target="_blank">
