@@ -1,8 +1,10 @@
 import React from "react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import Link from "next/link";
+import { FiGithub, FiLinkedin } from "react-icons/fi";
+import { SiDevpost } from "react-icons/si";
 
-const myResume = "/images/NekruzAshrapovResume.pdf";
+
 
 const main = () => {
   return (
@@ -28,11 +30,29 @@ const main = () => {
           <h1 className="md:text-[50px] text-[34px] text-[#aba6c4]">
             I'm a Software Developer from New York.
           </h1>
-          <div className="button-borders mt-8 ml-2 md:ml-1 md:mt-16">
-            <a href="https://github.com/NekruzAsh" target="_blank">
-              <button class="primary-button">Check out my Github!</button>
-            </a>
-          </div>
+          <div className="flex space-x-4 items-center mt-8 md:mt-12">
+          <a
+            href="https://github.com/NekruzAsh"
+            target="_blank"
+            className="text-[#aba6c4] hover:text-[#915fff] transition-colors duration-500"
+          >
+            <FiGithub size={38} />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/nekruzash/"
+            target="_blank"
+            className="text-[#aba6c4] hover:text-[#915fff] transition-colors duration-500"
+          >
+            <FiLinkedin size={38} />
+          </a>
+          <a
+            href="https://devpost.com/NekruzAsh?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav"
+            target="_blank"
+            className="text-[#aba6c4] hover:text-[#915fff] transition-colors duration-500"
+          >
+            <SiDevpost size={38} />
+          </a>
+        </div>
         </div>
       </div>
     </div>

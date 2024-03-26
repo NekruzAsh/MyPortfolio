@@ -22,7 +22,7 @@ const Contact = () => {
           If you have any opportunities, insights, or just want to say hi,
           please message me. I will get back to you as soon as possible!
         </p>
-        <div className="flex justify-center space-x-4 items-center mt-10 lg:hidden md:hidden">
+        <div className="flex justify-center space-x-4 items-center mt-10 mb-4">
           <a
             href="https://github.com/NekruzAsh"
             target="_blank"
