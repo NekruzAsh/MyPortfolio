@@ -9,23 +9,23 @@ const About = () => {
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2 md:pl-40 md:pr-40 pl-6 pr-6">
-          <h2 className="py-4 text-[#BFD0E3] flex items-center">
-            <span className="text-[#f44336]">01.&nbsp;</span> About Me
-            <hr className="border-[#1E3B5A] border-t-1 ml-4 flex-grow" />
+          <h2 className="py-4 text-[#e8ddff] flex items-center">
+            <span className="text-[#915fff]">01.&nbsp;</span> About Me
+            <hr className="border-[#251f41] border-t-1 ml-4 flex-grow" />
           </h2>
-          <p className="py-2 text-[#7899BD]">
+          <p className="py-2 text-[#aba6c4]">
             I'm a self-taught Software Developer with a passion for building
             dynamic and responsive web applications. I love to learn new
             technologies and apply them to my projects. Currently, I am learning
             more about{" "}
-            <span className="text-[#f44336]">developing web applications</span>{" "}
+            <span className="text-[#915fff]">developing web applications</span>{" "}
             using different frameworks and libraries. During my free time, I'm{" "}
-            <span className="text-[#f44336]">
+            <span className="text-[#915fff]">
               experimenting with different AI language models
             </span>{" "}
             to better tailor them for my personal projects.
           </p>
-          <p className="py-2 text-[#7899BD]">
+          <p className="py-2 text-[#aba6c4]">
             My coding journey began when I wrote my first line of HTML code in
             8th grade during an after-school program in New York. I was
             fascinated by the idea that I could create such beautiful software
@@ -33,18 +33,18 @@ const About = () => {
             lines of code evolved into a love for programming, driving me to
             explore the intricate aspects of this craft.
           </p>
-          <div className="py-2 text-[#7899BD]">
+          <div className="py-2 text-[#aba6c4]">
             <p>
             Here are a few technologies I've been working with recently:
             </p>
             <br />
               <ul className="grid grid-cols-2 gap-y-1 gap-1 text-sm">
-                <li className="flex items-center"><FaGooglePlay className="text-[#f44336]" size={7}/>&nbsp;&nbsp;JavaScript (ES6+)</li>
-                <li className="flex items-center"><FaGooglePlay className="text-[#f44336]" size={7}/>&nbsp;&nbsp;Python</li>
-                <li className="flex items-center"><FaGooglePlay className="text-[#f44336]" size={7}/>&nbsp;&nbsp;React</li>
-                <li className="flex items-center"><FaGooglePlay className="text-[#f44336]" size={7}/>&nbsp;&nbsp;C++</li>
-                <li className="flex items-center"><FaGooglePlay className="text-[#f44336]" size={7}/>&nbsp;&nbsp;Node.js</li>
-                <li className="flex items-center"><FaGooglePlay className="text-[#f44336]" size={7}/>&nbsp;&nbsp;MongoDB</li>
+                <li className="flex items-center"><FaGooglePlay className="text-[#915fff]" size={7}/>&nbsp;&nbsp;JavaScript (ES6+)</li>
+                <li className="flex items-center"><FaGooglePlay className="text-[#915fff]" size={7}/>&nbsp;&nbsp;Python</li>
+                <li className="flex items-center"><FaGooglePlay className="text-[#915fff]" size={7}/>&nbsp;&nbsp;React</li>
+                <li className="flex items-center"><FaGooglePlay className="text-[#915fff]" size={7}/>&nbsp;&nbsp;C++</li>
+                <li className="flex items-center"><FaGooglePlay className="text-[#915fff]" size={7}/>&nbsp;&nbsp;Node.js</li>
+                <li className="flex items-center"><FaGooglePlay className="text-[#915fff]" size={7}/>&nbsp;&nbsp;MongoDB</li>
               </ul>
           </div>
         </div>
