@@ -49,11 +49,11 @@ const About = () => {
           </div>
         </div>
 
-        <div className="image-style shadow-lg items-center rounded-sm relative justify-center ml-20 md:ml-[-50px] mt-16">
+        <div className="image-style shadow-lg items-center relative justify-center ml-20 md:ml-[-50px] mt-16">
           <img
             src="/images/authorimage.jpg"
             quality={100}
-
+            className="rounded-xl"
             alt="picture of author"
           />
         </div>

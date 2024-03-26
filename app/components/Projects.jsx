@@ -13,12 +13,12 @@ const Projects = () => {
     <div id="projects" className="w-full flex justify-center items-center">
       <div className="max-w-[1240px] mx-auto px-2 py-20 lg:px-2 md:px-24 md:py-36 lg:py-16">
         <div className="max-w-3xl">
-          <h2 className="text-[#e8ddff] py-4 flex items-center">
+          <h2 className="text-[#e8ddff] pl-6 pr-6 md:pl-0 md:pr-0 py-4 flex items-center">
             <span className=" text-[#915fff]">02.&nbsp;</span> My Work
             <hr className="border-[#251f41] border-t-1 ml-4 flex-grow" />
           </h2>
 
-          <p className="mb-16 text-[#aba6c4] text-[17px] max-w-3xl leading-[30px]">
+          <p className="mb-16 text-[#aba6c4] text-[17px] pl-6 pr-6 md:pl-0 md:pr-0 max-w-3xl leading-[30px]">
             Following projects showcases my skills and experience through
             real-world examples of my work. Each project is briefly described
             with links to code repositories and live demos. It reflects my

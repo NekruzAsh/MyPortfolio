@@ -58,7 +58,6 @@ html {
   object-position: 50% 5%; 
   position: relative;
   z-index: 1;
-  border-radius: 50%;
 }
 
 .image-style::before {
