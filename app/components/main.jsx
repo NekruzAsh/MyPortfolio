@@ -23,7 +23,7 @@ const main = () => {
       </div>
       <div className="max-w-[1240px] w-full h-full mx-auto p-4 flex justify-center items-center z-20 relative">
         <div className="text-left mb-20">
-          <p className="text-[#915fff] text-[22px]">Hi, my name is</p>
+          <p className="text-[#64feda] text-[22px]">Hi, my name is</p>
           <h1 className="py-4 md:text-[60px] text-[#e8ddff] font-bold">
             Nekruz Ashrapov.
           </h1>
@@ -34,23 +34,23 @@ const main = () => {
           <a
             href="https://github.com/NekruzAsh"
             target="_blank"
-            className="text-[#aba6c4] hover:text-[#915fff] transition-colors duration-500"
+            className="text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500"
           >
-            <FiGithub size={38} />
+            <FiGithub size={32} />
           </a>
           <a
             href="https://www.linkedin.com/in/nekruzash/"
             target="_blank"
-            className="text-[#aba6c4] hover:text-[#915fff] transition-colors duration-500"
+            className="text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500"
           >
-            <FiLinkedin size={38} />
+            <FiLinkedin size={34} />
           </a>
           <a
             href="https://devpost.com/NekruzAsh?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav"
             target="_blank"
-            className="text-[#aba6c4] hover:text-[#915fff] transition-colors duration-500"
+            className="text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500"
           >
-            <SiDevpost size={38} />
+            <SiDevpost size={34} />
           </a>
         </div>
         </div>

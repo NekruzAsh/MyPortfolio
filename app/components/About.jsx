@@ -10,7 +10,7 @@ const About = () => {
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2 md:pl-40 md:pr-40 pl-6 pr-6">
           <h2 className="py-4 text-[#e8ddff] flex items-center">
-            <span className="text-[#915fff]">01.&nbsp;</span> About Me
+            <span className="text-[#64feda]">01.&nbsp;</span> About Me
             <hr className="border-[#251f41] border-t-1 ml-4 flex-grow" />
           </h2>
           <p className="py-2 text-[#aba6c4]">
@@ -18,9 +18,9 @@ const About = () => {
             dynamic and responsive web applications. I love to learn new
             technologies and apply them to my projects. Currently, I am learning
             more about{" "}
-            <span className="text-[#915fff]">developing web applications</span>{" "}
+            <span className="text-[#64feda]">developing web applications</span>{" "}
             using different frameworks and libraries. During my free time, I'm{" "}
-            <span className="text-[#915fff]">
+            <span className="text-[#64feda]">
               experimenting with different AI language models
             </span>{" "}
             to better tailor them for my personal projects.
@@ -39,12 +39,12 @@ const About = () => {
             </p>
             <br />
               <ul className="grid grid-cols-2 gap-y-1 gap-1 text-sm">
-                <li className="flex items-center"><FaGooglePlay className="text-[#915fff]" size={7}/>&nbsp;&nbsp;JavaScript (ES6+)</li>
-                <li className="flex items-center"><FaGooglePlay className="text-[#915fff]" size={7}/>&nbsp;&nbsp;Python</li>
-                <li className="flex items-center"><FaGooglePlay className="text-[#915fff]" size={7}/>&nbsp;&nbsp;React</li>
-                <li className="flex items-center"><FaGooglePlay className="text-[#915fff]" size={7}/>&nbsp;&nbsp;C++</li>
-                <li className="flex items-center"><FaGooglePlay className="text-[#915fff]" size={7}/>&nbsp;&nbsp;Node.js</li>
-                <li className="flex items-center"><FaGooglePlay className="text-[#915fff]" size={7}/>&nbsp;&nbsp;MongoDB</li>
+                <li className="flex items-center"><FaGooglePlay className="text-[#64feda]" size={7}/>&nbsp;&nbsp;JavaScript (ES6+)</li>
+                <li className="flex items-center"><FaGooglePlay className="text-[#64feda]" size={7}/>&nbsp;&nbsp;Python</li>
+                <li className="flex items-center"><FaGooglePlay className="text-[#64feda]" size={7}/>&nbsp;&nbsp;React</li>
+                <li className="flex items-center"><FaGooglePlay className="text-[#64feda]" size={7}/>&nbsp;&nbsp;C++</li>
+                <li className="flex items-center"><FaGooglePlay className="text-[#64feda]" size={7}/>&nbsp;&nbsp;Node.js</li>
+                <li className="flex items-center"><FaGooglePlay className="text-[#64feda]" size={7}/>&nbsp;&nbsp;MongoDB</li>
               </ul>
           </div>
         </div>

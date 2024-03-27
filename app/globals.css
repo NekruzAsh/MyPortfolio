@@ -120,7 +120,7 @@ html {
 
 .line {
   fill: none;
-  stroke: #915fff;
+  stroke: #64feda;
   stroke-linecap: butt;
   stroke-linejoin: miter;
   stroke-width: 2;
@@ -191,7 +191,7 @@ html {
   z-index: 3;
 }
 
-.button {
+/* .button {
   background-color: none;
   text-decoration: none;
   background-color: #011222;
@@ -286,8 +286,29 @@ html {
   border-top: 0px;
      
   z-index: 0;
- } 
+ }  */
 
+ .button {
+  color: #64feda; 
+  background-color: #050817;
+  border: 1px solid #64feda; 
+  border-radius: 5px; 
+  line-height: 1;
+  text-decoration: none;
+  padding: 1.25rem 1.75rem;
+  transition: 0.3s; 
+}
+
+.button:hover,
+.button:focus-visible {
+  outline: none;
+  box-shadow: 4px 4px 0 0 #64feda; 
+  transform: translate(-5px, -5px);
+}
+
+.button:after {
+  display: none !important;
+}
 
 
  

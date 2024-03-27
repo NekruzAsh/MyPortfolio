@@ -51,30 +51,23 @@ const navbar = () => {
         <div>
           <ul className="hidden items-center md:flex">
             <Link href="/#about">
-              <li className="ml-10 text-lg text-[#aba6c4] hover:text-[#915fff] transition-colors duration-500">
-                <span className=" text-[#915fff]">01.</span> About
+              <li className="ml-10 text-lg text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500">
+                <span className=" text-[#64feda]">01.</span> About
               </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-lg text-[#aba6c4] hover:text-[#915fff] transition-colors duration-500">
-                <span className="text-[#915fff]">02.</span> Projects
+              <li className="ml-10 text-lg text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500">
+                <span className="text-[#64feda]">02.</span> Projects
               </li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 text-lg text-[#aba6c4] hover:text-[#915fff] transition-colors duration-500">
-                <span className=" text-[#915fff]">03.</span> Contact
+              <li className="ml-10 text-lg text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500">
+                <span className=" text-[#64feda]">03.</span> Contact
               </li>
             </Link>
-            <div className="button-borders ml-12 mr-8">
-              <a href={myResume} target="_blank">
-                <button
-                  className="primary-button"
-                  style={{ padding: "10px 20px" }}
-                >
-                  Resume
-                </button>
+              <a href={myResume} target="_blank" className="button ml-10 mr-4 text-lg">
+                Resume
               </a>
-            </div>
           </ul>
           <div className="md:hidden">
             <label className="hamburger">
@@ -109,41 +102,31 @@ const navbar = () => {
           <div className="items-center text-center py-4 mx-auto mt-36 flex flex-col">
             <ul>
               <Link href="/#about">
-                <li className="py-4 text-[17px] text-[#aba6c4] hover:text-[#915fff] transition-colors duration-500">
-                  <span className="text-[#915fff]">01.</span>
+                <li className="py-4 text-[17px] text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500">
+                  <span className="text-[#64feda]">01.</span>
                   <br />
                   About
                 </li>
               </Link>
 
               <Link href="/#projects">
-                <li className="py-4 text-[17px] text-[#aba6c4] hover:text-[#915fff] transition-colors duration-500">
-                  <span className="text-[#915fff]">02.</span>
+                <li className="py-4 text-[17px] text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500">
+                  <span className="text-[#64feda]">02.</span>
                   <br />
                   Work
                 </li>
               </Link>
               <Link href="/#contact">
-                <li className="py-4 text-[17px] text-[#aba6c4] hover:text-[#915fff] transition-colors duration-500">
-                  <span className="text-[#915fff]">03.</span>
+                <li className="py-4 text-[17px] text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500">
+                  <span className="text-[#64feda]">03.</span>
                   <br />
                   Contact
                 </li>
               </Link>
             </ul>
-            <div className="button-borders mt-5">
-            <a
-              href={myResume}
-              target="_blank"
-            >
-              <button
-                className="primary-button"
-                style={{ padding: "10px 20px" }}
-              >
+            <a href={myResume} target="_blank" className="button mt-5 text-lg">
                 Resume
-              </button>
-            </a>
-            </div>
+              </a>
           </div>
         </div>
       </div>
