@@ -34,8 +34,8 @@ const navbar = () => {
     <div
       className={
         shadow
-          ? "fixed w-full h-20 z-[100] bg-[#050817] backdrop-filter backdrop-blur-lg bg-opacity-50 transition-shadow duration-500"
-          : "fixed w-full h-20 z-[100]"
+          ? "fixed w-full h-24 z-[100] bg-[#050817] backdrop-filter backdrop-blur-lg bg-opacity-50 transition-shadow duration-500"
+          : "fixed w-full h-24 z-[100]"
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
