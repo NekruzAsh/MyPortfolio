@@ -30,7 +30,7 @@ const main = () => {
           </h1>
 
           <div className="flex items-center mt-8 md:mt-12">
-            <a href="https://github.com/NekruzAsh" target="_blank" className="button">
+            <a href="https://github.com/NekruzAsh" target="_blank" className="button text-lg">
               Check out my GitHub!
             </a>
           </div>

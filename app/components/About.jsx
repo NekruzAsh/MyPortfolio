@@ -53,7 +53,7 @@ const About = () => {
           <img
             src="/images/authorimage.jpg"
             quality={100}
-            className="rounded-xl"
+            className="rounded-md"
             alt="picture of author"
           />
         </div>
