@@ -4,8 +4,6 @@ import Link from "next/link";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { SiDevpost } from "react-icons/si";
 
-
-
 const main = () => {
   return (
     <div
@@ -27,32 +25,15 @@ const main = () => {
           <h1 className="py-4 md:text-[60px] text-[#e8ddff] font-bold">
             Nekruz Ashrapov.
           </h1>
-          <h1 className="md:text-[50px] text-[34px] text-[#aba6c4]">
+          <h1 className="md:text-[50px] text-[30px] text-[#aba6c4]">
             I'm a Software Developer from New York.
           </h1>
-          <div className="flex space-x-4 items-center mt-8 md:mt-12">
-          <a
-            href="https://github.com/NekruzAsh"
-            target="_blank"
-            className="text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500"
-          >
-            <FiGithub size={32} />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/nekruzash/"
-            target="_blank"
-            className="text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500"
-          >
-            <FiLinkedin size={34} />
-          </a>
-          <a
-            href="https://devpost.com/NekruzAsh?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav"
-            target="_blank"
-            className="text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500"
-          >
-            <SiDevpost size={34} />
-          </a>
-        </div>
+
+          <div className="flex items-center mt-8 md:mt-12">
+            <a href="" target="" className="button">
+              Check out my GitHub!
+            </a>
+          </div>
         </div>
       </div>
     </div>
