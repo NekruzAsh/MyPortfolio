@@ -41,7 +41,7 @@ const navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/#home">
           <Image
-            src="/images/logoo.png"
+            src="/images/logoo.webp"
             alt="logo"
             width={70}
             height={70}
