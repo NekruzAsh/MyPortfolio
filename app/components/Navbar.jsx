@@ -3,6 +3,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import "../globals.css";
+import anime from 'animejs/lib/anime.es.js';
 
 const myResume = "https://www.linkedin.com/in/nekruzash/";
 
@@ -29,6 +30,25 @@ const navbar = () => {
 
     window.addEventListener("scroll", changeShadow);
   }, []);
+  
+  useEffect(() => {
+    anime({
+      targets: '#hexagon path',
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: 'easeInOutQuart',
+      duration: 2000,
+      delay: function(el, i) { return i * 250 },
+      
+    });
+  
+    anime({
+      targets: '#hexagon #B',
+      duration: 1000,
+      opacity: 1,
+      easing: 'easeInOutQuart',
+      
+    });
+  }, []);
 
   return (
     <div
@@ -39,7 +59,49 @@ const navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Link href="/#home">
+        
+          <svg
+            id="hexagon"
+            viewBox="0 0 100 100"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+            width="50" // specify the width
+            height="50"
+          >
+            <g>
+              <g
+                id="B"
+                transform="translate(31, 35)"
+                fill="#64FFDA"
+                style={{ opacity: 1 }}
+                fontFamily="system-ui,Calibre-Medium, Calibre,sans-serif"
+                fontSize="50"
+                fontWeight="400"
+                letterSpacing="4.16666603"
+              >
+                <text>
+                  <tspan x="0.141666985" y="33">
+                    N
+                  </tspan>
+                </text>
+              </g>
+              <path
+                stroke="#64FFDA"
+                strokeWidth="5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M 50, 5
+ L 11, 27
+ L 11, 72
+ L 50, 95
+ L 89, 73
+ L 89, 28 z"
+              />
+            </g>
+          </svg>
+       
+        {/* <Link href="/#home">
           <Image
             src="/images/logoo.webp"
             alt="logo"
@@ -47,7 +109,7 @@ const navbar = () => {
             height={80}
             quality={100}
           />
-        </Link>
+        </Link> */}
         <div>
           <ul className="hidden items-center md:flex">
             <Link href="/#about">
@@ -65,9 +127,13 @@ const navbar = () => {
                 <span className=" text-[#64feda]">03.</span> Contact
               </li>
             </Link>
-              <a href={myResume} target="_blank" className="button ml-10 mr-6 text-lg">
-                Resume
-              </a>
+            <a
+              href={myResume}
+              target="_blank"
+              className="button ml-10 mr-6 text-lg"
+            >
+              Resume
+            </a>
           </ul>
           <div className="md:hidden">
             <label className="hamburger">
@@ -125,8 +191,8 @@ const navbar = () => {
               </Link>
             </ul>
             <a href={myResume} target="_blank" className="button mt-5 text-lg">
-                Resume
-              </a>
+              Resume
+            </a>
           </div>
         </div>
       </div>
