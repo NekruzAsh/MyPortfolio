@@ -43,8 +43,8 @@ const navbar = () => {
           <Image
             src="/images/logoo.webp"
             alt="logo"
-            width={70}
-            height={70}
+            width={80}
+            height={80}
             quality={100}
           />
         </Link>
@@ -65,7 +65,7 @@ const navbar = () => {
                 <span className=" text-[#64feda]">03.</span> Contact
               </li>
             </Link>
-              <a href={myResume} target="_blank" className="button ml-10 mr-4 text-lg">
+              <a href={myResume} target="_blank" className="button ml-10 mr-6 text-lg">
                 Resume
               </a>
           </ul>
