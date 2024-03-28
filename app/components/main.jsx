@@ -14,9 +14,10 @@ const main = () => {
       <div className="w-full h-96 absolute bottom-0 left-0 z-10">
         <iframe
           src="https://my.spline.design/3dpathslines1copy-aad7b11dec196a4121d5452cddf6b7d4/"
-          frameborder="0"
+          
           width="100%"
           height="100%"
+          allowtransparency = "true"
         ></iframe>
       </div>
       <div className="max-w-[1240px] w-full h-full mx-auto p-4 flex justify-center items-center z-20 relative">
