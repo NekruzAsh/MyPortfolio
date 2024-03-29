@@ -17,8 +17,8 @@ const Projects = () => {
             <span className=" text-[#64feda]">02.&nbsp;</span> My Work
             <hr className="border-[#251f41] border-t-1 ml-4 flex-grow" />
           </h2>
-
-          <p className="mb-16 text-[#aba6c4] text-[17px] pl-6 pr-6 md:pl-0 md:pr-0 max-w-3xl leading-[30px]">
+          <iframe src='https://my.spline.design/3dpathslines1copy-ce01ee03911f38e4c9f14fb4d2fd7721/' className="left-0 right-0 w-full h-96 absolute mx-auto z-0" frameBorder='0' width='100%' height='100%'></iframe>
+          <p className="mb-16 text-[#aba6c4] text-[17px] pl-6 pr-6 md:pl-0 md:pr-0 max-w-3xl leading-[30px] z-10 relative">
             Following projects showcases my skills and experience through
             real-world examples of my work. Each project is briefly described
             with links to code repositories and live demos. It reflects my
@@ -92,8 +92,6 @@ const Projects = () => {
               </div>
             </div>
           </div>
-
-          
 
           {/* Quiz Gen */}
 
@@ -369,13 +367,15 @@ const Projects = () => {
 
           <div className="card md:w-[500px] w-84 md:h-[620px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
             <figure className=" px-4 pt-4 md:px-6 md:pt-6">
-              <a href="https://github.com/NekruzAsh/TicTacToeAI.git"
-                  target="_blank">
-              <img
-                className="rounded-sm w-[375px] h-[160px] md:h-[250px] md:w-[450px]"
-                src="/images/tictactoe.png"
-                alt="TicTacToeAI"
-              />
+              <a
+                href="https://github.com/NekruzAsh/TicTacToeAI.git"
+                target="_blank"
+              >
+                <img
+                  className="rounded-sm w-[375px] h-[160px] md:h-[250px] md:w-[450px]"
+                  src="/images/tictactoe.png"
+                  alt="TicTacToeAI"
+                />
               </a>
             </figure>
             <div className="card-body">
@@ -391,8 +391,7 @@ const Projects = () => {
               <p className="mb-2 mx-[-14px] md:mb-10 md:mt-[-5px] md:px-2 text-[14px] md:text-[16px] text-[#aba6c4]">
                 Tic-Tac-Toe game with two different game modes: Player Vs.
                 Player and Player Vs. AI. Developed with Python's{" "}
-                <span className="text-[#64feda]">Tkinter GUI</span>{" "}
-                library and{" "}
+                <span className="text-[#64feda]">Tkinter GUI</span> library and{" "}
                 <span className="text-[#64feda]">Minimax algorithm</span> to
                 make an unbeatable AI opponent. Researched the Minimax algorithm
                 and implemented the algorithm for AI decision-making,
