@@ -93,6 +93,8 @@ const Projects = () => {
             </div>
           </div>
 
+          
+
           {/* Quiz Gen */}
 
           <div className="card md:w-[500px] w-84 md:h-[620px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
