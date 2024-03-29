@@ -58,6 +58,11 @@ html {
   object-position: 50% 5%; 
   position: relative;
   z-index: 1;
+  transition: transform 0.5s;
+}
+
+.image-style:hover img {
+  transform: translate(-10px, -10px);
 }
 
 .image-style::before {
