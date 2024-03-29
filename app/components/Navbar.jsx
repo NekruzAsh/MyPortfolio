@@ -72,7 +72,7 @@ const navbar = () => {
             <g>
               <g
                 id="B"
-                transform="translate(31, 35)"
+                transform="translate(32, 34)"
                 fill="#64FFDA"
                 style={{ opacity: 1 }}
                 fontFamily="system-ui,Calibre-Medium, Calibre,sans-serif"
