@@ -59,14 +59,14 @@ const navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        
+        <Link href="/#home">
           <svg
             id="hexagon"
             viewBox="0 0 100 100"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
-            width="50" // specify the width
+            width="50" 
             height="50"
           >
             <g>
@@ -100,7 +100,7 @@ const navbar = () => {
               />
             </g>
           </svg>
-       
+          </Link>
         {/* <Link href="/#home">
           <Image
             src="/images/logoo.webp"
