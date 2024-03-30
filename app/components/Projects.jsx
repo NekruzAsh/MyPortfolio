@@ -17,13 +17,7 @@ const Projects = () => {
             <span className=" text-[#64feda]">02.&nbsp;</span> My Work
             <hr className="border-[#251f41] border-t-1 ml-4 flex-grow" />
           </h2>
-          <iframe
-            src="https://my.spline.design/3dpathslines1copy-ce01ee03911f38e4c9f14fb4d2fd7721/"
-            className="left-0 right-0 w-[80%] md:w-[55%] h-96 absolute mx-auto z-0"
-            width="100%"
-            height="100%"
-          ></iframe>
-          <p className="mb-16 bg-[#151030] rounded-md bg-opacity-80 text-[#aba6c4] text-[17px] pl-6 pr-6 md:pl-2 md:pr-0 max-w-3xl leading-[30px] z-10 relative">
+          <p className="mb-16 text-[#aba6c4] text-[17px] pl-6 pr-6 md:pl-0 md:pr-0 max-w-3xl leading-[30px] z-10 relative">
             Following projects showcases my skills and experience through
             real-world examples of my work. Each project is briefly described
             with links to code repositories and live demos. It reflects my

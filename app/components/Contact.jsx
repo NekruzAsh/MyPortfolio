@@ -11,14 +11,20 @@ const Contact = () => {
       id="contact"
       className="w-full lg:h-[150%] flex justify-center items-center"
     >
-      <div className="max-w-[760px] m-auto lg:px-2 md:px-20 md:py-16 px-2 py-2 w-full">
+      <iframe
+            src="https://my.spline.design/3dpathslines1copy-ce01ee03911f38e4c9f14fb4d2fd7721/"
+            className="left-0 right-0 w-[96%] md:w-[58%] h-64 absolute mx-auto z-0"
+            width="100%"
+            height="100%"
+          ></iframe>
+      <div className=" lg:px-2 md:py-16 px-2 py-2 w-full z-20 bg-[#050817] rounded-lg bg-opacity-80">
         <p className="text-lg text-[#64feda] py-2 text-center">
           03. What's Next?
         </p>
         <h2 className=" text-[#e8ddff] md:py-4 text-center md:text-[60px] mx-auto">
           Get In Touch
         </h2>
-        <p className="text-[#aba6c4] text-[17px] py-4 text-center mx-10 mb-10">
+        <p className="text-[#aba6c4] text-[17px] py-4 text-center items-center mx-auto box box-border w-[340px] h-[120px] md:w-[440px] mb-10">
           If you have any opportunities, insights, or just want to say hi,
           please message me. I will get back to you as soon as possible!
         </p>
