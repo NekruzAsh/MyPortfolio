@@ -27,7 +27,7 @@ const Projects = () => {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Chat App */}
-          <div className="card md:w-[500px] w-84 md:h-[620px] h-[520px] bg-[#151030] rounded-sm shadow-lg">
+          <div className="card md:w-[500px] w-84 md:h-[550px] h-[520px] bg-[#151030] rounded-sm shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <a href="https://chatapp-3a0e9.web.app/" target="_blank">
                 <img
@@ -38,16 +38,40 @@ const Projects = () => {
               </a>
             </figure>
             <div className="card-body">
-              <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 card-title text-[#e8ddff]">
-                <a
-                  href="https://chatapp-3a0e9.web.app/"
-                  target="_blank"
-                  className="hover:text-[#aba6c4] transform duration-500"
-                >
-                  Chat Application
-                </a>
-              </h2>
-              <p className="mb-2 mx-[-14px] md:mb-10 md:mt-[-5px] md:px-2 text-[14px] md:text-[16px] text-[#aba6c4]">
+              <div className="flex justify-between items-center">
+                <h2 className=" card-title text-[#e8ddff]">
+                  <a
+                    href="https://chatapp-3a0e9.web.app/"
+                    target="_blank"
+                    className="hover:text-[#aba6c4] transform duration-500"
+                  >
+                    Chat Application
+                  </a>
+                </h2>
+                <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
+                <div className="space-x-2 flex items-center">
+                  <a
+                    href="https://github.com/NekruzAsh/Chat-app.git"
+                    target="_blank"
+                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
+                  >
+                    <FiGithub size={23} />
+                  </a>
+                  <a
+                    href="https://chatapp-3a0e9.web.app/"
+                    target="_blank"
+                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
+                  >
+                    <FiExternalLink size={25} />
+                  </a>
+                </div>
+              </div>
+              <p className="text-sm">
+                <span className="text-[#64feda]">
+                  NEXT - React - JavaScript - Tailwind - Firebase
+                </span>
+              </p>
+              <p className=" text-[#aba6c4]">
                 Simple chat application that allows users to signin with their
                 Google account and send messages. Developed a{" "}
                 <span className="text-[#64feda]">Firebase server</span> to store
@@ -56,45 +80,12 @@ const Projects = () => {
                 <span className="text-[#64feda]">Firebase Authentication</span>{" "}
                 to authenticate users through Google accounts.
               </p>
-              <div className="card-actions justify-start mx-[-14px] md:px-2 md:mt-[-100px] text-[#aba6c4]">
-                <div className="badge badge-outline text-xs md:text-[15px]">
-                  NEXT
-                </div>
-                <div className="badge badge-outline text-xs md:text-[15px]">
-                  React
-                </div>
-                <div className="badge badge-outline text-xs md:text-[15px]">
-                  JavaScript
-                </div>
-                <div className="badge badge-outline text-xs md:text-[15px]">
-                  TailwindCSS
-                </div>
-                <div className="badge badge-outline text-xs md:text-[15px]">
-                  Firebase
-                </div>
-              </div>
-              <div className="card-actions space-x-2 justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2 items-center">
-                <a
-                  href="https://github.com/NekruzAsh/Chat-app.git"
-                  target="_blank"
-                  className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
-                >
-                  <FiGithub size={23} />
-                </a>
-                <a
-                  href="https://chatapp-3a0e9.web.app/"
-                  target="_blank"
-                  className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
-                >
-                  <FiExternalLink size={25} />
-                </a>
-              </div>
             </div>
           </div>
 
           {/* Quiz Gen */}
 
-          <div className="card md:w-[500px] w-84 md:h-[620px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
+          <div className="card md:w-[500px] w-84 md:h-[550px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <a href="https://nekruzash.github.io/QuizGenAI/" target="_blank">
                 <img
@@ -105,58 +96,52 @@ const Projects = () => {
               </a>
             </figure>
             <div className="card-body">
-              <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 card-title text-[#e8ddff]">
-                <a
-                  href="https://nekruzash.github.io/QuizGenAI/"
-                  target="_blank"
-                  className="hover:text-[#aba6c4] transform duration-500"
-                >
-                  QuizGen AI
-                </a>
-              </h2>
-              <p className="mb-2 mx-[-14px] md:mb-10 md:mt-[-5px] md:px-2 text-[14px] md:text-[16px] text-[#aba6c4]">
+              <div className="flex justify-between items-center">
+                <h2 className="card-title text-[#e8ddff]">
+                  <a
+                    href="https://nekruzash.github.io/QuizGenAI/"
+                    target="_blank"
+                    className="hover:text-[#aba6c4] transform duration-500"
+                  >
+                    QuizGen AI
+                  </a>
+                </h2>
+                <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
+                <div className="space-x-2 flex items-center">
+                  <a
+                    href="https://github.com/NekruzAsh/QuizGen.git"
+                    target="_blank"
+                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
+                  >
+                    <FiGithub size={23} />
+                  </a>
+                  <a
+                    href="https://nekruzash.github.io/QuizGenAI/"
+                    target="_blank"
+                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
+                  >
+                    <FiExternalLink size={25} />
+                  </a>
+                </div>
+              </div>
+              <p className="text-sm">
+                <span className="text-[#64feda]">
+                  HTML - CSS - JavaScript - Cohere AI
+                </span>
+              </p>
+              <p className=" text-[#aba6c4]">
                 Tool built for teachers and students to generate quiz questions
                 using AI and user text input. Developed with{" "}
                 <span className="text-[#64feda]">Cohere AI API</span> and
                 JavaScript to fetch data from the API, read user input and
                 generate questions based on the content.
               </p>
-              <div className="card-actions text-[14px] md:text-md justify-start mx-[-14px] md:px-2 md:mt-[-100px] text-[#aba6c4]">
-                <div className="badge badge-outline text-xs md:text-[15px]">
-                  HTML
-                </div>
-                <div className="badge badge-outline text-xs md:text-[15px]">
-                  CSS
-                </div>
-                <div className="badge badge-outline text-xs md:text-[15px]">
-                  JavaScript
-                </div>
-                <div className="badge badge-outline text-xs md:text-[15px]">
-                  Cohere AI
-                </div>
-              </div>
-              <div className="card-actions space-x-2 items-center justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
-                <a
-                  href="https://github.com/NekruzAsh/QuizGen.git"
-                  target="_blank"
-                  className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
-                >
-                  <FiGithub size={23} />
-                </a>
-                <a
-                  href="https://nekruzash.github.io/QuizGenAI/"
-                  target="_blank"
-                  className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
-                >
-                  <FiExternalLink size={25} />
-                </a>
-              </div>
             </div>
           </div>
 
           {/* Todo app */}
 
-          <div className="card md:w-[500px] w-84 md:h-[620px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
+          <div className="card md:w-[500px] w-84 md:h-[550px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <a
                 href="https://to-do-app-weld-seven.vercel.app/"
@@ -170,58 +155,52 @@ const Projects = () => {
               </a>
             </figure>
             <div className="card-body">
-              <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 card-title text-[#e8ddff]">
-                <a
-                  href="https://to-do-app-weld-seven.vercel.app/"
-                  target="_blank"
-                  className="hover:text-[#aba6c4] transform duration-500"
-                >
-                  To-Do App
-                </a>
-              </h2>
-              <p className="mb-2 mx-[-14px] md:mb-10 md:mt-[-5px] md:px-2 text-[14px] md:text-[16px] text-[#aba6c4]">
+              <div className="flex justify-between items-center">
+                <h2 className="card-title text-[#e8ddff]">
+                  <a
+                    href="https://to-do-app-weld-seven.vercel.app/"
+                    target="_blank"
+                    className="hover:text-[#aba6c4] transform duration-500"
+                  >
+                    To-Do App
+                  </a>
+                </h2>
+                <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
+                <div className="space-x-2 flex items-center">
+                  <a
+                    href="https://github.com/NekruzAsh/To-Do-App.git"
+                    target="_blank"
+                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
+                  >
+                    <FiGithub size={23} />
+                  </a>
+                  <a
+                    href="https://to-do-app-weld-seven.vercel.app/"
+                    target="_blank"
+                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
+                  >
+                    <FiExternalLink size={25} />
+                  </a>
+                </div>
+              </div>
+              <p className="text-sm">
+                <span className="text-[#64feda]">
+                  NEXT - React - JavaScript - Tailwind
+                </span>
+              </p>
+              <p className=" text-[#aba6c4]">
                 Single page to-do notes web application with CRUD operations
                 that allow users to create, delete and mark completed tasks.
                 Developed with{" "}
                 <span className="text-[#64feda]">NextJS and JavaScript</span>{" "}
                 using ternary operators and event handlers.
               </p>
-              <div className="card-actions justify-start mx-[-14px] md:px-2 md:mt-[-100px] text-[#aba6c4]">
-                <div className="badge badge-outline text-xs md:text-[15px]">
-                  NEXT
-                </div>
-                <div className="badge badge-outline text-xs md:text-[15px]">
-                  React
-                </div>
-                <div className="badge badge-outline text-xs md:text-[15px]">
-                  JavaScript
-                </div>
-                <div className="badge badge-outline text-xs md:text-[15px]">
-                  TailwindCSS
-                </div>
-              </div>
-              <div className="card-actions space-x-2 items-center justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
-                <a
-                  href="https://github.com/NekruzAsh/To-Do-App.git"
-                  target="_blank"
-                  className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
-                >
-                  <FiGithub size={23} />
-                </a>
-                <a
-                  href="https://to-do-app-weld-seven.vercel.app/"
-                  target="_blank"
-                  className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
-                >
-                  <FiExternalLink size={25} />
-                </a>
-              </div>
             </div>
           </div>
 
           {/* Forum Website */}
 
-          <div className="card md:w-[500px] w-84 md:h-[620px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
+          <div className="card md:w-[500px] w-84 md:h-[550px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <a href="https://forumwebsite.onrender.com" target="_blank">
                 <img
@@ -232,16 +211,40 @@ const Projects = () => {
               </a>
             </figure>
             <div className="card-body">
-              <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 card-title text-[#e8ddff]">
-                <a
-                  href="https://forumwebsite.onrender.com"
-                  target="_blank"
-                  className="hover:text-[#aba6c4] transform duration-500"
-                >
-                  Forum Website
-                </a>
-              </h2>
-              <p className="mb-2 mx-[-14px] md:mb-10 md:mt-[-5px] md:px-2 text-[13px] md:text-[16px] text-[#aba6c4]">
+              <div className="flex justify-between items-center">
+                <h2 className=" card-title text-[#e8ddff]">
+                  <a
+                    href="https://forumwebsite.onrender.com"
+                    target="_blank"
+                    className="hover:text-[#aba6c4] transform duration-500"
+                  >
+                    Forum Website
+                  </a>
+                </h2>
+                <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
+                <div className="space-x-2 flex items-center">
+                  <a
+                    href="https://github.com/NekruzAsh/forumwebsite.git"
+                    target="_blank"
+                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
+                  >
+                    <FiGithub size={23} />
+                  </a>
+                  <a
+                    href="https://forumwebsite.onrender.com"
+                    target="_blank"
+                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
+                  >
+                    <FiExternalLink size={25} />
+                  </a>
+                </div>
+              </div>
+              <p className="text-sm">
+                <span className="text-[#64feda]">
+                  Express - CSS - JavaScript - MongoDB - Node
+                </span>
+              </p>
+              <p className=" text-[#aba6c4]">
                 Forum website clone similar to{" "}
                 <a
                   className="text-[#64feda] hover:text-[#aba6c4] duration-500 transition"
@@ -251,10 +254,6 @@ const Projects = () => {
                   Reddit.com
                 </a>{" "}
                 where users can signup and login using existing accounts.
-                Implemented{" "}
-                <span className="text-[#64feda]">Bcrypt algorithm</span> to hash
-                passwords and store them in the{" "}
-                <span className="text-[#64feda]">MongoDB</span>.
                 <br />
                 <span className="text-[#64feda]"> Try it out:</span>
                 <br />
@@ -262,45 +261,12 @@ const Projects = () => {
                 <br />
                 Password: 1234
               </p>
-              <div className="card-actions justify-start mx-[-14px] md:px-2 md:mt-[-100px] text-[#aba6c4]">
-                <div className="badge badge-outline text-xs md:text-[15px]">
-                  EXPRESS
-                </div>
-                <div className="badge badge-outline text-xs md:text-[15px]">
-                  CSS
-                </div>
-                <div className="badge badge-outline text-xs md:text-[15px]">
-                  JavaScript
-                </div>
-                <div className="badge badge-outline text-xs md:text-[15px]">
-                  MongoDB
-                </div>
-                <div className="badge badge-outline text-xs md:text-[15px]">
-                  NODE
-                </div>
-              </div>
-              <div className="card-actions space-x-2 items-center justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
-                <a
-                  href="https://github.com/NekruzAsh/forumwebsite.git"
-                  target="_blank"
-                  className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
-                >
-                  <FiGithub size={23} />
-                </a>
-                <a
-                  href="https://forumwebsite.onrender.com"
-                  target="_blank"
-                  className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
-                >
-                  <FiExternalLink size={25} />
-                </a>
-              </div>
             </div>
           </div>
 
           {/* Amazon Affiliate */}
 
-          <div className="card md:w-[500px] w-84 md:h-[620px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
+          <div className="card md:w-[500px] w-84 md:h-[550px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <a
                 href="https://nekruzash.github.io/amazonaffiliate/"
@@ -314,16 +280,38 @@ const Projects = () => {
               </a>
             </figure>
             <div className="card-body">
-              <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 card-title text-[#e8ddff]">
-                <a
-                  href="https://nekruzash.github.io/amazonaffiliate/"
-                  target="_blank"
-                  className="hover:text-[#aba6c4] transform duration-500"
-                >
-                  Amazon Affiliate
-                </a>
-              </h2>
-              <p className="mb-2 mx-[-14px] md:mb-10 md:mt-[-5px] md:px-2 text-[14px] md:text-[16px] text-[#aba6c4]">
+              <div className="flex justify-between items-center">
+                <h2 className="card-title text-[#e8ddff]">
+                  <a
+                    href="https://nekruzash.github.io/amazonaffiliate/"
+                    target="_blank"
+                    className="hover:text-[#aba6c4] transform duration-500"
+                  >
+                    Amazon Affiliate
+                  </a>
+                </h2>
+                <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
+                <div className="space-x-2 flex items-center">
+                  <a
+                    href="https://github.com/NekruzAsh/amazonaffiliate.git"
+                    target="_blank"
+                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
+                  >
+                    <FiGithub size={23} />
+                  </a>
+                  <a
+                    href="https://nekruzash.github.io/amazonaffiliate/"
+                    target="_blank"
+                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
+                  >
+                    <FiExternalLink size={25} />
+                  </a>
+                </div>
+              </div>
+              <p className="text-sm">
+                <span className="text-[#64feda]">HTML - CSS - JavaScript</span>
+              </p>
+              <p className=" text-[#aba6c4]">
                 Article website used to promote Amazon products specifically
                 technology category and earn commission from{" "}
                 <span className="text-[#64feda]">Amazon Affiliate</span>{" "}
@@ -332,39 +320,12 @@ const Projects = () => {
                 different <span className="text-[#64feda]">SEO techniques</span>{" "}
                 to rank higher in search results.
               </p>
-              <div className="card-actions justify-start mx-[-14px] md:px-2 md:mt-[-100px] text-[#aba6c4]">
-                <div className="badge badge-outline text-xs md:text-[15px]">
-                  HTML
-                </div>
-                <div className="badge badge-outline text-xs md:text-[15px]">
-                  CSS
-                </div>
-                <div className="badge badge-outline text-xs md:text-[15px]">
-                  JavaScript
-                </div>
-              </div>
-              <div className="card-actions space-x-2 items-center justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
-                <a
-                  href="https://github.com/NekruzAsh/amazonaffiliate.git"
-                  target="_blank"
-                  className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
-                >
-                  <FiGithub size={23} />
-                </a>
-                <a
-                  href="https://nekruzash.github.io/amazonaffiliate/"
-                  target="_blank"
-                  className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
-                >
-                  <FiExternalLink size={25} />
-                </a>
-              </div>
             </div>
           </div>
 
           {/* TicTacToe AI */}
 
-          <div className="card md:w-[500px] w-84 md:h-[620px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
+          <div className="card md:w-[500px] w-84 md:h-[550px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
             <figure className=" px-4 pt-4 md:px-6 md:pt-6">
               <a
                 href="https://github.com/NekruzAsh/TicTacToeAI.git"
@@ -378,41 +339,38 @@ const Projects = () => {
               </a>
             </figure>
             <div className="card-body">
-              <h2 className="mt-[-18px] mx-[-14px] md:mt-[-10px] md:px-2 card-title text-[#e8ddff]">
-                <a
-                  href="https://github.com/NekruzAsh/TicTacToeAI.git"
-                  target="_blank"
-                  className="hover:text-[#aba6c4] transform duration-500"
-                >
-                  Tic-Tac-Toe AI
-                </a>
-              </h2>
-              <p className="mb-2 mx-[-14px] md:mb-10 md:mt-[-5px] md:px-2 text-[14px] md:text-[16px] text-[#aba6c4]">
+              <div className="flex justify-between items-center">
+                <h2 className=" card-title text-[#e8ddff]">
+                  <a
+                    href="https://github.com/NekruzAsh/TicTacToeAI.git"
+                    target="_blank"
+                    className="hover:text-[#aba6c4] transform duration-500"
+                  >
+                    Tic-Tac-Toe AI
+                  </a>
+                </h2>
+                <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
+                <div className="space-x-2 flex items-center">
+                  <a
+                    href="https://github.com/NekruzAsh/TicTacToeAI.git"
+                    target="_blank"
+                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
+                  >
+                    <FiGithub size={23} />
+                  </a>
+                </div>
+              </div>
+              <p className="text-sm">
+                <span className="text-[#64feda]">Python - Minimax</span>
+              </p>
+              <p className=" text-[#aba6c4]">
                 Tic-Tac-Toe game with two different game modes: Player Vs.
                 Player and Player Vs. AI. Developed with Python's{" "}
                 <span className="text-[#64feda]">Tkinter GUI</span> library and{" "}
                 <span className="text-[#64feda]">Minimax algorithm</span> to
                 make an unbeatable AI opponent. Researched the Minimax algorithm
-                and implemented the algorithm for AI decision-making,
-                considering different possible outcomes.
+                for AI decision-making, considering different possible outcomes.
               </p>
-              <div className="card-actions justify-start mx-[-14px] md:px-2 md:mt-[-100px] text-[#aba6c4]">
-                <div className="badge badge-outline text-xs md:text-[15px]">
-                  Python
-                </div>
-                <div className="badge badge-outline text-xs md:text-[15px]">
-                  Minimax
-                </div>
-              </div>
-              <div className="card-actions space-x-2 items-center justify-end mx-[-14px] mt-2 mb-[-14px] md:px-2">
-                <a
-                  href="https://github.com/NekruzAsh/TicTacToeAI.git"
-                  target="_blank"
-                  className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
-                >
-                  <FiGithub size={23} />
-                </a>
-              </div>
             </div>
           </div>
         </div>
