@@ -13,12 +13,17 @@ const Projects = () => {
     <div id="projects" className="w-full flex justify-center items-center">
       <div className="max-w-[1240px] mx-auto px-2 py-20 lg:px-2 md:px-24 md:py-36 lg:py-16">
         <div className="max-w-3xl">
-          <h2 className="text-[#e8ddff] pl-6 pr-6 md:pl-0 md:pr-0 py-4 flex items-center">
+          <h2 className="text-[#e8ddff] pl-6 pr-6 md:pl-0 md:pr-0 py-4 mt-8 flex items-center">
             <span className=" text-[#64feda]">02.&nbsp;</span> My Work
             <hr className="border-[#251f41] border-t-1 ml-4 flex-grow" />
           </h2>
-          <iframe src='https://my.spline.design/3dpathslines1copy-ce01ee03911f38e4c9f14fb4d2fd7721/' className="left-0 right-0 w-full h-96 absolute mx-auto z-0" frameBorder='0' width='100%' height='100%'></iframe>
-          <p className="mb-16 text-[#aba6c4] text-[17px] pl-6 pr-6 md:pl-0 md:pr-0 max-w-3xl leading-[30px] z-10 relative">
+          <iframe
+            src="https://my.spline.design/3dpathslines1copy-ce01ee03911f38e4c9f14fb4d2fd7721/"
+            className="left-0 right-0 w-[80%] md:w-[55%] h-96 absolute mx-auto z-0"
+            width="100%"
+            height="100%"
+          ></iframe>
+          <p className="mb-16 bg-[#151030] rounded-md bg-opacity-80 text-[#aba6c4] text-[17px] pl-6 pr-6 md:pl-2 md:pr-0 max-w-3xl leading-[30px] z-10 relative">
             Following projects showcases my skills and experience through
             real-world examples of my work. Each project is briefly described
             with links to code repositories and live demos. It reflects my
