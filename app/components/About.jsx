@@ -128,8 +128,9 @@ const About = () => {
 
         <motion.div
           className="image-style shadow-lg items-center relative justify-center ml-20 md:ml-[-50px] mt-16"
+          ref={ref}
+          animate={animation}
           initial="hidden"
-          animate="visible"
           variants={lineVariants}
         >
           <img
