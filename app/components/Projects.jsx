@@ -5,14 +5,50 @@ import Link from "next/link";
 import { useState } from "react";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 import "../globals.css";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useAnimation } from "framer-motion";
 
 const Projects = () => {
-  const [isFlipped, setIsFlipped] = useState(false);
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.5,
+    rootMargin: "20px 40px 100px 60px",
+  });
+
+  const animation = useAnimation();
+
+  React.useEffect(() => {
+    if (inView) {
+      animation.start("visible");
+    }
+  }, [animation, inView]);
+
+  const textVariants = {
+    hidden: { opacity: 0, x: -100 },
+    visible: { opacity: 1, x: 0, transition: { duration: 2 } },
+  };
+
+  const LeftVariants = {
+    hidden: { opacity: 0, x: -100 },
+    visible: { opacity: 1, x: 0, transition: { duration: 3 } },
+  };
+
+  const RightVariants = {
+    hidden: { opacity: 0, x: -100 },
+    visible: { opacity: 1, x: 0, transition: { duration: 3 } },
+  };
 
   return (
     <div id="projects" className="w-full flex justify-center items-center">
       <div className="max-w-[1240px] mx-auto px-2 py-20 lg:px-2 md:px-24 md:py-36 lg:py-16">
-        <div className="max-w-3xl">
+        <motion.div
+          className="max-w-3xl"
+          ref={ref}
+          animate={animation}
+          initial="hidden"
+          variants={textVariants}
+        >
           <h2 className="text-[#e8ddff] pl-6 pr-6 md:pl-0 md:pr-0 py-4 mt-8 flex items-center">
             <span className=" text-[#64feda]">02.&nbsp;</span> My Work
             <hr className="border-[#251f41] border-t-1 ml-4 flex-grow" />
@@ -24,10 +60,10 @@ const Projects = () => {
             ability to solve complex problems, work with different technologies,
             and manage projects effectively.
           </p>
-        </div>
+        </motion.div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Chat App */}
-          <div className="card md:w-[500px] w-84 md:h-[550px] h-[520px] bg-[#151030] rounded-sm shadow-lg">
+          <motion.div className="card md:w-[500px] w-84 md:h-[550px] h-[520px] bg-[#151030] rounded-sm shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <a href="https://chatapp-3a0e9.web.app/" target="_blank">
                 <img
@@ -81,11 +117,11 @@ const Projects = () => {
                 to authenticate users through Google accounts.
               </p>
             </div>
-          </div>
+          </motion.div>
 
           {/* Quiz Gen */}
 
-          <div className="card md:w-[500px] w-84 md:h-[550px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
+          <motion.div className="card md:w-[500px] w-84 md:h-[550px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <a href="https://nekruzash.github.io/QuizGenAI/" target="_blank">
                 <img
@@ -137,11 +173,11 @@ const Projects = () => {
                 generate questions based on the content.
               </p>
             </div>
-          </div>
+          </motion.div>
 
           {/* Todo app */}
 
-          <div className="card md:w-[500px] w-84 md:h-[550px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
+          <motion.div className="card md:w-[500px] w-84 md:h-[550px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <a
                 href="https://to-do-app-weld-seven.vercel.app/"
@@ -196,11 +232,11 @@ const Projects = () => {
                 using ternary operators and event handlers.
               </p>
             </div>
-          </div>
+          </motion.div>
 
           {/* Forum Website */}
 
-          <div className="card md:w-[500px] w-84 md:h-[550px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
+          <motion.div className="card md:w-[500px] w-84 md:h-[550px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <a href="https://forumwebsite.onrender.com" target="_blank">
                 <img
@@ -262,11 +298,11 @@ const Projects = () => {
                 Password: 1234
               </p>
             </div>
-          </div>
+          </motion.div>
 
           {/* Amazon Affiliate */}
 
-          <div className="card md:w-[500px] w-84 md:h-[550px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
+          <motion.div className="card md:w-[500px] w-84 md:h-[550px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
             <figure className="px-4 pt-4 md:px-6 md:pt-6">
               <a
                 href="https://nekruzash.github.io/amazonaffiliate/"
@@ -321,11 +357,11 @@ const Projects = () => {
                 to rank higher in search results.
               </p>
             </div>
-          </div>
+          </motion.div>
 
           {/* TicTacToe AI */}
 
-          <div className="card md:w-[500px] w-84 md:h-[550px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
+          <motion.div className="card md:w-[500px] w-84 md:h-[550px] h-[480px] rounded-sm bg-[#151030] shadow-lg">
             <figure className=" px-4 pt-4 md:px-6 md:pt-6">
               <a
                 href="https://github.com/NekruzAsh/TicTacToeAI.git"
@@ -372,7 +408,7 @@ const Projects = () => {
                 for AI decision-making, considering different possible outcomes.
               </p>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
