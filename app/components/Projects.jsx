@@ -351,10 +351,9 @@ const Projects = () => {
                 Article website used to promote Amazon products specifically
                 technology category and earn commission from{" "}
                 <span className="text-[#64feda]">Amazon Affiliate</span>{" "}
-                marketing program. Researched different articles and products to
-                promote based on the market demand and competition. Integrated
-                different <span className="text-[#64feda]">SEO techniques</span>{" "}
-                to rank higher in search results.
+                marketing program. Integrated different{" "}
+                <span className="text-[#64feda]">SEO techniques</span> to rank
+                higher in search results.
               </p>
             </div>
           </motion.div>
