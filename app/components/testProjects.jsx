@@ -73,7 +73,7 @@ const testProjects = () => {
               <span className="text-[#64feda]">Firebase Authentication</span> to
               authenticate users through Google accounts.
             </p>
-            <ul>
+            <ul className="font-[15px]">
               <li>Next.js</li>
               <li>JavaScript</li>
               <li>Tailwind</li>
@@ -104,7 +104,7 @@ const testProjects = () => {
       </div>
 
       {/* QuizGen AI */}
-      <div className="project mt-32">
+      <div className="project">
         <div className="project-content">
           <div className="project-label">Hackathon Project</div>
           <h4 className="project-title font-medium">
@@ -124,7 +124,7 @@ const testProjects = () => {
               JavaScript to fetch data from the API, read user input and
               generate questions based on the content.
             </p>
-            <ul>
+            <ul className="font-[15px]">
               <li>HTML</li>
               <li>JavaScript</li>
               <li>CSS</li>
@@ -155,7 +155,7 @@ const testProjects = () => {
       </div>
 
       {/* Todo APP */}
-      <div className="project mt-32">
+      <div className="project">
         <div className="project-content">
           <div className="project-label">CRUD Operations Project</div>
           <h4 className="project-title font-medium">
@@ -174,7 +174,7 @@ const testProjects = () => {
               with <span className="text-[#64feda]">NextJS and JavaScript</span>{" "}
               using ternary operators and event handlers.
             </p>
-            <ul>
+            <ul className="font-[15px]">
               <li>Next.js</li>
               <li>React.js</li>
               <li>Tailwind</li>
@@ -205,7 +205,7 @@ const testProjects = () => {
       </div>
 
       {/* Forum Website */}
-      <div className="project mt-32">
+      <div className="project">
         <div className="project-content">
           <div className="project-label">Full-Stack Project</div>
           <h4 className="project-title font-medium">
@@ -239,7 +239,7 @@ const testProjects = () => {
               <br />
               Password: 1234
             </p>
-            <ul>
+            <ul className="font-[15px]">
               <li>Express</li>
               <li>JavaScript</li>
               <li>CSS</li>
@@ -270,7 +270,7 @@ const testProjects = () => {
       </div>
 
       {/* Tic Tac Toe */}
-      <div className="project mt-32">
+      <div className="project">
         <div className="project-content">
           <div className="project-label">First Python Project</div>
           <h4 className="project-title font-medium">
@@ -291,7 +291,7 @@ const testProjects = () => {
               an unbeatable AI opponent. Researched the Minimax algorithm for AI
               decision-making, considering different possible outcomes.
             </p>
-            <ul>
+            <ul className="font-[15px]">
               <li>Python</li>
               <li>Minimax</li>
             </ul>
@@ -313,7 +313,7 @@ const testProjects = () => {
       </div>
 
       {/* Amazon Affiliate */}
-      <div className="project mt-32">
+      <div className="project">
         <div className="project-content">
           <div className="project-label">Marketing and Affiliate Project</div>
           <h4 className="project-title font-medium">
@@ -334,7 +334,7 @@ const testProjects = () => {
               <span className="text-[#64feda]">SEO techniques</span> to rank
               higher in search results.
             </p>
-            <ul>
+            <ul className="font-[15px]">
               <li>HTML</li>
               <li>CSS</li>
               <li>JavaScript</li>
