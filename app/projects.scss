@@ -245,7 +245,7 @@ html {
     }
   
     .project-img {
-      grid-column: 1 / 8;
+      grid-column: 1 / 7;
 
       @include tablet {
         grid-column: 1 / -1;
