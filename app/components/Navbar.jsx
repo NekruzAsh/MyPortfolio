@@ -3,7 +3,8 @@ import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import "../globals.css";
-import anime from 'animejs/lib/anime.es.js';
+import anime from "animejs/lib/anime.es.js";
+import "../projects.scss";
 
 const myResume = "https://www.linkedin.com/in/nekruzash/";
 
@@ -30,23 +31,23 @@ const navbar = () => {
 
     window.addEventListener("scroll", changeShadow);
   }, []);
-  
+
   useEffect(() => {
     anime({
-      targets: '#hexagon path',
+      targets: "#hexagon path",
       strokeDashoffset: [anime.setDashoffset, 0],
-      easing: 'easeInOutQuart',
+      easing: "easeInOutQuart",
       duration: 2000,
-      delay: function(el, i) { return i * 250 },
-      
+      delay: function (el, i) {
+        return i * 250;
+      },
     });
-  
+
     anime({
-      targets: '#hexagon #B',
+      targets: "#hexagon #B",
       duration: 1000,
       opacity: 1,
-      easing: 'easeInOutQuart',
-      
+      easing: "easeInOutQuart",
     });
   }, []);
 
@@ -66,7 +67,7 @@ const navbar = () => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
-            width="50" 
+            width="50"
             height="50"
           >
             <g>
@@ -100,7 +101,7 @@ const navbar = () => {
               />
             </g>
           </svg>
-          </Link>
+        </Link>
         {/* <Link href="/#home">
           <Image
             src="/images/logoo.webp"
@@ -164,32 +165,26 @@ const navbar = () => {
               : "fixed right-[-100%] top-0 p-10 transition-transform duration-500 transform translate-x-full"
           }
         >
-          <div></div>
-          <div className="items-center text-center py-4 mx-auto mt-36 flex flex-col">
-            <ul>
-              <Link href="/#about">
-                <li className="py-4 text-[17px] text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500">
-                  <span className="text-[#64feda]">01.</span>
-                  <br />
-                  About
-                </li>
-              </Link>
+          <div className="items-center text py-4 mx-auto flex flex-col justify-center h-full">
+            <Link href="/#about">
+              <div className="py-4 text-[17px] text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500">
+                
+                About
+              </div>
+            </Link>
 
-              <Link href="/#projects">
-                <li className="py-4 text-[17px] text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500">
-                  <span className="text-[#64feda]">02.</span>
-                  <br />
-                  Work
-                </li>
-              </Link>
-              <Link href="/#contact">
-                <li className="py-4 text-[17px] text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500">
-                  <span className="text-[#64feda]">03.</span>
-                  <br />
-                  Contact
-                </li>
-              </Link>
-            </ul>
+            <Link href="/#projects">
+              <div className="py-4 text-[17px] text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500">
+                
+                Work
+              </div>
+            </Link>
+            <Link href="/#contact">
+              <div className="py-4 text-[17px] text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500">
+                
+                Contact
+              </div>
+            </Link>
             <a href={myResume} target="_blank" className="button mt-5 text-lg">
               Resume
             </a>

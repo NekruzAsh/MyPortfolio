@@ -37,7 +37,7 @@ const Contact = () => {
       id="contact"
       className="w-full lg:h-[150%] flex justify-center items-center"
     >
-      <div className=" lg:px-2 md:py-16 px-2 py-2 w-full z-20 bg-[#050817] rounded-lg bg-opacity-80">
+      <div className=" lg:px-2 md:py-16 px-2 py-2 w-full">
         <motion.p
           
           className="text-lg text-[#64feda] py-2 text-center"

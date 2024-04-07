@@ -10,6 +10,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Links from "./components/SocialLinks";
+import Project1 from "./components/testProjects";
 
 const rubik = Rubik({ subsets: ["latin"] });
 
@@ -46,7 +47,8 @@ export default function RootLayout({ children }) {
         <Navbar />
         <Main />
         <About />
-        <Projects />
+        {/* <Projects /> */}
+        <Project1 />
         <Contact /> 
 
         {children}
