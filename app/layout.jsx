@@ -47,8 +47,8 @@ export default function RootLayout({ children }) {
         <Navbar />
         <Main />
         <About />
-        <Projects />
-        {/* <Project1 /> */}
+        {/* <Projects /> */}
+        <Project1 />
         <Contact /> 
 
         {children}
