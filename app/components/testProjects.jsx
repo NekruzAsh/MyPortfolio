@@ -76,7 +76,7 @@ const testProjects = () => {
             <ul className="font-[15px]">
               <li>Next.js</li>
               <li>JavaScript</li>
-              <li>Tailwind</li>
+              <li>TailwindCSS</li>
               <li>Firebase</li>
             </ul>
             <div className="space-x-2 flex justify-end mt-4">
@@ -177,7 +177,7 @@ const testProjects = () => {
             <ul className="font-[15px]">
               <li>Next.js</li>
               <li>React.js</li>
-              <li>Tailwind</li>
+              <li>TailwindCSS</li>
               <li>JavaScript</li>
             </ul>
             <div className="space-x-2 flex justify-end mt-4">

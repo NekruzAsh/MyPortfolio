@@ -9,11 +9,7 @@ html {
   }
   
   body {
-    overflow-x: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    font-family: system, -apple-system, BlinkMacSystemFont, Roboto,
-      "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    
     margin: 0;
     background-color: #050817;
   }
@@ -130,7 +126,8 @@ html {
         li {
           margin-right: 20px;
           color: #aba6c4;
-          font-family: monospace;
+          font-size: 14px;
+          
   
           @include tablet {
             margin-right: 10px;

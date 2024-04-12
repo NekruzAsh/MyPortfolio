@@ -160,7 +160,7 @@ const Projects = () => {
 
           {/* TicTacToe AI */}
 
-          <motion.div className="card h-[360px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] rounded-sm bg-[#151030] shadow-lg">
+          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] rounded-sm bg-[#151030] shadow-lg">
 
             <div className="card-body">
               <div className="flex justify-between items-center">
@@ -192,8 +192,7 @@ const Projects = () => {
                 Player and Player Vs. AI. Developed with Python's{" "}
                 <span className="text-[#64feda]">Tkinter GUI</span> library and{" "}
                 <span className="text-[#64feda]">Minimax algorithm</span> to
-                make an unbeatable AI opponent. Researched the Minimax algorithm
-                for AI decision-making, considering different possible outcomes.
+                make an unbeatable AI opponent.
               </p>
             </div>
           </motion.div>
