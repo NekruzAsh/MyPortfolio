@@ -29,7 +29,7 @@ const About = () => {
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
-        <div className="col-span-2 md:pl-40 md:pr-40 pl-6 pr-6">
+        <div className="col-span-2 pr-6 pl-6 lg:pl-40 lg:pr-40 md:pl-6 md:pr-6">
           <motion.h2
             ref={ref}
             animate={animation}
@@ -127,13 +127,13 @@ const About = () => {
         </div>
 
         <motion.div
-          className="image-style shadow-lg items-center relative justify-center ml-20 md:ml-[-50px] mt-16"
+          className="image-style shadow-lg items-center relative justify-center ml-20 md:ml-0 lg:ml-[-50px] mt-16"
           ref={ref}
             animate={animation}
             initial="hidden"
             variants={{
               visible: { opacity: 1, y: 0 },
-              hidden: { opacity: 0, y: 100 },
+              hidden: { opacity: 0, y: 0},
             }}
             transition={{ duration: 1 }}
         >
