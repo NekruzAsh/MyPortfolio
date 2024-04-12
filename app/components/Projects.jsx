@@ -95,7 +95,7 @@ const Projects = () => {
               <p className=" text-[#aba6c4]">
                 Forum website clone similar to{" "}
                 <a
-                  className="text-[#64feda] hover:text-[#aba6c4] duration-500 transition"
+                  className="text-[#64feda] hover:underline underline-offset-4"
                   target="_blank"
                   href="https://www.reddit.com/"
                 >

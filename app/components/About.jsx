@@ -55,10 +55,15 @@ const About = () => {
             transition={{ duration: 1 }}
             className="py-2 text-[#aba6c4]"
           >
-            I'm a self-taught Software Developer with a passion for building
-            dynamic and responsive web applications. I love to learn new
-            technologies and apply them to my projects. Currently, I am learning
-            more about{" "}
+            Hi I'm Nekruz, a sophomore{" "}
+            <span className="text-[#64feda]">Computer Science</span> student{" "}
+            <a href="https://www.uc.edu/" target="_blank">
+              <span className="text-[#64feda] hover:underline underline-offset-4">
+                @University of Cincinnati
+              </span>
+            </a>
+            . I have strong interest in Artificial Intelligence and Software
+            Engineering. Currently, I'm learning more about{" "}
             <span className="text-[#64feda]">developing web applications</span>{" "}
             using different frameworks and libraries. During my free time, I'm{" "}
             <span className="text-[#64feda]">
@@ -78,11 +83,11 @@ const About = () => {
             transition={{ duration: 1 }}
           >
             My coding journey began when I wrote my first line of HTML code in
-            8th grade during an after-school program in New York. I was
-            fascinated by the idea that I could create such beautiful software
-            using various programming languages. I was hooked. Those initial
-            lines of code evolved into a love for programming, driving me to
-            explore the intricate aspects of this craft.
+            8th grade in <span className="text-[#64feda]">Brooklyn, NY</span>. I
+            was fascinated by the idea that I could create such beautiful
+            software using various programming languages. I was hooked. Those
+            initial lines of code evolved into a love for programming, driving
+            me to explore the intricate aspects of this craft.
           </motion.p>
           <motion.div
             className="py-2 text-[#aba6c4]"
@@ -120,7 +125,7 @@ const About = () => {
               </li>
               <li className="flex items-center">
                 <FaGooglePlay className="text-[#64feda]" size={7} />
-                &nbsp;&nbsp;MongoDB
+                &nbsp;&nbsp;Anaconda
               </li>
             </ul>
           </motion.div>
@@ -129,13 +134,13 @@ const About = () => {
         <motion.div
           className="image-style shadow-lg items-center relative justify-center ml-20 md:ml-0 lg:ml-[-50px] mt-16"
           ref={ref}
-            animate={animation}
-            initial="hidden"
-            variants={{
-              visible: { opacity: 1, y: 0 },
-              hidden: { opacity: 0, y: 0},
-            }}
-            transition={{ duration: 1 }}
+          animate={animation}
+          initial="hidden"
+          variants={{
+            visible: { opacity: 1, y: 0 },
+            hidden: { opacity: 0, y: 0 },
+          }}
+          transition={{ duration: 1 }}
         >
           <img
             src="/images/authorimage.jpg"
