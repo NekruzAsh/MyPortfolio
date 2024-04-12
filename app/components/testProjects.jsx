@@ -99,7 +99,7 @@ const testProjects = () => {
         </div>
 
         <div className="project-img">
-          <img src="/images/chat.png" alt="chat application image" />
+          <img src="/images/chat.webp" alt="chat application image" />
         </div>
       </div>
 
@@ -150,7 +150,7 @@ const testProjects = () => {
         </div>
 
         <div className="project-img">
-          <img src="/images/quizgenn.png" alt="QuizGenAI image" />
+          <img src="/images/quizgenn.webp" alt="QuizGenAI image" />
         </div>
       </div>
 
@@ -200,168 +200,11 @@ const testProjects = () => {
         </div>
 
         <div className="project-img">
-          <img src="/images/todoapp.png" alt="chat application image" />
+          <img src="/images/todoapp.webp" alt="chat application image" />
         </div>
       </div>
 
-      {/* Forum Website */}
-      <div className="project">
-        <div className="project-content">
-          <div className="project-label">Full-Stack Project</div>
-          <h4 className="project-title font-medium">
-            <a
-              href="https://forumwebsite.onrender.com"
-              target="_blank"
-              className="hover:text-[#64feda] transform duration-500"
-            >
-              Forum Website
-            </a>
-          </h4>
-          <div className="project-details">
-            <p className="shadow-xl hover:shadow-black/50 transform-shadow duration-300">
-              Forum website clone similar to{" "}
-              <a
-                className="text-[#64feda] hover:text-[#aba6c4] duration-500 transition"
-                target="_blank"
-                href="https://www.reddit.com/"
-              >
-                Reddit.com
-              </a>{" "}
-              where users can signup and login using existing accounts.
-              Implemented{" "}
-              <span className="text-[#64feda]">Bcrypt algorithm</span> to hash
-              passwords and store them in the{" "}
-              <span className="text-[#64feda]">MongoDB</span>.
-              <br />
-              <span className="text-[#64feda]"> Try it out:</span>
-              <br />
-              Username: username
-              <br />
-              Password: 1234
-            </p>
-            <ul className="font-[15px]">
-              <li>Express</li>
-              <li>JavaScript</li>
-              <li>CSS</li>
-              <li>MongoDB</li>
-            </ul>
-            <div className="space-x-2 flex justify-start mt-4">
-                  <a
-                    href="https://github.com/NekruzAsh/forumwebsite.git"
-                    target="_blank"
-                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
-                  >
-                    <FiGithub size={23} />
-                  </a>
-                  <a
-                    href="https://forumwebsite.onrender.com"
-                    target="_blank"
-                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
-                  >
-                    <FiExternalLink size={25} />
-                  </a>
-                </div>
-          </div>
-        </div>
 
-        <div className="project-img">
-          <img src="/images/forum.png" alt="forum website image" />
-        </div>
-      </div>
-
-      {/* Tic Tac Toe */}
-      <div className="project">
-        <div className="project-content">
-          <div className="project-label">First Python Project</div>
-          <h4 className="project-title font-medium">
-            <a
-              href="https://github.com/NekruzAsh/TicTacToeAI.git"
-              target="_blank"
-              className="hover:text-[#64feda] transform duration-500"
-            >
-              TicTacToe AI
-            </a>
-          </h4>
-          <div className="project-details">
-            <p className="shadow-xl hover:shadow-black/50 transform-shadow duration-300">
-              Tic-Tac-Toe game with two different game modes: Player Vs. Player
-              and Player Vs. AI. Developed with Python's{" "}
-              <span className="text-[#64feda]">Tkinter GUI</span> library and{" "}
-              <span className="text-[#64feda]">Minimax algorithm</span> to make
-              an unbeatable AI opponent. Researched the Minimax algorithm for AI
-              decision-making, considering different possible outcomes.
-            </p>
-            <ul className="font-[15px]">
-              <li>Python</li>
-              <li>Minimax</li>
-            </ul>
-            <div className="space-x-2 flex justify-end mt-4">
-                  <a
-                    href="https://github.com/NekruzAsh/TicTacToeAI.git"
-                    target="_blank"
-                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
-                  >
-                    <FiGithub size={23} />
-                  </a>
-                </div>
-          </div>
-        </div>
-
-        <div className="project-img">
-          <img src="/images/tictactoe.png" alt="Amazon Affiliate image" />
-        </div>
-      </div>
-
-      {/* Amazon Affiliate */}
-      <div className="project">
-        <div className="project-content">
-          <div className="project-label">Marketing and Affiliate Project</div>
-          <h4 className="project-title font-medium">
-            <a
-              href="https://nekruzash.github.io/amazonaffiliate/"
-              target="_blank"
-              className="hover:text-[#64feda] transform duration-500"
-            >
-              Amazon Affiliate
-            </a>
-          </h4>
-          <div className="project-details">
-            <p className="shadow-xl hover:shadow-black/50 transform-shadow duration-300">
-              Article website used to promote Amazon products specifically
-              technology category and earn commission from{" "}
-              <span className="text-[#64feda]">Amazon Affiliate</span> marketing
-              program. Integrated different{" "}
-              <span className="text-[#64feda]">SEO techniques</span> to rank
-              higher in search results.
-            </p>
-            <ul className="font-[15px]">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-            </ul>
-            <div className="space-x-2 flex justify-start mt-4">
-                  <a
-                    href="https://github.com/NekruzAsh/amazonaffiliate.git"
-                    target="_blank"
-                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
-                  >
-                    <FiGithub size={23} />
-                  </a>
-                  <a
-                    href="https://nekruzash.github.io/amazonaffiliate/"
-                    target="_blank"
-                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
-                  >
-                    <FiExternalLink size={25} />
-                  </a>
-                </div>
-          </div>
-        </div>
-
-        <div className="project-img">
-          <img src="/images/amazon.png" alt="chat application image" />
-        </div>
-      </div>
     </div>
   );
 };

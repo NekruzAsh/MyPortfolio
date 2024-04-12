@@ -129,9 +129,13 @@ const About = () => {
         <motion.div
           className="image-style shadow-lg items-center relative justify-center ml-20 md:ml-[-50px] mt-16"
           ref={ref}
-          animate={animation}
-          initial="hidden"
-          variants={lineVariants}
+            animate={animation}
+            initial="hidden"
+            variants={{
+              visible: { opacity: 1, y: 0 },
+              hidden: { opacity: 0, y: 100 },
+            }}
+            transition={{ duration: 1 }}
         >
           <img
             src="/images/authorimage.jpg"
