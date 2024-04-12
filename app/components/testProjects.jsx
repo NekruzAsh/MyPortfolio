@@ -130,7 +130,7 @@ const testProjects = () => {
               <li>CSS</li>
               <li>Cohere AI</li>
             </ul>
-            <div className="space-x-2 flex justify-start mt-4">
+            <div className="space-x-2 flex md:justify-start justify-end mt-4">
                   <a
                     href="https://github.com/NekruzAsh/QuizGen.git"
                     target="_blank"
