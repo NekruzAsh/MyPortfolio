@@ -17,7 +17,7 @@ const rubik = Rubik({ subsets: ["latin"] });
 export const metadata = {
   title: "Nekruz Ashrapov | Portfolio",
   description:
-    "This is Nekruz Ashrapov, a student at the University of Cincinnati, pursuing a degree in Computer Science. I am a front-end web developer, and my expertise lies in building and designing beautiful digital applications. Currently, I am honing my skills in crafting highly responsive webpages while also learning more about back-end technologies to expand my toolkit.",
+    "This is Nekruz Ashrapov, a Computer Science student at the University of Cincinnati, pursuing a degree in Computer Science. I am a full-stack web developer, and my expertise lies in building and designing beautiful digital applications. Currently, I am honing my skills in crafting highly responsive webpages while also learning more about back-end technologies to expand my toolkit.",
   
     icons:{
 

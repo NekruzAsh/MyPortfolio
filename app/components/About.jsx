@@ -62,8 +62,8 @@ const About = () => {
                 @University of Cincinnati
               </span>
             </a>
-            . I have strong interest in Artificial Intelligence and Software
-            Engineering. Currently, I'm learning more about{" "}
+            . I'm interested on the field of Artificial Intelligence and Software
+            Engineering and focused on learning more about it. Currently, I'm learning more about{" "}
             <span className="text-[#64feda]">developing web applications</span>{" "}
             using different frameworks and libraries. During my free time, I'm{" "}
             <span className="text-[#64feda]">
