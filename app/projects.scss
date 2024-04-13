@@ -96,13 +96,14 @@ html {
     }
     .project-title {
       font-size: 2rem;
-      margin: 10px 0 30px;
+      margin: 10px 0 1px;
       color: #e8ddff;
     }
     .project-details {
       font-size: 15px;
       line-height: 1.5;
       color: #aba6c4;
+      
   
       p {
         background-color: #151030;
@@ -115,8 +116,9 @@ html {
   
       ul {
         display: flex;
+        flex-wrap: wrap;
         margin-top: 20px;
-  
+        font-family: monospace;
         @include tablet {
           align-items: center;
           padding: 0;
@@ -208,6 +210,7 @@ html {
     .project-details {
       ul {
         flex-direction: row-reverse;
+        flex-wrap: wrap;
 
         li {
             margin-left: 20px;

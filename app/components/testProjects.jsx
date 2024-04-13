@@ -60,7 +60,7 @@ const testProjects = () => {
               target="_blank"
               className="hover:text-[#64feda] transform duration-500"
             >
-              Chat Application
+              Chat App
             </a>
           </h4>
           <div className="project-details">
@@ -69,9 +69,6 @@ const testProjects = () => {
               Google account and send messages. Developed a{" "}
               <span className="text-[#64feda]">Firebase server</span> to store
               user data, messages, and to retrieve chat messages in real-time.
-              Implemented{" "}
-              <span className="text-[#64feda]">Firebase Authentication</span> to
-              authenticate users through Google accounts.
             </p>
             <ul className="font-[15px]">
               <li>Next.js</li>
@@ -120,8 +117,7 @@ const testProjects = () => {
             <p className="shadow-xl hover:shadow-black/50 transform-shadow duration-300">
               Tool built for teachers and students to generate quiz questions
               using AI and user text input. Developed with{" "}
-              <span className="text-[#64feda]">Cohere AI API</span> and
-              JavaScript to fetch data from the API, read user input and
+              <span className="text-[#64feda]">Cohere AI API</span> to read user input and
               generate questions based on the content.
             </p>
             <ul className="font-[15px]">
@@ -164,15 +160,14 @@ const testProjects = () => {
               target="_blank"
               className="hover:text-[#64feda] transform duration-500"
             >
-              To-do Notes App
+              To-do App
             </a>
           </h4>
           <div className="project-details">
             <p className="shadow-xl hover:shadow-black/50 transform-shadow duration-300">
               Single page to-do notes web application with CRUD operations that
               allow users to create, delete and mark completed tasks. Developed
-              with <span className="text-[#64feda]">NextJS and JavaScript</span>{" "}
-              using ternary operators and event handlers.
+              with <span className="text-[#64feda]">NextJS</span> and <span className="text-[#64feda]">JavaScript</span>.
             </p>
             <ul className="font-[15px]">
               <li>Next.js</li>
