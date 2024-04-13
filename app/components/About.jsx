@@ -62,7 +62,7 @@ const About = () => {
                 @University of Cincinnati
               </span>
             </a>
-            . I'm interested on the field of Artificial Intelligence and Software
+            . I'm interested in Artificial Intelligence and Software
             Engineering and focused on learning more about it. Currently, I'm learning more about{" "}
             <span className="text-[#64feda]">developing web applications</span>{" "}
             using different frameworks and libraries. During my free time, I'm{" "}
@@ -113,7 +113,7 @@ const About = () => {
               </li>
               <li className="flex items-center">
                 <FaGooglePlay className="text-[#64feda]" size={7} />
-                &nbsp;&nbsp;React
+                &nbsp;&nbsp;Next.js
               </li>
               <li className="flex items-center">
                 <FaGooglePlay className="text-[#64feda]" size={7} />
@@ -121,11 +121,11 @@ const About = () => {
               </li>
               <li className="flex items-center">
                 <FaGooglePlay className="text-[#64feda]" size={7} />
-                &nbsp;&nbsp;Node.js
+                &nbsp;&nbsp;React
               </li>
               <li className="flex items-center">
                 <FaGooglePlay className="text-[#64feda]" size={7} />
-                &nbsp;&nbsp;Anaconda
+                &nbsp;&nbsp;Node.js
               </li>
             </ul>
           </motion.div>
