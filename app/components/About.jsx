@@ -41,7 +41,7 @@ const About = () => {
             transition={{ duration: 1 }}
             className="py-4 text-[#e8ddff] flex items-center"
           >
-            <span className="text-[#64feda]">01.&nbsp;</span> About Me
+            <span className="text-[#64feda] font-medium text-[70%]">01.&nbsp;&nbsp;</span> About Me
             <hr className="border-[#251f41] border-t-1 ml-4 flex-grow" />
           </motion.h2>
           <motion.p

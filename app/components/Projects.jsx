@@ -53,8 +53,7 @@ const Projects = () => {
             <span className=" text-[#64feda]">Other Noteworthy Projects</span>
           </p>
         </motion.div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {/* Forum Website */}
 
           <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] rounded-sm bg-[#151030] shadow-lg">
@@ -89,7 +88,7 @@ const Projects = () => {
               </div>
               <p className="text-sm">
                 <span className="text-[#64feda]">
-                  Express - CSS - JavaScript - MongoDB - Node
+                  Express - CSS - JavaScript - MongoDB - Node.js
                 </span>
               </p>
               <p className=" text-[#aba6c4]">
@@ -161,7 +160,6 @@ const Projects = () => {
           {/* TicTacToe AI */}
 
           <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] rounded-sm bg-[#151030] shadow-lg">
-
             <div className="card-body">
               <div className="flex justify-between items-center">
                 <h2 className=" card-title text-[#e8ddff]">
@@ -193,6 +191,130 @@ const Projects = () => {
                 <span className="text-[#64feda]">Tkinter GUI</span> library and{" "}
                 <span className="text-[#64feda]">Minimax algorithm</span> to
                 make an unbeatable AI opponent.
+              </p>
+            </div>
+          </motion.div>
+
+          {/* A Star Pathfinding */}
+
+          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] rounded-sm bg-[#151030] shadow-lg">
+            <div className="card-body">
+              <div className="flex justify-between items-center">
+                <h2 className=" card-title text-[#e8ddff]">
+                  <a
+                    href="https://github.com/NekruzAsh/A-Star-Pathfinding.git"
+                    target="_blank"
+                    className="hover:text-[#64feda] transform duration-500"
+                  >
+                    A - Star Pathfinding
+                  </a>
+                </h2>
+                <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
+                <div className="space-x-2 flex items-center">
+                  <a
+                    href="https://github.com/NekruzAsh/A-Star-Pathfinding.git"
+                    target="_blank"
+                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
+                  >
+                    <FiGithub size={23} />
+                  </a>
+                </div>
+              </div>
+              <p className="text-sm">
+                <span className="text-[#64feda]">Python </span>
+              </p>
+              <p className=" text-[#aba6c4]">
+                A-Star Pathfinding algorithm visualized using{" "}
+                <span className="text-[#64feda]">Python libraries</span>, where
+                the algorithm searches for the shortest path from a starting
+                node to target node. The cost of the path is estimated using a{" "}
+                <span className="text-[#64feda]">heuristic</span> approach.
+              </p>
+            </div>
+          </motion.div>
+
+          {/* Autonomous Retrieval System */}
+          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] rounded-sm bg-[#151030] shadow-lg">
+            <div className="card-body">
+              <div className="flex justify-between items-center">
+                <h2 className=" card-title text-[#e8ddff]">
+                  <a
+                    href="https://drive.google.com/file/d/1yZuABIqW8cpnE0LzjnIuGm_Hjy1wAHO0/view"
+                    target="_blank"
+                    className="hover:text-[#64feda] transform duration-500"
+                  >
+                    A.R.T
+                  </a>
+                </h2>
+                <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
+                <div className="space-x-2 flex items-center">
+                  <a
+                    href="https://drive.google.com/file/d/1yZuABIqW8cpnE0LzjnIuGm_Hjy1wAHO0/view"
+                    target="_blank"
+                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
+                  >
+                    <FiExternalLink size={25} />
+                  </a>
+                </div>
+              </div>
+              <p className="text-sm">
+                <span className="text-[#64feda]">Python - Pybricks</span>
+              </p>
+              <p className=" text-[#aba6c4]">
+                Collaborated in a team of 4 students to build, program, and
+                document a robot for an Engineering Design course. This is a
+                robot similar to{" "}
+                <span className="text-[#64feda]">Amazon's Proteus</span>{" "}
+                warehouse robots that scan barcodes and move objects around
+              </p>
+            </div>
+          </motion.div>
+
+          {/* Cryptocurrency Website */}
+          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] rounded-sm bg-[#151030] shadow-lg">
+            <div className="card-body">
+              <div className="flex justify-between items-center">
+                <h2 className=" card-title text-[#e8ddff]">
+                  <a
+                    href="https://cryptocurrency-club-website.vercel.app/"
+                    target="_blank"
+                    className="hover:text-[#64feda] transform duration-500"
+                  >
+                    Crypto Website
+                  </a>
+                </h2>
+                <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
+                <div className="space-x-2 flex items-center">
+                  <a
+                    href="https://github.com/NekruzAsh/Cryptocurrency-club-website.git"
+                    target="_blank"
+                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
+                  >
+                    <FiGithub size={23} />
+                  </a>
+                  <a
+                    href="https://cryptocurrency-club-website.vercel.app/"
+                    target="_blank"
+                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
+                  >
+                    <FiExternalLink size={25} />
+                  </a>
+                </div>
+              </div>
+              <p className="text-sm">
+                <span className="text-[#64feda]">
+                  Next.js - Tailwind CSS - JavaScript - CSS - Spline
+                </span>
+              </p>
+              <p className=" text-[#aba6c4]">
+                Building and designing a website for a Cryptocurrency Club{" "}
+                <a href="https://www.uc.edu/" target="_blank">
+                  <span className="text-[#64feda] hover:underline underline-offset-4">
+                    @University of Cincinnati
+                  </span>
+                </a>.
+                <br />
+                 *Work in Progress*
               </p>
             </div>
           </motion.div>
