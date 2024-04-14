@@ -78,6 +78,11 @@ html {
       align-items: flex-start;
     }
   }
+
+  .projects-grid {
+    display: grid;
+    grid-gap: 50px; // Adjust this value to increase space between project cards
+  }
   
   .project-content {
     position: relative;

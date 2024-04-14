@@ -50,6 +50,8 @@ const testProjects = () => {
         </p>
       </motion.div>
 
+      <div className="projects-grid">
+
       {/* Chat Application */}
       <div className="project">
         <div className="project-content">
@@ -76,7 +78,7 @@ const testProjects = () => {
               <li>TailwindCSS</li>
               <li>Firebase</li>
             </ul>
-            <div className="space-x-2 flex justify-end mt-4">
+            <div className="space-x-2 flex justify-end md:justify-start mt-4">
                   <a
                     href="https://github.com/NekruzAsh/Chat-app.git"
                     target="_blank"
@@ -126,7 +128,7 @@ const testProjects = () => {
               <li>CSS</li>
               <li>Cohere AI</li>
             </ul>
-            <div className="space-x-2 flex md:justify-start justify-end mt-4">
+            <div className="space-x-2 flex justify-end mt-4">
                   <a
                     href="https://github.com/NekruzAsh/QuizGen.git"
                     target="_blank"
@@ -175,7 +177,7 @@ const testProjects = () => {
               <li>TailwindCSS</li>
               <li>JavaScript</li>
             </ul>
-            <div className="space-x-2 flex justify-end mt-4">
+            <div className="space-x-2 flex justify-end md:justify-start mt-4">
                   <a
                     href="https://github.com/NekruzAsh/To-Do-App.git"
                     target="_blank"
@@ -198,7 +200,7 @@ const testProjects = () => {
           <img src="/images/todoapp.webp" alt="chat application image" />
         </div>
       </div>
-
+      </div>
 
     </div>
   );
