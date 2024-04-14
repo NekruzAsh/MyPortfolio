@@ -54,7 +54,7 @@ const testProjects = () => {
       <div className="project">
         <div className="project-content">
           <div className="project-label">Most recent project</div>
-          <h4 className="project-title font-medium">
+          <h4 className="project-title">
             <a
               href="https://chatapp-3a0e9.web.app/"
               target="_blank"
@@ -104,7 +104,7 @@ const testProjects = () => {
       <div className="project">
         <div className="project-content">
           <div className="project-label">Hackathon Project</div>
-          <h4 className="project-title font-medium">
+          <h4 className="project-title">
             <a
               href="https://nekruzash.github.io/QuizGenAI/"
               target="_blank"
@@ -154,7 +154,7 @@ const testProjects = () => {
       <div className="project">
         <div className="project-content">
           <div className="project-label">CRUD Operations Project</div>
-          <h4 className="project-title font-medium">
+          <h4 className="project-title">
             <a
               href="https://to-do-app-weld-seven.vercel.app/"
               target="_blank"

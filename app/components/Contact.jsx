@@ -33,13 +33,12 @@ const Contact = () => {
 
   return (
     <div
-    ref={ref}
+      ref={ref}
       id="contact"
       className="w-full lg:h-[150%] flex justify-center items-center"
     >
       <div className="py-2 mt-14 md:mt-32 w-full">
         <motion.p
-          
           className="text-lg text-[#64feda] py-2 text-center"
           initial="hidden"
           animate={animation}
@@ -48,8 +47,7 @@ const Contact = () => {
           03. What's Next?
         </motion.p>
         <motion.h2
-         
-          className=" text-[#e8ddff] md:py-4 text-center md:text-[60px] mx-auto"
+          className=" text-[#e8ddff] md:py-4 text-center md:text-[50px] mx-auto"
           initial="hidden"
           animate={animation}
           variants={lineVariants}
@@ -57,18 +55,33 @@ const Contact = () => {
           Get In Touch
         </motion.h2>
         <motion.p
-          
-          className="text-[#aba6c4] text-[17px] py-4 text-center items-center mx-auto box box-border w-[340px] h-[120px] md:w-[580px] mb-10"
+          className="text-[#aba6c4] text-[17px] py-4 text-center items-center mx-auto box box-border w-[340px] h-[120px] md:w-[580px] mb-1"
           initial="hidden"
           animate={animation}
           variants={textVariants}
         >
           If you have any opportunities, insights, or just want to say hi,
-          please message me. I will get back to you as soon as possible!
+          please leave a message. I will get back to you as soon as possible!
         </motion.p>
+
         <motion.div
-          
-          className="flex justify-center space-x-4 items-center mt-10 mb-4"
+          style={{ display: "flex", justifyContent: "center" }}
+          initial="hidden"
+          animate="visible"
+          variants={textVariants}
+          className="mb-64 md:mt-0 mt-10"
+        >
+          <motion.a
+            href="mailto:nekruzashrapov16@gmail.com"
+            target="_blank"
+            className="button"
+          >
+            Say Hello
+          </motion.a>
+        </motion.div>
+
+        <motion.div
+          className="flex justify-center space-x-4 items-center mb-4"
           initial="hidden"
           animate={animation}
           variants={lineVariants}
@@ -97,11 +110,10 @@ const Contact = () => {
         </motion.div>
 
         <motion.div
-          
           initial="hidden"
           animate={animation}
           variants={lineVariants}
-          className="text-sm md:mt-0 mt-5 text-[#aba6c4] styledFooter"
+          className="text-sm md:mt-0 mt-5 mb-4 text-[#aba6c4] styledFooter"
         >
           <a
             className="hover:text-[#64feda] transition-colors duration-500"

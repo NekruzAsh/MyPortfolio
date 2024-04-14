@@ -20,7 +20,7 @@ html {
   h4,
   h5,
   h6 {
-    @apply font-bold
+    @apply font-semibold
   }
 
   h1 {
@@ -28,7 +28,7 @@ html {
   }
 
   h2{
-    @apply text-3xl sm:text-4xl
+    @apply text-3xl sm:text-3xl
 
 
   }
