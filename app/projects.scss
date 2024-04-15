@@ -153,6 +153,29 @@ html {
     grid-row: 1 / -1;
     transition: background 3s ease, mix-blend-mode 3s ease;
   
+
+    a {
+      display: block;
+      position: relative;
+      
+
+
+      &:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 3;
+        background-color: #0a192f;
+        mix-blend-mode: screen;
+        border-radius: 2px;
+      }
+    }
+
     @media screen and (max-width: 768px) {
       height: 100%;
     }
