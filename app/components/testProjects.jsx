@@ -99,7 +99,7 @@ const testProjects = () => {
         
         <div className="project-img">
         <a href="https://chatapp-3a0e9.web.app/" target="_blank">
-          <img src="/images/chat.webp" alt="chat application image" />
+          <img src="/images/chat.png" alt="chat application image" />
           </a>
         </div>
       
@@ -152,7 +152,7 @@ const testProjects = () => {
 
         <div className="project-img">
           <a href="https://nekruzash.github.io/QuizGenAI/" target="_blank">
-          <img src="/images/quizgenn.webp" alt="QuizGenAI image" />
+          <img src="/images/quizgenn.png" alt="QuizGenAI image" />
           </a>
         </div>
       </div>
@@ -203,7 +203,7 @@ const testProjects = () => {
 
         <div className="project-img">
           <a href="https://to-do-app-weld-seven.vercel.app/" target="_blank">
-          <img src="/images/todoapp.webp" alt="chat application image" />
+          <img src="/images/todoapp.png" alt="chat application image" />
           </a>
         </div>
       </div>
