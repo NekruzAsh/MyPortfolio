@@ -114,24 +114,24 @@ const navbar = () => {
         <div>
           <ul className="hidden items-center md:flex">
             <Link href="/#about">
-              <li className="ml-10 text-lg text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500">
-                <span className=" text-[#64feda]">01.</span> About
+              <li className="ml-10 text-sm text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500">
+                <span className=" text-[#64feda] txt">01.</span> About
               </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-lg text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500">
-                <span className="text-[#64feda]">02.</span> Projects
+              <li className="ml-10 text-sm text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500">
+                <span className="text-[#64feda] txt">02.</span> Projects
               </li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 text-lg text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500">
-                <span className=" text-[#64feda]">03.</span> Contact
+              <li className="ml-10 text-sm text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500">
+                <span className=" text-[#64feda] txt">03.</span> Contact
               </li>
             </Link>
             <a
               href={myResume}
               target="_blank"
-              className="button ml-10 mr-6 text-lg"
+              className="button ml-10 mr-6 text-sm"
             >
               Resume
             </a>

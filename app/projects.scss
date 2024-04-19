@@ -79,6 +79,10 @@ html {
     }
   }
 
+  .txt {
+    font-family: monospace;
+  }
+
   .projects-grid {
     display: grid;
     grid-gap: 50px; // Adjust this value to increase space between project cards
@@ -123,7 +127,6 @@ html {
         display: flex;
         flex-wrap: wrap;
         margin-top: 20px;
-        font-family: monospace;
         @include tablet {
           align-items: center;
           padding: 0;

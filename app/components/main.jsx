@@ -53,7 +53,7 @@ const main = () => {
             <motion.a
               href="https://github.com/NekruzAsh"
               target="_blank"
-              className="button text-lg"
+              className="button text-md"
               initial="hidden"
               animate="visible"
               variants={textVariants}

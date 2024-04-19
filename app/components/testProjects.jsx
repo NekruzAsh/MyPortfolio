@@ -38,7 +38,7 @@ const testProjects = () => {
         variants={textVariants}
       >
         <h2 className="text-[#e8ddff] pl-7 pr-7 md:pl-6 md:pr-0 py-4 mt-8 flex items-center">
-          <span className=" text-[#64feda] font-medium text-[70%]">02.&nbsp;&nbsp;</span> My Work
+          <span className=" text-[#64feda] txt font-medium text-[70%]">02.&nbsp;</span> My Work
           <hr className="border-[#251f41] border-t-1 ml-4 flex-grow" />
         </h2>
         <p className="mb-16 text-[#aba6c4] text-[17px] pl-7 pr-7 md:pl-6 md:pr-0 max-w-3xl leading-[30px] z-10 relative">

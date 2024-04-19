@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import "../globals.css";
-
+import "../projects.scss";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { SiDevpost } from "react-icons/si";
 import { motion, useAnimation } from "framer-motion";
@@ -39,12 +39,12 @@ const Contact = () => {
     >
       <div className="py-2 mt-14 md:mt-32 w-full">
         <motion.p
-          className="text-lg text-[#64feda] py-2 text-center"
+          className="text-md text-[#64feda] py-2 text-center"
           initial="hidden"
           animate={animation}
           variants={textVariants}
         >
-          03. What's Next?
+          <span className="txt text-lg">03.&nbsp;</span>What's Next?
         </motion.p>
         <motion.h2
           className=" text-[#e8ddff] md:py-4 text-center md:text-[50px] mx-auto"
