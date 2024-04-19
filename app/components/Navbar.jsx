@@ -168,26 +168,26 @@ const navbar = () => {
           <div className="flex flex-col items-center justify-center text py-4 mx-auto h-full mt-[-40px]">
             <Link href="/#about">
               <div className="flex flex-col items-center py-4 text-[17px] text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500">
-                <p className="text-[#64feda]">01.</p>
+                <p className="text-[#64feda] txt">01.</p>
                 About
               </div>
             </Link>
 
             <Link href="/#projects">
               <div className="flex flex-col items-center py-4 text-[17px] text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500">
-                <p className="text-[#64feda]">02.</p>
+                <p className="text-[#64feda] txt">02.</p>
                 Work
               </div>
             </Link>
 
             <Link href="/#contact">
               <div className="flex flex-col items-center py-4 text-[17px] text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500">
-                <p className="text-[#64feda]">03.</p>
+                <p className="text-[#64feda] txt">03.</p>
                 Contact
               </div>
             </Link>
 
-            <a href={myResume} target="_blank" className="button mt-5 text-lg">
+            <a href={myResume} target="_blank" className="button mt-5 text-md">
               Resume
             </a>
           </div>
