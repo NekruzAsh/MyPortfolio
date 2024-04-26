@@ -119,7 +119,7 @@ const testProjects = () => {
             </a>
           </h4>
           <div className="project-details">
-            <p className="shadow-xl hover:shadow-black/50 transform-shadow duration-300">
+            <p className="shadow-xl text-left md:text-right hover:shadow-black/50 transform-shadow duration-300">
               Tool built for teachers and students to generate quiz questions
               using AI and user text input. Developed with{" "}
               <span className="text-[#64feda]">Cohere AI API</span> to read user input and
