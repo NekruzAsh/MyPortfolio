@@ -56,6 +56,44 @@ const Projects = () => {
           </p>
         </motion.div>
         <div className=" mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {/* Breakfast app */}
+        <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#151030] shadow-lg">
+            <div className="card-body">
+              <div className="flex justify-between items-center">
+                <h2 className="card-title text-[#e8ddff]">
+                  <a
+                    href="https://github.com/NekruzAsh/BreakfastApp.git"
+                    target="_blank"
+                    className="hover:text-[#64feda] transform duration-500"
+                  >
+                    Breakfast App
+                  </a>
+                </h2>
+                <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
+                <div className="space-x-2 flex items-center">
+                  <a
+                    href="https://github.com/NekruzAsh/BreakfastApp.git"
+                    target="_blank"
+                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
+                  >
+                    <FiGithub size={23} />
+                  </a>
+                </div>
+              </div>
+              <p className="text-sm">
+                <span className="text-[#64feda]">
+                Flutter - Dart - iterm2 - C++
+                </span>
+              </p>
+              <p className=" text-[#aba6c4]">
+              Single page breakfast app with calorie count and diet
+                recommendations. Focuses on providing nutritional information
+                and promoting nutritious eating habits. Developed with{" "}
+                <span className="text-[#64feda]">Flutter</span> and{" "}
+                <span className="text-[#64feda]">Dart</span>.
+              </p>
+            </div>
+          </motion.div>
         {/* Chat app */}
         <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#151030] shadow-lg">
             <div className="card-body">
@@ -142,63 +180,6 @@ const Projects = () => {
                 that allow users to create, delete and mark completed tasks.
                 Developed with <span className="text-[#64feda]">NextJS</span>{" "}
                 and <span className="text-[#64feda]">JavaScript</span>.
-              </p>
-            </div>
-          </motion.div>
-
-          {/* Forum Website */}
-
-          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#151030] shadow-lg">
-            <div className="card-body">
-              <div className="flex justify-between items-center">
-                <h2 className=" card-title text-[#e8ddff]">
-                  <a
-                    className="hover:text-[#64feda] transform duration-500"
-                    href="https://forumwebsite.onrender.com"
-                    target="_blank"
-                  >
-                    Forum Website
-                  </a>
-                </h2>
-                <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
-                <div className="space-x-2 flex items-center">
-                  <a
-                    href="https://github.com/NekruzAsh/forumwebsite.git"
-                    target="_blank"
-                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
-                  >
-                    <FiGithub size={23} />
-                  </a>
-                  <a
-                    href="https://forumwebsite.onrender.com"
-                    target="_blank"
-                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
-                  >
-                    <FiExternalLink size={25} />
-                  </a>
-                </div>
-              </div>
-              <p className="text-sm">
-                <span className="text-[#64feda]">
-                  Express - CSS - JavaScript - MongoDB - Node.js
-                </span>
-              </p>
-              <p className=" text-[#aba6c4]">
-                Forum website clone similar to{" "}
-                <a
-                  className="text-[#64feda] hover:underline underline-offset-4"
-                  target="_blank"
-                  href="https://www.reddit.com/"
-                >
-                  Reddit.com
-                </a>{" "}
-                where users can signup and login using existing accounts.
-                <br />
-                <span className="text-[#64feda]"> Try it out:</span>
-                <br />
-                Username: username
-                <br />
-                Password: 1234
               </p>
             </div>
           </motion.div>

@@ -53,54 +53,71 @@ const testProjects = () => {
       </motion.div>
 
       <div className="projects-grid">
-        {/* Flutter app */}
+        {/* Forum Website */}
         <div className="project">
           <div className="project-content">
-            <div className="project-label">IOS/Android/Web App</div>
+            <div className="project-label">Full Stack Web Application</div>
             <h4 className="project-title">
               <a
-                href="https://github.com/NekruzAsh/BreakfastApp.git"
+                href="https://forumwebsite.onrender.com"
                 target="_blank"
                 className="hover:text-[#64feda] transform duration-500"
               >
-                Breakfast App
+                Forum Website
               </a>
             </h4>
             <div className="project-details">
               <p className="shadow-xl hover:shadow-black/50 transform-shadow duration-300">
-                Single page breakfast app with calorie count and diet
-                recommendations. Focuses on providing nutritional information
-                and promoting nutritious eating habits. Developed with{" "}
-                <span className="text-[#64feda]">Flutter</span> and{" "}
-                <span className="text-[#64feda]">Dart</span>.
+                Forum website clone similar to{" "}
+                <a
+                  className="text-[#64feda] hover:underline underline-offset-4"
+                  target="_blank"
+                  href="https://www.reddit.com/"
+                >
+                  Reddit.com
+                </a>{" "}
+                where users can signup and login using existing accounts.
+                Developed with <span className="text-[#64feda]">MongoDB</span>{" "}
+                to store user data and {' '}
+                <span className="text-[#64feda]">Bcrypt</span> to hash passwords
+                securely.
+                <br />
+                <span className="text-[#64feda]"> Try it out:</span>
+                <br />
+                Username: username
+                <br />
+                Password: 1234
               </p>
               <ul className="font-[15px]">
-                <li>Flutter</li>
-                <li>Dart</li>
-                <li>iterm2</li>
-                <li>C++</li>
+                <li>Express</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+                <li>Bcrypt</li>
               </ul>
               <div className="space-x-2 flex justify-end md:justify-start mt-4">
                 <a
-                  href="https://github.com/NekruzAsh/BreakfastApp.git"
+                  href="https://github.com/NekruzAsh/forumwebsite.git"
                   target="_blank"
                   className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
                 >
                   <FiGithub size={23} />
+                </a>
+                <a
+                  href="https://forumwebsite.onrender.com"
+                  target="_blank"
+                  className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
+                >
+                  <FiExternalLink size={25} />
                 </a>
               </div>
             </div>
           </div>
 
           <div className="project-img">
-            <a
-              href="https://github.com/NekruzAsh/BreakfastApp.git"
-              target="_blank"
-            >
-              <img
-                src="/images/breakfastapp.webp"
-                alt="breakfast application image"
-              />
+            <a href="https://forumwebsite.onrender.com" target="_blank">
+              <img src="/images/forum.webp" alt="forum application image" />
             </a>
           </div>
         </div>
