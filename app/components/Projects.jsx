@@ -10,6 +10,8 @@ import { useInView } from "react-intersection-observer";
 import { useAnimation } from "framer-motion";
 
 const Projects = () => {
+  const [showMore, toggleShowMore] = useState(false);
+
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.5,
@@ -54,17 +56,109 @@ const Projects = () => {
           </p>
         </motion.div>
         <div className=" mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {/* Forum Website */}
-          
+        {/* Chat app */}
+        <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#151030] shadow-lg">
+            <div className="card-body">
+              <div className="flex justify-between items-center">
+                <h2 className="card-title text-[#e8ddff]">
+                  <a
+                    href="https://chatapp-3a0e9.web.app/"
+                    target="_blank"
+                    className="hover:text-[#64feda] transform duration-500"
+                  >
+                    Chat app
+                  </a>
+                </h2>
+                <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
+                <div className="space-x-2 flex items-center">
+                  <a
+                    href="https://github.com/NekruzAsh/Chat-app.git"
+                    target="_blank"
+                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
+                  >
+                    <FiGithub size={23} />
+                  </a>
+                  <a
+                    href="https://chatapp-3a0e9.web.app/"
+                    target="_blank"
+                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
+                  >
+                    <FiExternalLink size={25} />
+                  </a>
+                </div>
+              </div>
+              <p className="text-sm">
+                <span className="text-[#64feda]">
+                 Next.js - Tailwind CSS - JavaScript - Firebase
+                </span>
+              </p>
+              <p className=" text-[#aba6c4]">
+              Simple chat application that allows users to signin with their
+              Google account and send messages. Developed a{" "}
+              <span className="text-[#64feda]">Firebase server</span> to store
+              user data, messages, and to retrieve chat messages in real-time.
+              </p>
+            </div>
+          </motion.div>
+
+          {/* To-do App */}
           <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#151030] shadow-lg">
-            
+            <div className="card-body">
+              <div className="flex justify-between items-center">
+                <h2 className="card-title text-[#e8ddff]">
+                  <a
+                    href="https://to-do-app-weld-seven.vercel.app/"
+                    target="_blank"
+                    className="hover:text-[#64feda] transform duration-500"
+                  >
+                    To-do App
+                  </a>
+                </h2>
+                <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
+                <div className="space-x-2 flex items-center">
+                  <a
+                    href="https://github.com/NekruzAsh/To-Do-App.git"
+                    target="_blank"
+                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
+                  >
+                    <FiGithub size={23} />
+                  </a>
+                  <a
+                    href="https://to-do-app-weld-seven.vercel.app/"
+                    target="_blank"
+                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
+                  >
+                    <FiExternalLink size={25} />
+                  </a>
+                </div>
+              </div>
+              <p className="text-sm">
+                <span className="text-[#64feda]">
+                  Next.js - React.js - Tailwind CSS - JavaScript
+                </span>
+              </p>
+              <p className=" text-[#aba6c4]">
+                Single page to-do notes web application with CRUD operations
+                that allow users to create, delete and mark completed tasks.
+                Developed with <span className="text-[#64feda]">NextJS</span>{" "}
+                and <span className="text-[#64feda]">JavaScript</span>.
+              </p>
+            </div>
+          </motion.div>
+
+          {/* Forum Website */}
+
+          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#151030] shadow-lg">
             <div className="card-body">
               <div className="flex justify-between items-center">
                 <h2 className=" card-title text-[#e8ddff]">
-                  <a className="hover:text-[#64feda] transform duration-500"
-                   href="https://forumwebsite.onrender.com" target="_blank">
+                  <a
+                    className="hover:text-[#64feda] transform duration-500"
+                    href="https://forumwebsite.onrender.com"
+                    target="_blank"
+                  >
                     Forum Website
-                    </a>
+                  </a>
                 </h2>
                 <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
                 <div className="space-x-2 flex items-center">
@@ -107,9 +201,7 @@ const Projects = () => {
                 Password: 1234
               </p>
             </div>
-            
           </motion.div>
-          
 
           {/* Amazon Affiliate */}
 
@@ -233,100 +325,104 @@ const Projects = () => {
             </div>
           </motion.div>
 
-          {/* Autonomous Retrieval System */}
-          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#151030] shadow-lg">
-            <div className="card-body">
-              <div className="flex justify-between items-center">
-                <h2 className=" card-title text-[#e8ddff]">
-                  <a
-                    href="https://drive.google.com/file/d/1yZuABIqW8cpnE0LzjnIuGm_Hjy1wAHO0/view"
-                    target="_blank"
-                    className="hover:text-[#64feda] transform duration-500"
-                  >
-                    A.R.T
-                  </a>
-                </h2>
-                <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
-                <div className="space-x-2 flex items-center">
-                  <a
-                    href="https://drive.google.com/file/d/1yZuABIqW8cpnE0LzjnIuGm_Hjy1wAHO0/view"
-                    target="_blank"
-                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
-                  >
-                    <FiExternalLink size={25} />
-                  </a>
+          {showMore && (
+            <>
+              {/* Cryptocurrency Website */}
+              <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#151030] shadow-lg">
+                <div className="card-body">
+                  <div className="flex justify-between items-center">
+                    <h2 className=" card-title text-[#e8ddff]">
+                      <a
+                        href="https://cryptocurrency-club-website.vercel.app/"
+                        target="_blank"
+                        className="hover:text-[#64feda] transform duration-500"
+                      >
+                        Crypto Website
+                      </a>
+                    </h2>
+                    <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
+                    <div className="space-x-2 flex items-center">
+                      <a
+                        href="https://github.com/NekruzAsh/Cryptocurrency-club-website.git"
+                        target="_blank"
+                        className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
+                      >
+                        <FiGithub size={23} />
+                      </a>
+                      <a
+                        href="https://cryptocurrency-club-website.vercel.app/"
+                        target="_blank"
+                        className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
+                      >
+                        <FiExternalLink size={25} />
+                      </a>
+                    </div>
+                  </div>
+                  <p className="text-sm">
+                    <span className="text-[#64feda]">
+                      Next.js - Tailwind CSS - JavaScript - CSS - Spline
+                    </span>
+                  </p>
+                  <p className=" text-[#aba6c4]">
+                    Building and designing a website for a Cryptocurrency Club{" "}
+                    <a href="https://www.uc.edu/" target="_blank">
+                      <span className="text-[#64feda] hover:underline underline-offset-4">
+                        @University of Cincinnati
+                      </span>
+                    </a>
+                    .
+                    <br />
+                    *Work in Progress*
+                  </p>
                 </div>
-              </div>
-              <p className="text-sm">
-                <span className="text-[#64feda]">Python - Pybricks</span>
-              </p>
-              <p className=" text-[#aba6c4]">
-                Collaborated in a team of 4 students to build, program, and
-                document a robot for an Engineering Design course. This is a
-                robot similar to{" "}
-                <span className="text-[#64feda]">Amazon's Proteus</span>{" "}
-                warehouse robots that scan barcodes and move objects around
-              </p>
-            </div>
-          </motion.div>
+              </motion.div>
 
-          {/* Cryptocurrency Website */}
-          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#151030] shadow-lg">
-            <div className="card-body">
-              <div className="flex justify-between items-center">
-                <h2 className=" card-title text-[#e8ddff]">
-                  <a
-                    href="https://cryptocurrency-club-website.vercel.app/"
-                    target="_blank"
-                    className="hover:text-[#64feda] transform duration-500"
-                  >
-                    Crypto Website
-                  </a>
-                </h2>
-                <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
-                <div className="space-x-2 flex items-center">
-                  <a
-                    href="https://github.com/NekruzAsh/Cryptocurrency-club-website.git"
-                    target="_blank"
-                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
-                  >
-                    <FiGithub size={23} />
-                  </a>
-                  <a
-                    href="https://cryptocurrency-club-website.vercel.app/"
-                    target="_blank"
-                    className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
-                  >
-                    <FiExternalLink size={25} />
-                  </a>
+              {/* Autonomous Retrieval System */}
+              <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#151030] shadow-lg">
+                <div className="card-body">
+                  <div className="flex justify-between items-center">
+                    <h2 className=" card-title text-[#e8ddff]">
+                      <a
+                        href="https://drive.google.com/file/d/1yZuABIqW8cpnE0LzjnIuGm_Hjy1wAHO0/view"
+                        target="_blank"
+                        className="hover:text-[#64feda] transform duration-500"
+                      >
+                        A.R.T
+                      </a>
+                    </h2>
+                    <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
+                    <div className="space-x-2 flex items-center">
+                      <a
+                        href="https://drive.google.com/file/d/1yZuABIqW8cpnE0LzjnIuGm_Hjy1wAHO0/view"
+                        target="_blank"
+                        className="text-[#aba6c4] hover:text-[#64feda] transform duration-500"
+                      >
+                        <FiExternalLink size={25} />
+                      </a>
+                    </div>
+                  </div>
+                  <p className="text-sm">
+                    <span className="text-[#64feda]">Python - Pybricks</span>
+                  </p>
+                  <p className=" text-[#aba6c4]">
+                    Collaborated in a team of 4 students to build, program, and
+                    document a robot for an Engineering Design course. This is a
+                    robot similar to{" "}
+                    <span className="text-[#64feda]">Amazon's Proteus</span>{" "}
+                    warehouse robots that scan barcodes and move objects around
+                  </p>
                 </div>
-              </div>
-              <p className="text-sm">
-                <span className="text-[#64feda]">
-                  Next.js - Tailwind CSS - JavaScript - CSS - Spline
-                </span>
-              </p>
-              <p className=" text-[#aba6c4]">
-                Building and designing a website for a Cryptocurrency Club{" "}
-                <a href="https://www.uc.edu/" target="_blank">
-                  <span className="text-[#64feda] hover:underline underline-offset-4">
-                    @University of Cincinnati
-                  </span>
-                </a>.
-                <br />
-                 *Work in Progress*
-              </p>
-            </div>
-          </motion.div>
+              </motion.div>
+            </>
+          )}
         </div>
-        
-        {/* <div className="mt-12">
-          <a className="button">
-          See More
-        </a></div> */}
-        
+
+        <div className="mt-12">
+          <a className="button" onClick={() => toggleShowMore(!showMore)}>
+            {showMore ? "See Less" : "See More"}
+          </a>
+        </div>
       </div>
-      
     </div>
   );
 };
