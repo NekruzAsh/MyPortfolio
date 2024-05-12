@@ -41,7 +41,7 @@ const Projects = () => {
 
   return (
     <div className="w-full flex justify-center items-center">
-      <div className="max-w-[1240px] mx-auto">
+      <div className="max-w-[1240px] mx-auto flex flex-col justify-center items-center">
         <motion.div
           className="max-w-3xl"
           ref={ref}
@@ -49,24 +49,22 @@ const Projects = () => {
           initial="hidden"
           variants={textVariants}
         >
-          <p className="text-[#e8ddff] mt-8 py-2 flex items-center">
+          <p className="text-[#e8ddff] mt-6 py-2 flex items-center">
             <span className=" text-[#64feda]">Other Noteworthy Projects</span>
           </p>
         </motion.div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className=" mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {/* Forum Website */}
-
-          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] rounded-sm bg-[#151030] shadow-lg">
+          
+          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#151030] shadow-lg">
+            
             <div className="card-body">
               <div className="flex justify-between items-center">
                 <h2 className=" card-title text-[#e8ddff]">
-                  <a
-                    href="https://forumwebsite.onrender.com"
-                    target="_blank"
-                    className="hover:text-[#64feda] transform duration-500"
-                  >
+                  <a className="hover:text-[#64feda] transform duration-500"
+                   href="https://forumwebsite.onrender.com" target="_blank">
                     Forum Website
-                  </a>
+                    </a>
                 </h2>
                 <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
                 <div className="space-x-2 flex items-center">
@@ -109,11 +107,13 @@ const Projects = () => {
                 Password: 1234
               </p>
             </div>
+            
           </motion.div>
+          
 
           {/* Amazon Affiliate */}
 
-          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] rounded-sm bg-[#151030] shadow-lg">
+          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#151030] shadow-lg">
             <div className="card-body">
               <div className="flex justify-between items-center">
                 <h2 className="card-title text-[#e8ddff]">
@@ -159,7 +159,7 @@ const Projects = () => {
 
           {/* TicTacToe AI */}
 
-          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] rounded-sm bg-[#151030] shadow-lg">
+          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#151030] shadow-lg">
             <div className="card-body">
               <div className="flex justify-between items-center">
                 <h2 className=" card-title text-[#e8ddff]">
@@ -197,7 +197,7 @@ const Projects = () => {
 
           {/* A Star Pathfinding */}
 
-          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] rounded-sm bg-[#151030] shadow-lg">
+          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#151030] shadow-lg">
             <div className="card-body">
               <div className="flex justify-between items-center">
                 <h2 className=" card-title text-[#e8ddff]">
@@ -234,7 +234,7 @@ const Projects = () => {
           </motion.div>
 
           {/* Autonomous Retrieval System */}
-          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] rounded-sm bg-[#151030] shadow-lg">
+          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#151030] shadow-lg">
             <div className="card-body">
               <div className="flex justify-between items-center">
                 <h2 className=" card-title text-[#e8ddff]">
@@ -271,7 +271,7 @@ const Projects = () => {
           </motion.div>
 
           {/* Cryptocurrency Website */}
-          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] rounded-sm bg-[#151030] shadow-lg">
+          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#151030] shadow-lg">
             <div className="card-body">
               <div className="flex justify-between items-center">
                 <h2 className=" card-title text-[#e8ddff]">
@@ -319,7 +319,14 @@ const Projects = () => {
             </div>
           </motion.div>
         </div>
+        
+        {/* <div className="mt-12">
+          <a className="button">
+          See More
+        </a></div> */}
+        
       </div>
+      
     </div>
   );
 };
