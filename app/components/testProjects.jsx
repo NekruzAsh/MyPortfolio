@@ -81,7 +81,6 @@ const testProjects = () => {
                 to store user data and {' '}
                 <span className="text-[#64feda]">Bcrypt</span> to hash passwords
                 securely.
-                <br />
                 <span className="text-[#64feda]"> Try it out:</span>
                 <br />
                 Username: username

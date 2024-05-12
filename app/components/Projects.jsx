@@ -66,7 +66,7 @@ const Projects = () => {
                     target="_blank"
                     className="hover:text-[#64feda] transform duration-500"
                   >
-                    Breakfast App
+                    Breakfast app
                   </a>
                 </h2>
                 <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
@@ -82,7 +82,7 @@ const Projects = () => {
               </div>
               <p className="text-sm">
                 <span className="text-[#64feda]">
-                Flutter - Dart - iterm2 - C++
+                Flutter - Dart - iTerm2 - C++ - IOS
                 </span>
               </p>
               <p className=" text-[#aba6c4]">
@@ -149,7 +149,7 @@ const Projects = () => {
                     target="_blank"
                     className="hover:text-[#64feda] transform duration-500"
                   >
-                    To-do App
+                    To-do app
                   </a>
                 </h2>
                 <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />

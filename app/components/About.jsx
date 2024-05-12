@@ -57,7 +57,7 @@ const About = () => {
             transition={{ duration: 1 }}
             className="py-2 text-[#aba6c4]"
           >
-            Hi I'm Nekruz, a sophomore{" "}
+            Hi I'm Nekruz, a junior{" "}
             <span className="text-[#64feda]">Computer Science</span> student{" "}
             <a href="https://www.uc.edu/" target="_blank">
               <span className="text-[#64feda] hover:underline underline-offset-4">
@@ -144,7 +144,7 @@ const About = () => {
           transition={{ duration: 1 }}
         >
           <img
-            src="/images/authorimage.jpg"
+            src="/images/authorimg.jpg"
             quality={100}
             className="rounded-md"
             alt="picture of author"
