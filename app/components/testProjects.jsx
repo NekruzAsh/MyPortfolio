@@ -78,7 +78,7 @@ const testProjects = () => {
                 </a>{" "}
                 where users can signup and login using existing accounts.
                 Developed with <span className="text-[#64feda]">MongoDB</span>{" "}
-                to store user data and {' '}
+                to store user data and{" "}
                 <span className="text-[#64feda]">Bcrypt</span> to hash passwords
                 securely.
                 <span className="text-[#64feda]"> Try it out:</span>
@@ -93,7 +93,6 @@ const testProjects = () => {
                 <li>JavaScript</li>
                 <li>Node.js</li>
                 <li>MongoDB</li>
-                <li>Bcrypt</li>
               </ul>
               <div className="space-x-2 flex justify-end md:justify-start mt-4">
                 <a

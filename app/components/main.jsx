@@ -19,9 +19,17 @@ const main = () => {
   return (
     <div
       id="home"
-      className="w-full h-screen text-center relative bg-cover bg-center"
-       style={{ backgroundImage: `url(/images/herobg.png)` }}
+      className="w-full h-screen text-center relative"
+      // style={{ backgroundImage: `url(/images/herobg.png)` }}
     >
+      <div className="loader">
+        <div className="face face1">
+          <div className="circle"></div>
+        </div>
+        <div className="face face2">
+          <div className="circle"></div>
+        </div>
+      </div>
       <div className="w-full h-full mx-auto p-4 flex justify-center items-center z-20 relative">
         <div className="text-left">
           <motion.p

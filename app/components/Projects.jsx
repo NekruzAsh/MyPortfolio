@@ -57,7 +57,7 @@ const Projects = () => {
         </motion.div>
         <div className=" mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {/* Breakfast app */}
-        <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#151030] shadow-lg">
+          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#151030] shadow-lg">
             <div className="card-body">
               <div className="flex justify-between items-center">
                 <h2 className="card-title text-[#e8ddff]">
@@ -82,11 +82,11 @@ const Projects = () => {
               </div>
               <p className="text-sm">
                 <span className="text-[#64feda]">
-                Flutter - Dart - iTerm2 - C++ - IOS
+                  Flutter - Dart - iTerm2 - C++ - iOS
                 </span>
               </p>
               <p className=" text-[#aba6c4]">
-              Single page breakfast app with calorie count and diet
+                Single page breakfast app with calorie count and diet
                 recommendations. Focuses on providing nutritional information
                 and promoting nutritious eating habits. Developed with{" "}
                 <span className="text-[#64feda]">Flutter</span> and{" "}
@@ -94,8 +94,8 @@ const Projects = () => {
               </p>
             </div>
           </motion.div>
-        {/* Chat app */}
-        <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#151030] shadow-lg">
+          {/* Chat app */}
+          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#151030] shadow-lg">
             <div className="card-body">
               <div className="flex justify-between items-center">
                 <h2 className="card-title text-[#e8ddff]">
@@ -127,14 +127,14 @@ const Projects = () => {
               </div>
               <p className="text-sm">
                 <span className="text-[#64feda]">
-                 Next.js - Tailwind CSS - JavaScript - Firebase
+                  Next.js - Tailwind CSS - JavaScript - Firebase
                 </span>
               </p>
               <p className=" text-[#aba6c4]">
-              Simple chat application that allows users to signin with their
-              Google account and send messages. Developed a{" "}
-              <span className="text-[#64feda]">Firebase server</span> to store
-              user data, messages, and to retrieve chat messages in real-time.
+                Simple chat application that allows users to signin with their
+                Google account and send messages. Developed a{" "}
+                <span className="text-[#64feda]">Firebase server</span> to store
+                user data, messages, and to retrieve chat messages in real-time.
               </p>
             </div>
           </motion.div>
