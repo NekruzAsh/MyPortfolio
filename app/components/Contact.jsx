@@ -39,15 +39,15 @@ const Contact = () => {
     >
       <div className="py-2 mt-14 md:mt-32 w-full">
         <motion.p
-          className="text-lg txt text-[#64feda] py-2 text-center"
+          className="text-lg txt text-[#fa243c] py-2 text-center"
           initial="hidden"
           animate={animation}
           variants={textVariants}
         >
-          03. What's Next?
+          What's Next?
         </motion.p>
         <motion.h2
-          className=" text-[#e8ddff] md:py-4 text-center md:text-[50px] mx-auto"
+          className=" text-[#1d1d1f] md:py-4 text-center md:text-[50px] mx-auto"
           initial="hidden"
           animate={animation}
           variants={lineVariants}
@@ -55,7 +55,7 @@ const Contact = () => {
           Get In Touch
         </motion.h2>
         <motion.p
-          className="text-[#aba6c4] text-[17px] py-4 text-center items-center mx-auto box box-border w-[340px] h-[120px] md:w-[580px] mb-1"
+          className="text-[#58585a] text-[17px] py-4 text-center items-center mx-auto box box-border w-[340px] h-[120px] md:w-[580px] mb-1"
           initial="hidden"
           animate={animation}
           variants={textVariants}
@@ -81,42 +81,13 @@ const Contact = () => {
         </motion.div>
 
         <motion.div
-          className="flex justify-center space-x-4 items-center mb-4"
           initial="hidden"
           animate={animation}
           variants={lineVariants}
+          className="text-sm md:mt-0 mt-5 mb-4 text-[#58585a] styledFooter"
         >
           <a
-            href="https://github.com/NekruzAsh"
-            target="_blank"
-            className="text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500"
-          >
-            <FiGithub size={24} />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/nekruzash/"
-            target="_blank"
-            className="text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500"
-          >
-            <FiLinkedin size={24} />
-          </a>
-          <a
-            href="https://devpost.com/NekruzAsh?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav"
-            target="_blank"
-            className="text-[#aba6c4] hover:text-[#64feda] transition-colors duration-500"
-          >
-            <SiDevpost size={24} />
-          </a>
-        </motion.div>
-
-        <motion.div
-          initial="hidden"
-          animate={animation}
-          variants={lineVariants}
-          className="text-sm md:mt-0 mt-5 mb-4 text-[#aba6c4] styledFooter"
-        >
-          <a
-            className="hover:text-[#64feda] transition-colors duration-500"
+            className="hover:text-[#fa243c] transition-colors duration-500"
             href="https://github.com/NekruzAsh/MyPortfolio.git"
             target="_blank"
           >

@@ -7,7 +7,7 @@ import { FaGooglePlay } from "react-icons/fa";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import "../projects.scss";
-
+import { GoTriangleRight } from "react-icons/go";
 
 const About = () => {
   const { ref, inView } = useInView({
@@ -41,10 +41,10 @@ const About = () => {
               hidden: { opacity: 0, y: 100 },
             }}
             transition={{ duration: 1 }}
-            className="py-4 text-[#e8ddff] flex items-center"
+            className="py-4 text-[#1d1d1f] flex items-center"
           >
-            <span className="text-[#64feda] txt font-medium text-[70%]">01.&nbsp;</span> About Me
-            <hr className="border-[#251f41] border-t-1 ml-4 flex-grow" />
+            About Me
+            <hr className="border-[#333238] border-t-1 ml-4 flex-grow" />
           </motion.h2>
           <motion.p
             ref={ref}
@@ -55,25 +55,26 @@ const About = () => {
               hidden: { opacity: 0, y: 100 },
             }}
             transition={{ duration: 1 }}
-            className="py-2 text-[#aba6c4]"
+            className="py-2 text-[#58585a]"
           >
             Hi I'm Nekruz, a junior{" "}
-            <span className="text-[#64feda]">Computer Science</span> student{" "}
+            <span className="text-[#1d1d1f]">Computer Science</span> student{" "}
             <a href="https://www.uc.edu/" target="_blank">
-              <span className="text-[#64feda] hover:underline underline-offset-4">
+              <span className="text-[#fa243c] hover:underline underline-offset-4">
                 @University of Cincinnati
               </span>
             </a>
-            . My passion lies in Software Engineering and Artificial Intelligence. Currently, I'm learning more about{" "}
-            <span className="text-[#64feda]">developing web applications</span>{" "}
+            . My passion lies in Software Engineering and Artificial
+            Intelligence. Currently, I'm learning more about{" "}
+            <span className="text-[#1d1d1f]">developing web applications</span>{" "}
             using different frameworks and libraries. During my free time, I'm{" "}
-            <span className="text-[#64feda]">
+            <span className="text-[#1d1d1f]">
               experimenting with different AI language models
             </span>{" "}
             to better tailor them for my personal projects.
           </motion.p>
           <motion.p
-            className="py-2 text-[#aba6c4]"
+            className="py-2 text-[#58585a]"
             ref={ref}
             animate={animation}
             initial="hidden"
@@ -84,14 +85,14 @@ const About = () => {
             transition={{ duration: 1 }}
           >
             My coding journey began when I wrote my first line of HTML code in
-            8th grade in <span className="text-[#64feda]">Brooklyn, NY</span>. I
+            8th grade in <span className="text-[#1d1d1f]">Brooklyn, NY</span>. I
             was fascinated by the idea that I could create such beautiful
             software using various programming languages. I was hooked. Those
             initial lines of code evolved into a love for programming, driving
             me to explore the intricate aspects of this craft.
           </motion.p>
           <motion.div
-            className="py-2 text-[#aba6c4]"
+            className="py-2 text-[#1d1d1f]"
             ref={ref}
             animate={animation}
             initial="hidden"
@@ -105,27 +106,27 @@ const About = () => {
             <br />
             <ul className="grid grid-cols-2 gap-y-1 gap-1 text-sm">
               <li className="flex items-center">
-                <FaGooglePlay className="text-[#64feda]" size={7} />
+                <GoTriangleRight className="text-[#fa243c]" size={13} />
                 &nbsp;&nbsp;JavaScript (ES6+)
               </li>
               <li className="flex items-center">
-                <FaGooglePlay className="text-[#64feda]" size={7} />
+                <GoTriangleRight className="text-[#fa243c]" size={13} />
                 &nbsp;&nbsp;Python
               </li>
               <li className="flex items-center">
-                <FaGooglePlay className="text-[#64feda]" size={7} />
+                <GoTriangleRight className="text-[#fa243c]" size={13} />
                 &nbsp;&nbsp;Next.js
               </li>
               <li className="flex items-center">
-                <FaGooglePlay className="text-[#64feda]" size={7} />
+                <GoTriangleRight className="text-[#fa243c]" size={13} />
                 &nbsp;&nbsp;C++
               </li>
               <li className="flex items-center">
-                <FaGooglePlay className="text-[#64feda]" size={7} />
+                <GoTriangleRight className="text-[#fa243c]" size={13} />
                 &nbsp;&nbsp;React
               </li>
               <li className="flex items-center">
-                <FaGooglePlay className="text-[#64feda]" size={7} />
+                <GoTriangleRight className="text-[#fa243c]" size={13} />
                 &nbsp;&nbsp;Node.js
               </li>
             </ul>
@@ -133,7 +134,7 @@ const About = () => {
         </div>
 
         <motion.div
-          className="image-style shadow-lg items-center relative justify-center ml-20 md:ml-0 lg:ml-[-50px] mt-16"
+          className="image-style items-center relative justify-center ml-20 md:ml-0 lg:ml-[-50px] mt-16"
           ref={ref}
           animate={animation}
           initial="hidden"

@@ -17,23 +17,19 @@ const main = () => {
   };
 
   return (
-    <div
-      id="home"
-      className="w-full h-screen text-center relative"
-      // style={{ backgroundImage: `url(/images/herobg.png)` }}
-    >
-      <div className="loader">
+    <div id="home" className="w-full h-screen text-center relative">
+      {/* <div className="loader">
         <div className="face face1">
           <div className="circle"></div>
         </div>
         <div className="face face2">
           <div className="circle"></div>
         </div>
-      </div>
+      </div> */}
       <div className="w-full h-full mx-auto p-4 flex justify-center items-center z-20 relative">
         <div className="text-left">
           <motion.p
-            className="text-[#64feda] text-[22px]"
+            className="text-[#fa243c] text-[22px]"
             initial="hidden"
             animate="visible"
             variants={textVariants}
@@ -41,7 +37,7 @@ const main = () => {
             Hi, my name is
           </motion.p>
           <motion.h1
-            className="py-4 md:text-[60px] text-[#e8ddff] font-bold"
+            className="py-4 md:text-[60px] text-[#1d1d1f] font-bold"
             initial="hidden"
             animate="visible"
             variants={textVariants}
@@ -49,7 +45,7 @@ const main = () => {
             Nekruz Ashrapov.
           </motion.h1>
           <motion.h1
-            className="md:text-[50px] text-[30px] text-[#aba6c4]"
+            className="md:text-[50px] text-[30px] text-[#58585a]"
             initial="hidden"
             animate="visible"
             variants={lineVariants}

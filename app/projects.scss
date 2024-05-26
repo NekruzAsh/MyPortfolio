@@ -85,7 +85,7 @@ html {
 
   .projects-grid {
     display: grid;
-    grid-gap: 50px; // Adjust this value to increase space between project cards
+    grid-gap: 50px; 
   }
   
   .project-content {
@@ -100,22 +100,22 @@ html {
     }
   
     .project-label {
-      color: #64feda;
+      color: #fa243c;
       font-family: monospace;
     }
     .project-title {
       font-size: 1.8rem;
       margin: 10px 0 1px;
-      color: #e8ddff;
+      color: #1d1d1f;
     }
     .project-details {
       font-size: 15px;
       line-height: 1.5;
-      color: #aba6c4;
+      color: #58585a;
       
   
       p {
-        background-color: #151030;
+        background-color: #fafafa;
         padding: 20px 25px;
         @include tablet {
           background-color: transparent;
@@ -135,7 +135,7 @@ html {
   
         li {
           margin-right: 20px;
-          color: #aba6c4;
+          color: #58585a;
           font-size: 14px;
           
   
@@ -149,8 +149,8 @@ html {
   
   .project-img {
     position: relative;
-    background-color: #64feda;
-    background: linear-gradient(0.4turn, #64feda, #64ff8d);
+    background-color: #fa243c;
+    background: linear-gradient(0.4turn, #666666, #46151a);
     border-radius: 2px;
     grid-column: 6 / -1;
     grid-row: 1 / -1;
