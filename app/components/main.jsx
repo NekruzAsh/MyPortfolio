@@ -48,7 +48,7 @@ const main = () => {
             className="md:text-[50px] text-[30px] text-[#58585a]"
             initial="hidden"
             animate="visible"
-            variants={lineVariants}
+            variants={textVariants}
           >
             I'm a Software Developer from New York.
           </motion.h1>
