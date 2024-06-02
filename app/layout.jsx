@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Rubik } from "next/font/google";
 import "./globals.css";
@@ -18,27 +17,14 @@ export const metadata = {
   title: "Nekruz Ashrapov | Portfolio",
   description:
     "This is Nekruz Ashrapov, a Computer Science student at the University of Cincinnati, pursuing a degree in Computer Science. I am a full-stack web developer, and my expertise lies in building and designing beautiful digital applications. Currently, I am honing my skills in crafting highly responsive webpages while also learning more about back-end technologies to expand my toolkit.",
-  
-    icons:{
 
-      icon: [
+  icons: {
+    icon: ["/images/favicon.ico"],
+    shortcut: ["/images/apple-touch-icon.png"],
 
-          '/images/favicon.ico',
-
-      ],
-      shortcut: [
-
-          '/images/apple-touch-icon.png',
-      ],
-
-      apple: [
-
-          '/images/apple-touch-icon.png',
-      ],
-
-    },
-
-  };
+    apple: ["/images/apple-touch-icon.png"],
+  },
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -49,7 +35,7 @@ export default function RootLayout({ children }) {
         <About />
         <Project1 />
         <Projects />
-        <Contact /> 
+        <Contact />
 
         {children}
       </body>
