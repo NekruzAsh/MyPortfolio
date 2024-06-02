@@ -66,8 +66,8 @@ const navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <div className="flex justify-center items-center">
-          <Link href="/#home">
+        <div className="flex justify-center md:ml-2 lg:ml-10 items-center">
+          {/* <Link href="/#home">
             <svg
               id="hexagon"
               viewBox="0 0 100 100"
@@ -108,20 +108,21 @@ const navbar = () => {
                 />
               </g>
             </svg>
+          </Link> */}
+          <Link href="/#home">
+            <Image
+              className="rounded-full"
+              src="/images/logoo.png"
+              alt="logo"
+              width={38}
+              height={38}
+              quality={100}
+            />
           </Link>
-          {/* <Link href="/#home">
-          <Image
-            src="/images/logoo.webp"
-            alt="logo"
-            width={80}
-            height={80}
-            quality={100}
-          />
-        </Link> */}
 
           <ul className="hidden items-center md:flex">
             <Link href="/#about">
-              <li className="ml-10 text-sm uppercase text-[#333333] hover:text-[#000] transition-colors duration-500">
+              <li className="ml-8 text-sm uppercase text-[#333333] hover:text-[#000] transition-colors duration-500">
                 About
               </li>
             </Link>
@@ -157,7 +158,7 @@ const navbar = () => {
             </label>
           </div>
         </div>
-        <div className="hidden justify-end md:flex items-center">
+        <div className="hidden justify-end md:mr-4 lg:mr-12 md:flex items-center">
           <ul className="flex space-x-8">
             <a href="https://x.com/NAshrapov" target="_blank">
               <li>
