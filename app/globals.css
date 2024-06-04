@@ -363,3 +363,8 @@ html {
     transform: rotate(360deg);
   }
 }
+
+.backdrop2 {
+  backdrop-filter: saturate(180%) blur(20px);
+  background: var(--localnav-background-stuck, rgba(251, 251, 253, 0.8));
+}
