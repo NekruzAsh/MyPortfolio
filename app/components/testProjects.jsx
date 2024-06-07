@@ -36,11 +36,11 @@ const testProjects = () => {
         initial="hidden"
         variants={textVariants}
       >
-        <h2 className="text-[#1d1d1f] pl-7 pr-7 md:pl-6 md:pr-0 py-4 mt-8 flex items-center">
+        <h2 className="text-[#cfcfcf] text-xl pl-7 pr-7 md:pl-6 md:pr-0 py-4 mt-8 flex items-center">
           My Work
-          <hr className="border-[#333238] border-t-1 ml-4 flex-grow" />
+          <hr className="border-[#2f2f30] border-t-1 ml-4 flex-grow" />
         </h2>
-        <p className="mb-16 text-[#58585a] text-[17px] pl-7 pr-7 md:pl-6 md:pr-0 max-w-3xl leading-[30px] z-10 relative">
+        <p className="mb-16 text-[#707173] pl-7 pr-7 md:pl-6 md:pr-0 max-w-3xl leading-[30px] z-10 relative">
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
           links to code repositories and live demos. It reflects my ability to
@@ -74,9 +74,9 @@ const testProjects = () => {
                   Reddit.com
                 </a>{" "}
                 where users can signup and login using existing accounts.
-                Developed with <span className="text-[#1d1d1f]">MongoDB</span>{" "}
+                Developed with <span className="text-[#cfcfcf]">MongoDB</span>{" "}
                 to store user data and{" "}
-                <span className="text-[#1d1d1f]">Bcrypt</span> to hash passwords
+                <span className="text-[#cfcfcf]">Bcrypt</span> to hash passwords
                 securely.
                 <span className="text-[#fa243c]"> Try it out:</span>
                 <br />
@@ -95,14 +95,14 @@ const testProjects = () => {
                 <a
                   href="https://github.com/NekruzAsh/forumwebsite.git"
                   target="_blank"
-                  className="text-[#58585a] hover:text-[#fa243c] transform duration-500"
+                  className="text-[#707173] hover:text-[#fa243c] transform duration-500"
                 >
                   <FiGithub size={23} />
                 </a>
                 <a
                   href="https://forumwebsite.onrender.com"
                   target="_blank"
-                  className="text-[#58585a] hover:text-[#fa243c] transform duration-500"
+                  className="text-[#707173] hover:text-[#fa243c] transform duration-500"
                 >
                   <FiExternalLink size={25} />
                 </a>
@@ -134,7 +134,7 @@ const testProjects = () => {
               <p className="md:shadow-xl text-left md:text-right md:hover:shadow-black/50 transform-shadow duration-300">
                 Tool built for teachers and students to generate quiz questions
                 using AI and user text input. Developed with{" "}
-                <span className="text-[#1d1d1f]">Cohere AI API</span> to read
+                <span className="text-[#cfcfcf]">Cohere AI API</span> to read
                 user input and generate questions based on the content.
               </p>
               <ul className="font-[15px]">
@@ -147,14 +147,14 @@ const testProjects = () => {
                 <a
                   href="https://github.com/NekruzAsh/QuizGen.git"
                   target="_blank"
-                  className="text-[#58585a] hover:text-[#fa243c] transform duration-500"
+                  className="text-[#707173] hover:text-[#fa243c] transform duration-500"
                 >
                   <FiGithub size={23} />
                 </a>
                 <a
                   href="https://nekruzash.github.io/QuizGenAI/"
                   target="_blank"
-                  className="text-[#58585a] hover:text-[#fa243c] transform duration-500"
+                  className="text-[#707173] hover:text-[#fa243c] transform duration-500"
                 >
                   <FiExternalLink size={25} />
                 </a>
@@ -186,10 +186,10 @@ const testProjects = () => {
               <p className="md:shadow-xl md:hover:shadow-black/50 transform-shadow duration-300">
                 Connects volunteers & seniors via a user-friendly platform,
                 using{" "}
-                <span className="text-[#1d1d1f]">
+                <span className="text-[#cfcfcf]">
                   AI to match based on shared interests
                 </span>
-                . Then uses <span className="text-[#1d1d1f]">video calls</span>{" "}
+                . Then uses <span className="text-[#cfcfcf]">video calls</span>{" "}
                 to facilitate meaningful conversations, combating elderly
                 loneliness and depression.
               </p>
@@ -204,14 +204,14 @@ const testProjects = () => {
                 <a
                   href="https://github.com/NekruzAsh/Google-AI-Hack.git"
                   target="_blank"
-                  className="text-[#58585a] hover:text-[#fa243c] transform duration-500"
+                  className="text-[#707173] hover:text-[#fa243c] transform duration-500"
                 >
                   <FiGithub size={23} />
                 </a>
                 <a
                   href="https://google-hacks-delta.vercel.app/"
                   target="_blank"
-                  className="text-[#58585a] hover:text-[#fa243c] transform duration-500"
+                  className="text-[#707173] hover:text-[#fa243c] transform duration-500"
                 >
                   <FiExternalLink size={25} />
                 </a>

@@ -61,27 +61,27 @@ const navbar = () => {
     <div
       className={
         shadow
-          ? "fixed w-full h-[3.3rem] z-[100] border-b-[1px] border-b-[#d6d6d6] backdrop2 transition-shadow duration-500"
-          : "fixed w-full h-[3.3rem] z-[100]"
+          ? "fixed w-full h-[3.0rem] z-[100] backdrop2 transition-shadow duration-500"
+          : "fixed w-full h-[3.0rem] z-[100]"
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <div className="flex justify-center md:ml-2 lg:ml-10 items-center">
-          {/* <Link href="/#home">
+          <Link href="/#home">
             <svg
               id="hexagon"
               viewBox="0 0 100 100"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink"
-              width="40"
-              height="40"
+              width="28"
+              height="28"
             >
               <g>
                 <g
                   id="B"
-                  transform="translate(34, 33.4)"
-                  fill="#fa243c"
+                  transform="translate(36, 33)"
+                  fill="#64feda"
                   style={{ opacity: 1 }}
                   fontFamily="system-ui,Calibre-Medium, Calibre,sans-serif"
                   fontSize="44"
@@ -95,7 +95,7 @@ const navbar = () => {
                   </text>
                 </g>
                 <path
-                  stroke="#fa243c"
+                  stroke="#64feda"
                   strokeWidth="5"
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -108,8 +108,8 @@ const navbar = () => {
                 />
               </g>
             </svg>
-          </Link> */}
-          <Link href="/#home">
+          </Link>
+          {/* <Link href="/#home">
             <Image
               className="rounded-full"
               src="/images/logoo.png"
@@ -118,28 +118,28 @@ const navbar = () => {
               height={38}
               quality={100}
             />
-          </Link>
+          </Link> */}
 
           <ul className="hidden items-center md:flex">
             <Link href="/#about">
-              <li className="ml-8 text-sm uppercase text-[#333333] hover:text-[#000] transition-colors duration-500">
+              <li className="ml-8 text-xs uppercase text-[#FFFFFFCC] hover:text-white transition-colors duration-500">
                 About
               </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-7 text-sm uppercase text-[#333333] hover:text-[#000] transition-colors duration-500">
+              <li className="ml-7 text-xs uppercase text-[#FFFFFFCC] hover:text-white transition-colors duration-500">
                 Projects
               </li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-7 text-sm uppercase text-[#333333] hover:text-[#000] transition-colors duration-500">
+              <li className="ml-7 text-xs uppercase text-[#FFFFFFCC] hover:text-white transition-colors duration-500">
                 Contact
               </li>
             </Link>
             <a
               href={myResume}
               target="_blank"
-              className="ml-7 text-sm uppercase text-[#333333] hover:text-[#000] transition-colors duration-500"
+              className="ml-7 text-xs uppercase text-[#FFFFFFCC] hover:text-white transition-colors duration-500"
             >
               Resume
             </a>
@@ -163,7 +163,7 @@ const navbar = () => {
             <a href="https://x.com/NAshrapov" target="_blank">
               <li>
                 <FaXTwitter
-                  className="text-[#333333] hover:text-[#000] transform duration-500"
+                  className="text-[#FFFFFFCC] hover:text-white transform duration-500"
                   size={18}
                 />
               </li>
@@ -171,7 +171,7 @@ const navbar = () => {
             <a href="https://www.linkedin.com/in/nekruzash/" target="_blank">
               <li>
                 <FaLinkedin
-                  className="text-[#333333] hover:text-[#000] transform duration-500"
+                  className="text-[#FFFFFFCC] hover:text-white transform duration-500"
                   size={18}
                 />
               </li>
@@ -179,7 +179,7 @@ const navbar = () => {
             <a href="https://github.com/NekruzAsh" target="_blank">
               <li>
                 <FaGithub
-                  className="text-[#333333] hover:text-[#000] transform duration-500"
+                  className="text-[#FFFFFFCC] hover:text-white transform duration-500"
                   size={18}
                 />
               </li>
@@ -191,7 +191,7 @@ const navbar = () => {
             >
               <li>
                 <SiDevpost
-                  className="text-[#333333] hover:text-[#000] transform duration-500"
+                  className="text-[#FFFFFFCC] hover:text-white transform duration-500"
                   size={18}
                 />
               </li>
@@ -199,7 +199,7 @@ const navbar = () => {
             <a href="mailto:nekruzashrapov16@gmail.com" target="_blank">
               <li>
                 <MdOutlineEmail
-                  className="text-[#333333] hover:text-[#000] transform duration-500"
+                  className="text-[#FFFFFFCC] hover:text-white transform duration-500"
                   size={18}
                 />
               </li>
@@ -218,25 +218,25 @@ const navbar = () => {
         <div
           className={
             nav
-              ? "fixed right-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#fafafa] p-10 transition-transform duration-500 transform translate-x-0"
+              ? "fixed right-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#121317] p-10 transition-transform duration-500 transform translate-x-0"
               : "fixed right-[-100%] top-0 p-10 transition-transform duration-500 transform translate-x-full"
           }
         >
           <div className="flex flex-col items-center justify-center text py-4 mx-auto h-full mt-[-40px]">
             <Link href="/#about">
-              <div className="flex flex-col items-center uppercase py-4 text-[17px] text-black transition-colors duration-500">
+              <div className="flex flex-col items-center uppercase py-4 text-[17px] text-[#FFFFFFCC] transition-colors duration-500">
                 About
               </div>
             </Link>
 
             <Link href="/#projects">
-              <div className="flex flex-col items-center uppercase py-4 text-[17px] text-black transition-colors duration-500">
+              <div className="flex flex-col items-center uppercase py-4 text-[17px] text-[#FFFFFFCC] transition-colors duration-500">
                 Work
               </div>
             </Link>
 
             <Link href="/#contact">
-              <div className="flex flex-col items-center uppercase py-4 text-[17px] text-black transition-colors duration-500">
+              <div className="flex flex-col items-center uppercase py-4 text-[17px] text-[#FFFFFFCC] transition-colors duration-500">
                 Contact
               </div>
             </Link>
@@ -244,7 +244,7 @@ const navbar = () => {
             <a
               href={myResume}
               target="_blank"
-              className="mt-5 uppercase text-[17px]"
+              className="mt-5 text-[#FFFFFFCC] uppercase text-[17px]"
             >
               Resume
             </a>
@@ -254,7 +254,7 @@ const navbar = () => {
               <a href="https://x.com/NAshrapov" target="_blank">
                 <li>
                   <FaXTwitter
-                    className="text-[#333333] hover:text-[#000] transform duration-500"
+                    className="text-[#FFFFFFCC] hover:text-white transform duration-500"
                     size={22}
                   />
                 </li>
@@ -262,7 +262,7 @@ const navbar = () => {
               <a href="https://www.linkedin.com/in/nekruzash/" target="_blank">
                 <li>
                   <FaLinkedin
-                    className="text-[#333333] hover:text-[#000] transform duration-500"
+                    className="text-[#FFFFFFCC] hover:text-white transform duration-500"
                     size={22}
                   />
                 </li>
@@ -270,7 +270,7 @@ const navbar = () => {
               <a href="https://github.com/NekruzAsh" target="_blank">
                 <li>
                   <FaGithub
-                    className="text-[#333333] hover:text-[#000] transform duration-500"
+                    className="text-[#FFFFFFCC] hover:text-white transform duration-500"
                     size={22}
                   />
                 </li>
@@ -282,7 +282,7 @@ const navbar = () => {
               >
                 <li>
                   <SiDevpost
-                    className="text-[#333333] hover:text-[#000] transform duration-500"
+                    className="text-[#FFFFFFCC] hover:text-white transform duration-500"
                     size={22}
                   />
                 </li>
@@ -290,7 +290,7 @@ const navbar = () => {
               <a href="mailto:nekruzashrapov16@gmail.com" target="_blank">
                 <li>
                   <MdOutlineEmail
-                    className="text-[#333333] hover:text-[#000] transform duration-500"
+                    className="text-[#FFFFFFCC] hover:text-white transform duration-500"
                     size={22}
                   />
                 </li>

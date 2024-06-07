@@ -8,7 +8,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-white text-[#000] tracking-wide !important;
+    @apply bg-[#121317] text-white tracking-wide !important;
   }
 
   h2,
@@ -97,7 +97,7 @@ html {
 .hamburger {
   cursor: pointer;
   position: fixed;
-  top: 0.2rem;
+  top: 0.05rem;
   right: 0.5rem;
   z-index: 101;
 }
@@ -115,7 +115,7 @@ html {
 
 .line {
   fill: none;
-  stroke: #1d1d1f;
+  stroke: #cfcfcf;
   stroke-linecap: butt;
   stroke-linejoin: miter;
   stroke-width: 1;
@@ -188,8 +188,8 @@ html {
 
 .button {
   color: #ffffff;
-  background-color: #1d1d1f;
-  border: 1px solid #1d1d1f;
+  background-color: #191a1e;
+  border: 1px solid #191a1e;
   border-radius: 5px;
   line-height: 1;
   text-decoration: none;
@@ -270,22 +270,20 @@ html {
 /* loader */
 
 .loader {
-  opacity: 0.5;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50vw;
-  /* 50% of the viewport width */
   height: 50vw;
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 750px;
+  max-height: 750px;
   box-sizing: border-box;
 }
 
 .loader .face {
   position: absolute;
-  border: 2px solid #121212;
+  border: 2px solid transparent;
 }
 
 .loader .face.face1 {
@@ -293,7 +291,7 @@ html {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #1e0048;
+  background: transparent;
   box-shadow: 0 0 10px rgba(0, 0, 0, 1);
   border-radius: 50%;
   border-top: 2px solid #64feda;
@@ -306,11 +304,11 @@ html {
   left: 30px;
   right: 30px;
   bottom: 30px;
-  background: #050817;
+  background: transparent;
   box-shadow: 0 0 10px rgba(0, 0, 0, 1);
   border-radius: 50%;
-  border-right: 2px solid #4a00b1;
-  border-bottom: 2px solid #4a00b1;
+  border-right: 2px solid #ff0000;
+  border-bottom: 2px solid #ff0000;
   animation: animate 10s linear reverse infinite;
 }
 
@@ -349,22 +347,49 @@ html {
 }
 
 .loader .face.face2 .circle:before {
-  background: #4a00b1;
-  box-shadow: 0 0 20px #4a00b1, 0 0 40px #4a00b1, 0 0 60px #4a00b1,
-    0 0 80px #4a00b1, 0 0 100px #4a00b1, 0 0 0 5px rgba(3, 169, 244, 0.1);
+  background: #e60505;
+  box-shadow: 0 0 20px #e60505, 0 0 40px #e60505, 0 0 60px #e60505,
+    0 0 80px #e60505, 0 0 100px #e60505, 0 0 0 5px rgba(3, 169, 244, 0.1);
 }
 
 @keyframes animate {
   0% {
     transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(360deg);
   }
 }
 
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+  .loader {
+    width: 60vw;
+    height: 60vw;
+  }
+}
+
+@media (max-width: 992px) {
+  .loader {
+    width: 70vw;
+    height: 70vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .loader {
+    width: 80vw;
+    height: 80vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .loader {
+    display: none;
+  }
+}
+
 .backdrop2 {
   backdrop-filter: saturate(180%) blur(20px);
-  background: var(--localnav-background-stuck, rgba(251, 251, 253, 0.8));
+  background: var(--localnav-background-stuck, rgba(22, 22, 23, 0.8));
 }

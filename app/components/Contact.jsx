@@ -47,7 +47,7 @@ const Contact = () => {
           What's Next?
         </motion.p>
         <motion.h2
-          className=" text-[#1d1d1f] md:py-4 text-center md:text-[50px] mx-auto"
+          className=" text-[#cfcfcf] md:py-4 text-center md:text-[50px] mx-auto"
           initial="hidden"
           animate={animation}
           variants={lineVariants}
@@ -55,7 +55,7 @@ const Contact = () => {
           Get In Touch
         </motion.h2>
         <motion.p
-          className="text-[#58585a] text-[17px] py-4 text-center items-center mx-auto box box-border w-[340px] h-[120px] md:w-[580px] mb-1"
+          className="text-[#707173] text-[17px] py-4 text-center items-center mx-auto box box-border w-[340px] h-[120px] md:w-[580px] mb-1"
           initial="hidden"
           animate={animation}
           variants={textVariants}
@@ -84,7 +84,7 @@ const Contact = () => {
           initial="hidden"
           animate={animation}
           variants={lineVariants}
-          className="text-sm md:mt-0 mt-5 mb-4 text-[#58585a] styledFooter"
+          className="text-sm md:mt-0 mt-5 mb-4 text-[#707173] styledFooter"
         >
           <a
             className="hover:text-[#fa243c] transition-colors duration-500"

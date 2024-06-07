@@ -57,10 +57,10 @@ const Projects = () => {
         </motion.div>
         <div className=" mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {/* Breakfast app */}
-          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#fafafa] shadow-lg">
+          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#191a1e] shadow-lg">
             <div className="card-body">
               <div className="flex justify-between items-center">
-                <h2 className="card-title text-[#1d1d1f]">
+                <h2 className="card-title text-[#cfcfcf]">
                   <a
                     href="https://github.com/NekruzAsh/BreakfastApp.git"
                     target="_blank"
@@ -69,12 +69,12 @@ const Projects = () => {
                     Breakfast app
                   </a>
                 </h2>
-                <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
+                <hr className="border-[#2f2f30] border-t-1 mx-3 flex-grow" />
                 <div className="space-x-2 flex items-center">
                   <a
                     href="https://github.com/NekruzAsh/BreakfastApp.git"
                     target="_blank"
-                    className="text-[#58585a] hover:text-[#fa243c] transform duration-500"
+                    className="text-[#707173] hover:text-[#fa243c] transform duration-500"
                   >
                     <FiGithub size={23} />
                   </a>
@@ -85,20 +85,20 @@ const Projects = () => {
                   Flutter - Dart - iTerm2 - C++ - iOS
                 </span>
               </p>
-              <p className=" text-[#58585a]">
+              <p className=" text-[#707173]">
                 Single page breakfast app with calorie count and diet
                 recommendations. Focuses on providing nutritional information
                 and promoting nutritious eating habits. Developed with{" "}
-                <span className="text-[#1d1d1f]">Flutter</span> and{" "}
-                <span className="text-[#1d1d1f]">Dart</span>.
+                <span className="text-[#cfcfcf]">Flutter</span> and{" "}
+                <span className="text-[#cfcfcf]">Dart</span>.
               </p>
             </div>
           </motion.div>
           {/* Chat app */}
-          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#fafafa] shadow-lg">
+          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#191a1e] shadow-lg">
             <div className="card-body">
               <div className="flex justify-between items-center">
-                <h2 className="card-title text-[#1d1d1f]">
+                <h2 className="card-title text-[#cfcfcf]">
                   <a
                     href="https://chatapp-3a0e9.web.app/"
                     target="_blank"
@@ -107,19 +107,19 @@ const Projects = () => {
                     Chat app
                   </a>
                 </h2>
-                <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
+                <hr className="border-[#2f2f30] border-t-1 mx-3 flex-grow" />
                 <div className="space-x-2 flex items-center">
                   <a
                     href="https://github.com/NekruzAsh/Chat-app.git"
                     target="_blank"
-                    className="text-[#58585a] hover:text-[#fa243c] transform duration-500"
+                    className="text-[#707173] hover:text-[#fa243c] transform duration-500"
                   >
                     <FiGithub size={23} />
                   </a>
                   <a
                     href="https://chatapp-3a0e9.web.app/"
                     target="_blank"
-                    className="text-[#58585a] hover:text-[#fa243c] transform duration-500"
+                    className="text-[#707173] hover:text-[#fa243c] transform duration-500"
                   >
                     <FiExternalLink size={25} />
                   </a>
@@ -130,20 +130,20 @@ const Projects = () => {
                   Next.js - Tailwind CSS - JavaScript - Firebase
                 </span>
               </p>
-              <p className=" text-[#58585a]">
+              <p className=" text-[#707173]">
                 Simple chat application that allows users to signin with their
                 Google account and send messages. Developed a{" "}
-                <span className="text-[#1d1d1f]">Firebase server</span> to store
+                <span className="text-[#cfcfcf]">Firebase server</span> to store
                 user data, messages, and to retrieve chat messages in real-time.
               </p>
             </div>
           </motion.div>
 
           {/* To-do App */}
-          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#fafafa] shadow-lg">
+          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#191a1e] shadow-lg">
             <div className="card-body">
               <div className="flex justify-between items-center">
-                <h2 className="card-title text-[#1d1d1f]">
+                <h2 className="card-title text-[#cfcfcf]">
                   <a
                     href="https://to-do-app-weld-seven.vercel.app/"
                     target="_blank"
@@ -152,19 +152,19 @@ const Projects = () => {
                     To-do app
                   </a>
                 </h2>
-                <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
+                <hr className="border-[#2f2f30] border-t-1 mx-3 flex-grow" />
                 <div className="space-x-2 flex items-center">
                   <a
                     href="https://github.com/NekruzAsh/To-Do-App.git"
                     target="_blank"
-                    className="text-[#58585a] hover:text-[#fa243c] transform duration-500"
+                    className="text-[#707173] hover:text-[#fa243c] transform duration-500"
                   >
                     <FiGithub size={23} />
                   </a>
                   <a
                     href="https://to-do-app-weld-seven.vercel.app/"
                     target="_blank"
-                    className="text-[#58585a] hover:text-[#fa243c] transform duration-500"
+                    className="text-[#707173] hover:text-[#fa243c] transform duration-500"
                   >
                     <FiExternalLink size={25} />
                   </a>
@@ -175,21 +175,21 @@ const Projects = () => {
                   Next.js - React.js - Tailwind CSS - JavaScript
                 </span>
               </p>
-              <p className=" text-[#58585a]">
+              <p className=" text-[#707173]">
                 Single page to-do notes web application with CRUD operations
                 that allow users to create, delete and mark completed tasks.
-                Developed with <span className="text-[#1d1d1f]">NextJS</span>{" "}
-                and <span className="text-[#1d1d1f]">JavaScript</span>.
+                Developed with <span className="text-[#cfcfcf]">NextJS</span>{" "}
+                and <span className="text-[#cfcfcf]">JavaScript</span>.
               </p>
             </div>
           </motion.div>
 
           {/* Amazon Affiliate */}
 
-          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#fafafa] shadow-lg">
+          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#191a1e] shadow-lg">
             <div className="card-body">
               <div className="flex justify-between items-center">
-                <h2 className="card-title text-[#1d1d1f]">
+                <h2 className="card-title text-[#cfcfcf]">
                   <a
                     href="https://nekruzash.github.io/amazonaffiliate/"
                     target="_blank"
@@ -198,19 +198,19 @@ const Projects = () => {
                     Amazon Affiliate
                   </a>
                 </h2>
-                <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
+                <hr className="border-[#2f2f30] border-t-1 mx-3 flex-grow" />
                 <div className="space-x-2 flex items-center">
                   <a
                     href="https://github.com/NekruzAsh/amazonaffiliate.git"
                     target="_blank"
-                    className="text-[#58585a] hover:text-[#fa243c] transform duration-500"
+                    className="text-[#707173] hover:text-[#fa243c] transform duration-500"
                   >
                     <FiGithub size={23} />
                   </a>
                   <a
                     href="https://nekruzash.github.io/amazonaffiliate/"
                     target="_blank"
-                    className="text-[#58585a] hover:text-[#fa243c] transform duration-500"
+                    className="text-[#707173] hover:text-[#fa243c] transform duration-500"
                   >
                     <FiExternalLink size={25} />
                   </a>
@@ -219,12 +219,12 @@ const Projects = () => {
               <p className="text-sm">
                 <span className="text-[#fa243c]">HTML - CSS - JavaScript</span>
               </p>
-              <p className=" text-[#58585a]">
+              <p className=" text-[#707173]">
                 Article website used to promote Amazon products specifically
                 technology category and earn commission from{" "}
-                <span className="text-[#1d1d1f]">Amazon Affiliate</span>{" "}
+                <span className="text-[#cfcfcf]">Amazon Affiliate</span>{" "}
                 marketing program. Integrated different{" "}
-                <span className="text-[#1d1d1f]">SEO techniques</span> to rank
+                <span className="text-[#cfcfcf]">SEO techniques</span> to rank
                 higher in search results.
               </p>
             </div>
@@ -232,10 +232,10 @@ const Projects = () => {
 
           {/* TicTacToe AI */}
 
-          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#fafafa] shadow-lg">
+          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#191a1e] shadow-lg">
             <div className="card-body">
               <div className="flex justify-between items-center">
-                <h2 className=" card-title text-[#1d1d1f]">
+                <h2 className=" card-title text-[#cfcfcf]">
                   <a
                     href="https://github.com/NekruzAsh/TicTacToeAI.git"
                     target="_blank"
@@ -244,12 +244,12 @@ const Projects = () => {
                     Tic-Tac-Toe AI
                   </a>
                 </h2>
-                <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
+                <hr className="border-[#2f2f30] border-t-1 mx-3 flex-grow" />
                 <div className="space-x-2 flex items-center">
                   <a
                     href="https://github.com/NekruzAsh/TicTacToeAI.git"
                     target="_blank"
-                    className="text-[#58585a] hover:text-[#fa243c] transform duration-500"
+                    className="text-[#707173] hover:text-[#fa243c] transform duration-500"
                   >
                     <FiGithub size={23} />
                   </a>
@@ -258,11 +258,11 @@ const Projects = () => {
               <p className="text-sm">
                 <span className="text-[#fa243c]">Python - Minimax</span>
               </p>
-              <p className=" text-[#58585a]">
+              <p className=" text-[#707173]">
                 Tic-Tac-Toe game with two different game modes: Player Vs.
                 Player and Player Vs. AI. Developed with Python's{" "}
-                <span className="text-[#1d1d1f]">Tkinter GUI</span> library and{" "}
-                <span className="text-[#1d1d1f]">Minimax algorithm</span> to
+                <span className="text-[#cfcfcf]">Tkinter GUI</span> library and{" "}
+                <span className="text-[#cfcfcf]">Minimax algorithm</span> to
                 make an unbeatable AI opponent.
               </p>
             </div>
@@ -270,10 +270,10 @@ const Projects = () => {
 
           {/* A Star Pathfinding */}
 
-          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#fafafa] shadow-lg">
+          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#191a1e] shadow-lg">
             <div className="card-body">
               <div className="flex justify-between items-center">
-                <h2 className=" card-title text-[#1d1d1f]">
+                <h2 className=" card-title text-[#cfcfcf]">
                   <a
                     href="https://github.com/NekruzAsh/A-Star-Pathfinding.git"
                     target="_blank"
@@ -282,12 +282,12 @@ const Projects = () => {
                     A - Star Pathfinding
                   </a>
                 </h2>
-                <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
+                <hr className="border-[#2f2f30] border-t-1 mx-3 flex-grow" />
                 <div className="space-x-2 flex items-center">
                   <a
                     href="https://github.com/NekruzAsh/A-Star-Pathfinding.git"
                     target="_blank"
-                    className="text-[#58585a] hover:text-[#fa243c] transform duration-500"
+                    className="text-[#707173] hover:text-[#fa243c] transform duration-500"
                   >
                     <FiGithub size={23} />
                   </a>
@@ -296,12 +296,12 @@ const Projects = () => {
               <p className="text-sm">
                 <span className="text-[#fa243c]">Python </span>
               </p>
-              <p className=" text-[#58585a]">
+              <p className=" text-[#707173]">
                 A-Star Pathfinding algorithm visualized using{" "}
-                <span className="text-[#1d1d1f]">Python libraries</span>, where
+                <span className="text-[#cfcfcf]">Python libraries</span>, where
                 the algorithm searches for the shortest path from a starting
                 node to target node. The cost of the path is estimated using a{" "}
-                <span className="text-[#1d1d1f]">heuristic</span> approach.
+                <span className="text-[#cfcfcf]">heuristic</span> approach.
               </p>
             </div>
           </motion.div>
@@ -309,10 +309,10 @@ const Projects = () => {
           {showMore && (
             <>
               {/* Cryptocurrency Website */}
-              <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#fafafa] shadow-lg">
+              <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#191a1e] shadow-lg">
                 <div className="card-body">
                   <div className="flex justify-between items-center">
-                    <h2 className=" card-title text-[#1d1d1f]">
+                    <h2 className=" card-title text-[#cfcfcf]">
                       <a
                         href="https://cryptocurrency-club-website.vercel.app/"
                         target="_blank"
@@ -321,19 +321,19 @@ const Projects = () => {
                         Crypto Website
                       </a>
                     </h2>
-                    <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
+                    <hr className="border-[#2f2f30] border-t-1 mx-3 flex-grow" />
                     <div className="space-x-2 flex items-center">
                       <a
                         href="https://github.com/NekruzAsh/Cryptocurrency-club-website.git"
                         target="_blank"
-                        className="text-[#58585a] hover:text-[#fa243c] transform duration-500"
+                        className="text-[#707173] hover:text-[#fa243c] transform duration-500"
                       >
                         <FiGithub size={23} />
                       </a>
                       <a
                         href="https://cryptocurrency-club-website.vercel.app/"
                         target="_blank"
-                        className="text-[#58585a] hover:text-[#fa243c] transform duration-500"
+                        className="text-[#707173] hover:text-[#fa243c] transform duration-500"
                       >
                         <FiExternalLink size={25} />
                       </a>
@@ -344,7 +344,7 @@ const Projects = () => {
                       Next.js - Tailwind CSS - JavaScript - CSS - Spline
                     </span>
                   </p>
-                  <p className=" text-[#58585a]">
+                  <p className=" text-[#707173]">
                     Building and designing a website for a Cryptocurrency Club{" "}
                     <a href="https://www.uc.edu/" target="_blank">
                       <span className="text-[#fa243c] hover:underline underline-offset-4">
@@ -359,10 +359,10 @@ const Projects = () => {
               </motion.div>
 
               {/* Autonomous Retrieval System */}
-              <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#fafafa] shadow-lg">
+              <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#191a1e] shadow-lg">
                 <div className="card-body">
                   <div className="flex justify-between items-center">
-                    <h2 className=" card-title text-[#1d1d1f]">
+                    <h2 className=" card-title text-[#cfcfcf]">
                       <a
                         href="https://drive.google.com/file/d/1yZuABIqW8cpnE0LzjnIuGm_Hjy1wAHO0/view"
                         target="_blank"
@@ -371,12 +371,12 @@ const Projects = () => {
                         A.R.T
                       </a>
                     </h2>
-                    <hr className="border-[#251f41] border-t-1 mx-3 flex-grow" />
+                    <hr className="border-[#2f2f30] border-t-1 mx-3 flex-grow" />
                     <div className="space-x-2 flex items-center">
                       <a
                         href="https://drive.google.com/file/d/1yZuABIqW8cpnE0LzjnIuGm_Hjy1wAHO0/view"
                         target="_blank"
-                        className="text-[#58585a] hover:text-[#fa243c] transform duration-500"
+                        className="text-[#707173] hover:text-[#fa243c] transform duration-500"
                       >
                         <FiExternalLink size={25} />
                       </a>
@@ -385,11 +385,11 @@ const Projects = () => {
                   <p className="text-sm">
                     <span className="text-[#fa243c]">Python - Pybricks</span>
                   </p>
-                  <p className=" text-[#58585a]">
+                  <p className=" text-[#707173]">
                     Collaborated in a team of 4 students to build, program, and
                     document a robot for an Engineering Design course. This is a
                     robot similar to{" "}
-                    <span className="text-[#1d1d1f]">Amazon's Proteus</span>{" "}
+                    <span className="text-[#cfcfcf]">Amazon's Proteus</span>{" "}
                     warehouse robots that scan barcodes and move objects around
                   </p>
                 </div>

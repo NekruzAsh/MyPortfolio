@@ -106,16 +106,16 @@ html {
     .project-title {
       font-size: 1.8rem;
       margin: 10px 0 1px;
-      color: #1d1d1f;
+      color: #cfcfcf;
     }
     .project-details {
       font-size: 15px;
       line-height: 1.5;
-      color: #58585a;
+      color: #707173;
       
   
       p {
-        background-color: #fafafa;
+        background-color: #191a1e;
         padding: 20px 25px;
         @include tablet {
           background-color: transparent;
@@ -135,7 +135,7 @@ html {
   
         li {
           margin-right: 20px;
-          color: #58585a;
+          color: #707173;
           font-size: 14px;
           
   
@@ -150,7 +150,7 @@ html {
   .project-img {
     position: relative;
     background-color: #fa243c;
-    background: linear-gradient(0.4turn, #942424, #46151a);
+    background: linear-gradient(0.4turn, #64feda, #64feda);
     border-radius: 2px;
     grid-column: 6 / -1;
     grid-row: 1 / -1;
@@ -289,3 +289,4 @@ html {
   .navbar-list {
     flex-direction: column !important;
   }
+  
