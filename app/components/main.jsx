@@ -25,7 +25,7 @@ const main = () => {
           className="object-cover w-full h-full"
         />
       </div>
-      <div className="absolute w-full h-full bg-black opacity-60 backdrop-blur-lg z-20"></div>
+      <div className="absolute w-full h-full bg-black opacity-90 backdrop-blur-lg z-20"></div>
       <div className="loader z-30">
         <div className="face face1">
           <div className="circle"></div>
