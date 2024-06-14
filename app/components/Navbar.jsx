@@ -80,7 +80,7 @@ const navbar = () => {
               <g>
                 <g
                   id="B"
-                  transform="translate(36, 33)"
+                  transform="translate(35, 33)"
                   fill="#64feda"
                   style={{ opacity: 1 }}
                   fontFamily="system-ui,Calibre-Medium, Calibre,sans-serif"
