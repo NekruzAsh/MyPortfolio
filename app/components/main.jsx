@@ -66,7 +66,7 @@ const main = () => {
 
           <div className="flex gap-x-3 justify-center items-center mt-8 md:mt-12">
             <motion.a
-              href="mailto:nekruzashrapov16@gmail.com"
+              href="https://github.com/NekruzAsh"
               target="_blank"
               className="button text-sm md:text-md flex items-center"
               initial="hidden"
@@ -93,11 +93,11 @@ const main = () => {
                   d="M14 5l7 7m0 0l-7 7m7-7H3"
                 />
               </svg>
-              Get in touch
+              Go to GitHub
             </motion.a>
             <motion.a
-              href="https://github.com/NekruzAsh"
-              target="_blank"
+              href="/images/NekruzAshrapovResume.pdf"
+              download={true}
               className="button text-sm md:text-md flex items-center"
               initial="hidden"
               animate="visible"
@@ -121,7 +121,7 @@ const main = () => {
                   d="M19 14l-7 7m0 0l-7-7m7 7V3"
                 />
               </svg>
-              Go to GitHub
+              Get Resume
             </motion.a>
           </div>
         </div>

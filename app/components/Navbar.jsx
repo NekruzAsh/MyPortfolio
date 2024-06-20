@@ -12,7 +12,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
 
-const myResume = "https://www.linkedin.com/in/nekruzash/";
+const myResume = "/images/NekruzAshrapovResume.pdf";
 
 const navbar = () => {
   const [nav, setNav] = useState(false);
