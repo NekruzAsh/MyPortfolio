@@ -39,7 +39,7 @@ const main = () => {
         <div className="text-center">
           <div className="avatar">
             <motion.div
-              className="w-24 rounded-full mb-4 ring ring-[#191a1e] ring-offset-base-100 ring-offset-2"
+              className="w-40 rounded-full mb-4 ring ring-[#191a1e] ring-offset-base-100 ring-offset-2"
               initial="hidden"
               animate="visible"
               variants={textVariants}
