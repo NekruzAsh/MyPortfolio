@@ -50,59 +50,49 @@ const testProjects = () => {
       </motion.div>
 
       <div className="projects-grid">
-        {/* Forum Website */}
+        {/* Flashcard AI */}
         <div className="project">
           <div className="project-content">
-            <div className="project-label">Full Stack Web Application</div>
+            <div className="project-label">AI Flashcard SaaS</div>
             <h4 className="project-title">
               <a
-                href="https://forumwebsite.onrender.com"
+                href=""
                 target="_blank"
                 className="hover:text-[#fa243c] transform duration-500"
               >
-                Forum Website
+                Flashcard AI
               </a>
             </h4>
             <div className="project-details">
               <p className="md:shadow-xl md:hover:shadow-black/50 transform-shadow duration-300">
-                Forum website clone similar to{" "}
-                <a
-                  className="text-[#fa243c] hover:underline underline-offset-4"
-                  target="_blank"
-                  href="https://www.reddit.com/"
-                >
-                  Reddit.com
-                </a>{" "}
-                where users can signup and login using existing accounts.
-                Developed with <span className="text-[#cfcfcf]">MongoDB</span>{" "}
-                to store user data and{" "}
-                <span className="text-[#cfcfcf]">Bcrypt</span> to hash passwords
-                securely.
-                <span className="text-[#fa243c]"> Try it out:</span>
-                <br />
-                Username: username
-                <br />
-                Password: 1234
+                AI-driven flashcard SaaS app that uses{" "}
+                <span className="text-[#cfcfcf]">OpenAI</span> for content
+                generation, enhancing user engagement. The app also features
+                integrated user authentication and payment systems through{" "}
+                <span className="text-[#cfcfcf]">Clerk</span> and{" "}
+                <span className="text-[#cfcfcf]">Stripe</span>, improving
+                subscription rates.{" "}
+                <span className="text-[#cfcfcf]">*Deployment in progress</span>.
               </p>
               <ul className="font-[15px]">
-                <li>Express</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Node.js</li>
-                <li>MongoDB</li>
+                <li>Next.js</li>
+                <li>Tailwind</li>
+                <li>TypeScript</li>
+                <li>Clerk</li>
+                <li>Stripe</li>
               </ul>
               <div className="space-x-2 flex justify-end md:justify-start mt-4">
                 <a
-                  href="https://github.com/NekruzAsh/forumwebsite.git"
+                  href="https://github.com/Coroz2/flashcards"
                   target="_blank"
-                  className="text-[#707173] hover:text-[#fa243c] transform duration-500"
+                  className="text-[#999a9e] hover:text-[#fa243c] transform duration-500"
                 >
                   <FiGithub size={23} />
                 </a>
                 <a
-                  href="https://forumwebsite.onrender.com"
+                  href=""
                   target="_blank"
-                  className="text-[#707173] hover:text-[#fa243c] transform duration-500"
+                  className="text-[#999a9e] hover:text-[#fa243c] transform duration-500"
                 >
                   <FiExternalLink size={25} />
                 </a>
@@ -111,50 +101,51 @@ const testProjects = () => {
           </div>
 
           <div className="project-img">
-            <a href="https://forumwebsite.onrender.com" target="_blank">
-              <img src="/images/forum.webp" alt="forum application image" />
+            <a href="" target="_blank">
+              <img src="/images/flashcard.png" alt="forum application image" />
             </a>
           </div>
         </div>
 
-        {/* QuizGen AI */}
+        {/* Chatbot AI */}
         <div className="project">
           <div className="project-content">
-            <div className="project-label">24-hour Hackathon Project</div>
+            <div className="project-label">AI-Powered Chatbot</div>
             <h4 className="project-title">
               <a
-                href="https://nekruzash.github.io/QuizGenAI/"
+                href="https://chatbot-ai-indol-five.vercel.app/"
                 target="_blank"
                 className="hover:text-[#fa243c] transform duration-500"
               >
-                QuizGenAI
+                J.A.R.V.I.S
               </a>
             </h4>
             <div className="project-details">
               <p className="md:shadow-xl text-left md:text-right md:hover:shadow-black/50 transform-shadow duration-300">
-                Tool built for teachers and students to generate quiz questions
-                using AI and user text input. Developed with{" "}
-                <span className="text-[#cfcfcf]">Cohere AI API</span> to read
-                user input and generate questions based on the content.
+                Developed and deployed a multi-level AI chatbot application on{" "}
+                <span className="text-[#cfcfcf]">AWS EC2</span> servers,
+                significantly improving deployment efficiency. Enhanced user
+                satisfaction by integrating advanced features such as a
+                real-time feedback mechanism algorithm.
               </p>
               <ul className="font-[15px]">
-                <li>HTML</li>
-                <li>JavaScript</li>
-                <li>CSS</li>
-                <li>Cohere AI</li>
+                <li>TypeScript</li>
+                <li>React.js</li>
+                <li>AWS</li>
+                <li>Next.js</li>
               </ul>
               <div className="space-x-2 flex justify-end mt-4">
                 <a
-                  href="https://github.com/NekruzAsh/QuizGen.git"
+                  href="https://github.com/NekruzAsh/Chatbot-AI"
                   target="_blank"
-                  className="text-[#707173] hover:text-[#fa243c] transform duration-500"
+                  className="text-[#999a9e] hover:text-[#fa243c] transform duration-500"
                 >
                   <FiGithub size={23} />
                 </a>
                 <a
-                  href="https://nekruzash.github.io/QuizGenAI/"
+                  href="https://chatbot-ai-indol-five.vercel.app/"
                   target="_blank"
-                  className="text-[#707173] hover:text-[#fa243c] transform duration-500"
+                  className="text-[#999a9e] hover:text-[#fa243c] transform duration-500"
                 >
                   <FiExternalLink size={25} />
                 </a>
@@ -163,55 +154,53 @@ const testProjects = () => {
           </div>
 
           <div className="project-img">
-            <a href="https://nekruzash.github.io/QuizGenAI/" target="_blank">
-              <img src="/images/quizgenn.png" alt="QuizGenAI image" />
+            <a href="https://chatbot-ai-indol-five.vercel.app/" target="_blank">
+              <img src="/images/jarvis.png" alt="QuizGenAI image" />
             </a>
           </div>
         </div>
 
-        {/* google ai hack */}
+        {/* Inventory Management */}
         <div className="project">
           <div className="project-content">
-            <div className="project-label">Google AI Hackathon 2024</div>
+            <div className="project-label">Inventory Management</div>
             <h4 className="project-title">
               <a
-                href="https://google-hacks-delta.vercel.app/"
+                href="https://inventory-management-app-gold.vercel.app/"
                 target="_blank"
                 className="hover:text-[#fa243c] transform duration-500"
               >
-                Friendli
+                Pantry Tracker
               </a>
             </h4>
             <div className="project-details">
               <p className="md:shadow-xl md:hover:shadow-black/50 transform-shadow duration-300">
-                Connects volunteers & seniors via a user-friendly platform,
-                using{" "}
-                <span className="text-[#cfcfcf]">
-                  AI to match based on shared interests
-                </span>
-                . Then uses <span className="text-[#cfcfcf]">video calls</span>{" "}
-                to facilitate meaningful conversations, combating elderly
-                loneliness and depression.
+                Built a real-time inventory management app capable of handling
+                numerous item transactions and{" "}
+                <span className="text-[#cfcfcf]">search functionalities</span>.
+                The app also features an accessible user interface, improving
+                accessibility for individuals with{" "}
+                <span className="text-[#cfcfcf]">diverse</span> abilities.
               </p>
               <ul className="font-[15px]">
                 <li>Next.js</li>
+                <li>JavaScript</li>
+                <li>Tailwind</li>
                 <li>React.js</li>
-                <li>AgoraRTC</li>
-                <li>Supabase</li>
-                <li>Gemini AI</li>
+                <li>Firebase</li>
               </ul>
               <div className="space-x-2 flex justify-end md:justify-start mt-4">
                 <a
-                  href="https://github.com/NekruzAsh/Google-AI-Hack.git"
+                  href="https://github.com/NekruzAsh/inventory-management-app"
                   target="_blank"
-                  className="text-[#707173] hover:text-[#fa243c] transform duration-500"
+                  className="text-[#999a9e] hover:text-[#fa243c] transform duration-500"
                 >
                   <FiGithub size={23} />
                 </a>
                 <a
-                  href="https://google-hacks-delta.vercel.app/"
+                  href="https://inventory-management-app-gold.vercel.app/"
                   target="_blank"
-                  className="text-[#707173] hover:text-[#fa243c] transform duration-500"
+                  className="text-[#999a9e] hover:text-[#fa243c] transform duration-500"
                 >
                   <FiExternalLink size={25} />
                 </a>
@@ -220,8 +209,14 @@ const testProjects = () => {
           </div>
 
           <div className="project-img">
-            <a href="https://google-hacks-delta.vercel.app/" target="_blank">
-              <img src="/images/friendli.webp" alt="chat application image" />
+            <a
+              href="https://inventory-management-app-gold.vercel.app/"
+              target="_blank"
+            >
+              <img
+                src="/images/inventoryapp.png"
+                alt="chat application image"
+              />
             </a>
           </div>
         </div>
