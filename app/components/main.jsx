@@ -96,7 +96,7 @@ const main = () => {
               Go to GitHub
             </motion.a>
             <motion.a
-              href="/images/NekruzAshrapovResume.pdf"
+              href="/images/NekruzAshrapovResume_Spring2025.pdf"
               download={true}
               className="button text-sm md:text-md flex items-center"
               initial="hidden"
