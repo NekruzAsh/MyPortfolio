@@ -72,7 +72,10 @@ const testProjects = () => {
                 <span className="text-[#cfcfcf]">Clerk</span> and{" "}
                 <span className="text-[#cfcfcf]">Stripe</span>, improving
                 subscription rates.{" "}
-                <span className="text-[#cfcfcf]">*Deployment in progress</span>.
+                <span className="text-[#cfcfcf]">
+                  *Re-deployment in progress
+                </span>
+                .
               </p>
               <ul className="font-[15px]">
                 <li>Next.js</li>
@@ -102,7 +105,7 @@ const testProjects = () => {
 
           <div className="project-img">
             <a href="" target="_blank">
-              <img src="/images/flashcard.png" alt="forum application image" />
+              <img src="/images/flashcard.png" alt="flashcard app image" />
             </a>
           </div>
         </div>
@@ -155,7 +158,7 @@ const testProjects = () => {
 
           <div className="project-img">
             <a href="https://chatbot-ai-indol-five.vercel.app/" target="_blank">
-              <img src="/images/jarvis.png" alt="QuizGenAI image" />
+              <img src="/images/jarvis.png" alt="jarvis image" />
             </a>
           </div>
         </div>
@@ -215,7 +218,7 @@ const testProjects = () => {
             >
               <img
                 src="/images/inventoryapp.png"
-                alt="chat application image"
+                alt="inventory management app image"
               />
             </a>
           </div>
