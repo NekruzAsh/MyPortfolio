@@ -112,7 +112,7 @@ const main = () => {
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                className="h-5 w-4 mr-1 md:mr-2"
+                className="h-5 w-6 mr-1 md:mr-2"
               >
                 <path
                   strokeLinecap="round"
