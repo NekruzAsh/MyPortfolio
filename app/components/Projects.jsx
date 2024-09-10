@@ -56,23 +56,23 @@ const Projects = () => {
           </p>
         </motion.div>
         <div className=" mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {/* Breakfast app */}
+          {/* Health Tracker */}
           <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#191a1e] shadow-lg">
             <div className="card-body">
               <div className="flex justify-between items-center">
                 <h2 className="card-title text-[#cfcfcf]">
                   <a
-                    href="https://github.com/NekruzAsh/BreakfastApp.git"
+                    href="https://github.com/NekruzAsh/Health-Tracker"
                     target="_blank"
                     className="hover:text-[#fa243c] transform duration-500"
                   >
-                    Breakfast app
+                    Health Tracker
                   </a>
                 </h2>
                 <hr className="border-[#2f2f30] border-t-1 mx-3 flex-grow" />
                 <div className="space-x-2 flex items-center">
                   <a
-                    href="https://github.com/NekruzAsh/BreakfastApp.git"
+                    href="https://github.com/NekruzAsh/Health-Tracker"
                     target="_blank"
                     className="text-[#707173] hover:text-[#fa243c] transform duration-500"
                   >
