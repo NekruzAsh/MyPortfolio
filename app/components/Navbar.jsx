@@ -12,8 +12,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
 
-const myResume = "/images/NekruzAshrapovResume_Spring2025.pdf";
-
 const navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
@@ -136,13 +134,6 @@ const navbar = () => {
                 Contact
               </li>
             </Link>
-            <a
-              href={myResume}
-              target="_blank"
-              className="ml-7 text-xs uppercase text-[#FFFFFFCC] hover:text-white transition-colors duration-500"
-            >
-              Resume
-            </a>
           </ul>
 
           <div className="md:hidden">
@@ -240,14 +231,6 @@ const navbar = () => {
                 Contact
               </div>
             </Link>
-
-            <a
-              href={myResume}
-              target="_blank"
-              className="mt-5 text-[#FFFFFFCC] uppercase text-[17px]"
-            >
-              Resume
-            </a>
           </div>
           <div className="flex justify-center mt-[-20px]">
             <ul className="flex space-x-8">

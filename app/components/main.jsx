@@ -95,34 +95,6 @@ const main = () => {
               </svg>
               Go to GitHub
             </motion.a>
-            <motion.a
-              href="/images/NekruzAshrapovResume_Spring2025.pdf"
-              download={true}
-              className="button text-sm md:text-md flex items-center"
-              initial="hidden"
-              animate="visible"
-              variants={textVariants}
-              style={{
-                paddingTop: "1rem",
-                paddingBottom: "1rem",
-              }}
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                className="h-5 w-6 mr-1 md:mr-2"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M19 14l-7 7m0 0l-7-7m7 7V3"
-                />
-              </svg>
-              Get Resume
-            </motion.a>
           </div>
         </div>
       </div>
