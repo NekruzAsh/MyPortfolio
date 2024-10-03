@@ -53,47 +53,41 @@ const testProjects = () => {
         {/* Flashcard AI */}
         <div className="project">
           <div className="project-content">
-            <div className="project-label">AI Flashcard SaaS</div>
+            <div className="project-label">iOS Application</div>
             <h4 className="project-title">
               <a
-                href=""
+                href="https://github.com/NekruzAsh/Health-Tracker"
                 target="_blank"
                 className="hover:text-[#fa243c] transform duration-500"
               >
-                Flashcard AI
+                Health Tracker
               </a>
             </h4>
             <div className="project-details">
               <p className="md:shadow-xl md:hover:shadow-black/50 transform-shadow duration-300">
-                AI-driven flashcard SaaS app that uses{" "}
-                <span className="text-[#cfcfcf]">OpenAI</span> for content
-                generation, enhancing user engagement. The app also features
-                integrated user authentication and payment systems through{" "}
-                <span className="text-[#cfcfcf]">Clerk</span> and{" "}
-                <span className="text-[#cfcfcf]">Stripe</span>, improving
-                subscription rates.{" "}
-                <span className="text-[#cfcfcf]">
-                  *Re-deployment in progress
-                </span>
-                .
+                Single page breakfast app with calorie count and diet
+                recommendations. Focuses on providing nutritional information
+                and promoting nutritious eating habits. Developed with{" "}
+                <span className="text-[#cfcfcf]">Flutter</span> and{" "}
+                <span className="text-[#cfcfcf]">Dart</span>.
               </p>
               <ul className="font-[15px]">
-                <li>Next.js</li>
-                <li>Tailwind</li>
-                <li>TypeScript</li>
-                <li>Clerk</li>
-                <li>Stripe</li>
+                <li>Flutter</li>
+                <li>Dart</li>
+                <li>iTerm2</li>
+                <li>C++</li>
+                <li>iOS</li>
               </ul>
               <div className="space-x-2 flex justify-end md:justify-start mt-4">
                 <a
-                  href="https://github.com/Coroz2/flashcards"
+                  href="https://github.com/NekruzAsh/Health-Tracker"
                   target="_blank"
                   className="text-[#999a9e] hover:text-[#fa243c] transform duration-500"
                 >
                   <FiGithub size={23} />
                 </a>
                 <a
-                  href=""
+                  href="https://github.com/NekruzAsh/Health-Tracker"
                   target="_blank"
                   className="text-[#999a9e] hover:text-[#fa243c] transform duration-500"
                 >
@@ -104,8 +98,11 @@ const testProjects = () => {
           </div>
 
           <div className="project-img">
-            <a href="" target="_blank">
-              <img src="/images/flashcard.png" alt="flashcard app image" />
+            <a
+              href="https://github.com/NekruzAsh/Health-Tracker"
+              target="_blank"
+            >
+              <img src="/images/breakfastapp.png" alt="breakfast app image" />
             </a>
           </div>
         </div>

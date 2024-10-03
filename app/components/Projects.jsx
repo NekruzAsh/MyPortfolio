@@ -56,44 +56,6 @@ const Projects = () => {
           </p>
         </motion.div>
         <div className=" mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {/* Health Tracker */}
-          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#191a1e] shadow-lg">
-            <div className="card-body">
-              <div className="flex justify-between items-center">
-                <h2 className="card-title text-[#cfcfcf]">
-                  <a
-                    href="https://github.com/NekruzAsh/Health-Tracker"
-                    target="_blank"
-                    className="hover:text-[#fa243c] transform duration-500"
-                  >
-                    Health Tracker
-                  </a>
-                </h2>
-                <hr className="border-[#2f2f30] border-t-1 mx-3 flex-grow" />
-                <div className="space-x-2 flex items-center">
-                  <a
-                    href="https://github.com/NekruzAsh/Health-Tracker"
-                    target="_blank"
-                    className="text-[#707173] hover:text-[#fa243c] transform duration-500"
-                  >
-                    <FiGithub size={23} />
-                  </a>
-                </div>
-              </div>
-              <p className="text-sm">
-                <span className="text-[#fa243c]">
-                  Flutter - Dart - iTerm2 - C++ - iOS
-                </span>
-              </p>
-              <p className=" text-[#707173]">
-                Single page breakfast app with calorie count and diet
-                recommendations. Focuses on providing nutritional information
-                and promoting nutritious eating habits. Developed with{" "}
-                <span className="text-[#cfcfcf]">Flutter</span> and{" "}
-                <span className="text-[#cfcfcf]">Dart</span>.
-              </p>
-            </div>
-          </motion.div>
           {/* Chat app */}
           <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#191a1e] shadow-lg">
             <div className="card-body">
@@ -339,57 +301,54 @@ const Projects = () => {
               </p>
             </div>
           </motion.div>
+          {/* Amazon Affiliate */}
+
+          <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#191a1e] shadow-lg">
+            <div className="card-body">
+              <div className="flex justify-between items-center">
+                <h2 className="card-title text-[#cfcfcf]">
+                  <a
+                    href="https://nekruzash.github.io/amazonaffiliate/"
+                    target="_blank"
+                    className="hover:text-[#fa243c] transform duration-500"
+                  >
+                    Amazon Affiliate
+                  </a>
+                </h2>
+                <hr className="border-[#2f2f30] border-t-1 mx-3 flex-grow" />
+                <div className="space-x-2 flex items-center">
+                  <a
+                    href="https://github.com/NekruzAsh/amazonaffiliate.git"
+                    target="_blank"
+                    className="text-[#707173] hover:text-[#fa243c] transform duration-500"
+                  >
+                    <FiGithub size={23} />
+                  </a>
+                  <a
+                    href="https://nekruzash.github.io/amazonaffiliate/"
+                    target="_blank"
+                    className="text-[#707173] hover:text-[#fa243c] transform duration-500"
+                  >
+                    <FiExternalLink size={25} />
+                  </a>
+                </div>
+              </div>
+              <p className="text-sm">
+                <span className="text-[#fa243c]">HTML - CSS - JavaScript</span>
+              </p>
+              <p className=" text-[#707173]">
+                Article website used to promote Amazon products specifically
+                technology category and earn commission from{" "}
+                <span className="text-[#cfcfcf]">Amazon Affiliate</span>{" "}
+                marketing program. Integrated different{" "}
+                <span className="text-[#cfcfcf]">SEO techniques</span> to rank
+                higher in search results.
+              </p>
+            </div>
+          </motion.div>
 
           {showMore && (
             <>
-              {/* Amazon Affiliate */}
-
-              <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#191a1e] shadow-lg">
-                <div className="card-body">
-                  <div className="flex justify-between items-center">
-                    <h2 className="card-title text-[#cfcfcf]">
-                      <a
-                        href="https://nekruzash.github.io/amazonaffiliate/"
-                        target="_blank"
-                        className="hover:text-[#fa243c] transform duration-500"
-                      >
-                        Amazon Affiliate
-                      </a>
-                    </h2>
-                    <hr className="border-[#2f2f30] border-t-1 mx-3 flex-grow" />
-                    <div className="space-x-2 flex items-center">
-                      <a
-                        href="https://github.com/NekruzAsh/amazonaffiliate.git"
-                        target="_blank"
-                        className="text-[#707173] hover:text-[#fa243c] transform duration-500"
-                      >
-                        <FiGithub size={23} />
-                      </a>
-                      <a
-                        href="https://nekruzash.github.io/amazonaffiliate/"
-                        target="_blank"
-                        className="text-[#707173] hover:text-[#fa243c] transform duration-500"
-                      >
-                        <FiExternalLink size={25} />
-                      </a>
-                    </div>
-                  </div>
-                  <p className="text-sm">
-                    <span className="text-[#fa243c]">
-                      HTML - CSS - JavaScript
-                    </span>
-                  </p>
-                  <p className=" text-[#707173]">
-                    Article website used to promote Amazon products specifically
-                    technology category and earn commission from{" "}
-                    <span className="text-[#cfcfcf]">Amazon Affiliate</span>{" "}
-                    marketing program. Integrated different{" "}
-                    <span className="text-[#cfcfcf]">SEO techniques</span> to
-                    rank higher in search results.
-                  </p>
-                </div>
-              </motion.div>
-
               {/* TicTacToe AI */}
 
               <motion.div className="card h-[330px] w-[330px] md:h-[330px] md:w-[350px] lg:w-[350px] lg:h-[350px] transform transition-all hover:-translate-y-2 duration-300 rounded-sm bg-[#191a1e] shadow-lg">
