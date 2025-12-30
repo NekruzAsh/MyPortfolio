@@ -113,27 +113,27 @@ const About = () => {
               <ul className="grid grid-cols-2 gap-y-1 gap-1 text-sm">
                 <li className="flex items-center">
                   <GoTriangleRight className="text-[#fa243c]" size={13} />
-                  &nbsp;&nbsp;JavaScript (ES6+)
+                  &nbsp;&nbsp;Angular
                 </li>
                 <li className="flex items-center">
                   <GoTriangleRight className="text-[#fa243c]" size={13} />
-                  &nbsp;&nbsp;Python
+                  &nbsp;&nbsp;TypeScript
                 </li>
                 <li className="flex items-center">
                   <GoTriangleRight className="text-[#fa243c]" size={13} />
-                  &nbsp;&nbsp;Next.js
+                  &nbsp;&nbsp;ASP.NET
                 </li>
                 <li className="flex items-center">
                   <GoTriangleRight className="text-[#fa243c]" size={13} />
-                  &nbsp;&nbsp;C++
+                  &nbsp;&nbsp;CSharp
                 </li>
                 <li className="flex items-center">
                   <GoTriangleRight className="text-[#fa243c]" size={13} />
-                  &nbsp;&nbsp;React
+                  &nbsp;&nbsp;Spring Boot
                 </li>
                 <li className="flex items-center">
                   <GoTriangleRight className="text-[#fa243c]" size={13} />
-                  &nbsp;&nbsp;Node.js
+                  &nbsp;&nbsp;Java
                 </li>
               </ul>
             </motion.div>
