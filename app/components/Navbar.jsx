@@ -9,7 +9,6 @@ import "../projects.scss";
 import { FaLinkedin } from "react-icons/fa";
 import { SiDevpost } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
 
 const navbar = () => {
@@ -151,14 +150,6 @@ const navbar = () => {
         </div>
         <div className="hidden justify-end md:mr-4 lg:mr-12 md:flex items-center">
           <ul className="flex space-x-8">
-            <a href="https://x.com/NAshrapov" target="_blank">
-              <li>
-                <FaXTwitter
-                  className="text-[#FFFFFFCC] hover:text-white transform duration-500"
-                  size={18}
-                />
-              </li>
-            </a>
             <a href="https://www.linkedin.com/in/nekruzash/" target="_blank">
               <li>
                 <FaLinkedin
@@ -234,14 +225,6 @@ const navbar = () => {
           </div>
           <div className="flex justify-center mt-[-20px]">
             <ul className="flex space-x-8">
-              <a href="https://x.com/NAshrapov" target="_blank">
-                <li>
-                  <FaXTwitter
-                    className="text-[#FFFFFFCC] hover:text-white transform duration-500"
-                    size={22}
-                  />
-                </li>
-              </a>
               <a href="https://www.linkedin.com/in/nekruzash/" target="_blank">
                 <li>
                   <FaLinkedin
